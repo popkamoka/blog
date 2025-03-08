@@ -208,3 +208,13 @@ figcaption {
         display: none !important;
     }
 }
+
+ul, ol {
+    padding-left: 1rem;
+	list-style-type: '- ';
+}
+
+ul li, ol li {
+    margin-left: 1rem; 
+}
+
