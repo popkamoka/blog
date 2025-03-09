@@ -158,9 +158,11 @@ strong, b {
 }
 
 .footer {
-	position: fixed;
-	bottom: 1rem;
-	right: 1rem;
+	text-align: right;
+}
+
+#messageVache{
+	margin-right : 1.2rem;
 }
 
 #alienCowImage {
@@ -169,11 +171,77 @@ strong, b {
 	display: block;
 	margin-left: auto;
 	cursor: pointer;
+	padding : 1em;
+	margin-right : 0.5rem;
   }
 
   #alienCowImage:hover {
 	opacity: 0.8;
   }
+
+/* Animation de pulsation avec changement de couleur (rouge) */
+@keyframes pulseAndDamage {
+  0% {
+    transform: scale(1);
+    filter: none; /* Pas de filtre au début */
+  }
+  50% {
+    transform: scale(1.2);
+    /* Effet rouge (changer la couleur) */
+    filter: brightness(0.5) contrast(1.5) saturate(1.5) hue-rotate(-130deg);
+  }
+  100% {
+    transform: scale(1);
+    filter: none; /* Retour à la couleur d'origine */
+  }
+}
+
+.cow-clicked {
+  animation: pulseAndDamage 0.3s ease-out;
+}
+
+/* Animation de transformation de la vache en steak */
+@keyframes steakAppearance {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.5);  /* Rétrécir l'image à 50% */
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0);  /* Réduire à 0 pour la faire disparaître */
+    opacity: 0;
+  }
+}
+
+/* Animation d'apparition du steak */
+@keyframes steakReveal {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Animation de transformation de la vache en steak */
+.steak-appearance {
+  animation: steakAppearance 0.6s ease-out forwards;
+}
+
+/* Animation d'apparition du steak */
+.steak-reveal {
+  animation: steakReveal 0.6s ease-out forwards;
+}
+
+/* Désactiver le clic pendant l'animation */
+.is-animating {
+  pointer-events: none;
+}
 
 main {
 	display:flex;
@@ -182,7 +250,6 @@ main {
 	margin:2rem auto;
 	padding:1rem;
 }
-
 
 @media screen and (max-width: 45rem ) {
 header li {
