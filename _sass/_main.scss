@@ -161,13 +161,19 @@ strong, b {
 	position: fixed;
 	bottom: 1rem;
 	right: 1rem;
-	img {
-		width: 10em;
-		height: auto;
-		display: block;
-		margin-left: auto;
-	}
 }
+
+#alienCowImage {
+	width: 10em;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	cursor: pointer;
+  }
+
+  #alienCowImage:hover {
+	opacity: 0.8;
+  }
 
 main {
 	display:flex;

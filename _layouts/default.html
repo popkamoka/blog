@@ -8,7 +8,14 @@ layout: compress
   <body>
     <main>{% include navigation.html %} {{ content }}</main>
     <section class="footer">
-      <img src="{{ site.baseurl }}/images/aliencow.png" alt="vache" />
+      <img
+        id="alienCowImage"
+        src="{{ site.baseurl }}/images/aliencow.png"
+        alt="vache"
+      />
     </section>
+
+    <audio id="cowSound" src="{{ site.baseurl }}/audio/moo.mp3"></audio>
+    <script src="{{ site.baseurl }}/assets/js/cow-click.js"></script>
   </body>
 </html>
