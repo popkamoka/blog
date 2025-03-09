@@ -157,6 +157,18 @@ strong, b {
 	//list-style-position: inside;
 }
 
+.footer {
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	img {
+		width: 10em;
+		height: auto;
+		display: block;
+		margin-left: auto;
+	}
+}
+
 main {
 	display:flex;
 	flex-wrap:wrap;
@@ -217,4 +229,3 @@ ul, ol {
 ul li, ol li {
     margin-left: 1rem; 
 }
-
