@@ -6,7 +6,8 @@ layout: default
   <ul>
     {% for post in site.posts %}
     <li>
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a
+      <a href="{{ site.baseurl }}{{ post.url }}"
+        >{{post.category}} - {{ post.title }}</a
       ><time datetime="{{ post.date | date_to_xmlschema }}"
         >{{ post.date | date: "%d-%m-%Y" }}</time
       >
