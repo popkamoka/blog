@@ -3,9 +3,9 @@ links:
     url: /
   - title: Livres
     url: /books
-  - title: À propos
-    url: /about
   - title: Recherche
     url: /search
+  - title: À propos
+    url: /about
   - title: RSS
     url: /atom.xml

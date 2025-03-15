@@ -7,21 +7,5 @@ layout: compress
   {% include head.html %}
   <body>
     <main>{% include navigation.html %} {{ content }}</main>
-    <section class="footer">
-      <img
-        id="alienCowImage"
-        src="{{ site.baseurl }}/images/aliencow.png"
-        alt="vache"
-      />
-      <span id="messageVache">me spam pas stp</span>
-    </section>
-
-    <audio id="cowSound" src="{{ site.baseurl }}/audio/moo.ogg"></audio>
-
-    <script>
-      var baseUrl = "{{ site.baseurl }}";
-    </script>
-
-    <script src="{{ site.baseurl }}/assets/js/cow-click.js"></script>
   </body>
 </html>

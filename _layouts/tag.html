@@ -7,8 +7,7 @@ layout: default
   <ul>
     {% for post in site.posts %} {% if post.tags contains page.tag %}
     <li>
-      <a class="post" href="{{ site.baseurl }}{{ post.url }}"
-        >{{ post.title }}</a
+      <a class="post" href="{{ post.url | relative_url }}">{{ post.title }}</a
       ><time datetime="{{ post.date | date_to_xmlschema }}"
         >{{ post.date | date: "%d-%m-%Y" }}</time
       >
