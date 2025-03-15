@@ -1,9 +1,10 @@
 <header aria-hidden="true" class="no-print">
-      <nav role="navigation" aria-hidden="true">
-<ul>
-   {% for item in site.data.navigation.links %}
-      <li><a href="{{ item.url | relative_url}}" {% if item.url == page.url %} class="active"{% endif %}>{{ item.title }}</a></li>
-   {% endfor %}
-</ul>
+<nav role="navigation" aria-hidden="true">
+   <img class="logo" src="{{ site.baseurl }}/assets/images/logo.png" alt="{{ site.title }}">
+   <ul>
+      {% for item in site.data.navigation.links %}
+         <li><a href="{{ item.url | relative_url}}" {% if item.url == page.url %} class="active"{% endif %}>{{ item.title }}</a></li>
+      {% endfor %}
+   </ul>
 </nav>
 </header>
