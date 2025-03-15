@@ -1,7 +1,7 @@
 ---
 layout: book
 category: book
-title: "La course au mouton sauvage - <b>Haruki Murakami</b>"
+title: "La course au mouton sauvage - Haruki Murakami"
 author: Haruki Murakami
 date: 2025-03-16
 tags: []
