@@ -40,6 +40,10 @@ pre {
 	padding: .5rem;
 }
 
+.post {
+	padding-bottom: 3rem;
+}
+
 .post p {
 	margin: .5rem 0;
 }
@@ -156,7 +160,7 @@ header ul {
 	display:flex;
 	justify-content:space-between;
 	margin-bottom: .5rem;
-	border-bottom : 1px solid $separator-color;
+	border-bottom : 2px dashed $separator-color;
 }
 
 .posts li a, .posts li div, .projects li a {

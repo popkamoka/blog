@@ -1,0 +1,6 @@
+{% if page.rating %}
+<div class="personal-rating">
+  <strong>Note</strong> : {% for i in (1..5) %} {% if i <= page.rating %} ⭐ {%
+  else %} ☆ {% endif %} {% endfor %} ({{ page.rating }}/5)
+</div>
+{% endif %}

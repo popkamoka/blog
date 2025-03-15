@@ -2,4 +2,20 @@
 layout: default
 ---
 
-{{ content }}
+<section class="posts">
+  <ul>
+    {% if page.category %} {% assign filtered_posts = site.posts | where_exp:
+    "post", "post.categories contains page.category" | sort: "date" | reverse %}
+    {% else %} {% assign filtered_posts = site.posts %} {% endif %} {% for post
+    in filtered_posts %}
+    <li class="post-item">
+      <a href="{{ post.url | relative_url }}"
+        >{{ post.title }} - {{ post.author }}</a
+      >
+      <time datetime="{{ post.date | date_to_xmlschema }}"
+        >{{ post.date | date: "%d-%m-%Y" }}</time
+      >
+    </li>
+    {% endfor %}
+  </ul>
+</section>
