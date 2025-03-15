@@ -1,4 +1,4 @@
-$light-grey: #edf2f7;
+$separator-color: #edf2f7;
 
 *,:after,:before {
 	box-sizing:border-box;
@@ -26,7 +26,7 @@ nav  {
 	flex-direction: column;
 	align-items: center;
 	gap: 0.5em;
-	border-right: 1px solid $light-grey;
+	border-right: 1px solid $separator-color;
 }
 
 a {
@@ -44,6 +44,11 @@ pre {
 	margin: .5rem 0;
 }
 
+.post #page-title {
+	padding-bottom: 0.5em;
+	border-bottom : 2px dashed $separator-color;
+}
+
 .post h1, .post h2, .post h3, .post h4 {
 	margin: 1rem 0;
 }
@@ -53,7 +58,7 @@ pre {
 }
 
 .post ul {
-	margin-left: 1.5rem;
+	margin-left: 2rem;
 }
 
 .meta {
@@ -151,6 +156,7 @@ header ul {
 	display:flex;
 	justify-content:space-between;
 	margin-bottom: .5rem;
+	border-bottom : 1px solid $separator-color;
 }
 
 .posts li a, .posts li div, .projects li a {
@@ -183,7 +189,7 @@ header li {
 
 
 header ul {
-	border-bottom: 1px solid $light-grey;
+	border-bottom: 1px solid $separator-color;
 	padding-bottom: 1rem;	
 }
 
