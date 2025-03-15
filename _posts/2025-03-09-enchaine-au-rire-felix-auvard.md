@@ -2,7 +2,7 @@
 layout: post
 title: Enchaîné au rire - Félix Auvard
 date: 2025-03-09
-category: Livre
+categories: [book]
 tags: [livre, bd]
 ---
 ![Couverture du livre](https://www.babelio.com/couv/CVT_Enchaine-au-Rire_5706.jpg)
