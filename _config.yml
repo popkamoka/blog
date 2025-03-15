@@ -1,17 +1,9 @@
 site: popkamoka
 url: #yoururl
 title: popkamoka
-description: blog
-twitter:
-  username: popkamoka
-  card: summary
-  creator: popkamoka
 author:
   twitter: popkamoka
   name: popkamoka
-  avatar:
-  email: #youremail
-  url: #yoururl
 permalink: pretty
 
 baseurl: "/blog"

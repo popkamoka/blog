@@ -6,14 +6,13 @@
 
   <title>
     {% if page.tag or page.title %} {% if page.tag %} {{ page.tag | escape }} {%
-    else %} {{ page.title | escape }} {% endif %} - {% endif %} {% if paginator
+    else %} {{ page.title | escape }} {% endif %} | {% endif %} {% if paginator
     and paginator.page and paginator.total_pages > 1 and paginator.page > 1 %}
-    Page {{ paginator.page }} of {{ paginator.total_pages }} - {% endif %} {{
-    site.title | escape }} {% unless page.tag or page.title %} - {{
-    site.description | escape }} {% endunless %}
+    Page {{ paginator.page }} of {{ paginator.total_pages }} | {% endif %} {{
+    site.title | escape }} {% unless page.tag or page.title %} {% endunless %}
   </title>
 
-  <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.png?v=2" />
+  <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" />
   <link
     rel="alternate"
     type="application/atom+xml"
