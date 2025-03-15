@@ -1,20 +1,20 @@
 <div class="book-info">
   <h2>Informations sur le livre</h2>
   <ul>
-    <li><strong>Titre</strong>: {{ page.title }}</li>
-    <li><strong>Auteur</strong>: {{ page.author }}</li>
-    <li><strong>Éditeur</strong>: {{ page.publisher }}</li>
+    <li><strong>Titre</strong> : {{ page.work_title }}</li>
+    <li><strong>Auteur</strong> : {{ page.work_author }}</li>
+    <li><strong>Éditeur</strong> : {{ page.work_publisher }}</li>
     <li><strong>EAN</strong>: {{ page.ean }}</li>
-    <li><strong>Date de publication</strong>: {{ page.publish_date }}</li>
-    <li><strong>Genre</strong>: {{ page.genre }}</li>
+    <li><strong>Date de publication</strong> : {{ page.work_publish_date }}</li>
+    <li><strong>Genre</strong> : {{ page.genre }}</li>
     <li>{% include rating.html %}</li>
   </ul>
 
-  <h2>Statut de lecture</h2>
+  <h2>Statut</h2>
   <ul>
-    <li><strong>Possède le livre ?</strong>: {{ page.has_book }}</li>
-    <li><strong>Statut de lecture</strong>: {{ page.reading_status }}</li>
-    <li><strong>Date de début de lecture</strong>: {{ page.start_date }}</li>
-    <li><strong>Date de fin de lecture</strong>: {{ page.end_date }}</li>
+    <li><strong>Possession </strong> : {{ page.ownership_status }}</li>
+    <li><strong>Statut de lecture</strong> : {{ page.progress_status }}</li>
+    <li><strong>Date de début de lecture</strong> : {{ page.start_date }}</li>
+    <li><strong>Date de fin de lecture</strong> : {{ page.end_date }}</li>
   </ul>
 </div>

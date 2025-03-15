@@ -1,54 +1,65 @@
 import os
 from datetime import datetime
 
-# Demande les informations nécessaires
-title = input("Titre du livre : ")
-author = input("Auteur : ")
-publisher = input("Éditeur : ")
-ean = input("EAN : ")
-status = input("Statut de lecture (Lu, En cours, À lire) : ")
-start_date = input("Date de début de lecture (AAAA-MM-JJ) : ")
-end_date = input("Date de fin de lecture (AAAA-MM-JJ) : ")
-review = input("Ton avis sur le livre : ")
-rating = input("Ta note (1 à 5) : ")
+def get_input(prompt, default=None):
+    if default:
+        prompt = f"{prompt} (default: {default}): "
+    user_input = input(prompt)
+    return user_input if user_input else default
 
-# Crée le titre du fichier en fonction de la date et du titre du livre
-date_str = datetime.now().strftime("%Y-%m-%d")
-filename = f"_posts/{date_str}-{title.replace(' ', '-').lower()}.md"
+def generate_book_md():
+    print("Générateur de fiche de livre")
+    
+    # Ask for basic details
+    title = get_input("Titre de l'œuvre", "Titre par défaut")
+    author = get_input("Auteur", "Auteur par défaut")
 
-# Crée le contenu du fichier Markdown
-content = f"""---
-layout: post
-title: "{title}"
-author: "Ton nom ou pseudo"
+    # Crée le titre du fichier en fonction de la date et du titre de l'œuvre
+    date_str = datetime.now().strftime("%Y-%m-%d")
+    filename = f"{date_str}-{title.replace(' ', '-').lower()}.md"
+
+    # Chemin vers le dossier _posts depuis le dossier scripts
+    posts_dir = os.path.join(os.path.dirname(__file__), '..', '_posts')
+
+    # Crée le dossier _posts s'il n'existe pas
+    if not os.path.exists(posts_dir):
+        os.makedirs(posts_dir)
+
+    # Crée le contenu du fichier Markdown
+    content = f"""---
+layout: book
+category: book
+title: "{title} - {author}"
+author: {author}
 date: {datetime.now().strftime('%Y-%m-%d')}
-categories: [livre, critique]
-tags: [livre, critique]
+tags: []
+work_title: {title}
+work_author: {author}
+work_publisher: 
+ean: 
+work_publish_date: 
+genre:
+cover: 
+rating: 
+ownership_status: 
+progress_status: 
+start_date: 
+end_date:
 ---
+## Résumé
 
-## Couverture du livre
-![Couverture du livre](URL_de_l_image)
+## Notes personnelles
 
-## Informations sur le livre
-- **Titre** : {title}
-- **Auteur** : {author}
-- **Éditeur** : {publisher}
-- **EAN** : {ean}
-
-## Statut de lecture
-- **Statut de lecture** : {status}
-- **Date de début de lecture** : {start_date}
-- **Date de fin de lecture** : {end_date}
-
-## Avis personnel
-{review}
-
-## Notes
-- **Ma note personnelle** : {"★" * int(rating)}{"☆" * (5 - int(rating))}
 """
 
-# Crée le fichier dans le dossier _posts
-with open(filename, "w", encoding="utf-8") as f:
-    f.write(content)
+    # Chemin complet du fichier à créer dans _posts
+    file_path = os.path.join(posts_dir, filename)
 
-print(f"Fiche de livre générée : {filename}")
+    # Crée le fichier dans le dossier _posts
+    with open(file_path, "w", encoding="utf-8") as f:
+        f.write(content)
+
+    print(f"Fiche de livre générée : {file_path}")
+
+if __name__ == "__main__":
+    generate_book_md()
