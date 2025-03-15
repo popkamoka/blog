@@ -14,7 +14,10 @@ layout: default
     {% endif %}
     {% for post in filtered_posts %}
       <li class="post-item">
-        <a href="{{ post.url | relative_url }}">{{ post.title }} - {{ post.author }} </a>
+        <a href="{{ post.url | relative_url }}">
+          {% include category-emoji.html %}
+          {{ post.title }}
+        </a>
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%d-%m-%Y' }}</time>
       </li>
     {% endfor %}

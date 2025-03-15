@@ -1,18 +1,20 @@
 ---
 layout: book
-title: Enchaîné au rire
-author: Félix Auvard
+category: book
+title: Enchaîné au rire - Félix Auvard
+author: POPKAMOKA
+date: 2025-03-09
+tags: [livre, bd]
+
+book_author : Félix Auvard
 publisher :
 ean : 
 publish_year: 2024
-date: 2025-03-09
-categories: [book]
-tags: [livre, bd]
 cover: https://www.babelio.com/couv/CVT_Enchaine-au-Rire_5706.jpg
 rating: 4
 ---
-## Résumé
 
+## Résumé
 Enchaîné au Rire est un recueil d'histoires autobiographiques revenant sur les phases obsessionnelles de la fin de mon
 enfance jusqu'au début de ma vie adulte.
 
@@ -24,4 +26,5 @@ le rire comme moteur pour se construire ? Rien.
 Vous retrouverez également des guests d'exception qui viendront vous confier leurs obsessions de jadis les plus
 inavouables… Au programme: Salomé Lahoche, Héloïse Le Bail, Clémence Sauvage, Sid, Elisa Marraudino & Adrien Yeung !
 
-## Notes C'était bien
+## Notes
+C'était bien
