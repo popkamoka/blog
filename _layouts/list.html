@@ -15,7 +15,7 @@ layout: default
     {% for post in filtered_posts %}
       <li class="post-item">
         <a href="{{ post.url | relative_url }}">
-          {% include category-emoji.html %}
+          {% include post_icon.html %}
           {{ post.title }}
         </a>
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%d-%m-%Y' }}</time>

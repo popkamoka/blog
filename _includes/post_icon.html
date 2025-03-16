@@ -1,0 +1,25 @@
+{% assign category_emoji = '🗂️' %}
+{% assign progress_emoji = '' %}
+
+{% for category in post.categories %}
+  {% case category %}
+    {% when 'book' %}
+      {% assign category_emoji = '📖' %}
+    {% when 'game' %}
+      {% assign category_emoji = '🎮' %}
+  {% endcase %}
+{% endfor %}
+
+{% case post.progress_status %}
+  {% when 'Terminé' %}
+    {% assign progress_emoji = '✅' %}
+  {% when 'En cours' %}
+    {% assign progress_emoji = '🔄' %}
+  {% when 'Pas commencé' %}
+    {% assign progress_emoji = '❌' %}
+  {% else %}
+    {% assign progress_emoji = '⚙️' %}
+{% endcase %}
+
+{{ category_emoji }}
+{{ progress_emoji }}

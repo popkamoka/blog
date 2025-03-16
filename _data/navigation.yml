@@ -7,5 +7,7 @@ links:
     url: /search
   - title: À propos
     url: /about
+  - title: Todo
+    url: /todo
   - title: RSS
     url: /atom.xml
