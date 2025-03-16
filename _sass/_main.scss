@@ -209,7 +209,6 @@ a {
 
 .book-cover {
     flex: 1;
-    max-width: 150px;
 }
 
 .book-cover img {
@@ -231,6 +230,18 @@ a {
 
 img {
     max-width: 100%;
+}
+
+figure {
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+figcaption {
+    font-size: 0.875rem; /* Taille du texte des crédits */
+    color: #666; /* Couleur du texte des crédits */
+    margin-top: 0.2rem;
+    font-style: italic;
 }
 
 /* ============================= */
