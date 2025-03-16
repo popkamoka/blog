@@ -25,6 +25,19 @@ def generate_book_md():
     if not os.path.exists(posts_dir):
         os.makedirs(posts_dir)
 
+    # Crée le nom du dossier d'images sans la date
+    folder_name = f"{title.replace(' ', '-').lower()}-{author.replace(' ', '-').lower()}"
+    
+    # Crée le chemin pour le dossier d'images du livre dans assets/images/books/
+    book_images_dir = os.path.join(os.path.dirname(__file__), '..', 'assets', 'images', 'books', folder_name)
+    
+    # Crée le dossier d'images si il n'existe pas
+    if not os.path.exists(book_images_dir):
+        os.makedirs(book_images_dir)
+
+    # Le chemin de la couverture du livre
+    cover_path = f"/assets/images/books/{folder_name}/cover.jpg"
+
     # Crée le contenu du fichier Markdown
     content = f"""---
 layout: book
@@ -33,14 +46,16 @@ title: "{title} - {author}"
 author: {author}
 date: {datetime.now().strftime('%Y-%m-%d')}
 tags: []
+
 work_title: {title}
 work_author: {author}
 work_publisher: 
 ean: 
 work_publish_date: 
 genre:
-cover: 
+cover: {cover_path}
 rating: 
+
 ownership_status: 
 progress_status: 
 start_date: 
@@ -60,6 +75,8 @@ end_date:
         f.write(content)
 
     print(f"Fiche de livre générée : {file_path}")
+    print(f"Dossier pour les images créé : {book_images_dir}")
+    print(f"Chemin de la couverture : {cover_path}")
 
 if __name__ == "__main__":
     generate_book_md()
