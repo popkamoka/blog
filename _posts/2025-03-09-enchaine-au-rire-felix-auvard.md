@@ -21,7 +21,6 @@ start_date : ???
 end_date : 09/03/2025
 ---
 ## Résumé
-
 Enchaîné au Rire est un recueil d'histoires autobiographiques revenant sur les phases obsessionnelles de la fin de mon
 enfance jusqu'au début de ma vie adulte.
 
@@ -34,7 +33,6 @@ Vous retrouverez également des guests d'exception qui viendront vous confier le
 inavouables… Au programme: Salomé Lahoche, Héloïse Le Bail, Clémence Sauvage, Sid, Elisa Marraudino & Adrien Yeung !
 
 ## Notes personnelles
-
 Plutôt sympa, j'ai préféré celui-ci à "Savoir vivre". Le style graphique est impeccable avec du dessin 100% numérique. Les thématiques m'ont globalement beaucoup plus touché aussi (style vestimentaire et rapport aux marques, musique et culture jap, jeunesse et création sur internet).
 
 <figure>
