@@ -12,7 +12,7 @@ work_publisher : Exemplaire éditions
 ean : 9782492926389
 work_publish_date: 01/03/2024
 genre: BD
-cover: https://www.babelio.com/couv/CVT_Enchaine-au-Rire_5706.jpg
+cover: /assets/images/books/enchaine-au-rire-felix-auvard/cover.jpg
 rating: 4
 
 ownership_status : Physique

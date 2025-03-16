@@ -13,7 +13,10 @@
   <h2>Statut</h2>
   <ul>
     <li><strong>Possession </strong> : {{ page.ownership_status }}</li>
-    <li><strong>Statut de lecture</strong> : {{ page.progress_status }}</li>
+    <li>
+      <strong>Statut de lecture</strong> : {{ page.progress_status }}
+      {% include status-emoji.html %}
+    </li>
     <li><strong>Date de début de lecture</strong> : {{ page.start_date }}</li>
     <li><strong>Date de fin de lecture</strong> : {{ page.end_date }}</li>
   </ul>

@@ -1,0 +1,10 @@
+{% case page.progress_status %}
+  {% when 'Pas commencé' %}
+    📖
+  {% when 'En cours' %}
+    ⏳
+  {% when 'Terminé' %}
+    ✅
+  {% else %}
+    ❓
+{% endcase %}

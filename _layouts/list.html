@@ -21,7 +21,5 @@ layout: default
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%d-%m-%Y' }}</time>
       </li>
     {% endfor %}
-    Nombre de billets :
-    {{ filtered_posts.size }}
   </ul>
 </section>

@@ -1,11 +1,14 @@
 ---
 layout: post
 ---
-<div style="display: flex">
-  <div style="flex: 1">
-    <img src="{{ page.cover }}" alt="book cover">
+<div class="book-container">
+  <div class="book-cover">
+    <img
+      src="{% if page.cover %}{{ page.cover | relative_url }}{% else %}{{ '/assets/images/books/unknown/cover.png' | relative_url }}{% endif %}"
+      alt="book cover"
+    >
   </div>
-  <div style="flex: 2; padding-left: 20px">{% include book_info.html %}</div>
+  {% include book_info.html %}
 </div>
 
 {{ content }}
