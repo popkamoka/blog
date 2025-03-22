@@ -198,13 +198,14 @@ a {
 .posts li a,
 .posts li div{
     display: flex;
-  white-space: nowrap;
+    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     text-decoration: none;
 }
 
-.posts li span {
+// Bloc des icônes dans la liste des posts
+.posts li .posts-list-icons {
     display: flex;
     justify-content: space-between;
     align-items: center;
