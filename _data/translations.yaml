@@ -15,6 +15,7 @@ navigation:
   games: "Jeux"
   media: "Films/séries"
   misc: "Autres"
+  backlog: "Backlog"
   search: "Recherche"
   about: "À propos"
   todo: "Todo"

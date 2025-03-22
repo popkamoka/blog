@@ -18,8 +18,9 @@ rating: 4
 ownership_status : true
 ownership_format : physical
 progress_status : completed
-start_date : ???
+start_date : "?"
 end_date : 09/03/2025
+
 ---
 ## Résumé
 Enchaîné au Rire est un recueil d'histoires autobiographiques revenant sur les phases obsessionnelles de la fin de mon

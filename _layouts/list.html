@@ -12,17 +12,25 @@ layout: default
     {% else %}
       {% assign filtered_posts = site.posts %}
     {% endif %}
-    {% for post in filtered_posts %}
-      <li class="post-item">
-        <a href="{{ post.url | relative_url }}">
-          {% include category_icon.html category=post.category %}
-          {% include progress_icon.html progress_status=post.progress_status %}
-          {{ post.title }}
-        </a>
-        <div>
+
+    {% if filtered_posts.size > 0 %}
+      {% for post in filtered_posts %}
+        <li class="post-item">
+          <a href="{{ post.url | relative_url }}">
+            <span>
+              {% include category_icon.html category=post.category %}
+              {% include progress_icon.html progress_status=post.progress_status %}
+            </span>
+            {{ post.title }}
+          </a>
           <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%d-%m-%Y' }}</time>
-        </div>
+        </li>
+      {% endfor %}
+    {% else %}
+      <li>
+        <i class="fa-solid fa-exclamation-circle no-posts-icon"></i>
+        <span>Aucune article trouvé dans cette catégorie</span>
       </li>
-    {% endfor %}
+    {% endif %}
   </ul>
 </section>

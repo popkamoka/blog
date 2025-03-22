@@ -9,6 +9,8 @@ links:
     url: /media
   - title: misc
     url: /misc
+  - title: backlog
+    url: /backlog
   - title: search
     url: /search
   - title: about

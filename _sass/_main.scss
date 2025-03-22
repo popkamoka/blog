@@ -148,14 +148,13 @@ a {
 /* ============================= */
 
 .category-icon, .progress-icon {
-    font-size: 18px;
-    margin-right: 5px;
+    font-size: 1em;
   }
 
   // Catégories
   
   .book-icon {
-    color: #5b24db; 
+    color: #5e1ff0; 
   }
   
   .default-icon {
@@ -169,7 +168,7 @@ a {
   }
   
   .in-progress-icon {
-    color: #d67900; 
+    color: #d36600; 
   }
   
   .abandoned-icon {
@@ -198,10 +197,19 @@ a {
 
 .posts li a,
 .posts li div{
-    white-space: nowrap;
+    display: flex;
+  white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     text-decoration: none;
+}
+
+.posts li span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 2.3em; 
+    margin-right: 0.5em;
 }
 
 .posts li time {

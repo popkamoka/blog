@@ -13,11 +13,12 @@ ean: 9782264076533
 work_publication_date: 04/03/2021
 genre: roman
 cover: /assets/images/books/la-course-au-mouton-sauvage-haruki-murakami/cover.jpg
-rating: 
+rating:
 
-ownership_status: Physique
+ownership_status : true
+ownership_format : physical
 progress_status: in_progress
-start_date: ???
+start_date: "?"
 end_date: TBD
 ---
 ## Résumé

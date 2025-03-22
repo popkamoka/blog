@@ -15,7 +15,8 @@ genre: BD
 cover: /assets/images/books/savoir-vivre-felix-auvard/cover.jpg
 rating: 3.5
 
-ownership_status: Physique
+ownership_status : true
+ownership_format : physical
 progress_status: completed
 start_date: ???
 end_date: ???
@@ -30,7 +31,7 @@ Son rapport à la planète le ronge, mais il se noue d'amitié avec elle. Décid
 Plein de tendresse, et à mourir de rire !
 
 ## Notes personnelles
-Premier bouquin de l'auteur que j'achetais et que j'avais découvert de par ses posts sur Instagram.
+Premier bouquin de l'auteur que j'achetais et que j'avais découvert sur Instagram.
 
 C'était chouette mais j'ai moins accroché à ce dont le livre parlait, malgré quelques pages sur des sujets d'éducation religieuse ou de rapport à la mort. J'en garde surtout le souvenir d'un joli style type aquarelle, bien que je préfère ses strips avec des traits plus prononcés et une inspiration plus cartoon.
 
