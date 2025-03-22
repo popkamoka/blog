@@ -4,7 +4,7 @@ category: book
 title: "La course au mouton sauvage - Haruki Murakami"
 author: Haruki Murakami
 date: 2025-03-16
-tags: [roman, fiction, fantastique, surréalisme, japon]
+tags: [roman, fiction, fantastique, surrealisme, japon]
 
 work_title: La course au mouton sauvage
 work_author: Haruki Murakami
