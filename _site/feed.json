@@ -1,0 +1,77 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "popkamoka",
+    "home_page_url": "http://localhost:4000/blog/",
+    "feed_url": "http://localhost:4000/blog/feed.json",
+    "description": "blog",
+    "icon": "http://localhost:4000/blog/apple-touch-icon.png",
+    "favicon": "http://localhost:4000/blog/favicon.ico",
+    "expired": false,
+    
+    "author":  {
+        "name": "popkamoka",
+        "url": null,
+        "avatar": null
+    },
+    
+"items": [
+    
+        {
+            "id": "http://localhost:4000/blog/2025/03/16/savoir-vivre-felix-auvard",
+            "title": "Savoir vivre - Félix Auvard",
+            "summary": null,
+            "content_text": "Résumé​Angoisses climatiques, précarité économique, engagement politique… : comment gérer sa crise existentielle dans ce monde quand on a 26 ans et qu’on ne nous a pas donné de mode d’emploi à la naissance ?Tantôt inquiet, tantôt cocasse, fâché ou plein d’espoir, tout à fait lucide… : au fil des planches, Félix se met en scène et explore avec humour et tendresse toutes les choses qu’on dit aux autres de faire mais qu’on ne fait pas, les grandes épiphanies et les angoisses que l’on garde pour soi.Son rapport à la planète le ronge, mais il se noue d’amitié avec elle. Décidé à mener une vie plus écologique, il n’achète que des courges en hiver… mais résiste avec peine aux étals de tomates alléchantes. Nourri d’éducation religieuse, il s’en est émancipé pour mener une vie athée et “ juste “, dans la mesure du possible… Sa peur de la solitude, son rapport à la mort, ses relations ultraconnectées… : tout cela l’interroge, l’effraie, et l’amuse.Plein de tendresse, et à mourir de rire !Notes personnellesPremier bouquin de l’auteur que j’achetais et que j’avais découvert sur Instagram.C’était chouette mais j’ai moins accroché à ce dont le livre parlait, malgré quelques pages sur des sujets d’éducation religieuse ou de rapport à la mort. J’en garde surtout le souvenir d’un joli style type aquarelle, bien que je préfère ses strips avec des traits plus prononcés et une inspiration plus cartoon.    Crédit : Félix AuvardIl y a pas mal de jolies planches sans dialogues et qui font un peu office de moment de pause dans la BD, elles sont vraiment sympa et on prend le temps de s’arrêter dans sa lecture pour en profiter.",
+            "content_html": "<h2 id=\"résumé\">Résumé</h2><p>​Angoisses climatiques, précarité économique, engagement politique… : comment gérer sa crise existentielle dans ce monde quand on a 26 ans et qu’on ne nous a pas donné de mode d’emploi à la naissance ?</p><p>Tantôt inquiet, tantôt cocasse, fâché ou plein d’espoir, tout à fait lucide… : au fil des planches, Félix se met en scène et explore avec humour et tendresse toutes les choses qu’on dit aux autres de faire mais qu’on ne fait pas, les grandes épiphanies et les angoisses que l’on garde pour soi.</p><p>Son rapport à la planète le ronge, mais il se noue d’amitié avec elle. Décidé à mener une vie plus écologique, il n’achète que des courges en hiver… mais résiste avec peine aux étals de tomates alléchantes. Nourri d’éducation religieuse, il s’en est émancipé pour mener une vie athée et “ juste “, dans la mesure du possible… Sa peur de la solitude, son rapport à la mort, ses relations ultraconnectées… : tout cela l’interroge, l’effraie, et l’amuse.</p><p>Plein de tendresse, et à mourir de rire !</p><h2 id=\"notes-personnelles\">Notes personnelles</h2><p>Premier bouquin de l’auteur que j’achetais et que j’avais découvert sur Instagram.</p><p>C’était chouette mais j’ai moins accroché à ce dont le livre parlait, malgré quelques pages sur des sujets d’éducation religieuse ou de rapport à la mort. J’en garde surtout le souvenir d’un joli style type aquarelle, bien que je préfère ses strips avec des traits plus prononcés et une inspiration plus cartoon.</p><figure>  <img src=\"/blog/assets/images/books/savoir-vivre-felix-auvard/extrait.jpeg\" alt=\"Extrait du livre 'Savoir vivre'\" />  <figcaption>Crédit : Félix Auvard</figcaption></figure><p>Il y a pas mal de jolies planches sans dialogues et qui font un peu office de moment de pause dans la BD, elles sont vraiment sympa et on prend le temps de s’arrêter dans sa lecture pour en profiter.</p>",
+            "url": "http://localhost:4000/blog/2025/03/16/savoir-vivre-felix-auvard",
+            
+            
+            
+            "tags": ["bd","autobiographie"],
+            
+            "date_published": "2025-03-16T00:00:00+01:00",
+            "date_modified": "2025-03-16T00:00:00+01:00",
+            
+                "author": "Félix Auvard"
+            
+        },
+    
+        {
+            "id": "http://localhost:4000/blog/2025/03/16/la-course-au-mouton-sauvage",
+            "title": "La course au mouton sauvage - Haruki Murakami",
+            "summary": null,
+            "content_text": "RésuméSur la page promotionnelle d’une assurance-vie, un jeune publicitaire fraîchement divorcé insère la photo, en apparence banale, d’un troupeau de moutons. Mais l’un des animaux, qui porte sur sa laine une tache en forme d’étoile, suscite l’intérêt d’un homme en noir, proche collaborateur du Maître , un homme politique très puissant. Et voilà le jeune homme sommé - lourdes menaces à l’appui - de retrouver ce mystérieux mouton. Ainsi débute son voyage initiatique vers l’île de Hokkaido, avec pour compagne une jeune femme aux oreilles bouleversantes de perfection, un improbable jeu de piste dans un univers qui défie toute logique.Quatrième roman d’Haruki Murakami, La Course au mouton sauvage, au charme envoûtant et à l’écriture tout en finesse, est l’oeuvre qui a signé la consécration de l’auteur au Japon et à l’international.Notes personnellesTBD",
+            "content_html": "<h2 id=\"résumé\">Résumé</h2><p>Sur la page promotionnelle d’une assurance-vie, un jeune publicitaire fraîchement divorcé insère la photo, en apparence banale, d’un troupeau de moutons. Mais l’un des animaux, qui porte sur sa laine une tache en forme d’étoile, suscite l’intérêt d’un homme en noir, proche collaborateur du Maître , un homme politique très puissant. Et voilà le jeune homme sommé - lourdes menaces à l’appui - de retrouver ce mystérieux mouton. Ainsi débute son voyage initiatique vers l’île de Hokkaido, avec pour compagne une jeune femme aux oreilles bouleversantes de perfection, un improbable jeu de piste dans un univers qui défie toute logique.</p><p>Quatrième roman d’Haruki Murakami, La Course au mouton sauvage, au charme envoûtant et à l’écriture tout en finesse, est l’oeuvre qui a signé la consécration de l’auteur au Japon et à l’international.</p><h2 id=\"notes-personnelles\">Notes personnelles</h2><p>TBD</p>",
+            "url": "http://localhost:4000/blog/2025/03/16/la-course-au-mouton-sauvage",
+            
+            
+            
+            "tags": ["roman","fiction","fantastique","surréalisme","japon"],
+            
+            "date_published": "2025-03-16T00:00:00+01:00",
+            "date_modified": "2025-03-16T00:00:00+01:00",
+            
+                "author": "Haruki Murakami"
+            
+        },
+    
+        {
+            "id": "http://localhost:4000/blog/2025/03/09/enchaine-au-rire-felix-auvard",
+            "title": "Enchaîné au rire - Félix Auvard",
+            "summary": null,
+            "content_text": "RésuméEnchaîné au Rire est un recueil d’histoires autobiographiques revenant sur les phases obsessionnelles de la fin de monenfance jusqu’au début de ma vie adulte.De la recherche d’un style unique aux première nuits blanches sur le world wide web, en passant par la découverte del’hilarité que peut provoquer un dictaphone jusqu’à la solitude de se découvrir queer au collège, ce livre est la sommede tout ce qui m’a permis de me construire en tant que vraie personne sur la vraie planète Terre. Et quoi de mieux quele rire comme moteur pour se construire ? Rien.Vous retrouverez également des guests d’exception qui viendront vous confier leurs obsessions de jadis les plusinavouables… Au programme: Salomé Lahoche, Héloïse Le Bail, Clémence Sauvage, Sid, Elisa Marraudino &amp; Adrien Yeung !Notes personnellesPlutôt sympa, j’ai préféré celui-ci à “Savoir vivre”. Le style graphique est impeccable avec du dessin 100% numérique. Les thématiques m’ont globalement beaucoup plus touché aussi (style vestimentaire et rapport aux marques, musique et culture jap, jeunesse et création sur internet).    Crédit : Félix AuvardIl y avait quelques planches de guests dont j’ai beaucoup aimé la variété en terme d’histoires et surtout de styles graphiques.Je garderai un oeil ouvert sur ses prochaines publications, en sachant qu’une bonne partie des planches de ce livres avaient déjà été postées sur Instagram auparavant, là où je l’ai découvert.",
+            "content_html": "<h2 id=\"résumé\">Résumé</h2><p>Enchaîné au Rire est un recueil d’histoires autobiographiques revenant sur les phases obsessionnelles de la fin de monenfance jusqu’au début de ma vie adulte.</p><p>De la recherche d’un style unique aux première nuits blanches sur le world wide web, en passant par la découverte del’hilarité que peut provoquer un dictaphone jusqu’à la solitude de se découvrir queer au collège, ce livre est la sommede tout ce qui m’a permis de me construire en tant que vraie personne sur la vraie planète Terre. Et quoi de mieux quele rire comme moteur pour se construire ? Rien.</p><p>Vous retrouverez également des guests d’exception qui viendront vous confier leurs obsessions de jadis les plusinavouables… Au programme: Salomé Lahoche, Héloïse Le Bail, Clémence Sauvage, Sid, Elisa Marraudino &amp; Adrien Yeung !</p><h2 id=\"notes-personnelles\">Notes personnelles</h2><p>Plutôt sympa, j’ai préféré celui-ci à “Savoir vivre”. Le style graphique est impeccable avec du dessin 100% numérique. Les thématiques m’ont globalement beaucoup plus touché aussi (style vestimentaire et rapport aux marques, musique et culture jap, jeunesse et création sur internet).</p><figure>  <img src=\"/blog/assets/images/books/enchaine-au-rire-felix-auvard/extrait.jpg\" alt=\"Extrait du livre 'Enchaîné au rire'\" />  <figcaption>Crédit : Félix Auvard</figcaption></figure><p>Il y avait quelques planches de guests dont j’ai beaucoup aimé la variété en terme d’histoires et surtout de styles graphiques.</p><p>Je garderai un oeil ouvert sur ses prochaines publications, en sachant qu’une bonne partie des planches de ce livres avaient déjà été postées sur <a href=\"https://www.instagram.com/felix.auvard\">Instagram</a> auparavant, là où je l’ai découvert.</p>",
+            "url": "http://localhost:4000/blog/2025/03/09/enchaine-au-rire-felix-auvard",
+            
+            
+            
+            "tags": ["bd","autobiographie"],
+            
+            "date_published": "2025-03-09T00:00:00+01:00",
+            "date_modified": "2025-03-09T00:00:00+01:00",
+            
+                "author": "POPKAMOKA"
+            
+        }
+    
+    ]
+}
