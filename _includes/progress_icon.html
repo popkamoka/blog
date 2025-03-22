@@ -1,16 +1,6 @@
-{% assign category_icon = '<i class="fa-solid fa-folder category-icon"></i>' %}
-{% assign progress_icon = '' %}
+{% assign progress_status = include.progress_status | default: 'other' %}
 
-{% for category in post.categories %}
-  {% case category %}
-    {% when 'book' %}
-      {% assign category_icon = '<i class="fa-solid fa-book category-icon book-icon"></i>' %}
-    {% when 'game' %}
-      {% assign category_icon = '<i class="fa-solid fa-gamepad category-icon game-icon"></i>' %}
-  {% endcase %}
-{% endfor %}
-
-{% case post.progress_status %}
+{% case progress_status %}
   {% when 'completed' %}
     {% assign progress_icon = '<i class="fa-solid fa-check-circle progress-icon completed-icon"></i>' %}
   {% when 'in_progress' %}
@@ -23,5 +13,4 @@
     {% assign progress_icon = '<i class="fa-solid fa-gear progress-icon other-icon"></i>' %}
 {% endcase %}
 
-{{ category_icon }}
 {{ progress_icon }}

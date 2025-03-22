@@ -10,7 +10,7 @@ work_title: La course au mouton sauvage
 work_author: Haruki Murakami
 work_publisher: 10-18
 ean: 9782264076533
-work_publish_date: 04/03/2021
+work_publication_date: 04/03/2021
 genre: roman
 cover: /assets/images/books/la-course-au-mouton-sauvage-haruki-murakami/cover.jpg
 rating: 

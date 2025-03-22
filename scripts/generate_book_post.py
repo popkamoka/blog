@@ -51,7 +51,7 @@ work_title: {title}
 work_author: {author}
 work_publisher: 
 ean: 
-work_publish_date: 
+work_publication_date: 
 genre:
 cover: {cover_path}
 rating: 

@@ -10,12 +10,13 @@ work_title : Enchaîné au rire
 work_author : Félix Auvard
 work_publisher : Exemplaire éditions
 ean : 9782492926389
-work_publish_date: 01/03/2024
+work_publication_date: 01/03/2024
 genre: BD
 cover: /assets/images/books/enchaine-au-rire-felix-auvard/cover.jpg
 rating: 4
 
-ownership_status : Physique
+ownership_status : true
+ownership_format : physical
 progress_status : completed
 start_date : ???
 end_date : 09/03/2025

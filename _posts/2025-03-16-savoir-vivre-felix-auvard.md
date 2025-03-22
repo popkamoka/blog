@@ -10,7 +10,7 @@ work_title: Savoir vivre
 work_author: Félix Auvard
 work_publisher: Robert Laffont
 ean: 9782221268360
-work_publish_date: 02/11/2023
+work_publication_date: 02/11/2023
 genre: BD
 cover: /assets/images/books/savoir-vivre-felix-auvard/cover.jpg
 rating: 3.5

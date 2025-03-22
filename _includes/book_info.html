@@ -1,23 +1,47 @@
 <div class="book-info">
-  <h2>Informations sur le livre</h2>
+  <h2>{{ site.data.translations.book_info.page_title }}</h2>
   <ul>
-    <li><strong>Titre</strong> : {{ page.work_title }}</li>
-    <li><strong>Auteur</strong> : {{ page.work_author }}</li>
-    <li><strong>Éditeur</strong> : {{ page.work_publisher }}</li>
-    <li><strong>EAN</strong>: {{ page.ean }}</li>
-    <li><strong>Date de publication</strong> : {{ page.work_publish_date }}</li>
-    <li><strong>Genre</strong> : {{ page.genre }}</li>
+    <li>
+      <strong>{{ site.data.translations.book_info.title }}</strong> : {{ page.work_title }}
+    </li>
+    <li>
+      <strong>{{ site.data.translations.book_info.author }}</strong> : {{ page.work_author }}
+    </li>
+    <li>
+      <strong>{{ site.data.translations.book_info.editor }}</strong> : {{ page.work_publisher }}
+    </li>
+    <li>
+      <strong>{{ site.data.translations.book_info.ean }}</strong>: {{ page.ean }}
+    </li>
+    <li>
+      <strong>{{ site.data.translations.book_info.publication_date }}</strong> : {{ page.work_publication_date }}
+    </li>
+    <li>
+      <strong>{{ site.data.translations.book_info.genre }}</strong> : {{ page.genre }}
+    </li>
     <li>{% include rating.html %}</li>
   </ul>
 
-  <h2>Statut</h2>
+  <h2>{{ site.data.translations.common.status }}</h2>
   <ul>
-    <li><strong>Possession </strong> : {{ page.ownership_status }}</li>
     <li>
-      <strong>Statut de lecture</strong> : {{ site.data.translations.status[page.progress_status] }}
-      {% include status-emoji.html %}
+      <strong>{{ site.data.translations.book_info.ownership_status }}</strong> :
+      {{ site.data.translations.common[page.ownership_status] }}
     </li>
-    <li><strong>Date de début de lecture</strong> : {{ page.start_date }}</li>
-    <li><strong>Date de fin de lecture</strong> : {{ page.end_date }}</li>
+    <li>
+      <strong>{{ site.data.translations.book_info.ownership_format }}</strong> :
+      {{ site.data.translations.ownership_format[page.ownership_format] }}
+    </li>
+    <li>
+      <strong>{{ site.data.translations.book_info.progress_status }}</strong> :
+      {{ site.data.translations.status[page.progress_status] }}
+      {% include progress_icon.html progress_status=page.progress_status %}
+    </li>
+    <li>
+      <strong>{{ site.data.translations.book_info.start_date }}</strong> : {{ page.start_date }}
+    </li>
+    <li>
+      <strong>{{ site.data.translations.book_info.end_date }}</strong> : {{ page.end_date }}
+    </li>
   </ul>
 </div>

@@ -1,6 +1,6 @@
 {% if page.rating %}
   <div class="personal-rating">
-    <strong>Note</strong> :
+    <strong>{{ site.data.translations.common.rating }}</strong> :
     {% for i in (1..5) %}
       {% if i <= page.rating %}
         ⭐
@@ -11,5 +11,7 @@
     ({{ page.rating }}/5)
   </div>
 {% else %}
-  <div class="personal-rating"><strong>Note</strong> : TBD</div>
+  <div class="personal-rating">
+    <strong>{{ site.data.translations.common.rating }}</strong> : TBD
+  </div>
 {% endif %}

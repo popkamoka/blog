@@ -3,6 +3,12 @@ status:
   completed: "Terminé"
   abandoned: "Abandonné"
   planned: "Prévu"
+  on_hold: "En pause"
+
+ownership_format:
+  physical: "Physique"
+  digital: "Numérique"
+
 navigation:
   posts: "Articles"
   books: "Livres"
@@ -13,3 +19,24 @@ navigation:
   about: "À propos"
   todo: "Todo"
   rss: "RSS"
+
+book_info:
+  page_title: "Informations sur le livre"
+  title: "Titre"
+  author: "Auteur"
+  editor: "Éditeur"
+  ean: "EAN"
+  publication_date: "Date de publication"
+  genre: "Genre"
+  ownership_status: "Livre possédé"
+  ownership_format: "Format"
+  progress_status: "Statut de lecture"
+  start_date: "Date de début de lecture"
+  end_date: "Date de fin de lecture"
+
+common:
+  rating: "Note"
+  status: "Statut"
+  true: "Oui"
+  false: "Non"
+  unknown: "Inconnu"
