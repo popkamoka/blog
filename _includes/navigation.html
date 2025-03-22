@@ -10,7 +10,7 @@
               class="active"
             {% endif %}
           >
-            {{- item.title -}}
+            {{ site.data.translations.navigation[item.title] }}
           </a>
         </li>
       {% endfor %}

@@ -1,25 +1,27 @@
-{% assign category_emoji = '🗂️' %}
-{% assign progress_emoji = '' %}
+{% assign category_icon = '<i class="fa-solid fa-folder category-icon"></i>' %}
+{% assign progress_icon = '' %}
 
 {% for category in post.categories %}
   {% case category %}
     {% when 'book' %}
-      {% assign category_emoji = '📖' %}
+      {% assign category_icon = '<i class="fa-solid fa-book category-icon book-icon"></i>' %}
     {% when 'game' %}
-      {% assign category_emoji = '🎮' %}
+      {% assign category_icon = '<i class="fa-solid fa-gamepad category-icon game-icon"></i>' %}
   {% endcase %}
 {% endfor %}
 
 {% case post.progress_status %}
-  {% when 'Terminé' %}
-    {% assign progress_emoji = '✅' %}
-  {% when 'En cours' %}
-    {% assign progress_emoji = '🔄' %}
-  {% when 'Pas commencé' %}
-    {% assign progress_emoji = '❌' %}
+  {% when 'completed' %}
+    {% assign progress_icon = '<i class="fa-solid fa-check-circle progress-icon completed-icon"></i>' %}
+  {% when 'in_progress' %}
+    {% assign progress_icon = '<i class="fa-solid fa-hourglass-half progress-icon in-progress-icon"></i>' %}
+  {% when 'abandoned' %}
+    {% assign progress_icon = '<i class="fa-solid fa-ban progress-icon abandoned-icon"></i>' %}
+  {% when 'planned' %}
+    {% assign progress_icon = '<i class="fa-solid fa-calendar-alt progress-icon planned-icon"></i>' %}
   {% else %}
-    {% assign progress_emoji = '⚙️' %}
+    {% assign progress_icon = '<i class="fa-solid fa-gear progress-icon other-icon"></i>' %}
 {% endcase %}
 
-{{ category_emoji }}
-{{ progress_emoji }}
+{{ category_icon }}
+{{ progress_icon }}

@@ -16,7 +16,7 @@ cover: /assets/images/books/enchaine-au-rire-felix-auvard/cover.jpg
 rating: 4
 
 ownership_status : Physique
-progress_status : Terminé
+progress_status : completed
 start_date : ???
 end_date : 09/03/2025
 ---

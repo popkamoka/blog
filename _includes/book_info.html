@@ -14,7 +14,7 @@
   <ul>
     <li><strong>Possession </strong> : {{ page.ownership_status }}</li>
     <li>
-      <strong>Statut de lecture</strong> : {{ page.progress_status }}
+      <strong>Statut de lecture</strong> : {{ site.data.translations.status[page.progress_status] }}
       {% include status-emoji.html %}
     </li>
     <li><strong>Date de début de lecture</strong> : {{ page.start_date }}</li>

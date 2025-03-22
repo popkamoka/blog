@@ -16,7 +16,7 @@ cover: /assets/images/books/savoir-vivre-felix-auvard/cover.jpg
 rating: 3.5
 
 ownership_status: Physique
-progress_status: Terminé
+progress_status: completed
 start_date: ???
 end_date: ???
 ---
@@ -30,9 +30,9 @@ Son rapport à la planète le ronge, mais il se noue d'amitié avec elle. Décid
 Plein de tendresse, et à mourir de rire !
 
 ## Notes personnelles
-Premier bouquin de l'auteur que j'achetais et que j'avais découvert de par ses planches sur Instagram.
+Premier bouquin de l'auteur que j'achetais et que j'avais découvert de par ses posts sur Instagram.
 
-C'était chouette mais j'ai moins accroché à ce dont le livre parlait, malgré quelques planches sur des sujets d'éducation religieuse ou de rapport à la mort. J'en garde surtout le souvenir d'un joli style type aquarelle, bien que je préfère ses planches avec des traits plus prononcés et une inspiration plus cartoon.
+C'était chouette mais j'ai moins accroché à ce dont le livre parlait, malgré quelques pages sur des sujets d'éducation religieuse ou de rapport à la mort. J'en garde surtout le souvenir d'un joli style type aquarelle, bien que je préfère ses strips avec des traits plus prononcés et une inspiration plus cartoon.
 
 <figure>
   <img src="{{ '/assets/images/books/savoir-vivre-felix-auvard/extrait.jpeg' | relative_url }}" alt="Extrait du livre 'Savoir vivre'">

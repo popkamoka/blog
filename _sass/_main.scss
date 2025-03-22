@@ -144,6 +144,44 @@ a {
 }
 
 /* ============================= */
+/* ======== ICONES ============= */
+/* ============================= */
+
+.category-icon, .progress-icon {
+    font-size: 18px;
+    margin-right: 5px;
+  }
+  
+  .book-icon {
+    color: #5b24db; 
+  }
+  
+  .game-icon {
+    color: #007bff; 
+  }
+  
+  .completed-icon {
+    color: #28a745; 
+  }
+  
+  .in-progress-icon {
+    color: #d67900; 
+  }
+  
+  .abandoned-icon {
+    color: #dc3545; 
+  }
+  
+  .planned-icon {
+    color: #007bff; 
+  }
+  
+  .other-icon {
+    color: #6c757d; 
+  }
+  
+
+/* ============================= */
 /* ====== LISTE DES BILLETS ===== */
 /* ============================= */
 

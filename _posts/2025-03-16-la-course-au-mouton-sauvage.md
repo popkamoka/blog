@@ -16,7 +16,7 @@ cover: /assets/images/books/la-course-au-mouton-sauvage-haruki-murakami/cover.jp
 rating: 
 
 ownership_status: Physique
-progress_status: En cours
+progress_status: in_progress
 start_date: ???
 end_date: TBD
 ---

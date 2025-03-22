@@ -1,13 +1,19 @@
 links:
-  - title: Billets
+  - title: posts
     url: /
-  - title: Livres
+  - title: books
     url: /books
-  - title: Recherche
+  - title: games
+    url: /games
+  - title: media
+    url: /media
+  - title: misc
+    url: /misc
+  - title: search
     url: /search
-  - title: À propos
+  - title: about
     url: /about
-  - title: Todo
+  - title: todo
     url: /todo
-  - title: RSS
+  - title: rss
     url: /atom.xml

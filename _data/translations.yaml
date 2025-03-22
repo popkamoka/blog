@@ -1,0 +1,15 @@
+status:
+  in_progress: "En cours"
+  completed: "Terminé"
+  abandoned: "Abandonné"
+  planned: "Prévu"
+navigation:
+  posts: "Articles"
+  books: "Livres"
+  games: "Jeux"
+  media: "Films/séries"
+  misc: "Autres"
+  search: "Recherche"
+  about: "À propos"
+  todo: "Todo"
+  rss: "RSS"
