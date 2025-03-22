@@ -34,6 +34,9 @@ collections:
   posts:
     output: true
     permalink: /:year/:month/:day/:slug
+  tag:
+    output: true
+    permalink: /tag/:name
 
 defaults:
   - scope:
@@ -50,3 +53,8 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  - scope:
+      path: ""
+      type: "tag"
+    values:
+      layout: "tag"
