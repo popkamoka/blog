@@ -7,5 +7,6 @@ title:  Todo
 - ~~Voir comment globalement gérer les listes d'oeuvres en attente~~
 - Faire fonctionner lightbox pour les images, voir si on peut harmoniser ça aussi entre covers et illus
 - Fixer le décalage du menu quand on clique sur rechercher
-- Vérifier que les tags fonctionnent bien
-- Changer le layout des articles en version mobile
+- Vérifier que les tags fonctionnent bien sur Github
+- Réparer le layout des articles en version mobile
+- Compléter le backlog
