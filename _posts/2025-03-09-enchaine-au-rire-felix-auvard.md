@@ -15,7 +15,7 @@ genre: BD
 cover: /assets/images/books/enchaine-au-rire-felix-auvard/cover.jpg
 rating: 4
 
-ownership_status : true
+ownership_status : owned
 ownership_format : physical
 progress_status : completed
 start_date : "?"

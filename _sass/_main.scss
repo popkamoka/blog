@@ -149,12 +149,24 @@ a {
 
 .category-icon, .progress-icon {
     font-size: 1em;
+    margin-right: 0.2em;
   }
 
   // Catégories
-  
   .book-icon {
-    color: #5e1ff0; 
+    color: #4f5bff; 
+  }
+
+  .game-icon {
+    color: #cf0000; 
+  }
+
+  .film-icon {
+    color: #dda900; 
+  }
+
+  .serie-icon {
+    color: #009908; 
   }
   
   .default-icon {
@@ -162,7 +174,6 @@ a {
   }
 
   // Progression
-  
   .completed-icon {
     color: #28a745; 
   }
@@ -183,6 +194,14 @@ a {
     color: #6c757d; 
   }
   
+  // Possession
+  .owned-icon {
+    color: #65a1d3; 
+  }
+  
+  .not-owned-icon {
+    color: #b81515; 
+  }
 
 /* ============================= */
 /* ====== LISTE DES BILLETS ===== */
@@ -209,8 +228,8 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 2.3em; 
-    margin-right: 0.5em;
+    width: 2.5em; 
+    margin-right: 0.3em;
 }
 
 .posts li time {
@@ -276,6 +295,43 @@ a {
     padding-left: 10px;
 }
 
+/* ============================= */
+/* ======== BACKLOG ============= */
+/* ============================= */
+
+.backlog-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .books-section {
+    background-color: #f0f8ff;
+    border: 1px solid #5b24db;
+  }
+  
+  .games-section {
+    background-color: #ffdfdf;
+    border: 1px solid #490000;
+  }
+  
+  .films-section {
+    background-color: #fff7e6;
+    border: 1px solid #f39c12;
+  }
+  
+  .series-section {
+    background-color: #e6f9f0;
+    border: 1px solid #28a745;
+  }
+  
+  .misc-section {
+    background-color: #f4f4f4;
+    border: 1px solid #6c757d;
+  }
+  
 /* ============================= */
 /* ======== IMAGES ============== */
 /* ============================= */

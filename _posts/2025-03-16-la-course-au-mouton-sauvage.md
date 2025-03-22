@@ -15,7 +15,7 @@ genre: roman
 cover: /assets/images/books/la-course-au-mouton-sauvage-haruki-murakami/cover.jpg
 rating:
 
-ownership_status : true
+ownership_status : owned
 ownership_format : physical
 progress_status: in_progress
 start_date: "?"

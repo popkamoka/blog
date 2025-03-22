@@ -5,6 +5,10 @@ status:
   planned: "Prévu"
   on_hold: "En pause"
 
+ownership_status:
+  owned: "Possédé"
+  not_owned: "Non possédé"
+
 ownership_format:
   physical: "Physique"
   digital: "Numérique"
@@ -34,6 +38,18 @@ book_info:
   progress_status: "Statut de lecture"
   start_date: "Date de début de lecture"
   end_date: "Date de fin de lecture"
+
+backlog:
+  books: "Livres"
+  books_categories:
+    novels: "Romans"
+    comics: "BDs"
+    mangas: "Mangas"
+    misc: "Autres"
+  games: "Jeux"
+  films: "Films"
+  series: "Séries"
+  misc: "Autres"
 
 common:
   rating: "Note"
