@@ -2,42 +2,54 @@ books:
   novels: []
 
   comics:
-    - title: "L'Arabe du futur T1"
-      author: "Riad Sattouf"
-      ownership_status: "owned"
-    - title: "Maus"
-      author: "Art Spiegelman"
-      ownership_status: "owned"
+    - series: "L'Arabe du futur - Riad Sattouf"
+      books:
+        - title: "L'Arabe du futur T1"
+          author: "Riad Sattouf"
+          ownership_status: "owned"
+        - title: "L'Arabe du futur T2"
+          author: "Riad Sattouf"
+          ownership_status: "not_owned"
+
+    - series: "Maus"
+      books:
+        - title: "Maus T1"
+          author: "Art Spiegelman"
+          ownership_status: "owned"
 
   mangas: []
 
   misc:
-    - title: "Maliki T1 - Broie la vie en rose"
-      ownership_status: "owned"
-    - title: "Maliki T2 - Une rose à l'amer"
-      ownership_status: "owned"
-    - title: "Maliki T3 - Mots roses au clair de lune"
-      ownership_status: "owned"
-    - title: "Maliki T4 - Blanche"
-      ownership_status: "owned"
-    - title: "Maliki T5 - Prismatique"
-      ownership_status: "owned"
-    - title: "Maliki T6 - Cristallisation"
-      ownership_status: "not_owned"
-    - title: "Maliki T7.1 - Hanami"
-      ownership_status: "owned"
-    - title: "Maliki - Blog 1"
-      ownership_status: "owned"
-    - title: "Maliki - Blog 2"
-      ownership_status: "owned"
-    - title: "Maliki - Blog 3"
-      ownership_status: "owned"
-    - title: "Maliki - Blog 4"
-      ownership_status: "owned"
+    - series: "Maliki"
+      books:
+        - title: "Maliki T1 - Broie la vie en rose"
+          ownership_status: "owned"
+        - title: "Maliki T2 - Une rose à l'amer"
+          ownership_status: "owned"
+        - title: "Maliki T3 - Mots roses au clair de lune"
+          ownership_status: "owned"
+        - title: "Maliki T4 - Blanche"
+          ownership_status: "owned"
+        - title: "Maliki T5 - Prismatique"
+          ownership_status: "owned"
+        - title: "Maliki T6 - Cristallisation"
+          ownership_status: "not_owned"
+        - title: "Maliki T7.1 - Hanami"
+          ownership_status: "owned"
+        - title: "Maliki - Blog 1"
+          ownership_status: "owned"
+        - title: "Maliki - Blog 2"
+          ownership_status: "owned"
+        - title: "Maliki - Blog 3"
+          ownership_status: "owned"
+        - title: "Maliki - Blog 4"
+          ownership_status: "owned"
 
 games:
-  # - title: "The Witcher 3"
-  #   platform: "PC"
+  pc:
+    - title: "Metaphor ReFantazio"
+      studio: "Atlus"
+      ownership_status: "owned"
 
 films:
   # - title: "Blade Runner 2049"

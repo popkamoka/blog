@@ -10,14 +10,29 @@ title: Backlog
     {% assign category_name = category[0] %}
     {% assign category_books = category[1] %}
     
-
     {% if category_books.size > 0 %}
       <h3>{{ site.data.translations.backlog.books_categories[category_name] }}</h3>
       <ul>
-        {% for book in category_books %}
+        {% for series in category_books %}
           <li>
-            {% include ownership_status_icon.html ownership_status=book.ownership_status %}
-            {{ book.title }}{% if book.author %} - {{ book.author }}{% endif %}
+            {% assign series_books_count = series.books.size %}
+            {% if series_books_count > 1 %}
+              <details>
+                <summary>{{ series.series }}</summary>
+                <ul>
+                  {% for book in series.books %}
+                    <li>
+                      {% include ownership_status_icon.html ownership_status=book.ownership_status %}
+                      {{ book.title }}{% if book.author %} - {{ book.author }}{% endif %}
+                    </li>
+                  {% endfor %}
+                </ul>
+              </details>
+            {% else %}
+              {% assign book = series.books[0] %}
+              {% include ownership_status_icon.html ownership_status=book.ownership_status %}
+              {{ book.title }}{% if book.author %} - {{ book.author }}{% endif %}
+            {% endif %}
           </li>
         {% endfor %}
       </ul>
@@ -27,14 +42,22 @@ title: Backlog
 
 <div class="backlog-section games-section">
   <h2><i class="fa-solid fa-gamepad category-icon game-icon"></i>  {{site.data.translations.backlog.games}}</h2>
-  <ul>
-    {% for game in site.data.backlog.games %}
-      <li>
-        {% include ownership_status_icon.html item=game %}
-        {{ game.title }} ({{ game.platform }})
-      </li>
-    {% endfor %}
-  </ul>
+{% for platform in site.data.backlog.games %}
+    {% assign platform_name = platform[0] %}
+    {% assign games = platform[1] %}
+
+    {% if games.size > 0 %}
+      <h3>{{ site.data.translations.backlog.games_platforms[platform_name] }}</h3>
+      <ul>
+        {% for game in games %}
+          <li>
+            {% include ownership_status_icon.html ownership_status=game.ownership_status %}
+            {{ game.title }}{% if game.studio %} - {{ game.studio }}{% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endfor %}
 </div>
 
 <div class="backlog-section films-section">

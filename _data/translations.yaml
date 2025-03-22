@@ -47,6 +47,10 @@ backlog:
     mangas: "Mangas"
     misc: "Autres"
   games: "Jeux"
+  games_platforms:
+    pc: "PC"
+    switch: "Switch"
+    misc: "Autres"
   films: "Films"
   series: "Séries"
   misc: "Autres"
