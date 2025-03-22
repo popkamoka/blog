@@ -14,7 +14,9 @@ module Jekyll
     def initialize(site, base, tag)
       @site = site
       @base = base
-      @dir  = File.join('tag', tag)
+      baseurl = site.config['baseurl'] || ''
+      
+      @dir  = File.join(baseurl, 'tag', tag)
       @name = 'index.html'
 
       self.process(@name)
