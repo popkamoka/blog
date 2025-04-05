@@ -1,0 +1,44 @@
+<div class="media-info">
+  <h2>
+    {{ site.data.translations.media_info.page_title }}
+  </h2>
+  <ul>
+    <li>
+      <strong>{{ site.data.translations.media_info.title }}</strong> : {{ page.work_title }}
+    </li>
+    <li>
+      <strong>{{ site.data.translations.media_info.director }}</strong> : {{ page.work_director }}
+    </li>
+    <li>
+      <strong>{{ site.data.translations.media_info.platform }}</strong> : {{ page.work_platform }}
+    <li>
+      <strong>{{ site.data.translations.media_info.release_date }}</strong> : {{ page.work_release_date }}
+    </li>
+    <li>
+      <strong>{{ site.data.translations.media_info.genre }}</strong> : {{ page.genre }}
+    </li>
+    <li>{% include rating.html %}</li>
+  </ul>
+  <h2>{{ site.data.translations.common.status }}</h2>
+  <ul>
+    <li>
+      <strong>{{ site.data.translations.media_info.ownership_status }}</strong> :
+      {{ site.data.translations.ownership_status[page.ownership_status] }}
+    </li>
+    <li>
+      <strong>{{ site.data.translations.media_info.ownership_format }}</strong> :
+      {{ site.data.translations.ownership_format[page.ownership_format] }}
+    </li>
+    <li>
+      <strong>{{ site.data.translations.media_info.progress_status }}</strong> :
+      {{ site.data.translations.status[page.progress_status] }}
+      {% include progress_icon.html progress_status=page.progress_status %}
+    </li>
+    <li>
+      <strong>{{ site.data.translations.media_info.start_date }}</strong> : {{ page.start_date }}
+    </li>
+    <li>
+      <strong>{{ site.data.translations.media_info.end_date }}</strong> : {{ page.end_date }}
+    </li>
+  </ul>
+</div>

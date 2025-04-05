@@ -1,5 +1,5 @@
 ---
 layout: list
-category: media
+category: film
 title : Films/séries
 ---

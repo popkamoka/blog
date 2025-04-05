@@ -291,26 +291,26 @@ a {
 /* ======== FICHES ============= */
 /* ============================= */
 
-.book-container, .game-container {
+.book-container, .game-container, .media-container {
     display: flex;
     align-items: flex-start; 
     gap: 20px;
 }
 
-.book-cover, .game-cover {
+.book-cover, .game-cover, .media-cover {
     flex: 1;
     height: 350px; 
     width: 100%; 
 }
 
-.book-cover img, .game-cover img {
+.book-cover img, .game-cover img, .media-cover img {
     width: 100%;
     height: 100%; 
     object-fit: contain; 
 	object-position: top; 
 }
 
-.book-info, .game-info {
+.book-info, .game-info, .media-info {
     flex: 2;
     padding-left: 10px;
 }

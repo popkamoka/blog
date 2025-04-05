@@ -1,0 +1,14 @@
+---
+layout: post
+---
+<div class="media-container">
+  <div class="media-cover">
+    <img
+      src="{% if page.cover %}{{ page.cover | relative_url }}{% else %}{{ '/assets/images/unknown_cover.png' | relative_url }}{% endif %}"
+      alt="media cover"
+    >
+  </div>
+  {% include media_info.html %}
+</div>
+
+{{ content }}

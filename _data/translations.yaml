@@ -8,10 +8,12 @@ status:
 ownership_status:
   owned: "Possédé"
   not_owned: "Non possédé"
+  not_applicable: "Non applicable"
 
 ownership_format:
   physical: "Physique"
   digital: "Numérique"
+  cinema: "Cinéma"
 
 navigation:
   posts: "Articles"
@@ -52,6 +54,20 @@ game_info:
   progress_status: "Statut de progression"
   start_date: "Date de début de jeu"
   end_date: "Date de fin de jeu"
+
+media_info:
+  page_title: "Informations sur le média"
+  title: "Titre"
+  director: "Réalisateur"
+  producer: "Producteur"
+  platform: "Plateforme"
+  release_date: "Date de sortie"
+  genre: "Genre"
+  ownership_status: "Média possédé"
+  ownership_format: "Format"
+  progress_status: "Statut de visionnage"
+  start_date: "Date de début de visionnage"
+  end_date: "Date de fin de visionnage"
 
 backlog:
   books: "Livres"
