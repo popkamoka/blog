@@ -7,6 +7,8 @@
     {% assign category_icon = '<i class="fa-solid fa-gamepad category-icon game-icon"></i>' %}
   {% when 'film' %}
     {% assign category_icon = '<i class="fa-solid fa-film category-icon film-icon"></i>' %}
+  {% when 'series' %}
+    {% assign category_icon = '<i class="fa-solid fa-tv category-icon series-icon"></i>' %}
   {% else %}
     {% assign category_icon = '<i class="fa-solid fa-file category-icon default-icon"></i>' %}
 {% endcase %}

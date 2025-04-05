@@ -5,8 +5,10 @@ links:
     url: /books
   - title: games
     url: /games
-  - title: media
-    url: /media
+  - title: films
+    url: /films
+  - title: series
+    url: /series
   - title: misc
     url: /misc
   - title: backlog

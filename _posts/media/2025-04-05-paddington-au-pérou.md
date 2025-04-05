@@ -8,10 +8,9 @@ tags: [familial, ours, britannique]
 
 work_title: "Paddington au Pérou"
 work_director: "Dougal Wilson"
-work_producer: 
 work_platform: "Cinéma"
 work_release_date: "2024"
-genre: "Aventure"
+genre: "Film"
 cover: /assets/images/media/paddington-au-pérou-dougal-wilson/cover.jpg
 rating: 4
 
