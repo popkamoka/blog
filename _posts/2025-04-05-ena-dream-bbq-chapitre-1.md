@@ -9,7 +9,7 @@ tags: [surréaliste, aventure, solo, 3D, exploration]
 work_title: "ENA: Dream BBQ"
 work_developer: ENA Team
 work_publisher: Joel G
-work_platform: PC
+work_platform: PC/Steam
 work_release_date: 27/03/2025
 genre: Aventure
 cover: /assets/images/games/ena-dream-bbq-chapitre-1/cover.jpg
