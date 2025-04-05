@@ -154,7 +154,7 @@ a {
 
 .category-icon, .progress-icon {
     font-size: 1em;
-    margin-right: 0.2em;
+    
   }
 
   // Catégories
@@ -225,14 +225,36 @@ a {
     text-decoration: none;
 }
 
-// Bloc des icônes dans la liste des posts
-.posts li .posts-list-icons {
+.posts-list-container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: 2.5em; 
-    margin-right: 0.3em;
-}
+  }
+  
+  .posts-list-icons {
+    display: flex;
+    align-items: center;
+    width: 3em; 
+    margin-right: 0.2em;
+    flex-shrink: 0;
+  }
+
+  .posts .category-icon {
+    width: 1.5em;
+    margin-right: 0.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  .posts .progress-icon {
+    width: 1.2em;
+    height: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
 
 .posts li time {
     padding-left: 1rem;

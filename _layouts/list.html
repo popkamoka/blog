@@ -17,11 +17,19 @@ layout: default
       {% for post in filtered_posts %}
         <li class="post-item">
           <a href="{{ post.url | relative_url }}">
-            <div class="posts-list-icons">
-              {% include category_icon.html category=post.category %}
-              {% include progress_icon.html progress_status=post.progress_status %}
+            <div class="posts-list-container">
+              <div class="posts-list-icons">
+                <div class="category-icon">
+                  {% include category_icon.html category=post.category %}
+                </div>
+                <div class="progress-icon">
+                  {% include progress_icon.html progress_status=post.progress_status %}
+                </div>
+              </div>
+              <div class="post-title">
+                {{ post.title }}
+              </div>
             </div>
-            {{ post.title }}
           </a>
           <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%d-%m-%Y' }}</time>
         </li>
