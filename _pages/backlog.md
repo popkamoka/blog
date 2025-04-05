@@ -73,15 +73,40 @@ title: Backlog
 </div>
 
 <div class="backlog-section series-section">
-  <h2> <i class="fa-solid fa-tv category-icon serie-icon"></i> {{site.data.translations.backlog.series}}</h2>
-  <ul>
-    {% for serie in site.data.backlog.series %}
-      <li>
-        {% include ownership_status_icon.html item=serie %}
-        {{ serie.title }} ({{ serie.platform }})
-      </li>
-    {% endfor %}
-  </ul>
+  <h2><i class="fa-solid fa-tv category-icon series-icon"></i>  {{site.data.translations.backlog.series}}</h2>
+  
+  {% for genre in site.data.backlog.series %}
+    {% assign genre_name = genre[0] %}
+    {% assign series = genre[1] %}
+
+    {% if series.size > 0 %}
+      <h3>{{ site.data.translations.backlog.series_genres[genre_name] }}</h3>
+      <ul>
+        {% for serie in series %}
+          <li>
+            {% assign series_seasons_count = serie.seasons.size %}
+            {% if series_seasons_count > 1 %}
+              <details>
+                <summary>{{ serie.title }}</summary>
+                <ul>
+                  {% for season in serie.seasons %}
+                    <li>
+                      {% include ownership_status_icon.html ownership_status=season.ownership_status %}
+                      {{ season.title }} ({{ season.episodes }} épisodes)
+                    </li>
+                  {% endfor %}
+                </ul>
+              </details>
+            {% else %}
+              {% assign season = serie.seasons[0] %}
+              {% include ownership_status_icon.html ownership_status=season.ownership_status %}
+              <p>{{ serie.title }} - {{ season.title }} ({{ season.episodes }} épisodes)</p>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endfor %}
 </div>
 
 <div class="backlog-section misc-section">

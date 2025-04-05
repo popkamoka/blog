@@ -52,13 +52,17 @@ games:
       ownership_status: "owned"
 
 films:
-  # - title: "Blade Runner 2049"
-  #   director: "Denis Villeneuve"
 
 series:
-  # - title: "The Expanse"
-  #   platform: "Prime Video"
+  animation:
+    - title: "Invincible (2021)"
+      ownership_status: "not_owned"
+      seasons:
+        - title: "Invincible S1"
+          episodes: 8
+          ownership_status: "owned"
+        - title: "Invincible S2"
+          episodes: 8
+          ownership_status: "not_owned"
 
 misc:
-  # - title: "The Art of Game Design"
-  #   type: "artist"
