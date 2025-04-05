@@ -3,6 +3,8 @@
 {% case category %}
   {% when 'book' %}
     {% assign category_icon = '<i class="fa-solid fa-book category-icon book-icon"></i>' %}
+  {% when 'game' %}
+    {% assign category_icon = '<i class="fa-solid fa-gamepad category-icon game-icon"></i>' %}
   {% else %}
     {% assign category_icon = '<i class="fa-solid fa-file category-icon default-icon"></i>' %}
 {% endcase %}

@@ -39,6 +39,20 @@ book_info:
   start_date: "Date de début de lecture"
   end_date: "Date de fin de lecture"
 
+game_info:
+  page_title: "Informations sur le jeu"
+  title: "Titre"
+  developer: "Développeur"
+  publisher: "Éditeur"
+  platform: "Plateforme"
+  release_date: "Date de sortie"
+  genre: "Genre"
+  ownership_status: "Jeu possédé"
+  ownership_format: "Format"
+  progress_status: "Statut de progression"
+  start_date: "Date de début de jeu"
+  end_date: "Date de fin de jeu"
+
 backlog:
   books: "Livres"
   books_categories:

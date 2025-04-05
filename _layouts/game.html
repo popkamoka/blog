@@ -1,14 +1,14 @@
 ---
 layout: post
 ---
-<div class="book-container">
-  <div class="book-cover">
+<div class="game-container">
+  <div class="game-cover">
     <img
       src="{% if page.cover %}{{ page.cover | relative_url }}{% else %}{{ '/assets/images/unknown_cover.png' | relative_url }}{% endif %}"
-      alt="book cover"
+      alt="game cover"
     >
   </div>
-  {% include book_info.html %}
+  {% include game_info.html %}
 </div>
 
 {{ content }}
