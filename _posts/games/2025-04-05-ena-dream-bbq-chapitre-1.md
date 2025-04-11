@@ -16,7 +16,7 @@ cover: /assets/images/games/ena-dream-bbq-chapitre-1/cover.jpg
 rating: 5
 
 ownership_status: owned
-ownership_format: digital
+ownership_format: steam
 progress_status: completed
 start_date: 29/03/2025
 end_date: 05/04/2025

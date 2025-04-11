@@ -16,7 +16,7 @@ cover: /assets/images/games/please-fix-the-road-arielek/cover.jpg
 rating: 
 
 ownership_status: owned
-ownership_format: digital
+ownership_format: steam
 progress_status: in_progress
 start_date: 14/03/2025
 end_date: TBD
