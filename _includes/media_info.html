@@ -17,6 +17,11 @@
     <li>
       <strong>{{ site.data.translations.media_info.genre }}</strong> : {{ page.genre }}
     </li>
+    {% if page.episodes %}
+    <li>
+      <strong>{{ site.data.translations.media_info.episodes }}</strong> : {{ page.episodes }}
+    </li>
+    {% endif %}
     <li>{% include rating.html %}</li>
   </ul>
   <h2>{{ site.data.translations.common.status }}</h2>

@@ -65,6 +65,7 @@ media_info:
   platform: "Plateforme"
   release_date: "Date de sortie"
   genre: "Genre"
+  episodes: "Nombre d'épisodes"
   ownership_status: "Média possédé"
   ownership_format: "Format"
   progress_status: "Statut de visionnage"
