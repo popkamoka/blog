@@ -33,7 +33,7 @@ def generate_game_md():
     filename = f"{date_str}-{safe_title}.md"
 
     # Répertoire _posts
-    posts_dir = os.path.join(os.path.dirname(__file__), '..', '_posts')
+    posts_dir = os.path.join(os.path.dirname(__file__), '..', '_posts/games')
     os.makedirs(posts_dir, exist_ok=True)
 
     # Dossier images
@@ -42,6 +42,7 @@ def generate_game_md():
     os.makedirs(game_images_dir, exist_ok=True)
 
     cover_path = f"/assets/images/games/{folder_name}/cover.jpg"
+    extract_path = f"/assets/images/games/{folder_name}/extrait.png"
 
     # Contenu du fichier Markdown
     content = f"""---
@@ -66,11 +67,17 @@ ownership_format:
 progress_status:
 start_date:
 end_date:
+playtime:
 ---
 
 ## Résumé
+{{% include youtube.html id="" title="" %}}
 
 ## Notes personnelles
+<figure>
+    <img src="{{ {{ '{extract_path}' | relative_url  }} }}" alt="">
+    <figcaption></figcaption>
+</figure>
 
 """
 

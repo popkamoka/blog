@@ -32,7 +32,7 @@ def generate_media_md():
     filename = f"{date_str}-{safe_title}.md"
 
     # Répertoire _posts
-    posts_dir = os.path.join(os.path.dirname(__file__), '..', '_posts')
+    posts_dir = os.path.join(os.path.dirname(__file__), '..', '_posts/media')
     os.makedirs(posts_dir, exist_ok=True)
 
     # Dossier images
@@ -41,6 +41,7 @@ def generate_media_md():
     os.makedirs(media_images_dir, exist_ok=True)
 
     cover_path = f"/assets/images/media/{folder_name}/cover.jpg"
+    extract_path = f"/assets/images/media/{folder_name}/extrait.png"
 
     # Contenu du fichier Markdown
     content = f"""---
@@ -67,8 +68,13 @@ end_date:
 ---
 
 ## Résumé
+{{% include youtube.html id="" title="" %}}
 
 ## Notes personnelles
+<figure>
+    <img src="{{ {{ '{extract_path}' | relative_url  }} }}" alt="">
+    <figcaption></figcaption>
+</figure>
 
 """
 

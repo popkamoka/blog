@@ -19,7 +19,7 @@ def generate_book_md():
     filename = f"{date_str}-{title.replace(' ', '-').lower()}.md"
 
     # Chemin vers le dossier _posts depuis le dossier scripts
-    posts_dir = os.path.join(os.path.dirname(__file__), '..', '_posts')
+    posts_dir = os.path.join(os.path.dirname(__file__), '..', '_posts/books')
 
     # Crée le dossier _posts s'il n'existe pas
     if not os.path.exists(posts_dir):
@@ -37,6 +37,7 @@ def generate_book_md():
 
     # Le chemin de la couverture du livre
     cover_path = f"/assets/images/books/{folder_name}/cover.jpg"
+    extract_path = f"/assets/images/books/{folder_name}/extrait.png"
 
     # Crée le contenu du fichier Markdown
     content = f"""---
@@ -64,6 +65,10 @@ end_date:
 ## Résumé
 
 ## Notes personnelles
+<figure>
+    <img src="{{ {{ '{extract_path}' | relative_url  }} }}" alt="">
+    <figcaption></figcaption>
+</figure>
 
 """
 
