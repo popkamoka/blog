@@ -2,25 +2,22 @@ books:
   novels: []
 
   comics:
-    - series: "L'Arabe du futur - Riad Sattouf"
+    - series: "Maus"
+      author: "Art Spiegelman"
+      books:
+        - title: "Maus"
+          ownership_status: "owned"
+
+    - series: "L'Arabe du futur"
+      author: "Riad Sattouf"
       books:
         - title: "L'Arabe du futur T1"
-          author: "Riad Sattouf"
           ownership_status: "owned"
         - title: "L'Arabe du futur T2"
-          author: "Riad Sattouf"
           ownership_status: "not_owned"
 
-    - series: "Maus"
-      books:
-        - title: "Maus T1"
-          author: "Art Spiegelman"
-          ownership_status: "owned"
-
-  mangas: []
-
-  misc:
     - series: "Maliki"
+      author: "Souillon"
       books:
         - title: "Maliki T1 - Broie la vie en rose"
           ownership_status: "owned"
@@ -44,6 +41,141 @@ books:
           ownership_status: "owned"
         - title: "Maliki - Blog 4"
           ownership_status: "owned"
+
+    - series: "DOFUS - Les mains d'Eniripsa"
+      author: "Nicolas Devos, Arnaud Dewaele"
+      books:
+        - title: "DOFUS - Les mains d'Eniripsa"
+          ownership_status: "owned"
+
+    - series: "DOFUS – Julith & Jahash"
+      author: "Tot, Ancestral Z"
+      books:
+        - title: "DOFUS – Julith & Jahash"
+          ownership_status: "owned"
+
+    - series: "Pandala"
+      author: "Tot, Bertrand Hottin"
+      books:
+        - title: "Pandala - T1"
+          ownership_status: "owned"
+        - title: "Pandala - T2"
+          ownership_status: "not_owned"
+        - title: "Pandala - T3"
+          ownership_status: "not_owned"
+
+    - series: "Snoopy & les Peanuts (Dargaud)"
+      author: "Charles M. Schulz"
+      books:
+        - title: "Snoopy & les Peanuts - 1950-1952 - T1"
+          ownership_status: "not_owned"
+        - title: "Snoopy & les Peanuts - 1953-1954 - T2"
+          ownership_status: "not_owned"
+        - title: "Snoopy & les Peanuts - 1955-1956 - T3"
+          ownership_status: "not_owned"
+        - title: "Snoopy & les Peanuts - 1957-1958 - T4"
+          ownership_status: "not_owned"
+        - title: "Snoopy & les Peanuts - 1959-1960 - T5"
+          ownership_status: "not_owned"
+        - title: "Snoopy & les Peanuts - 1961-1962 - T6"
+          ownership_status: "not_owned"
+        - title: "Snoopy & les Peanuts - 1963-1964 - T7"
+          ownership_status: "not_owned"
+        - title: "Snoopy & les Peanuts - 1965-1966 - T8"
+          ownership_status: "not_owned"
+        - title: "Snoopy & les Peanuts - 1967-1968 - T9"
+          ownership_status: "not_owned"
+        - title: "Snoopy & les Peanuts - 1969-1970 - T10"
+          ownership_status: "not_owned"
+        - title: "Snoopy & les Peanuts - 1971-1972 - T11"
+          ownership_status: "not_owned"
+        - title: "Snoopy & les Peanuts - 1973-1974 - T12"
+          ownership_status: "not_owned"
+        - title: "Snoopy & les Peanuts - 1975-1976 - T13"
+          ownership_status: "not_owned"
+        - title: "Snoopy & les Peanuts - 1977-1978 - T14"
+          ownership_status: "not_owned"
+        - title: "Snoopy & les Peanuts - 1979-1980 - T15"
+          ownership_status: "not_owned"
+        - title: "Snoopy & les Peanuts - 1981-1982 - T16"
+          ownership_status: "not_owned"
+        - title: "Snoopy & les Peanuts - 1983-1984 - T17"
+          ownership_status: "not_owned"
+        - title: "Snoopy & les Peanuts - 1985-1986 - T18"
+          ownership_status: "owned"
+        - title: "Snoopy & les Peanuts - 1987-1988 - T19"
+          ownership_status: "not_owned"
+        - title: "Snoopy & les Peanuts - 1989-1990 - T20"
+          ownership_status: "not_owned"
+        - title: "Snoopy & les Peanuts - 1991-1992 - T21"
+          ownership_status: "not_owned"
+        - title: "Snoopy & les Peanuts - 1993-1994 - T22"
+          ownership_status: "not_owned"
+        - title: "Snoopy & les Peanuts - 1995-1996 - T23"
+          ownership_status: "not_owned"
+        - title: "Snoopy & les Peanuts - 1997-1998 - T24"
+          ownership_status: "not_owned"
+        - title: "Snoopy & les Peanuts - 1999-2000 - T25"
+          ownership_status: "not_owned"
+        - title: "Snoopy & les Peanuts - 1950-2000 (Hors-série de conclusion) - T26"
+          ownership_status: "not_owned"
+
+  mangas:
+    - series: "Dragon Ball Perfect Edition"
+      author: "Akira Toriyama"
+      books:
+        - title: "Dragon Ball Perfect Edition T1"
+          ownership_status: "owned"
+        - title: "Dragon Ball Perfect Edition T2"
+          ownership_status: "owned"
+        - title: "Dragon Ball Perfect Edition T3"
+          ownership_status: "owned"
+        - title: "Dragon Ball Perfect Edition T4"
+          ownership_status: "owned"
+        - title: "Dragon Ball Perfect Edition T5"
+          ownership_status: "owned"
+        - title: "Dragon Ball Perfect Edition T6"
+          ownership_status: "owned"
+        - title: "Dragon Ball Perfect Edition T7"
+          ownership_status: "owned"
+        - title: "Dragon Ball Perfect Edition T8"
+          ownership_status: "owned"
+        - title: "Dragon Ball Perfect Edition T9 -> T34"
+          ownership_status: "not_owned"
+
+    - series: "Rainbow (édition triple)"
+      author: "George Abe, 	Masasumi Kakizaki"
+      books:
+        - title: "Rainbow T1"
+          ownership_status: "owned"
+        - title: "Rainbow T2"
+          ownership_status: "owned"
+        - title: "Rainbow T3"
+          ownership_status: "owned"
+        - title: "Rainbow T4"
+          ownership_status: "owned"
+        - title: "Rainbow T5"
+          ownership_status: "owned"
+        - title: "Rainbow T6"
+          ownership_status: "owned"
+        - title: "Rainbow T7"
+          ownership_status: "owned"
+
+    - series: "L'Atelier des Sorciers - édition grimoire"
+      author: "Kamome Shirahama"
+      books:
+        - title: "L'Atelier des Sorciers - édition grimoire T1"
+          ownership_status: "owned"
+        - title: "L'Atelier des Sorciers - édition grimoire T2"
+          ownership_status: "not_owned"
+
+    - series: "Amer béton - intégrale"
+      author: "Taiyō Matsumoto"
+      books:
+        - title: "Amer béton - intégrale"
+          ownership_status: "owned"
+
+  misc: []
 
 games:
   pc:

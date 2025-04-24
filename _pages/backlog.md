@@ -9,7 +9,7 @@ title: Backlog
   {% for category in site.data.backlog.books %}
     {% assign category_name = category[0] %}
     {% assign category_books = category[1] %}
-    
+
     {% if category_books.size > 0 %}
       <h3>{{ site.data.translations.backlog.books_categories[category_name] }}</h3>
       <ul>
@@ -18,7 +18,7 @@ title: Backlog
             {% assign series_books_count = series.books.size %}
             {% if series_books_count > 1 %}
               <details>
-                <summary>{{ series.series }}</summary>
+                <summary>{{ series.series }} - {{ series.author }} </summary>
                 <ul>
                   {% for book in series.books %}
                     <li>
@@ -31,7 +31,7 @@ title: Backlog
             {% else %}
               {% assign book = series.books[0] %}
               {% include ownership_status_icon.html ownership_status=book.ownership_status %}
-              {{ book.title }}{% if book.author %} - {{ book.author }}{% endif %}
+              {{ book.title }} - {{ series.author }}
             {% endif %}
           </li>
         {% endfor %}
