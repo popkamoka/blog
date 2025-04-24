@@ -1,5 +1,5 @@
 books:
-  novels: []
+  novels:
 
   comics:
     - series: "Maus"
@@ -48,10 +48,10 @@ books:
         - title: "DOFUS - Les mains d'Eniripsa"
           ownership_status: "owned"
 
-    - series: "DOFUS – Julith & Jahash"
+    - series: "DOFUS - Julith & Jahash"
       author: "Tot, Ancestral Z"
       books:
-        - title: "DOFUS – Julith & Jahash"
+        - title: "DOFUS - Julith & Jahash"
           ownership_status: "owned"
 
     - series: "Pandala"
@@ -120,6 +120,46 @@ books:
         - title: "Snoopy & les Peanuts - 1950-2000 (Hors-série de conclusion) - T26"
           ownership_status: "not_owned"
 
+    - series: "Le Chat du rabbin"
+      author: "Joann Sfar"
+      books:
+        - title: "Le Chat du rabbin - T1 : La Bar-Mitsva"
+          ownership_status: "owned"
+        - title: "Le Chat du rabbin - T2 : Le Malka des Lions"
+          ownership_status: "owned"
+        - title: "Le Chat du rabbin - T3 : L'Exode"
+          ownership_status: "owned"
+        - title: "Le Chat du rabbin - T4 : Le Paradis terrestre"
+          ownership_status: "owned"
+        - title: "Le Chat du rabbin - T5 : Jérusalem d'Afrique"
+          ownership_status: "owned"
+        - title: "Le Chat du rabbin - T6 : Tu n'auras pas d'autre Dieu que moi"
+          ownership_status: "not_owned"
+        - title: "Le Chat du rabbin - T7 : La Tour de Bab-El-Oued"
+          ownership_status: "not_owned"
+        - title: "Le Chat du rabbin - T8 : Petit panier aux amandes"
+          ownership_status: "not_owned"
+        - title: "Le Chat du rabbin - T9 : La Reine de Shabbat"
+          ownership_status: "not_owned"
+        - title: "Le Chat du rabbin - T10 : Rentrez chez vous"
+          ownership_status: "not_owned"
+        - title: "Le Chat du rabbin - T11 : La Bible pour les Chats"
+          ownership_status: "not_owned"
+        - title: "Le Chat du rabbin - T12 : La Traversée de la mer Noire"
+          ownership_status: "not_owned"
+
+    - series: "La Tour"
+      author: "François Schuiten, Benoît Peeters"
+      books:
+        - title: "La Tour"
+          ownership_status: "owned"
+
+    - series: "Carbone & Silicium"
+      author: "	Mathieu Bablet"
+      books:
+        - title: "Carbone & Silicium"
+          ownership_status: "owned"
+
   mangas:
     - series: "Dragon Ball Perfect Edition"
       author: "Akira Toriyama"
@@ -175,7 +215,25 @@ books:
         - title: "Amer béton - intégrale"
           ownership_status: "owned"
 
-  misc: []
+    - series: "Nausicaä de la Vallée du Vent (Glénat)"
+      author: "Hayao Miyazaki"
+      books:
+        - title: "Nausicaä de la Vallée du Vent - T1"
+          ownership_status: "owned"
+        - title: "Nausicaä de la Vallée du Vent - T2 -> T7"
+          ownership_status: "not_owned"
+
+  misc:
+    - series: "La Saga Evangelion. L'œuvre d'une vie"
+      author: "Virginie Nebbia"
+      books:
+        - title: "La Saga Evangelion. L'œuvre d'une vie"
+          ownership_status: "owned"
+    - series: "Michel Ocelot. Le poète des ombres"
+      author: "Nathan Bonvallet"
+      books:
+        - title: "Michel Ocelot. Le poète des ombres"
+          ownership_status: "owned"
 
 games:
   pc:
