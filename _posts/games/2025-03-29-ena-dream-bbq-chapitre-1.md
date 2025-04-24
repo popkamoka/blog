@@ -24,7 +24,7 @@ playtime: 8h
 ---
 
 ## Résumé
-{% include youtube.html id="incjV3-C9Cs" title="Trailer chapitre 1" %}
+{% include youtube.html id="incjV3-C9Cs" title="ENA: Dream BBQ Chapter 1 - Release Date Trailer" %}
 
 The first interactive adventure of the ENA series by Joel G.
 

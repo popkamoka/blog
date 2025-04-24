@@ -23,7 +23,7 @@ end_date: 24/04/2025
 ---
 
 ## Résumé
-{% include youtube.html id="qbPnahzXcdY" title="Opening" %}
+{% include youtube.html id="qbPnahzXcdY" title="【Complete Series】 The Tatami Galaxy | English SUB | 1080p HD" %}
 
 L'animé suis l'histoire d'un jeune étudiant, Watashi ("moi" en français), c'est à dire un personnage dont le nom est inconnu.
 

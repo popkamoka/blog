@@ -22,7 +22,7 @@ end_date: 20/04/2025
 ---
 
 ## Résumé
-{% include youtube.html id="iAiMhMSebeU" title="Trailer VF du film" %}
+{% include youtube.html id="iAiMhMSebeU" title="PADDINGTON - Bande annonce officielle VF (2014)" %}
 
 Paddington raconte l'histoire d'un jeune ours péruvien fraîchement débarqué à Londres, à la recherche d'un foyer et d'une vie meilleure. Il réalise vite que la ville de ses rêves n'est pas aussi accueillante qu'il croyait. Par chance, il rencontre la famille Brown et en devient peu à peu un membre à part entière.
 

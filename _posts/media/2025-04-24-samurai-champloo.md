@@ -24,7 +24,7 @@ end_date: X
 
 ## Résumé
 
-{% include youtube.html id="Eq6EYcpWB_c" title="Opening - Battlecry" %}
+{% include youtube.html id="Eq6EYcpWB_c" title="Samurai Champloo Opening | Battlecry" %}
 
 L'histoire se déroule dans une version fictive de l'ère Edo au Japon. Une jeune fille nommée Fuu, recherche un samouraï qui sent le tournesol et se fait accompagner par deux individus, Mugen, extravagant, ancien pirate devenu vagabond, et Jin un samouraï (rōnin) impassible, à la suite d'un pari qu'elle a « gagné » contre ces deux derniers.
 

@@ -22,7 +22,7 @@ end_date: 29/03/2025
 ---
 
 ## Résumé
-{% include youtube.html id="Fp-1L1KOIk8" title="Trailer VF du film" %}
+{% include youtube.html id="Fp-1L1KOIk8" title="PADDINGTON AU PÉROU – Bande-annonce Officielle #1 VF (2025)" %}
 
 Paddington est informé, par la maison de retraite des ours, qu'il manque à sa tante Lucy. Accompagné des Brown, ils s'embarquent pour le Pérou afin de la retrouver, mais, une fois sur place, ils apprennent qu'elle a disparu dans la forêt.
 
