@@ -1,5 +1,317 @@
 books:
   novels:
+    - series: "La ballade de l'impossible"
+      author: "Haruki Murakami"
+      books:
+        - title: "La ballade de l'impossible"
+          ownership_status: "owned"
+
+    - series: "Kafka sur le rivage"
+      author: "Haruki Murakami"
+      books:
+        - title: "Kafka sur le rivage"
+          ownership_status: "owned"
+
+    - series: "Chroniques de l'oiseau à ressort"
+      author: "Haruki Murakami"
+      books:
+        - title: "Chroniques de l'oiseau à ressort"
+          ownership_status: "owned"
+
+    - series: "La couleur des sentiments"
+      author: "Kathryn Stockett"
+      books:
+        - title: "La couleur des sentiments"
+          ownership_status: "owned"
+
+    - series: "La maison des feuilles"
+      author: "Mark Z. Danielewski"
+      books:
+        - title: "La maison des feuilles"
+          ownership_status: "owned"
+
+    - series: "Hunger Games"
+      author: "Suzanne Collins"
+      books:
+        - title: "Hunger Games"
+          ownership_status: "owned"
+        - title: "Hunger Games - L'embrasement"
+          ownership_status: "owned"
+        - title: "Hunger Games - La révolte"
+          ownership_status: "owned"
+        - title: "Hunger Games - La ballade du serpent et de l'oiseau chanteur"
+          ownership_status: "not_owned"
+        - title: "Hunger Games - Lever de soleil sur la moisson"
+          ownership_status: "not_owned"
+
+    - series: "Dune"
+      author: "Frank Herbert"
+      books:
+        - title: "Dune"
+          ownership_status: "owned"
+        - title: "Dune - Le Messie de Dune"
+          ownership_status: "owned"
+        - title: "Dune - Les Enfants de Dune"
+          ownership_status: "not_owned"
+        - title: "Dune - L'Empereur-Dieu de Dune"
+          ownership_status: "not_owned"
+        - title: "Dune - Les Hérétiques de Dune"
+          ownership_status: "not_owned"
+        - title: "Dune - La Maison des Mères"
+          ownership_status: "not_owned"
+
+    - series: "Méto"
+      author: "Yves Grevet"
+      books:
+        - title: "Méto - La maison"
+          ownership_status: "owned"
+        - title: "Méto - L'île"
+          ownership_status: "owned"
+        - title: "Méto - Le monde"
+          ownership_status: "owned"
+
+    - series: "Le magicien d'Oz"
+      author: "Frank L. Baum"
+      books:
+        - title: "Le magicien d'Oz"
+          ownership_status: "owned"
+
+    - series: "Christine"
+      author: "Stephen King"
+      books:
+        - title: "Christine"
+          ownership_status: "owned"
+
+    - series: "Cujo"
+      author: "Stephen King"
+      books:
+        - title: "Cujo"
+          ownership_status: "owned"
+
+    - series: "Shining"
+      author: "Stephen King"
+      books:
+        - title: "Shining"
+          ownership_status: "owned"
+
+    - series: "La métamorphose"
+      author: "Franz Kafka"
+      books:
+        - title: "La métamorphose"
+          ownership_status: "owned"
+
+    - series: "American Psycho"
+      author: "Bret Easton Ellis"
+      books:
+        - title: "American Psycho"
+          ownership_status: "owned"
+
+    - series: "Trilogie des fourmis"
+      author: "Bernard Werber"
+      books:
+        - title: "Les Fourmis"
+          ownership_status: "owned"
+        - title: "Le Jour des fourmis"
+          ownership_status: "not_owned"
+        - title: "La Révolution des fourmis"
+          ownership_status: "not_owned"
+
+    - series: "Trilogie des chats"
+      author: "Bernard Werber"
+      books:
+        - title: "Demain les chats"
+          ownership_status: "not_owned"
+        - title: "Sa Majesté des chats"
+          ownership_status: "not_owned"
+        - title: "La Planète des chats"
+          ownership_status: "not_owned"
+
+    - series: "Voyages de Gulliver"
+      author: "Jonathan Swift"
+      books:
+        - title: "Voyages de Gulliver"
+          ownership_status: "owned"
+
+    - series: "Les Liaisons dangereuses"
+      author: "Pierre Choderlos de Laclos"
+      books:
+        - title: "Les Liaisons dangereuses"
+          ownership_status: "owned"
+
+    - series: "1984"
+      author: "George Orwell"
+      books:
+        - title: "1984"
+          ownership_status: "owned"
+
+    - series: "L'alchimiste"
+      author: "Paulo Coelho"
+      books:
+        - title: "L'alchimiste"
+          ownership_status: "owned"
+
+    - series: "Le Parfum"
+      author: "Patrick Süskind"
+      books:
+        - title: "Le Parfum"
+          ownership_status: "owned"
+
+    - series: "Alice au pays des merveilles"
+      author: "Lewis Carroll"
+      books:
+        - title: "Alice au pays des merveilles"
+          ownership_status: "owned"
+
+    - series: "Contes"
+      author: "Charles Perrault"
+      edition: "Le Livre de Poche"
+      books:
+        - title: "Contes"
+          ownership_status: "owned"
+
+    - series: "Contes"
+      author: "Andersen"
+      edition: "Folio classique"
+      books:
+        - title: "Contes"
+          ownership_status: "owned"
+
+    - series: "Contes"
+      author: "Grimm"
+      edition: "Folio"
+      books:
+        - title: "Contes"
+          ownership_status: "owned"
+
+    - series: "Les aventures de Pinocchio"
+      author: "Carlo Collodi"
+      books:
+        - title: "Les aventures de Pinocchio"
+          ownership_status: "owned"
+
+    - series: "Les milles et une nuits"
+      author: "Anonyme"
+      edition: "Flammarion"
+      books:
+        - title: "Les milles et une nuits - 1"
+          ownership_status: "owned"
+        - title: "Les milles et une nuits - 2"
+          ownership_status: "owned"
+        - title: "Les milles et une nuits - 3"
+          ownership_status: "owned"
+
+    - series: "Ne tirez pas sur l'oiseau moqueur"
+      author: "Harper Lee"
+      books:
+        - title: "Ne tirez pas sur l'oiseau moqueur"
+          ownership_status: "owned"
+
+    - series: "Dracula"
+      author: "Bram Stoker"
+      books:
+        - title: "Dracula"
+          ownership_status: "owned"
+
+    - series: "Trilogie de Hurle - intégrale"
+      author: "Diana Wynne Jones"
+      edition: "Ynnis"
+      books:
+        - title: "Trilogie de Hurle - intégrale"
+          ownership_status: "not_owned"
+
+    - series: "Le grand Meaulnes"
+      author: "Alain-Fournier"
+      books:
+        - title: "Le grand Meaulnes"
+          ownership_status: "owned"
+
+    - series: "Le meilleur des mondes"
+      author: "Aldous Huxley"
+      books:
+        - title: "Le meilleur des mondes"
+          ownership_status: "owned"
+
+    - series: "Robots et extra-terrestres"
+      author: "Isaac Asimov"
+      books:
+        - title: "Robots et extra-terrestres - le renégat"
+          ownership_status: "owned"
+
+    - series: "Harry Potter"
+      author: "J.K. Rowling"
+      books:
+        - title: "Harry Potter à l'école des sorciers"
+          ownership_status: "owned"
+        - title: "Harry Potter et la chambre des secrets"
+          ownership_status: "owned"
+        - title: "Harry Potter et le prisonnier d'Azkaban"
+          ownership_status: "owned"
+        - title: "Harry Potter et la coupe de feu"
+          ownership_status: "owned"
+        - title: "Harry Potter et l'ordre du Phénix"
+          ownership_status: "owned"
+        - title: "Harry Potter et le prince de Sang-Mêlé"
+          ownership_status: "owned"
+        - title: "Harry Potter et les reliques de la mort"
+          ownership_status: "owned"
+        - title: "Harry Potter et l'enfant maudit"
+          ownership_status: "owned"
+
+    - series: "Les Royaumes du Nord"
+      author: "Philip Pullman"
+      books:
+        - title: "Les Royaumes du Nord"
+          ownership_status: "owned"
+        - title: "La tour des anges"
+          ownership_status: "owned"
+        - title: "Le miroir dans le ciel"
+          ownership_status: "owned"
+
+    - series: "Les Chevaliers d'Émeraude (édition collector)"
+      author: "Anne Robillard"
+      books:
+        - title: "Les Chevaliers d'Émeraude - T1"
+          ownership_status: "owned"
+        - title: "Les Chevaliers d'Émeraude - T2"
+          ownership_status: "owned"
+        - title: "Les Chevaliers d'Émeraude - T3 -> T12"
+          ownership_status: "not_owned"
+
+    - series: "Les Chroniques de Narnia"
+      author: "C.S. Lewis"
+      books:
+        - title: "Le Neveu du magicien"
+          ownership_status: "owned"
+        - title: "Le Lion, la Sorcière blanche et l'Armoire magique"
+          ownership_status: "owned"
+        - title: "Le Cheval et son écuyer"
+          ownership_status: "owned"
+        - title: "Le Prince Caspian"
+          ownership_status: "owned"
+        - title: "L'Odyssée du Passeur d'Aurore"
+          ownership_status: "owned"
+        - title: "Le Fauteuil d'argent"
+          ownership_status: "owned"
+        - title: "La Dernière bataille"
+          ownership_status: "owned"
+
+    - series: "Le Chien des Baskerville"
+      author: "Arthur Conan Doyle"
+      books:
+        - title: "Le Chien des Baskerville"
+          ownership_status: "owned"
+
+    - series: "Des Fleurs pour Algernon"
+      author: "Daniel Keyes"
+      books:
+        - title: "Des Fleurs pour Algernon"
+          ownership_status: "owned"
+
+    - series: "L'Étrange Cas du docteur Jekyll et de M. Hyde"
+      author: "Robert Louis Stevenson"
+      books:
+        - title: "L'Étrange Cas du docteur Jekyll et de M. Hyde"
+          ownership_status: "owned"
 
   comics:
     - series: "Maus"
@@ -64,8 +376,9 @@ books:
         - title: "Pandala - T3"
           ownership_status: "not_owned"
 
-    - series: "Snoopy & les Peanuts (Dargaud)"
+    - series: "Snoopy & les Peanuts"
       author: "Charles M. Schulz"
+      edition: "Dargaud"
       books:
         - title: "Snoopy & les Peanuts - 1950-1952 - T1"
           ownership_status: "not_owned"
@@ -215,8 +528,9 @@ books:
         - title: "Amer béton - intégrale"
           ownership_status: "owned"
 
-    - series: "Nausicaä de la Vallée du Vent (Glénat)"
+    - series: "Nausicaä de la Vallée du Vent"
       author: "Hayao Miyazaki"
+      edition: "Glénat"
       books:
         - title: "Nausicaä de la Vallée du Vent - T1"
           ownership_status: "owned"
@@ -385,16 +699,39 @@ books:
         - title: "Les Chevaliers du Zodiaque - édition originale - T28"
           ownership_status: "owned"
 
+    - series: "Opus"
+      author: "Satoshi Kon"
+      books:
+        - title: "Opus - T1"
+          ownership_status: "owned"
+        - title: "Opus - T2"
+          ownership_status: "owned"
+
   misc:
     - series: "La Saga Evangelion. L'œuvre d'une vie"
       author: "Virginie Nebbia"
       books:
         - title: "La Saga Evangelion. L'œuvre d'une vie"
           ownership_status: "owned"
+
     - series: "Michel Ocelot. Le poète des ombres"
       author: "Nathan Bonvallet"
       books:
         - title: "Michel Ocelot. Le poète des ombres"
+          ownership_status: "owned"
+
+    - series: "Le Monument Elden Ring. Le grand œuvre de FromSoftware"
+      author: "Sylvain Romieu"
+      books:
+        - title: "Le Monument Elden Ring. Le grand œuvre de FromSoftware"
+          ownership_status: "owned"
+
+    - series: "Dark Souls. Par-delà la mort"
+      author: "Damien Mecheri, Sylvain Romieu"
+      books:
+        - title: "Dark Souls. Par-delà la mort - Volume 1"
+          ownership_status: "owned"
+        - title: "Dark Souls. Par-delà la mort - Volume 2"
           ownership_status: "owned"
 
 games:

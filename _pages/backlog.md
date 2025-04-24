@@ -18,7 +18,7 @@ title: Backlog
             {% assign series_books_count = series.books.size %}
             {% if series_books_count > 1 %}
               <details>
-                <summary>{{ series.series }} - {{ series.author }} </summary>
+                <summary>{{ series.series }} - {{ series.author }} {% if series.edition %} ({{ series.edition }}){% endif %} </summary>
                 <ul>
                   {% for book in series.books %}
                     <li>
@@ -31,7 +31,7 @@ title: Backlog
             {% else %}
               {% assign book = series.books[0] %}
               {% include ownership_status_icon.html ownership_status=book.ownership_status %}
-              {{ book.title }} - {{ series.author }}
+              {{ book.title }} - {{ series.author }} {% if series.edition %} ({{ series.edition }}){% endif %}
             {% endif %}
           </li>
         {% endfor %}
