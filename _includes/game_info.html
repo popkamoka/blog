@@ -43,5 +43,10 @@
     <li>
       <strong>{{ site.data.translations.game_info.end_date }}</strong> : {{ page.end_date }}
     </li>
+    {% if page.playtime %}
+      <li>
+        <strong>{{ site.data.translations.game_info.playtime }}</strong> : {{ page.playtime }}
+      </li>
+    {% endif %}
   </ul>
 </div>

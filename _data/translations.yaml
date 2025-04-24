@@ -56,6 +56,7 @@ game_info:
   progress_status: "Statut de progression"
   start_date: "Date de début de jeu"
   end_date: "Date de fin de jeu"
+  playtime: "Durée de jeu"
 
 media_info:
   page_title: "Informations sur le média"

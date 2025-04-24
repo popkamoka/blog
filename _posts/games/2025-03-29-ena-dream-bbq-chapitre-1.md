@@ -20,6 +20,7 @@ ownership_format: steam
 progress_status: completed
 start_date: 29/03/2025
 end_date: 05/04/2025
+playtime: 8h
 ---
 
 ## Résumé
