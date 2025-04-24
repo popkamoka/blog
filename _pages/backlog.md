@@ -12,15 +12,18 @@ title: Backlog
 
     {% if category_books.size > 0 %}
       <h3>{{ site.data.translations.backlog.books_categories[category_name] }}</h3>
+
+      {% assign category_books_sorted = category_books | sort: "series" %}
+
       <ul>
-        {% for series in category_books %}
+        {% for book_series in category_books_sorted %}
           <li>
-            {% assign series_books_count = series.books.size %}
+            {% assign series_books_count = book_series.books.size %}
             {% if series_books_count > 1 %}
               <details>
-                <summary>{{ series.series }} - {{ series.author }} {% if series.edition %} ({{ series.edition }}){% endif %} </summary>
+                <summary>{{ book_series.series }} - {{ book_series.author }} {% if book_series.edition %} ({{ book_series.edition }}){% endif %} </summary>
                 <ul>
-                  {% for book in series.books %}
+                  {% for book in book_series.books %}
                     <li>
                       {% include ownership_status_icon.html ownership_status=book.ownership_status %}
                       {{ book.title }}{% if book.author %} - {{ book.author }}{% endif %}
@@ -29,9 +32,9 @@ title: Backlog
                 </ul>
               </details>
             {% else %}
-              {% assign book = series.books[0] %}
+              {% assign book = book_series.books[0] %}
               {% include ownership_status_icon.html ownership_status=book.ownership_status %}
-              {{ book.title }} - {{ series.author }} {% if series.edition %} ({{ series.edition }}){% endif %}
+              {{ book.title }} - {{ book_series.author }} {% if book_series.edition %} ({{ book_series.edition }}){% endif %}
             {% endif %}
           </li>
         {% endfor %}
