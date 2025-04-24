@@ -741,6 +741,12 @@ games:
       ownership_status: "owned"
 
 films:
+  comedy:
+    - series: "Paddington"
+      director: "Paul King"
+      films:
+        - title: "Paddington 2 (2017)"
+          ownership_status: "owned"
 
 series:
   animation:

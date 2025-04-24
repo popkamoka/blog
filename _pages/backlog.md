@@ -65,14 +65,41 @@ title: Backlog
 
 <div class="backlog-section films-section">
   <h2> <i class="fa-solid fa-film category-icon film-icon"></i> {{site.data.translations.backlog.films}}</h2>
-  <ul>
-    {% for film in site.data.backlog.films %}
-      <li>
-        {% include ownership_status_icon.html item=film %}
-        {{ film.title }} - {{ film.director }}
-      </li>
-    {% endfor %}
-  </ul>
+  {% for category in site.data.backlog.films %}
+    {% assign genre_name = category[0] %}
+    {% assign genre_films = category[1] %}
+
+    {% if genre_films.size > 0 %}
+      <h3>{{ site.data.translations.backlog.media_genres[genre_name] }}</h3>
+
+      {% assign genre_films_sorted = genre_films | sort: "series" %}
+
+      <ul>
+        {% for film_series in genre_films_sorted %}
+          <li>
+            {% assign series_films_count = film_series.films.size %}
+            {% if series_films_count > 1 %}
+              <details>
+                <summary>{{ film_series.series }} - {{ film_series.director }} </summary>
+                <ul>
+                  {% for film in film_series.films %}
+                    <li>
+                      {% include ownership_status_icon.html ownership_status=film.ownership_status %}
+                      {{ film.title }}
+                    </li>
+                  {% endfor %}
+                </ul>
+              </details>
+            {% else %}
+              {% assign film = film_series.films[0] %}
+              {% include ownership_status_icon.html ownership_status=film.ownership_status %}
+              {{ film.title }} - {{ film_series.director }}
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endfor %}
 </div>
 
 <div class="backlog-section series-section">
@@ -83,7 +110,7 @@ title: Backlog
     {% assign series = genre[1] %}
 
     {% if series.size > 0 %}
-      <h3>{{ site.data.translations.backlog.series_genres[genre_name] }}</h3>
+      <h3>{{ site.data.translations.backlog.media_genres[genre_name] }}</h3>
       <ul>
         {% for serie in series %}
           <li>

@@ -87,6 +87,19 @@ backlog:
     misc: "Autres"
   films: "Films"
   series: "Séries"
+  media_genres:
+    action: "Action"
+    adventure: "Aventure"
+    comedy: "Comédie"
+    drama: "Drame"
+    horror: "Horreur"
+    mystery: "Mystère"
+    romance: "Romance"
+    sci_fi: "Science-fiction"
+    thriller: "Thriller"
+    fantasy: "Fantastique"
+    animation: "Animation"
+    documentary: "Documentaire"
   misc: "Autres"
 
 common:
