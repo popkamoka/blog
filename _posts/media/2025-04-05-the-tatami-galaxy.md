@@ -69,3 +69,63 @@ Quant à la fin de la série, je l'ai trouvée très bien et dans la continuité
 The Tatami Galaxy est une œuvre avec une ambiance bien à elle, surréaliste et mystique, avec des personnages étranges auxquels on accroche vraiment bien, le tout enrobé d'un style graphique et musical bien prononcés comme je les aime. 
 
 Il me reste les 3 épisodes spéciaux à regarder, puis le film "Night Is Short, Walk on Girl" suivi de "The Tatami Time Machine Blues".
+
+### Épisodes spéciaux
+ Petite note supplémentaire sur les 3 épisodes spéciaux. Il s’agit d’histoires fictives que se racontent le groupe de personnages principaux dans la maison du Maître et les épisodes font 7 minutes.
+
+Le premier parle d’une montée des eaux et la recherche de sa cause via un subterresible. La couleur principale de l’épisode est le bleu.
+
+Le second parle d’un groupe de pervers qui observe les jeunes filles à travers leur subterresible. La couleur principale de l’épisode est le rouge.
+
+Le troisième parle du héros principal qui va pêcher et qui se retrouve en compétiton avec lui-même pour récupérer Akashi, le tout dans un subterresible. La couleur principale est le noir/gris.
+
+J’ai eu une préférence pour le dernier qui a un style plus surréaliste et décousu, mais ils étaient tous vraiment beau à voir, donc voici des screenshots.
+
+<figure>
+  <img src="{{ '/assets/images/media/the-tatami-galaxy-masaaki-yuasa/1_1.png' | relative_url }}" alt="Extrait de l'épisode spécial 1">
+</figure>
+
+<figure>
+  <img src="{{ '/assets/images/media/the-tatami-galaxy-masaaki-yuasa/1_2.png' | relative_url }}" alt="Extrait de l'épisode spécial 1">
+</figure>
+
+<figure>
+  <img src="{{ '/assets/images/media/the-tatami-galaxy-masaaki-yuasa/1_3.png' | relative_url }}" alt="Extrait de l'épisode spécial 1">
+</figure>
+
+<figure>
+  <img src="{{ '/assets/images/media/the-tatami-galaxy-masaaki-yuasa/1_4.png' | relative_url }}" alt="Extrait de l'épisode spécial 1">
+</figure>
+
+<figure>
+  <img src="{{ '/assets/images/media/the-tatami-galaxy-masaaki-yuasa/2_1.png' | relative_url }}" alt="Extrait de l'épisode spécial 2">
+</figure>
+
+<figure>
+  <img src="{{ '/assets/images/media/the-tatami-galaxy-masaaki-yuasa/2_2.png' | relative_url }}" alt="Extrait de l'épisode spécial 2">
+</figure>
+
+<figure>
+  <img src="{{ '/assets/images/media/the-tatami-galaxy-masaaki-yuasa/2_3.png' | relative_url }}" alt="Extrait de l'épisode spécial 2">
+</figure>
+
+<figure>
+  <img src="{{ '/assets/images/media/the-tatami-galaxy-masaaki-yuasa/2_4.png' | relative_url }}" alt="Extrait de l'épisode spécial 2">
+</figure>
+
+<figure>
+  <img src="{{ '/assets/images/media/the-tatami-galaxy-masaaki-yuasa/3_1.png' | relative_url }}" alt="Extrait de l'épisode spécial 3">
+</figure>
+
+<figure>
+  <img src="{{ '/assets/images/media/the-tatami-galaxy-masaaki-yuasa/3_2.png' | relative_url }}" alt="Extrait de l'épisode spécial 3">
+</figure>
+
+<figure>
+  <img src="{{ '/assets/images/media/the-tatami-galaxy-masaaki-yuasa/3_3.png' | relative_url }}" alt="Extrait de l'épisode spécial 3">
+</figure>
+
+<figure>
+  <img src="{{ '/assets/images/media/the-tatami-galaxy-masaaki-yuasa/3_4.png' | relative_url }}" alt="Extrait de l'épisode spécial 3">
+</figure>
+
