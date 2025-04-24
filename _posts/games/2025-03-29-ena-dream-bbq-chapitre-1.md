@@ -1,7 +1,7 @@
 ---
 layout: game
 category: game
-title: "ENA: Dream BBQ - chapitre 1"
+title: "ENA: Dream BBQ - CH1 - ENA Team"
 author: POPKAMOKA
 date: 2025-04-05
 tags: [surréaliste, aventure, solo, 3D, exploration]
