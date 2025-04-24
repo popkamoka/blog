@@ -19,7 +19,7 @@ ownership_status: owned
 ownership_format: steam
 progress_status: in_progress
 start_date: 14/03/2025
-end_date: TBD
+end_date: X
 ---
 
 ## Résumé

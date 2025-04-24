@@ -18,7 +18,7 @@ rating: 4
 ownership_status : owned
 ownership_format : physical
 progress_status : completed
-start_date : "?"
+start_date : X
 end_date : 09/03/2025
 
 ---
