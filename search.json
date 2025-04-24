@@ -9,6 +9,7 @@ layout: null
       "description" : "{{ post.description | escape }}",
       "author" : "{{ post.author | escape }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "genre" : "{{ post.genre | escape }}",
       "category" : "{{post.categories | join: ', '}}",
       "tags"     : "{{ post.tags | join: ', ' }}",
       "date"     : "{{ post.date }}"
