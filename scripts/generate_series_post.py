@@ -19,12 +19,13 @@ def yaml_escape(value):
     return f"\"{value.replace('\"', '\\\"')}\""
 
 def generate_media_md():
-    print("🎬 Générateur de fiche de média (Film/Série)\n")
+    print("🎬 Générateur de fiche de série\n")
 
     title = get_input("Titre du média", "Titre par défaut")
     director = get_input("Réalisateur", "Réalisateur par défaut")
     platform = get_input("Plateforme")
     genre = get_input("Genre")
+    episodes = get_input("Nombre d'épisodes")
     release_date = get_input("Date de sortie (JJ/MM/AAAA)")
 
     date_str = datetime.now().strftime("%Y-%m-%d")
@@ -45,7 +46,7 @@ def generate_media_md():
     # Contenu du fichier Markdown
     content = f"""---
 layout: media
-category: media
+category: series
 title: {yaml_escape(f"{title} - {director}")}
 author: POPKAMOKA
 date: {date_str}
@@ -56,6 +57,7 @@ work_director: {yaml_escape(director)}
 work_platform: {yaml_escape(platform)}
 work_release_date: {yaml_escape(release_date)}
 genre: {yaml_escape(genre)}
+episodes: {yaml_escape(episodes)}
 cover: {cover_path}
 rating:
 
