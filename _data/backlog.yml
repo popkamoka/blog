@@ -739,6 +739,36 @@ games:
     - title: "Metaphor ReFantazio"
       studio: "Atlus"
       ownership_status: "owned"
+    - title: "Nine Sols"
+      studio: "Red Candle Games"
+      ownership_status: "owned"
+    - title: "Inscryption"
+      studio: "Daniel Mullins Games"
+      ownership_status: "owned"
+    - title: "Resident Evil 0"
+      studio: "Capcom"
+      ownership_status: "owned"
+    - title: "Signalis"
+      studio: "rose-engine"
+      ownership_status: "owned"
+    - title: "Call of the Sea"
+      studio: "Out of the Blue Games"
+      ownership_status: "owned"
+    - title: "Pepper Grinder"
+      studio: "Ahr Ech"
+      ownership_status: "owned"
+    - title: "The Operator"
+      studio: "Bureau 81"
+      ownership_status: "owned"
+    - title: "Mouthwashing"
+      studio: "Wrong Organ"
+      ownership_status: "owned"
+    - title: "The Hundred Line : Last Defense Academy"
+      studio: "Too Kyo Games"
+      ownership_status: "owned"
+    - title: "Clair Obscur : Expedition 33"
+      studio: "Sandfall Interactive"
+      ownership_status: "owned"
 
 films:
   comedy:
@@ -746,6 +776,25 @@ films:
       director: "Paul King"
       films:
         - title: "Paddington 2 (2017)"
+          ownership_status: "owned"
+
+  animation:
+    - series: "Night Is Short, Walk on Girl"
+      director: "Masaaki Yuasa"
+      films:
+        - title: "Night Is Short, Walk on Girl"
+          ownership_status: "owned"
+
+    - series: "Akira"
+      director: "Katsuhiro Ōtomo"
+      films:
+        - title: "Akira"
+          ownership_status: "owned"
+
+    - series: "Metropolis"
+      director: "Rintarô"
+      films:
+        - title: "Metropolis"
           ownership_status: "owned"
 
 series:
