@@ -319,6 +319,97 @@ books:
         - title: "L'Étrange Cas du docteur Jekyll et de M. Hyde"
           ownership_status: "owned"
 
+    - series: "Le roi en jaune"
+      author: "Robert W. Chambers"
+      books:
+        - title: "Le roi en jaune"
+          ownership_status: "not_owned"
+          price: 10.5
+
+    - series: "Le Petit Prince"
+      author: "Antoine de Saint-Exupéry"
+      books:
+        - title: "Le Petit Prince"
+          ownership_status: "not_owned"
+          price: 9.9
+
+    - series: "Ecoute le chant du vent, suivi de Flipper, 1973"
+      author: "Haruki Murakami"
+      books:
+        - title: "Ecoute le chant du vent, suivi de Flipper, 1973"
+          ownership_status: "not_owned"
+          price: 8.6
+
+    - series: "Wicked : La véritable histoire de la méchante sorcière de l'Ouest"
+      author: "Gregory Maguire"
+      books:
+        - title: "Wicked : La véritable histoire de la méchante sorcière de l'Ouest"
+          ownership_status: "not_owned"
+          price: 9.95
+
+    - series: "Les hauts de Hurlevent"
+      author: "Emily Brontë"
+      books:
+        - title: "Les hauts de Hurlevent"
+          ownership_status: "not_owned"
+          price: 6.75
+
+    - series: "Jane Eyre"
+      author: "Charlotte Brontë"
+      books:
+        - title: "Jane Eyre"
+          ownership_status: "not_owned"
+          price: 5.8
+
+    - series: "La Ferme des animaux"
+      author: "George Orwell"
+      books:
+        - title: "La Ferme des animaux"
+          ownership_status: "not_owned"
+          price: 5.2
+
+    - series: "Charlie et la chocolaterie"
+      author: "Roald Dahl"
+      books:
+        - title: "Charlie et la chocolaterie"
+          ownership_status: "not_owned"
+          price: 7.5
+
+    - series: "Le Portrait de Dorian Gray"
+      author: "Oscar Wilde"
+      books:
+        - title: "Le Portrait de Dorian Gray"
+          ownership_status: "not_owned"
+          price: 3.3
+
+    - series: "La Divine Comédie"
+      author: "Dante Alighieri"
+      books:
+        - title: "La Divine Comédie"
+          ownership_status: "not_owned"
+          price: 14
+
+    - series: "Pachinko"
+      author: "Min Jin Lee"
+      books:
+        - title: "Pachinko"
+          ownership_status: "not_owned"
+          price: 9.9
+
+    - series: "Frankenstein"
+      author: "Mary Shelley"
+      books:
+        - title: "Frankenstein"
+          ownership_status: "not_owned"
+          price: 5.8
+
+    - series: "Un ours nommé Paddington"
+      author: "Michael Bond"
+      books:
+        - title: "Un ours nommé Paddington"
+          ownership_status: "not_owned"
+          price: 9.95
+
   comics:
     - series: "Maus"
       author: "Art Spiegelman"
