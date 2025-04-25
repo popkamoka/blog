@@ -1,7 +1,7 @@
 books:
   novels:
-    unknown:
-      unknown:
+    dystopian:
+      misc:
         - series: "La servante écarlate"
           author: "Margaret Atwood"
           books:
@@ -9,6 +9,8 @@ books:
               ownership_status: "not_owned"
               price: 12.5
 
+    misc:
+      misc:
         - series: "La ballade de l'impossible"
           author: "Haruki Murakami"
           books:
@@ -1781,8 +1783,8 @@ books:
               price: 24.95
 
   misc:
-    unknown:
-      unknown:
+    essay:
+      third_editions:
         - series: "La Saga Evangelion. L'œuvre d'une vie"
           author: "Virginie Nebbia"
           books:
@@ -1823,13 +1825,14 @@ books:
               ownership_status: "not_owned"
               price: 39.9
 
+    artbook:
+      misc:
         - series: "Studio Ghibli: Architecture in Animation"
           author: "VIZ"
           books:
             - title: "Studio Ghibli: Architecture in Animation"
               ownership_status: "not_owned"
               price: 32.6
-
         - series: "Tekkonkinkreet Film ARTBOOK White/ Shiro Side: Construction site"
           author: "Beyond C"
           books:
@@ -1906,19 +1909,21 @@ books:
               ownership_status: "not_owned"
               price: 69.08
 
-        - series: "Simplissime 100 recettes : 1 plat et c'est tout"
-          author: "Jean-François Mallet"
-          books:
-            - title: "Simplissime 100 recettes : 1 plat et c'est tout"
-              ownership_status: "not_owned"
-              price: 6.95
-
         - series: "L'Atelier des Sorciers - L'Art des Sorciers"
           author: "Kamome Shirahama"
           books:
             - title: "L'Atelier des Sorciers - L'Art des Sorciers"
               ownership_status: "not_owned"
               price: 25
+
+    cooking:
+      misc:
+        - series: "Simplissime 100 recettes : 1 plat et c'est tout"
+          author: "Jean-François Mallet"
+          books:
+            - title: "Simplissime 100 recettes : 1 plat et c'est tout"
+              ownership_status: "not_owned"
+              price: 6.95
 
 games:
   pc:
