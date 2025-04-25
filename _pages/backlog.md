@@ -3,16 +3,16 @@ layout: page
 title: Backlog
 ---
 <div class="backlog-section books-section">
-  <h2><i class="fa-solid fa-book category-icon book-icon"></i> {{ site.data.translations.backlog.books }}</h2>
+  <h2><i class="fa-solid fa-book category-icon book-icon"></i>{{ site.data.translations.backlog.books }}</h2>
 
   {% for category in site.data.backlog.books %}
-    {% assign category_name = category[0] %}
-    {% assign category_books = category[1] %}
+    {% assign category_name = category[0] %} 
+    {% assign category_books = category[1] %} 
 
-    {% if category_books.size > 0 %}
+    {% if category_books.size > 0 %} 
       <h3>{{ site.data.translations.backlog.books_categories[category_name] }}</h3>
 
-      {% assign category_books_sorted = category_books | sort: 'series' %}
+      {% assign category_books_sorted = category_books | sort: 'series' %} 
 
       <ul>
         {% for book_series in category_books_sorted %}
@@ -38,8 +38,7 @@ title: Backlog
                   {% for book in book_series.books %}
                     <li>
                       {% include ownership_status_icon.html ownership_status=book.ownership_status %}
-                      {{ book.title -}}
-                      {%- if book.author %} - {{ book.author }}{% endif %}
+                      {{ book.title }}
                     </li>
                   {% endfor %}
                 </ul>
