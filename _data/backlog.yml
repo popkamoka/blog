@@ -1,5 +1,12 @@
 books:
   novels:
+    - series: "La servante écarlate"
+      author: "Margaret Atwood"
+      books:
+        - title: "La servante écarlate"
+          ownership_status: "not_owned"
+          price: 12.5
+
     - series: "La ballade de l'impossible"
       author: "Haruki Murakami"
       books:
@@ -791,6 +798,201 @@ books:
         - title: "Lanfeust de Troy - intégrale T07 à T08"
           ownership_status: "not_owned"
           price: 25.5
+
+    - series: "XIII - intégrale"
+      author: "Jean Van Hamme, William Vance"
+      price: 52
+      books:
+        - title: "XIII - intégrale T1 à T6"
+          ownership_status: "not_owned"
+          price: 52
+        - title: "XIII - intégrale T7 à T12"
+          ownership_status: "not_owned"
+          price: 52
+        - title: "XIII - intégrale T14 à T19"
+          ownership_status: "not_owned"
+          price: 52
+
+    - series: "Bone - intégrale"
+      author: "Jeff Smith"
+      price: 55
+      books:
+        - title: "Bone - intégrale"
+          ownership_status: "not_owned"
+          price: 55
+
+    - series: "Aldebaran - intégrale"
+      author: "Leo"
+      price: 39
+      books:
+        - title: "Aldebaran - intégrale"
+          ownership_status: "not_owned"
+          price: 39
+
+    - series: "Idées noires"
+      author: "Franquin"
+      books:
+        - title: "Idées noires"
+          ownership_status: "not_owned"
+          price: 17.9
+
+    - series: "Ghost World"
+      author: "Daniel Clowes"
+      books:
+        - title: "Ghost World"
+          ownership_status: "not_owned"
+          price: 19.5
+
+    - series: "Black Hole"
+      author: "Charles Burns"
+      books:
+        - title: "Black Hole"
+          ownership_status: "not_owned"
+          price: 29.95
+
+    - series: "Persepolis - intégrale"
+      author: "Marjane Satrapi"
+      books:
+        - title: "Persepolis - intégrale"
+          ownership_status: "not_owned"
+          price: 39
+
+    - series: "Le bus"
+      author: "Paul Kirchner"
+      books:
+        - title: "Le bus"
+          ownership_status: "not_owned"
+          price: 9.95
+
+    - series: "La trilogie Nikopol"
+      author: "Enki Bilal"
+      books:
+        - title: "La trilogie Nikopol"
+          ownership_status: "not_owned"
+          price: 39.95
+
+    - series: "La Grande épopée de Picsou"
+      author: "Don Rosa"
+      price: 30
+      books:
+        - title: "La Grande épopée de Picsou - Tome 1 : La Jeunesse de Picsou - Partie 1"
+          ownership_status: "not_owned"
+          price: 30
+        - title: "La Grande épopée de Picsou - Tome 2 : La Jeunesse de Picsou - Partie 2"
+          ownership_status: "not_owned"
+          price: 30
+        - title: "La Grande épopée de Picsou - Tome 3 : Le Fils du Soleil et autres histoires"
+          ownership_status: "not_owned"
+          price: 30
+        - title: "La Grande épopée de Picsou - Tome 4 : Trésors sous cloche et autres histoires"
+          ownership_status: "not_owned"
+          price: 30
+        - title: "La Grande épopée de Picsou - Tome 5 : Le Trésor de Crésus et autres histoires"
+          ownership_status: "not_owned"
+          price: 30
+        - title: "La Grande épopée de Picsou - Tome 6 : La Vallée interdite et autres histoires"
+          ownership_status: "not_owned"
+          price: 30
+        - title: "La Grande épopée de Picsou - Tome 7 : Le Retour du Chevalier noir et autres histoires"
+          ownership_status: "not_owned"
+          price: 30
+
+    - series: "L'incal - intégrale"
+      author: "Alexandro Jodorowsky, Moebius"
+      books:
+        - title: "L'incal - intégrale"
+          ownership_status: "not_owned"
+          price: 74.99
+
+    - series: "Dans un rayon de soleil"
+      author: "Tillie Walden"
+      books:
+        - title: "Dans un rayon de soleil"
+          ownership_status: "not_owned"
+          price: 20.99
+
+    - series: "Le collège noir - intégrale"
+      author: "Ulysse Malassagne"
+      books:
+        - title: "Le collège noir - intégrale"
+          ownership_status: "not_owned"
+          price: 19.9
+
+    - series: "Le Jardin, Paris"
+      author: "Gaëlle Geniller"
+      books:
+        - title: "Le Jardin, Paris"
+          ownership_status: "not_owned"
+          price: 25.95
+
+    - series: "Minuit passé"
+      author: "Gaëlle Geniller"
+      books:
+        - title: "Minuit passé"
+          ownership_status: "not_owned"
+          price: 25.5
+
+    - series: "Monsieur Mardi-Gras Descendres - intégrale"
+      author: "Liberge"
+      books:
+        - title: "Monsieur Mardi-Gras Descendres - intégrale"
+          ownership_status: "not_owned"
+          price: 49
+
+    - series: "Les aventures de Moomin"
+      author: "Tove Jansson"
+      books:
+        - title: "Les Aventures de Moomin - Tome 1 : Moomin et la grande inondation"
+          ownership_status: "not_owned"
+          price: 15
+        - title: "Les Aventures de Moomin - Tome 2 : Moomin et la comète"
+          ownership_status: "not_owned"
+          price: 15
+        - title: "Les Aventures de Moomin - Tome 3 : Le chapeau de magicien"
+          ownership_status: "not_owned"
+          price: 15
+        - title: "Les Aventures de Moomin - Tome 4 : L'été dramatique de Moomin"
+          ownership_status: "not_owned"
+          price: 15
+        - title: "Les Aventures de Moomin - Tome 5 : L'hiver ensorcelé de Moomin"
+          ownership_status: "not_owned"
+          price: 15
+        - title: "Les Aventures de Moomin - Tome 6 : Les mémoires de Papa Moomin"
+          ownership_status: "not_owned"
+          price: 15
+        - title: "Les Aventures de Moomin - Tome 7 : Neuf histoires de la vallée des Moomins"
+          ownership_status: "not_owned"
+          price: 15
+        - title: "Les Aventures de Moomin - Tome 8 : Papa Moomin et la mer"
+          ownership_status: "not_owned"
+          price: 15
+        - title: "Les Aventures de Moomin - Tome 9 : Tard en novembre"
+          ownership_status: "not_owned"
+          price: 15
+
+    - series: "Grand Vampire - intégrale"
+      author: "Joann Sfar"
+      books:
+        - title: "Grand Vampire - intégrale"
+          ownership_status: "not_owned"
+          price: 39
+
+    - series: "Lou! - intégrale S1"
+      author: "Julien Neel"
+      books:
+        - title: "Lou! - intégrale S1"
+          ownership_status: "not_owned"
+          price: 45
+
+    - series: "Dofus Heroes"
+      author: "Eric Herenguel, Julen Ribas"
+      books:
+        - title: "Dofus Heroes T1 - Kerubim"
+          ownership_status: "not_owned"
+          price: 12.9
+        - title: "Dofus Heroes T2 - Kerubim"
+          ownership_status: "not_owned"
+          price: 12.9
 
   mangas:
     - series: "Ogrest"
