@@ -1292,6 +1292,117 @@ books:
         - title: "Dark Souls. Par-delà la mort - Volume 2"
           ownership_status: "owned"
 
+    - series: "L'oeuvre étrange de Taro Yoko"
+      author: "Nicolas Turcev"
+      books:
+        - title: "L'oeuvre étrange de Taro Yoko"
+          ownership_status: "not_owned"
+          price: 24.9
+
+    - series: "Sea of Stars: Les concept arts de Bryce Kho"
+      author: "Bryce Kho"
+      books:
+        - title: "Sea of Stars: Les concept arts de Bryce Kho"
+          ownership_status: "not_owned"
+          price: 39.9
+
+    - series: "Studio Ghibli: Architecture in Animation"
+      author: "VIZ"
+      books:
+        - title: "Studio Ghibli: Architecture in Animation"
+          ownership_status: "not_owned"
+          price: 32.6
+
+    - series: "Tekkonkinkreet Film ARTBOOK White/ Shiro Side: Construction site"
+      author: "Beyond C"
+      books:
+        - title: "Tekkonkinkreet Film ARTBOOK White/ Shiro Side: Construction site"
+          ownership_status: "not_owned"
+          price: 29.99
+
+    - series: "Liminal: Les nouveaux espaces de l'angoisse"
+      author: "Alt236"
+      books:
+        - title: "Liminal: Les nouveaux espaces de l'angoisse"
+          ownership_status: "not_owned"
+          price: 35
+
+    - series: "DOFUS ARTBOOK"
+      author: "Ankama"
+      books:
+        - title: "DOFUS ARTBOOK - SESSION 1"
+          ownership_status: "not_owned"
+          price: 25.9
+        - title: "DOFUS ARTBOOK - SESSION 2"
+          ownership_status: "not_owned"
+          price: 25.9
+        - title: "DOFUS ARTBOOK - SESSION 3"
+          ownership_status: "not_owned"
+          price: 25.9
+
+    - series: "CFSL.NET"
+      author: "CFSL"
+      books:
+        - title: "CFSL.NET - Volume 1"
+          ownership_status: "not_owned"
+        - title: "CFSL.NET - Volume 2"
+          ownership_status: "owned"
+        - title: "CFSL.NET - Volume 3"
+          ownership_status: "not_owned"
+        - title: "CFSL.NET - Volume 4"
+          ownership_status: "not_owned"
+        - title: "CFSL.NET - Volume 5"
+          ownership_status: "not_owned"
+        - title: "CFSL.NET - Volume 6"
+          ownership_status: "owned"
+        - title: "CFSL.NET - Volume 7"
+          ownership_status: "not_owned"
+
+    - series: "L'art de Elden Ring"
+      author: "Mana Books"
+      books:
+        - title: "L'art de Elden Ring - volume 1"
+          ownership_status: "not_owned"
+          price: 39.9
+        - title: "L'art de Elden Ring - volume 2"
+          ownership_status: "not_owned"
+          price: 39.9
+
+    - series: "Subway Art"
+      author: "Martha Cooper, Henry Chalfant"
+      books:
+        - title: "Subway Art"
+          ownership_status: "not_owned"
+          price: 23.19
+
+    - series: "Kawase Hasui: Le poète du paysage"
+      author: "Brigitte Koyama-Richard"
+      books:
+        - title: "Kawase Hasui: Le poète du paysage"
+          ownership_status: "not_owned"
+          price: 49.9
+
+    - series: "Persona 5 + Persona 5 Royal: Official Design Works"
+      author: "Atlus"
+      books:
+        - title: "Persona 5 + Persona 5 Royal: Official Design Works"
+          ownership_status: "not_owned"
+          price: 69.08
+
+    - series: "Simplissime 100 recettes : 1 plat et c'est tout"
+      author: "Jean-François Mallet"
+      books:
+        - title: "Simplissime 100 recettes : 1 plat et c'est tout"
+          ownership_status: "not_owned"
+          price: 6.95
+
+    - series: "L'Atelier des Sorciers - L'Art des Sorciers"
+      author: "Kamome Shirahama"
+      books:
+        - title: "L'Atelier des Sorciers - L'Art des Sorciers"
+          ownership_status: "not_owned"
+          price: 25
+
 games:
   pc:
     - title: "Metaphor ReFantazio"
