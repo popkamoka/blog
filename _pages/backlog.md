@@ -2,7 +2,6 @@
 layout: page
 title: Backlog
 ---
-
 <div class="backlog-section books-section">
   <h2><i class="fa-solid fa-book category-icon book-icon"></i> {{ site.data.translations.backlog.books }}</h2>
 
@@ -13,20 +12,34 @@ title: Backlog
     {% if category_books.size > 0 %}
       <h3>{{ site.data.translations.backlog.books_categories[category_name] }}</h3>
 
-      {% assign category_books_sorted = category_books | sort: "series" %}
+      {% assign category_books_sorted = category_books | sort: 'series' %}
 
       <ul>
         {% for book_series in category_books_sorted %}
           <li>
             {% assign series_books_count = book_series.books.size %}
             {% if series_books_count > 1 %}
+
+              {% assign series_ownership_status = 'owned' %}
+              {% for book in book_series.books %}
+                {% if book.ownership_status != 'owned' %}
+                  {% assign series_ownership_status = 'not_owned' %}
+                  {% break %}
+                {% endif %}
+              {% endfor %}
+
               <details>
-                <summary>{{ book_series.series }} - {{ book_series.author }} {% if book_series.edition %} ({{ book_series.edition }}){% endif %} </summary>
+                <summary>
+                  {% include ownership_status_icon.html ownership_status=series_ownership_status %}
+                  {{ book_series.series }} - {{ book_series.author }}
+                  {% if book_series.edition %} ({{ book_series.edition }}){% endif %}
+                </summary>
                 <ul>
                   {% for book in book_series.books %}
                     <li>
                       {% include ownership_status_icon.html ownership_status=book.ownership_status %}
-                      {{ book.title }}{% if book.author %} - {{ book.author }}{% endif %}
+                      {{ book.title -}}
+                      {%- if book.author %} - {{ book.author }}{% endif %}
                     </li>
                   {% endfor %}
                 </ul>
@@ -34,7 +47,8 @@ title: Backlog
             {% else %}
               {% assign book = book_series.books[0] %}
               {% include ownership_status_icon.html ownership_status=book.ownership_status %}
-              {{ book.title }} - {{ book_series.author }} {% if book_series.edition %} ({{ book_series.edition }}){% endif %}
+              {{ book.title }} - {{ book_series.author }}
+              {% if book_series.edition %} ({{ book_series.edition }}){% endif %}
             {% endif %}
           </li>
         {% endfor %}
@@ -44,8 +58,8 @@ title: Backlog
 </div>
 
 <div class="backlog-section games-section">
-  <h2><i class="fa-solid fa-gamepad category-icon game-icon"></i>  {{site.data.translations.backlog.games}}</h2>
-{% for platform in site.data.backlog.games %}
+  <h2><i class="fa-solid fa-gamepad category-icon game-icon"></i> {{ site.data.translations.backlog.games }}</h2>
+  {% for platform in site.data.backlog.games %}
     {% assign platform_name = platform[0] %}
     {% assign games = platform[1] %}
 
@@ -55,7 +69,8 @@ title: Backlog
         {% for game in games %}
           <li>
             {% include ownership_status_icon.html ownership_status=game.ownership_status %}
-            {{ game.title }}{% if game.studio %} - {{ game.studio }}{% endif %}
+            {{ game.title -}}
+            {%- if game.studio %} - {{ game.studio }}{% endif %}
           </li>
         {% endfor %}
       </ul>
@@ -64,7 +79,7 @@ title: Backlog
 </div>
 
 <div class="backlog-section films-section">
-  <h2> <i class="fa-solid fa-film category-icon film-icon"></i> {{site.data.translations.backlog.films}}</h2>
+  <h2><i class="fa-solid fa-film category-icon film-icon"></i> {{ site.data.translations.backlog.films }}</h2>
   {% for category in site.data.backlog.films %}
     {% assign genre_name = category[0] %}
     {% assign genre_films = category[1] %}
@@ -72,7 +87,7 @@ title: Backlog
     {% if genre_films.size > 0 %}
       <h3>{{ site.data.translations.backlog.media_genres[genre_name] }}</h3>
 
-      {% assign genre_films_sorted = genre_films | sort: "series" %}
+      {% assign genre_films_sorted = genre_films | sort: 'series' %}
 
       <ul>
         {% for film_series in genre_films_sorted %}
@@ -80,7 +95,7 @@ title: Backlog
             {% assign series_films_count = film_series.films.size %}
             {% if series_films_count > 1 %}
               <details>
-                <summary>{{ film_series.series }} - {{ film_series.director }} </summary>
+                <summary>{{ film_series.series }} - {{ film_series.director }}</summary>
                 <ul>
                   {% for film in film_series.films %}
                     <li>
@@ -103,8 +118,8 @@ title: Backlog
 </div>
 
 <div class="backlog-section series-section">
-  <h2><i class="fa-solid fa-tv category-icon series-icon"></i>  {{site.data.translations.backlog.series}}</h2>
-  
+  <h2><i class="fa-solid fa-tv category-icon series-icon"></i> {{ site.data.translations.backlog.series }}</h2>
+
   {% for genre in site.data.backlog.series %}
     {% assign genre_name = genre[0] %}
     {% assign series = genre[1] %}
@@ -140,7 +155,7 @@ title: Backlog
 </div>
 
 <div class="backlog-section misc-section">
-  <h2> <i class="fa-solid fa-star category-icon default-icon"></i> {{site.data.translations.backlog.misc}}</h2>
+  <h2><i class="fa-solid fa-star category-icon default-icon"></i> {{ site.data.translations.backlog.misc }}</h2>
   <ul>
     {% for item in site.data.backlog.misc %}
       <li>
