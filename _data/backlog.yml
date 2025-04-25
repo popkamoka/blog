@@ -607,7 +607,209 @@ books:
         - title: "Carbone & Silicium"
           ownership_status: "owned"
 
+    - series: "Le bleu est une couleur chaude"
+      author: "Jul Maroh"
+      books:
+        - title: "Le bleu est une couleur chaude"
+          ownership_status: "not_owned"
+          price: 11.8
+
+    - series: "Mutafukaz - intégrale"
+      author: "Run"
+      books:
+        - title: "Mutafukaz - intégrale"
+          ownership_status: "not_owned"
+          price: 36.9
+
+    - series: "Zaï zaï zaï zaï"
+      author: "Fabcaro"
+      books:
+        - title: "Zaï zaï zaï zaï"
+          ownership_status: "not_owned"
+          price: 14
+
+    - series: "Habibi"
+      author: "Craig Thompson"
+      books:
+        - title: "Habibi"
+          ownership_status: "not_owned"
+          price: 31.95
+
+    - series: "Saga"
+      author: "Brian K. Vaughan, Fiona Staples"
+      price: 18
+      books:
+        - title: "Saga - T1"
+          ownership_status: "not_owned"
+          price: 18
+        - title: "Saga - T2 -> T12"
+          ownership_status: "not_owned"
+          price: 18
+
+    - series: "Little Nemo au royaume du sommeil"
+      author: "Winsor McCay"
+      price: 26.9
+      books:
+        - title: "Little Nemo au royaume du sommeil volume 1"
+          ownership_status: "not_owned"
+          price: 26.9
+        - title: "Little Nemo au royaume du sommeil volume 2"
+          ownership_status: "not_owned"
+          price: 26.9
+
+    - series: "Sandman"
+      author: "Neil Gaiman"
+      price: 36
+      books:
+        - title: "Sandman - T1"
+          ownership_status: "not_owned"
+          price: 36
+        - title: "Sandman - T2"
+          ownership_status: "not_owned"
+          price: 36
+        - title: "Sandman - T3"
+          ownership_status: "not_owned"
+          price: 36
+        - title: "Sandman - T4"
+          ownership_status: "not_owned"
+          price: 36
+        - title: "Sandman - T5"
+          ownership_status: "not_owned"
+          price: 36
+        - title: "Sandman - T6"
+          ownership_status: "not_owned"
+          price: 36
+        - title: "Sandman - T7"
+          ownership_status: "not_owned"
+          price: 36
+        - title: "Sandman - T0"
+          ownership_status: "not_owned"
+          price: 36
+
+    - series: "Pinnochio"
+      author: "Winshluss"
+      books:
+        - title: "Pinnochio"
+          ownership_status: "not_owned"
+          edition: "Les Requins Marteaux"
+          price: 20
+
+    - series: "Les aventures de Tintin - intégrale"
+      author: "Hergé"
+      books:
+        - title: "Les aventures de Tintin - intégrale"
+          ownership_status: "not_owned"
+          price: 99
+
+    - series: "Les aventures de Tintin"
+      author: "Hergé"
+      price: 12
+      books:
+        - title: "Les aventures de Tintin - T1 : Tintin au pays des Soviets"
+          ownership_status: "not_owned"
+          price: 12
+        - title: "Les aventures de Tintin - T2 : Tintin au Congo"
+          ownership_status: "not_owned"
+          price: 12
+        - title: "Les aventures de Tintin - T3 : Tintin en Amérique"
+          ownership_status: "not_owned"
+          price: 12
+        - title: "Les aventures de Tintin - T4 : Les Cigares du pharaon"
+          ownership_status: "not_owned"
+          price: 12
+        - title: "Les aventures de Tintin - T5 : Le Lotus bleu"
+          ownership_status: "not_owned"
+          price: 12
+        - title: "Les aventures de Tintin - T6 : L'Oreille cassée"
+          ownership_status: "not_owned"
+          price: 12
+        - title: "Les aventures de Tintin - T7 : L'Île noire"
+          ownership_status: "not_owned"
+          price: 12
+        - title: "Les aventures de Tintin - T8 : Le Sceptre d'Ottokar"
+          ownership_status: "not_owned"
+          price: 12
+        - title: "Les aventures de Tintin - T9 : Le Crabe aux pinces d'or"
+          ownership_status: "not_owned"
+          price: 12
+        - title: "Les aventures de Tintin - T10 : L'Étoile mystérieuse"
+          ownership_status: "not_owned"
+          price: 12
+        - title: "Les aventures de Tintin - T11 : Le Secret de La Licorne"
+          ownership_status: "not_owned"
+          price: 12
+        - title: "Les aventures de Tintin - T12 : Le Trésor de Rackham le Rouge"
+          ownership_status: "not_owned"
+          price: 12
+        - title: "Les aventures de Tintin - T13 : Les Sept Boules de cristal"
+          ownership_status: "not_owned"
+          price: 12
+        - title: "Les aventures de Tintin - T14 : Le Temple du Soleil"
+          ownership_status: "not_owned"
+          price: 12
+        - title: "Les aventures de Tintin - T15 : Tintin au pays de l'or noir"
+          ownership_status: "not_owned"
+          price: 12
+        - title: "Les aventures de Tintin - T16 : Objectif Lune"
+          ownership_status: "not_owned"
+          price: 12
+        - title: "Les aventures de Tintin - T17 : On a marché sur la Lune"
+          ownership_status: "not_owned"
+          price: 12
+        - title: "Les aventures de Tintin - T18 : L'Affaire Tournesol"
+          ownership_status: "not_owned"
+          price: 12
+        - title: "Les aventures de Tintin - T19 : Coke en stock"
+          ownership_status: "not_owned"
+          price: 12
+        - title: "Les aventures de Tintin - T20 : Tintin au Tibet"
+          ownership_status: "not_owned"
+          price: 12
+        - title: "Les aventures de Tintin - T21 : Les Bijoux de la Castafiore"
+          ownership_status: "not_owned"
+          price: 12
+        - title: "Les aventures de Tintin - T22 : Vol 714 pour Sydney"
+          ownership_status: "not_owned"
+          price: 12
+        - title: "Les aventures de Tintin - T23 : Tintin et les Picaros"
+          ownership_status: "not_owned"
+          price: 12
+        - title: "Les aventures de Tintin - T24 : Tintin et l'Alph-Art"
+          ownership_status: "not_owned"
+          price: 12
+
+    - series: "Lanfeust de Troy - intégrale (T1 à T8)"
+      author: "Christophe Arleston, Didier Tarquin"
+      price: 25.5
+      books:
+        - title: "Lanfeust de Troy - intégrale T01 à T03"
+          ownership_status: "not_owned"
+          price: 25.5
+        - title: "Lanfeust de Troy - intégrale T04 à T06"
+          ownership_status: "not_owned"
+          price: 25.5
+        - title: "Lanfeust de Troy - intégrale T07 à T08"
+          ownership_status: "not_owned"
+          price: 25.5
+
   mangas:
+    - series: "Ogrest"
+      author: "Mig"
+      price: 7.95
+      books:
+        - title: "Ogrest - T1"
+          ownership_status: "not_owned"
+          price: 7.95
+        - title: "Ogrest - T2"
+          ownership_status: "not_owned"
+          price: 7.95
+        - title: "Ogrest - T3"
+          ownership_status: "not_owned"
+          price: 7.95
+        - title: "Ogrest - T4"
+          ownership_status: "not_owned"
+          price: 7.95
+
     - series: "Dragon Ball Perfect Edition"
       author: "Akira Toriyama"
       price: 11.75

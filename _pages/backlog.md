@@ -20,13 +20,22 @@ title: Backlog
             {% assign series_books_count = book_series.books.size %}
             {% if series_books_count > 1 %}
 
-              {% assign series_ownership_status = 'owned' %}
+              {% assign owned_count = 0 %}
+              {% assign total_count = book_series.books.size %}
+
               {% for book in book_series.books %}
-                {% if book.ownership_status != 'owned' %}
-                  {% assign series_ownership_status = 'partially_owned' %}
-                  {% break %}
+                {% if book.ownership_status == 'owned' %}
+                  {% assign owned_count = owned_count | plus: 1 %}
                 {% endif %}
               {% endfor %}
+
+              {% if owned_count == total_count %}
+                {% assign series_ownership_status = 'owned' %}
+              {% elsif owned_count == 0 %}
+                {% assign series_ownership_status = 'not_owned' %}
+              {% else %}
+                {% assign series_ownership_status = 'partially_owned' %}
+              {% endif %}
 
               <details>
                 <summary>
