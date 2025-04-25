@@ -81,11 +81,30 @@ backlog:
     comics: "BDs"
     mangas: "Mangas"
     misc: "Autres"
+  books_genres:
+    action: "Action"
+    adventure: "Aventure"
+    biography: "Biographie"
+    classic: "Classique"
+    comic: "BD"
+    crime: "Policier"
+    drama: "Drame"
+    fantasy: "Fantastique"
+    horror: "Horreur"
+    mystery: "Mystère"
+    romance: "Romance"
+    sci_fi: "Science-fiction"
+    thriller: "Thriller"
+    young_adult: "Young Adult"
+  books_editors:
+    pocket: "Pocket"
+
   games: "Jeux"
   games_platforms:
     pc: "PC"
     switch: "Switch"
     misc: "Autres"
+
   films: "Films"
   series: "Séries"
   media_genres:
@@ -101,6 +120,7 @@ backlog:
     fantasy: "Fantastique"
     animation: "Animation"
     documentary: "Documentaire"
+
   misc: "Autres"
 
 common:
