@@ -5,6 +5,8 @@
     {% assign ownership_status = '<i class="fa-solid fa-check-circle owned-icon"></i>' %}
   {% when 'not_owned' %}
     {% assign ownership_status = '<i class="fa-solid fa-times-circle not-owned-icon"></i>' %}
+  {% when 'partially_owned' %}
+    {% assign ownership_status = '<i class="fa-solid fa-times-circle partially-owned-icon"></i>' %}
   {% else %}
     {% assign ownership_status = '<i class="fa-solid fa-circle-question default-icon"></i>' %}
 {% endcase %}

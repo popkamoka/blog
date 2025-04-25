@@ -8,6 +8,7 @@ status:
 ownership_status:
   owned: "Possédé"
   not_owned: "Non possédé"
+  partially_owned: "Partiellement possédé"
   not_applicable: "Non applicable"
 
 ownership_format:

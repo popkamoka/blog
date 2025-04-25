@@ -23,7 +23,7 @@ title: Backlog
               {% assign series_ownership_status = 'owned' %}
               {% for book in book_series.books %}
                 {% if book.ownership_status != 'owned' %}
-                  {% assign series_ownership_status = 'not_owned' %}
+                  {% assign series_ownership_status = 'partially_owned' %}
                   {% break %}
                 {% endif %}
               {% endfor %}
