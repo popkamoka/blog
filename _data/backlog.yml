@@ -41,8 +41,11 @@ books:
           ownership_status: "owned"
         - title: "Hunger Games - La ballade du serpent et de l'oiseau chanteur"
           ownership_status: "not_owned"
+          price: 9.5
         - title: "Hunger Games - Lever de soleil sur la moisson"
           ownership_status: "not_owned"
+          edition: "Grand format"
+          price: 19.9
 
     - series: "Dune"
       author: "Frank Herbert"
@@ -218,6 +221,7 @@ books:
       books:
         - title: "Trilogie de Hurle - intégrale"
           ownership_status: "not_owned"
+          price: 45.20
 
     - series: "Le grand Meaulnes"
       author: "Alain-Fournier"
@@ -276,6 +280,7 @@ books:
           ownership_status: "owned"
         - title: "Les Chevaliers d'Émeraude - T3 -> T12"
           ownership_status: "not_owned"
+          price: 8.5
 
     - series: "Les Chroniques de Narnia"
       author: "C.S. Lewis"
@@ -373,68 +378,97 @@ books:
           ownership_status: "owned"
         - title: "Pandala - T2"
           ownership_status: "not_owned"
+          price: 12.9
         - title: "Pandala - T3"
           ownership_status: "not_owned"
+          price: 12.9
 
     - series: "Snoopy & les Peanuts"
       author: "Charles M. Schulz"
       edition: "Dargaud"
+      price: 32
       books:
         - title: "Snoopy & les Peanuts - 1950-1952 - T1"
           ownership_status: "not_owned"
+          price: 32
         - title: "Snoopy & les Peanuts - 1953-1954 - T2"
           ownership_status: "not_owned"
+          price: 32
         - title: "Snoopy & les Peanuts - 1955-1956 - T3"
           ownership_status: "not_owned"
+          price: 32
         - title: "Snoopy & les Peanuts - 1957-1958 - T4"
           ownership_status: "not_owned"
+          price: 32
         - title: "Snoopy & les Peanuts - 1959-1960 - T5"
           ownership_status: "not_owned"
+          price: 32
         - title: "Snoopy & les Peanuts - 1961-1962 - T6"
           ownership_status: "not_owned"
+          price: 32
         - title: "Snoopy & les Peanuts - 1963-1964 - T7"
           ownership_status: "not_owned"
+          price: 32
         - title: "Snoopy & les Peanuts - 1965-1966 - T8"
           ownership_status: "not_owned"
+          price: 32
         - title: "Snoopy & les Peanuts - 1967-1968 - T9"
           ownership_status: "not_owned"
+          price: 32
         - title: "Snoopy & les Peanuts - 1969-1970 - T10"
           ownership_status: "not_owned"
+          price: 32
         - title: "Snoopy & les Peanuts - 1971-1972 - T11"
           ownership_status: "not_owned"
+          price: 32
         - title: "Snoopy & les Peanuts - 1973-1974 - T12"
           ownership_status: "not_owned"
+          price: 32
         - title: "Snoopy & les Peanuts - 1975-1976 - T13"
           ownership_status: "not_owned"
+          price: 32
         - title: "Snoopy & les Peanuts - 1977-1978 - T14"
           ownership_status: "not_owned"
+          price: 32
         - title: "Snoopy & les Peanuts - 1979-1980 - T15"
           ownership_status: "not_owned"
+          price: 32
         - title: "Snoopy & les Peanuts - 1981-1982 - T16"
           ownership_status: "not_owned"
+          price: 32
         - title: "Snoopy & les Peanuts - 1983-1984 - T17"
           ownership_status: "not_owned"
+          price: 32
         - title: "Snoopy & les Peanuts - 1985-1986 - T18"
           ownership_status: "owned"
         - title: "Snoopy & les Peanuts - 1987-1988 - T19"
           ownership_status: "not_owned"
+          price: 32
         - title: "Snoopy & les Peanuts - 1989-1990 - T20"
           ownership_status: "not_owned"
+          price: 32
         - title: "Snoopy & les Peanuts - 1991-1992 - T21"
           ownership_status: "not_owned"
+          price: 32
         - title: "Snoopy & les Peanuts - 1993-1994 - T22"
           ownership_status: "not_owned"
+          price: 32
         - title: "Snoopy & les Peanuts - 1995-1996 - T23"
           ownership_status: "not_owned"
+          price: 32
         - title: "Snoopy & les Peanuts - 1997-1998 - T24"
           ownership_status: "not_owned"
+          price: 32
         - title: "Snoopy & les Peanuts - 1999-2000 - T25"
           ownership_status: "not_owned"
+          price: 32
         - title: "Snoopy & les Peanuts - 1950-2000 (Hors-série de conclusion) - T26"
           ownership_status: "not_owned"
+          price: 32
 
     - series: "Le Chat du rabbin"
       author: "Joann Sfar"
+      price: 17.95
       books:
         - title: "Le Chat du rabbin - T1 : La Bar-Mitsva"
           ownership_status: "owned"
@@ -448,18 +482,25 @@ books:
           ownership_status: "owned"
         - title: "Le Chat du rabbin - T6 : Tu n'auras pas d'autre Dieu que moi"
           ownership_status: "not_owned"
+          price: 14.95
         - title: "Le Chat du rabbin - T7 : La Tour de Bab-El-Oued"
           ownership_status: "not_owned"
+          price: 17.95
         - title: "Le Chat du rabbin - T8 : Petit panier aux amandes"
           ownership_status: "not_owned"
+          price: 17.50
         - title: "Le Chat du rabbin - T9 : La Reine de Shabbat"
           ownership_status: "not_owned"
+          price: 17.95
         - title: "Le Chat du rabbin - T10 : Rentrez chez vous"
           ownership_status: "not_owned"
+          price: 16.95
         - title: "Le Chat du rabbin - T11 : La Bible pour les Chats"
           ownership_status: "not_owned"
+          price: 17.95
         - title: "Le Chat du rabbin - T12 : La Traversée de la mer Noire"
           ownership_status: "not_owned"
+          price: 17.95
 
     - series: "La Tour"
       author: "François Schuiten, Benoît Peeters"
@@ -476,6 +517,7 @@ books:
   mangas:
     - series: "Dragon Ball Perfect Edition"
       author: "Akira Toriyama"
+      price: 11.75
       books:
         - title: "Dragon Ball Perfect Edition T1"
           ownership_status: "owned"
@@ -495,6 +537,7 @@ books:
           ownership_status: "owned"
         - title: "Dragon Ball Perfect Edition T9 -> T34"
           ownership_status: "not_owned"
+          price: 11.75
 
     - series: "Rainbow (édition triple)"
       author: "George Abe, 	Masasumi Kakizaki"
@@ -516,11 +559,13 @@ books:
 
     - series: "L'Atelier des Sorciers - édition grimoire"
       author: "Kamome Shirahama"
+      price: 20.05
       books:
         - title: "L'Atelier des Sorciers - édition grimoire T1"
           ownership_status: "owned"
         - title: "L'Atelier des Sorciers - édition grimoire T2"
           ownership_status: "not_owned"
+          price: 20.05
 
     - series: "Amer béton - intégrale"
       author: "Taiyō Matsumoto"
@@ -531,30 +576,37 @@ books:
     - series: "Nausicaä de la Vallée du Vent"
       author: "Hayao Miyazaki"
       edition: "Glénat"
+      price: 11.75
       books:
         - title: "Nausicaä de la Vallée du Vent - T1"
           ownership_status: "owned"
         - title: "Nausicaä de la Vallée du Vent - T2 -> T7"
           ownership_status: "not_owned"
+          price: 11.75
 
     - series: "Doraemon"
       author: "Fujiko F. Fujio"
+      price: 7.30
       books:
         - title: "Doraemon - T1"
           ownership_status: "owned"
         - title: "Doraemon - T2 -> T45"
           ownership_status: "not_owned"
+          price: 7.30
 
     - series: "March Comes in like a Lion"
       author: "Chica Umino"
+      price: 8.10
       books:
         - title: "March Comes in like a Lion - T1"
           ownership_status: "owned"
         - title: "March Comes in like a Lion - T2 -> T17"
           ownership_status: "not_owned"
+          price: 8.10
 
     - series: "Pluto"
       author: "Naoki Urasawa"
+      price: 8.10
       books:
         - title: "Pluto - T1"
           ownership_status: "owned"
@@ -562,9 +614,11 @@ books:
           ownership_status: "owned"
         - title: "Pluto - T3 -> T8"
           ownership_status: "not_owned"
+          price: 8.10
 
     - series: "Bakuman"
       author: "Tsugumi Ohba, Takeshi Obata"
+      price: 7.30
       books:
         - title: "Bakuman - T1"
           ownership_status: "owned"
@@ -574,9 +628,11 @@ books:
           ownership_status: "owned"
         - title: "Bakuman - T4 -> T20"
           ownership_status: "not_owned"
+          price: 7.30
 
     - series: "I am a Hero"
       author: "Kengo Hanazawa"
+      price: 7.45
       books:
         - title: "I am a Hero - T1"
           ownership_status: "owned"
@@ -588,9 +644,11 @@ books:
           ownership_status: "owned"
         - title: "I am a Hero - T5 -> T22"
           ownership_status: "not_owned"
+          price: 7.45
 
     - series: "Last Hero Inuyashiki"
       author: "Hiroya Oku"
+      price: 7.95
       books:
         - title: "Last Hero Inuyashiki - T1"
           ownership_status: "owned"
@@ -598,9 +656,11 @@ books:
           ownership_status: "owned"
         - title: "Last Hero Inuyashiki - T3 -> T10"
           ownership_status: "not_owned"
+          price: 7.95
 
     - series: "Hunter x Hunter"
       author: "Yoshihiro Togashi"
+      price: 7.30
       books:
         - title: "Hunter x Hunter - T1"
           ownership_status: "owned"
@@ -638,6 +698,7 @@ books:
           ownership_status: "owned"
         - title: "Hunter x Hunter - T18 -> T38"
           ownership_status: "not_owned"
+          price: 7.30
 
     - series: "Les Chevaliers du Zodiaque - édition originale"
       author: "Masami Kurumada"

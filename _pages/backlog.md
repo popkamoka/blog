@@ -33,12 +33,16 @@ title: Backlog
                   {% include ownership_status_icon.html ownership_status=series_ownership_status %}
                   {{ book_series.series }} - {{ book_series.author }}
                   {% if book_series.edition %} ({{ book_series.edition }}){% endif %}
+                  {% if book_series.price %} ({{ book_series.price }}€){% endif %}
                 </summary>
                 <ul>
                   {% for book in book_series.books %}
                     <li>
                       {% include ownership_status_icon.html ownership_status=book.ownership_status %}
-                      {{ book.title }}
+                      {{ book.title }} 
+                      {% if book.edition %} ({{ book.edition }}){% endif %}
+                      {% if book.price %} ({{ book.price }}€){% endif %}
+
                     </li>
                   {% endfor %}
                 </ul>
@@ -47,7 +51,8 @@ title: Backlog
               {% assign book = book_series.books[0] %}
               {% include ownership_status_icon.html ownership_status=book.ownership_status %}
               {{ book.title }} - {{ book_series.author }}
-              {% if book_series.edition %} ({{ book_series.edition }}){% endif %}
+              {% if book.edition %} ({{ book.edition }}){% endif %}
+              {% if book.price %} ({{ book.price }}€){% endif %}
             {% endif %}
           </li>
         {% endfor %}
