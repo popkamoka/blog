@@ -3,7 +3,7 @@ layout: page
 title: Backlog
 ---
 <div class="backlog-section books-section">
-  <h2><i class="fa-solid fa-book category-icon book-icon"></i>{{ site.data.translations.backlog.books }}</h2>
+  <h2><i class="fa-solid fa-book category-icon book-icon"></i> {{ site.data.translations.backlog.books }}</h2>
 
   {% for category in site.data.backlog.books %}
     {% assign category_name = category[0] %} 
