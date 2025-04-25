@@ -273,6 +273,7 @@ books:
 
     - series: "Les Chevaliers d'Émeraude (édition collector)"
       author: "Anne Robillard"
+      price: 8.5
       books:
         - title: "Les Chevaliers d'Émeraude - T1"
           ownership_status: "owned"
@@ -373,6 +374,7 @@ books:
 
     - series: "Pandala"
       author: "Tot, Bertrand Hottin"
+      price: 12.9
       books:
         - title: "Pandala - T1"
           ownership_status: "owned"
