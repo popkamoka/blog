@@ -1265,6 +1265,515 @@ books:
         - title: "Opus - T2"
           ownership_status: "owned"
 
+    - series: "Ping Pong - édition prestige"
+      author: "Taiyō Matsumoto"
+      price: 29.99
+      books:
+        - title: "Ping Pong - édition prestige T01"
+          ownership_status: "not_owned"
+          price: 29.99
+        - title: "Ping Pong - édition prestige T02"
+          ownership_status: "not_owned"
+          price: 29.99
+
+    - series: "Dead Dead Demon's Dededededestruction"
+      author: "Inio Asano"
+      price: 8.10
+      books:
+        - title: "Dead Dead Demon's Dededededestruction - T1"
+          ownership_status: "not_owned"
+          price: 8.10
+        - title: "Dead Dead Demon's Dededededestruction - T2 -> T12"
+          ownership_status: "not_owned"
+          price: 8.10
+
+    - series: "La concierge du grand magasin"
+      author: "Tsuchika NISHIMURA"
+      books:
+        - title: "La concierge du grand magasin"
+          ownership_status: "not_owned"
+          price: 19
+
+    - series: "GTO"
+      author: "Tōru Fujisawa"
+      price: 7.2
+      books:
+        - title: "GTO - T1"
+          ownership_status: "not_owned"
+          price: 7.2
+        - title: "GTO - T2 -> T25"
+          ownership_status: "not_owned"
+          price: 7.2
+
+    - series: "Planètes Perfect Edition"
+      author: "Makoto Yukimura"
+      price: 16.99
+      books:
+        - title: "Planètes Perfect Edition - T1"
+          ownership_status: "not_owned"
+          price: 16.99
+        - title: "Planètes Perfect Edition - T2"
+          ownership_status: "not_owned"
+          price: 16.99
+        - title: "Planètes Perfect Edition - T3"
+          ownership_status: "not_owned"
+          price: 16.99
+
+    - series: "Quartier lointain"
+      author: "Jiro Taniguchi"
+      books:
+        - title: "Quartier lointain"
+          ownership_status: "not_owned"
+          price: 24.95
+
+    - series: "Le voyage de Shuna"
+      author: "Hayao Miyazaki"
+      books:
+        - title: "Le voyage de Shuna"
+          ownership_status: "not_owned"
+          price: 25
+
+    - series: "All You Need is Kill"
+      author: "Hiroshi Sakurazaka, Takeshi Obata"
+      price: 7.25
+      books:
+        - title: "All You Need is Kill T01"
+          ownership_status: "not_owned"
+          price: 7.25
+        - title: "All You Need is Kill T02"
+          ownership_status: "not_owned"
+          price: 7.25
+
+    - series: "Nana"
+      author: "Ai Yazawa"
+      price: 7.29
+      books:
+        - title: "Nana T01"
+          ownership_status: "not_owned"
+          price: 7.29
+        - title: "Nana T02 -> T21"
+          ownership_status: "not_owned"
+          price: 7.29
+
+    - series: "Gunnm - édition originale"
+      author: "Yukito Kishiro"
+      price: 7.9
+      books:
+        - title: "Gunnm - édition originale T01"
+          ownership_status: "not_owned"
+          price: 7.9
+        - title: "Gunnm - édition originale T02 -> T9"
+          ownership_status: "not_owned"
+          price: 7.9
+
+    - series: "Yotsuba"
+      author: "Kiyohiko Azuma"
+      price: 7.95
+      books:
+        - title: "Yotsuba - T1"
+          ownership_status: "not_owned"
+          price: 7.95
+        - title: "Yotsuba - T2 -> T15"
+          ownership_status: "not_owned"
+          price: 7.95
+
+    - series: "Les Vacances de Jésus & Bouddha"
+      author: "Hikaru Nakamura"
+      price: 7.3
+      books:
+        - title: "Les Vacances de Jésus & Bouddha - T1"
+          ownership_status: "not_owned"
+          price: 7.3
+        - title: "Les Vacances de Jésus & Bouddha - T2 -> T21"
+          ownership_status: "not_owned"
+          price: 7.3
+
+    - series: "Docteur Slump Perfect Edition"
+      author: "Akira Toriyama"
+      price: 10.95
+      books:
+        - title: "Docteur Slump Perfect Edition - T1"
+          ownership_status: "not_owned"
+          price: 10.95
+        - title: "Docteur Slump Perfect Edition - T2 -> T15"
+          ownership_status: "not_owned"
+          price: 10.95
+
+    - series: "Fullmetal Alchemist Perfect"
+      author: "Hiromu Arakawa"
+      price: 11.95
+      books:
+        - title: "Fullmetal Alchemist Perfect - T1"
+          ownership_status: "not_owned"
+          price: 11.95
+        - title: "Fullmetal Alchemist Perfect - T2 -> T18"
+          ownership_status: "not_owned"
+          price: 11.95
+
+    - series: "Parasite - Édition originale"
+      author: "Hitoshi Iwaaki"
+      price: 10.95
+      books:
+        - title: "Parasite - Édition originale - T1"
+          ownership_status: "not_owned"
+          price: 10.95
+        - title: "Parasite - Édition originale - T2 -> T8"
+          ownership_status: "not_owned"
+          price: 10.95
+
+    - series: "Monster Intégrale Deluxe"
+      author: "Naoki Urasawa"
+      price: 15.9
+      books:
+        - title: "Monster Intégrale Deluxe - T1"
+          ownership_status: "not_owned"
+          price: 15.9
+        - title: "Monster Intégrale Deluxe - T2 -> T9"
+          ownership_status: "not_owned"
+          price: 15.9
+
+    - series: "20th Century Boys Perfect Edition"
+      author: "Naoki Urasawa"
+      price: 16.99
+      books:
+        - title: "20th Century Boys Perfect Edition - T1"
+          ownership_status: "not_owned"
+          price: 16.99
+        - title: "20th Century Boys Perfect Edition - T2 -> T11"
+          ownership_status: "not_owned"
+          price: 16.99
+
+    - series: "The Ghost in the Shell Perfect edition"
+      author: "Masamune Shirow"
+      price: 14.95
+      books:
+        - title: "The Ghost in the Shell Perfect edition - T1"
+          ownership_status: "not_owned"
+          price: 14.95
+        - title: "The Ghost in the Shell Perfect edition - T2"
+          ownership_status: "not_owned"
+          price: 14.95
+        - title: "The Ghost in the Shell Perfect edition - T1.5"
+          ownership_status: "not_owned"
+          price: 14.95
+
+    - series: "Akira - édition originale"
+      author: "Katsuhiro Otomo"
+      price: 14.95
+      books:
+        - title: "Akira - édition originale - T1"
+          ownership_status: "not_owned"
+          price: 14.95
+        - title: "Akira - édition originale - T2 -> T6"
+          ownership_status: "not_owned"
+          price: 14.95
+
+    - series: "Neon Genesis Evangelion - Perfect Edition"
+      author: "Yoshiyuki Sadamoto"
+      price: 14.95
+      books:
+        - title: "Neon Genesis Evangelion - Perfect Edition - T1"
+          ownership_status: "not_owned"
+          price: 14.95
+        - title: "Neon Genesis Evangelion - Perfect Edition - T2 -> T7"
+          ownership_status: "not_owned"
+          price: 14.95
+
+    - series: "Berserk - nouvelle édition"
+      author: "Kentaro Miura"
+      price: 7.2
+      books:
+        - title: "Berserk - nouvelle édition - T1"
+          ownership_status: "not_owned"
+          price: 7.2
+        - title: "Berserk - nouvelle édition - T2 -> T42"
+          ownership_status: "not_owned"
+          price: 7.2
+
+    - series: "BLAME!"
+      author: "Tsutomu Nihei"
+      price: 14.95
+      books:
+        - title: "BLAME! - T1"
+          ownership_status: "not_owned"
+          price: 14.95
+        - title: "BLAME! - T2 -> T6"
+          ownership_status: "not_owned"
+          price: 14.95
+
+    - series: "Gantz - Perfect Edition"
+      author: "Hiroya Oku"
+      price: 15.99
+      books:
+        - title: "Gantz - Perfect Edition - T1"
+          ownership_status: "not_owned"
+          price: 15.99
+        - title: "Gantz - Perfect Edition - T2 -> T18"
+          ownership_status: "not_owned"
+          price: 15.99
+
+    - series: "Bonne Nuit Punpun"
+      author: "Inio Asano"
+      price: 8.1
+      books:
+        - title: "Bonne Nuit Punpun - T1"
+          ownership_status: "not_owned"
+          price: 8.1
+        - title: "Bonne Nuit Punpun - T2 -> T13"
+          ownership_status: "not_owned"
+          price: 8.1
+
+    - series: "Card Captor Sakura"
+      author: "Clamp"
+      price: 9.1
+      books:
+        - title: "Card Captor Sakura - T1"
+          ownership_status: "not_owned"
+          price: 9.1
+        - title: "Card Captor Sakura - T2 -> T9"
+          ownership_status: "not_owned"
+          price: 9.1
+
+    - series: "L'école emportée - édition originale"
+      author: "Kazuo Umezu"
+      price: 10.95
+      books:
+        - title: "L'école emportée - édition originale - T1"
+          ownership_status: "not_owned"
+          price: 10.95
+        - title: "L'école emportée - édition originale - T2 -> T6"
+          ownership_status: "not_owned"
+          price: 10.95
+
+    - series: "Les Enfants de l'araignée"
+      author: "Mario Tamura"
+      price: 27
+      books:
+        - title: "Les Enfants de l'araignée"
+          ownership_status: "not_owned"
+          price: 27
+
+    - series: "L'ère des cristaux"
+      author: "Haruko Ichikawa"
+      price: 7.9
+      books:
+        - title: "L'ère des cristaux - T1"
+          ownership_status: "not_owned"
+          price: 7.9
+        - title: "L'ère des cristaux - T2 -> T13"
+          ownership_status: "not_owned"
+          price: 7.9
+
+    - series: "xxxHolic - nouvelle édition"
+      author: "Clamp"
+      price: 8.5
+      books:
+        - title: "xxxHolic - nouvelle édition - T1"
+          ownership_status: "not_owned"
+          price: 8.5
+        - title: "xxxHolic - nouvelle édition - T2 -> T19"
+          ownership_status: "not_owned"
+          price: 8.5
+
+    - series: "DOFUS (manfra)"
+      author: "Ancestral Z, Mojojojo, Tot"
+      price: 7.95
+      books:
+        - title: "DOFUS - manga - T1"
+          ownership_status: "not_owned"
+          price: 7.95
+        - title: "DOFUS - manga - T2 -> T30"
+          ownership_status: "not_owned"
+          price: 7.95
+
+    - series: "Dofus Monster"
+      author: "Ankama"
+      books:
+        - title: "Dofus Monster - Tome 1 : Le Chêne Mou"
+          ownership_status: "not_owned"
+          price: 7.95
+        - title: "Dofus Monster - Tome 2 : Le Dragon Cochon"
+          ownership_status: "not_owned"
+          price: 7.95
+        - title: "Dofus Monster - Tome 3 : Le Chevalier Noir"
+          ownership_status: "not_owned"
+          price: 7.95
+        - title: "Dofus Monster - Tome 4 : Firefoux"
+          ownership_status: "not_owned"
+          price: 7.95
+        - title: "Dofus Monster - Tome 5 : Nomekop le Crapoteur"
+          ownership_status: "not_owned"
+          price: 7.95
+        - title: "Dofus Monster - Tome 6 : Brumen Tinctorias"
+          ownership_status: "not_owned"
+          price: 7.95
+        - title: "Dofus Monster - Tome 7 : Zatoïshwan"
+          ownership_status: "not_owned"
+          price: 7.95
+        - title: "Dofus Monster - Tome 8 : Wa Wabbit"
+          ownership_status: "not_owned"
+          price: 7.95
+        - title: "Dofus Monster - Tome 9 : Koulosse"
+          ownership_status: "not_owned"
+          price: 7.95
+        - title: "Dofus Monster - Tome 10 : Sphincter Cell"
+          ownership_status: "not_owned"
+          price: 7.95
+        - title: "Dofus Monster - Tome 11 : Bworker"
+          ownership_status: "not_owned"
+          price: 7.95
+        - title: "Dofus Monster - Tome 12 : Moon"
+          ownership_status: "not_owned"
+          price: 7.95
+
+    - series: "Œuvres de Junji Ito"
+      author: "Junji Ito"
+      books:
+        - title: "Spirale (Uzumaki) (2002)"
+          edition: "Delcourt/Tonkam, édition intégrale"
+          ownership_status: "not_owned"
+          price: 29.99
+        - title: "Tomie (2004)"
+          edition: "Mangetsu, édition intégrale"
+          ownership_status: "not_owned"
+          price: 29.95
+        - title: "Gyo (2006)"
+          edition: "Delcourt/Tonkam, édition intégrale"
+          ownership_status: "not_owned"
+          price: 29.95
+        - title: "Le Mystère de la chair (2008)"
+          edition: "Delcourt/Tonkam"
+          ownership_status: "not_owned"
+          price: 12.50
+        - title: "Le Voleur de visages (2008)"
+          edition: "Delcourt/Tonkam"
+          ownership_status: "not_owned"
+          price: 12.50
+        - title: "Le Journal de Soïchi (2009)"
+          edition: "Delcourt/Tonkam"
+          ownership_status: "not_owned"
+          price: 12.50
+        - title: "Le Journal maudit de Soïchi (2009)"
+          edition: "Delcourt/Tonkam"
+          ownership_status: "not_owned"
+          price: 12.50
+        - title: "La Femme limace (2009)"
+          edition: "Delcourt/Tonkam"
+          ownership_status: "not_owned"
+          price: 12.50
+        - title: "Les Fruits sanglants (2010)"
+          edition: "Delcourt/Tonkam"
+          ownership_status: "not_owned"
+          price: 12.50
+        - title: "Hallucinations (2010)"
+          edition: "Delcourt/Tonkam"
+          ownership_status: "not_owned"
+          price: 12.50
+        - title: "La Maison de poupées (2010)"
+          edition: "Delcourt/Tonkam"
+          ownership_status: "not_owned"
+          price: 12.50
+        - title: "La Ville sans rue (2011)"
+          edition: "Delcourt/Tonkam"
+          ownership_status: "not_owned"
+          price: 12.50
+        - title: "La Fille perverse (2011)"
+          edition: "Delcourt/Tonkam"
+          ownership_status: "not_owned"
+          price: 12.50
+        - title: "Le Cirque des horreurs (2012)"
+          edition: "Delcourt/Tonkam"
+          ownership_status: "not_owned"
+          price: 12.50
+        - title: "Black Paradox (2012)"
+          edition: "Delcourt/Tonkam"
+          ownership_status: "not_owned"
+          price: 12.50
+        - title: "Le Tunnel (2013)"
+          edition: "Delcourt/Tonkam"
+          ownership_status: "not_owned"
+          price: 12.50
+        - title: "Le Mort amoureux (2013)"
+          edition: "Delcourt/Tonkam"
+          ownership_status: "not_owned"
+          price: 12.50
+        - title: "Frankenstein (2014)"
+          edition: "Mangetsu, édition 2022"
+          ownership_status: "not_owned"
+          price: 24.95
+        - title: "Le Journal des chats de Junji Ito (2016)"
+          edition: "Delcourt/Tonkam"
+          ownership_status: "not_owned"
+          price: 12.50
+        - title: "Sensor (2021)"
+          edition: "Mangetsu"
+          ownership_status: "not_owned"
+          price: 16.95
+        - title: "Les Chefs-d'œuvre de Junji Ito Tome 1 (2021)"
+          edition: "Mangetsu"
+          ownership_status: "not_owned"
+          price: 24.95
+        - title: "Les Chefs-d'œuvre de Junji Ito Tome 2 (2022)"
+          edition: "Mangetsu"
+          ownership_status: "not_owned"
+          price: 24.95
+        - title: "Zone Fantôme Tome 1 (2022)"
+          edition: "Mangetsu"
+          ownership_status: "not_owned"
+          price: 16.95
+        - title: "Histoires courtes (2022)"
+          edition: "Delcourt/Tonkam"
+          ownership_status: "not_owned"
+          price: 12.50
+        - title: "Soïchi (2022)"
+          edition: "Mangetsu"
+          ownership_status: "not_owned"
+          price: 24.95
+        - title: "L'Amour et la mort (2023)"
+          edition: "Mangetsu"
+          ownership_status: "not_owned"
+          price: 24.95
+        - title: "Zone Fantôme Tome 2 (2023)"
+          edition: "Mangetsu"
+          ownership_status: "not_owned"
+          price: 16.95
+        - title: "Fragments d'horreur (2023)"
+          edition: "Mangetsu"
+          ownership_status: "not_owned"
+          price: 24.95
+        - title: "Rémina (2023)"
+          edition: "Delcourt/Tonkam, édition prestige"
+          ownership_status: "not_owned"
+          price: 19.99
+        - title: "L'École décomposée (2023)"
+          edition: "Mangetsu"
+          ownership_status: "not_owned"
+          price: 24.95
+        - title: "Les Cauchemars de Mimi (2023)"
+          edition: "Mangetsu"
+          ownership_status: "not_owned"
+          price: 24.95
+        - title: "Carnage (2024)"
+          edition: "Mangetsu"
+          ownership_status: "not_owned"
+          price: 24.95
+        - title: "Le Déserteur (2024)"
+          edition: "Mangetsu"
+          ownership_status: "not_owned"
+          price: 24.95
+        - title: "Tombes (2024)"
+          edition: "Mangetsu"
+          ownership_status: "not_owned"
+          price: 24.95
+        - title: "La Déchéance d'un homme (2024)"
+          edition: "Delcourt, intégrale"
+          ownership_status: "not_owned"
+          price: 24.95
+        - title: "Décapitées (2025)"
+          edition: "Mangetsu"
+          ownership_status: "not_owned"
+          price: 24.95
+
   misc:
     - series: "La Saga Evangelion. L'œuvre d'une vie"
       author: "Virginie Nebbia"
