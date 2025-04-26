@@ -40,7 +40,7 @@ title: Backlog
       {{ site.data.translations.backlog.books_categories[category_name] }}
     </h3>
 
-    {% assign subcategories_sorted = subcategories | sort %}
+    {% assign subcategories_sorted = subcategories %}
 
     {% for subcategory in subcategories_sorted %}
       {% assign subcategory_name = subcategory[0] %}
@@ -49,7 +49,7 @@ title: Backlog
       {% if books_in_subcategory.size > 0 %}
         <h4>{{ site.data.translations.backlog.books_subcategories[subcategory_name] }}</h4>
 
-        {% assign books_in_subcategory_sorted = books_in_subcategory | sort: 'series' %}
+        {% assign books_in_subcategory_sorted = books_in_subcategory | sort: 'series' %} 
 
         <ul>
           {% for book_series in books_in_subcategory_sorted %}

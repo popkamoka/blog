@@ -1778,7 +1778,7 @@ books:
             ownership_status: "not_owned"
             price: 24.95
 
-    x:
+    misc:
       - series: "Opus"
         author: "Satoshi Kon"
         books:
@@ -1829,6 +1829,7 @@ books:
             ownership_status: "not_owned"
             price: 24.9
 
+    artbook:
       - series: "Sea of Stars: Les concept arts de Bryce Kho"
         author: "Bryce Kho"
         books:
@@ -1836,13 +1837,13 @@ books:
             ownership_status: "not_owned"
             price: 39.9
 
-    artbook:
       - series: "Studio Ghibli: Architecture in Animation"
         author: "VIZ"
         books:
           - title: "Studio Ghibli: Architecture in Animation"
             ownership_status: "not_owned"
             price: 32.6
+
       - series: "Tekkonkinkreet Film ARTBOOK White/ Shiro Side: Construction site"
         author: "Beyond C"
         books:
