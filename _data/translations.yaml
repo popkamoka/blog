@@ -97,7 +97,7 @@ backlog:
     casterman: "Casterman"
     kurokawa: "Kurokawa"
     junji_ito: "Junji Ito"
-    misc: "Autres"
+    x: "Autres"
 
   games: "Jeux"
   games_platforms:

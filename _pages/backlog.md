@@ -11,7 +11,9 @@ title: Backlog
 
     <h3>{{ site.data.translations.backlog.books_categories[category_name] }}</h3>
 
-      {% for subcategory in subcategories %}
+    {% assign subcategories_sorted = subcategories | sort %}
+
+      {% for subcategory in subcategories_sorted %}
         {% assign subcategory_name = subcategory[0] %}
         {% assign books_in_subcategory = subcategory[1] %}
 

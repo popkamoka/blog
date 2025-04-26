@@ -1778,7 +1778,7 @@ books:
             ownership_status: "not_owned"
             price: 24.95
 
-    misc:
+    x:
       - series: "Opus"
         author: "Satoshi Kon"
         books:
