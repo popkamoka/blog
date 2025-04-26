@@ -2013,14 +2013,92 @@ games:
         - title: "Clair Obscur : Expedition 33"
           studio: "Sandfall Interactive"
           ownership_status: "owned"
-
-  snes:
-    - series: "Chrono Trigger"
-      studio: "Square"
+  nes:
+  megadrive:
+  gb:
+    - series: "Metroid II: Return of Samus"
+      studio: "Nintendo"
       games:
-        - title: "Chrono Trigger"
-          studio: "Square"
+        - title: "Metroid II: Return of Samus"
+          studio: "Nintendo"
           ownership_status: "owned"
+  snes:
+  psx:
+  gbc:
+  n64:
+  dmc:
+  gc:
+  ps2:
+  gba:
+    - series: "Wario Land 4"
+      studio: "Nintendo"
+      games:
+        - title: "Wario Land 4"
+          studio: "Nintendo"
+          ownership_status: "owned"
+
+    - series: "Mother 3"
+      studio: "Nintendo"
+      games:
+        - title: "Mother 3"
+          studio: "Nintendo"
+          ownership_status: "owned"
+
+    - series: "Metroid"
+      studio: "Nintendo"
+      games:
+        - title: "Metroid: Zero Mission"
+          studio: "Nintendo"
+          ownership_status: "owned"
+        - title: "Metroid Fusion"
+          studio: "Nintendo"
+          ownership_status: "owned"
+
+    - series: "Mario & Luigi : Superstar Saga"
+      studio: "Nintendo"
+      games:
+        - title: "Mario & Luigi : Superstar Saga"
+          studio: "Nintendo"
+          ownership_status: "owned"
+
+    - series: "The Legend of Zelda: The Minish Cap"
+      studio: "Nintendo"
+      games:
+        - title: "The Legend of Zelda: The Minish Cap"
+          studio: "Nintendo"
+          ownership_status: "owned"
+
+    - series: "Kurukuru Kururin"
+      studio: "Eighting"
+      games:
+        - title: "Kurukuru Kururin"
+          studio: "Eighting"
+          ownership_status: "owned"
+
+    - series: "Castlevania (Iga)"
+      studio: "Konami"
+      games:
+        - title: "Castlevania: Circle of the Moon"
+          studio: "Konami"
+          ownership_status: "owned"
+        - title: "Castlevania: Harmony of Dissonance"
+          studio: "Konami"
+          ownership_status: "owned"
+        - title: "Castlevania: Aria of Sorrow"
+          studio: "Konami"
+          ownership_status: "owned"
+        - title: "Castlevania: Dawn of Sorrow"
+          studio: "Konami"
+          ownership_status: "owned"
+  ps3:
+  wii:
+  psp:
+  nds:
+  vita:
+  3ds:
+  wiiu:
+  ps4:
+  switch:
 
 films:
   comedy:

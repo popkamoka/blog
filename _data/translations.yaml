@@ -107,6 +107,8 @@ backlog:
     pc: "PC"
     switch: "Switch"
     snes: "SNES"
+    gb: "GB"
+    gba: "GBA"
     misc: "Autres"
 
   films: "Films"

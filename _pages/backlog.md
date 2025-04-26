@@ -120,7 +120,7 @@ title: Backlog
         {{ site.data.translations.backlog.games_categories[platform_name] }}
       </h3>
 
-      {% assign games_sorted = games | sort: 'title' %}
+      {% assign games_sorted = games | sort: 'series' %}
 
         <ul>
           {% for game_series in games_sorted %}
@@ -147,7 +147,8 @@ title: Backlog
                 <details>
                   <summary>
                     {% include ownership_status_icon.html ownership_status=series_ownership_status %}
-                    {{ game_series.series }} 
+                    {{ game_series.series }}
+                    {% if game_series.studio %} - {{ game_series.studio }}{% endif %}
                   </summary>
                   <ul>
                     {% for game in game_series.games %}
