@@ -121,15 +121,54 @@ title: Backlog
       </h3>
 
       {% assign games_sorted = games | sort: 'title' %}
-      <ul>
-        {% for game in games_sorted %}
-          <li>
-            {% include ownership_status_icon.html ownership_status=game.ownership_status %}
-            {{ game.title -}}
-            {%- if game.studio %} - {{ game.studio }}{% endif %}
-          </li>
-        {% endfor %}
-      </ul>
+
+        <ul>
+          {% for game_series in games_sorted %}
+            <li>
+              {% assign series_games_count = game_series.games.size %}
+              {% if series_games_count > 1 %}
+                {% assign owned_count = 0 %}
+                {% assign total_count = game_series.games.size %}
+
+                {% for game in game_series.games %}
+                  {% if game.ownership_status == 'owned' %}
+                    {% assign owned_count = owned_count | plus: 1 %}
+                  {% endif %}
+                {% endfor %}
+
+                {% if owned_count == total_count %}
+                  {% assign series_ownership_status = 'owned' %}
+                {% elsif owned_count == 0 %}
+                  {% assign series_ownership_status = 'not_owned' %}
+                {% else %}
+                  {% assign series_ownership_status = 'partially_owned' %}
+                {% endif %}
+
+                <details>
+                  <summary>
+                    {% include ownership_status_icon.html ownership_status=series_ownership_status %}
+                    {{ game_series.series }} 
+                  </summary>
+                  <ul>
+                    {% for game in game_series.games %}
+                      <li>
+                        {% include ownership_status_icon.html ownership_status=game.ownership_status %}
+                        {{ game.title }}
+                        {% if game.studio %} - {{ game.studio }}{% endif %}
+                      </li>
+                    {% endfor %}
+                  </ul>
+                </details>
+
+              {% else %}
+                {% assign game = game_series.games[0] %}
+                {% include ownership_status_icon.html ownership_status=game.ownership_status %}
+                {{ game.title }}
+                {% if game.studio %} - {{ game.studio }}{% endif %}
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
     {% endif %}
   {% endfor %}
 </div>
