@@ -1066,6 +1066,92 @@ books:
             ownership_status: "not_owned"
             price: 7.95
 
+    casterman:
+      - series: "Les Enfants de l'araignée"
+        author: "Mario Tamura"
+        price: 27
+        books:
+          - title: "Les Enfants de l'araignée"
+            ownership_status: "not_owned"
+            price: 27
+
+      - series: "Quartier lointain"
+        author: "Jiro Taniguchi"
+        books:
+          - title: "Quartier lointain"
+            ownership_status: "not_owned"
+            price: 24.95
+
+    crunchyroll:
+      - series: "Rainbow (édition triple)"
+        author: "George Abe, 	Masasumi Kakizaki"
+        books:
+          - title: "Rainbow T1"
+            ownership_status: "owned"
+          - title: "Rainbow T2"
+            ownership_status: "owned"
+          - title: "Rainbow T3"
+            ownership_status: "owned"
+          - title: "Rainbow T4"
+            ownership_status: "owned"
+          - title: "Rainbow T5"
+            ownership_status: "owned"
+          - title: "Rainbow T6"
+            ownership_status: "owned"
+          - title: "Rainbow T7"
+            ownership_status: "owned"
+
+      - series: "All You Need is Kill"
+        author: "Hiroshi Sakurazaka, Takeshi Obata"
+        price: 7.25
+        books:
+          - title: "All You Need is Kill T01"
+            ownership_status: "not_owned"
+            price: 7.25
+          - title: "All You Need is Kill T02"
+            ownership_status: "not_owned"
+            price: 7.25
+
+    delcourt:
+      - series: "Gantz - Perfect Edition"
+        author: "Hiroya Oku"
+        price: 15.99
+        books:
+          - title: "Gantz - Perfect Edition - T1"
+            ownership_status: "not_owned"
+            price: 15.99
+          - title: "Gantz - Perfect Edition - T2 -> T18"
+            ownership_status: "not_owned"
+            price: 15.99
+
+      - series: "Amer béton - intégrale"
+        author: "Taiyō Matsumoto"
+        books:
+          - title: "Amer béton - intégrale"
+            ownership_status: "owned"
+
+      - series: "Ping Pong - édition prestige"
+        author: "Taiyō Matsumoto"
+        price: 29.99
+        books:
+          - title: "Ping Pong - édition prestige T01"
+            ownership_status: "not_owned"
+            price: 29.99
+          - title: "Ping Pong - édition prestige T02"
+            ownership_status: "not_owned"
+            price: 29.99
+
+      - series: "Nana"
+        author: "Ai Yazawa"
+        price: 7.29
+        books:
+          - title: "Nana T01"
+            ownership_status: "not_owned"
+            price: 7.29
+          - title: "Nana T02 -> T21"
+            ownership_status: "not_owned"
+            price: 7.29
+
     glenat:
       - series: "L'ère des cristaux"
         author: "Haruko Ichikawa"
@@ -1213,120 +1299,6 @@ books:
           - title: "Gunnm - édition originale T02 -> T9"
             ownership_status: "not_owned"
             price: 7.9
-
-    crunchyroll:
-      - series: "Rainbow (édition triple)"
-        author: "George Abe, 	Masasumi Kakizaki"
-        books:
-          - title: "Rainbow T1"
-            ownership_status: "owned"
-          - title: "Rainbow T2"
-            ownership_status: "owned"
-          - title: "Rainbow T3"
-            ownership_status: "owned"
-          - title: "Rainbow T4"
-            ownership_status: "owned"
-          - title: "Rainbow T5"
-            ownership_status: "owned"
-          - title: "Rainbow T6"
-            ownership_status: "owned"
-          - title: "Rainbow T7"
-            ownership_status: "owned"
-
-      - series: "All You Need is Kill"
-        author: "Hiroshi Sakurazaka, Takeshi Obata"
-        price: 7.25
-        books:
-          - title: "All You Need is Kill T01"
-            ownership_status: "not_owned"
-            price: 7.25
-          - title: "All You Need is Kill T02"
-            ownership_status: "not_owned"
-            price: 7.25
-
-    pika:
-      - series: "xxxHolic - nouvelle édition"
-        author: "Clamp"
-        price: 8.5
-        books:
-          - title: "xxxHolic - nouvelle édition - T1"
-            ownership_status: "not_owned"
-            price: 8.5
-          - title: "xxxHolic - nouvelle édition - T2 -> T19"
-            ownership_status: "not_owned"
-            price: 8.5
-
-      - series: "Card Captor Sakura"
-        author: "Clamp"
-        price: 9.1
-        books:
-          - title: "Card Captor Sakura - T1"
-            ownership_status: "not_owned"
-            price: 9.1
-          - title: "Card Captor Sakura - T2 -> T9"
-            ownership_status: "not_owned"
-            price: 9.1
-
-      - series: "L'Atelier des Sorciers - édition grimoire"
-        author: "Kamome Shirahama"
-        price: 20.05
-        books:
-          - title: "L'Atelier des Sorciers - édition grimoire T1"
-            ownership_status: "owned"
-          - title: "L'Atelier des Sorciers - édition grimoire T2"
-            ownership_status: "not_owned"
-            price: 20.05
-
-      - series: "GTO"
-        author: "Tōru Fujisawa"
-        price: 7.2
-        books:
-          - title: "GTO - T1"
-            ownership_status: "not_owned"
-            price: 7.2
-          - title: "GTO - T2 -> T25"
-            ownership_status: "not_owned"
-            price: 7.2
-
-    delcourt:
-      - series: "Gantz - Perfect Edition"
-        author: "Hiroya Oku"
-        price: 15.99
-        books:
-          - title: "Gantz - Perfect Edition - T1"
-            ownership_status: "not_owned"
-            price: 15.99
-          - title: "Gantz - Perfect Edition - T2 -> T18"
-            ownership_status: "not_owned"
-            price: 15.99
-
-      - series: "Amer béton - intégrale"
-        author: "Taiyō Matsumoto"
-        books:
-          - title: "Amer béton - intégrale"
-            ownership_status: "owned"
-
-      - series: "Ping Pong - édition prestige"
-        author: "Taiyō Matsumoto"
-        price: 29.99
-        books:
-          - title: "Ping Pong - édition prestige T01"
-            ownership_status: "not_owned"
-            price: 29.99
-          - title: "Ping Pong - édition prestige T02"
-            ownership_status: "not_owned"
-            price: 29.99
-
-      - series: "Nana"
-        author: "Ai Yazawa"
-        price: 7.29
-        books:
-          - title: "Nana T01"
-            ownership_status: "not_owned"
-            price: 7.29
-          - title: "Nana T02 -> T21"
-            ownership_status: "not_owned"
-            price: 7.29
 
     kana:
       - series: "Bonne Nuit Punpun"
@@ -1545,6 +1517,40 @@ books:
             ownership_status: "not_owned"
             price: 7.95
 
+    kurokawa:
+      - series: "Yotsuba"
+        author: "Kiyohiko Azuma"
+        price: 7.95
+        books:
+          - title: "Yotsuba - T1"
+            ownership_status: "not_owned"
+            price: 7.95
+          - title: "Yotsuba - T2 -> T15"
+            ownership_status: "not_owned"
+            price: 7.95
+
+      - series: "Les Vacances de Jésus & Bouddha"
+        author: "Hikaru Nakamura"
+        price: 7.3
+        books:
+          - title: "Les Vacances de Jésus & Bouddha - T1"
+            ownership_status: "not_owned"
+            price: 7.3
+          - title: "Les Vacances de Jésus & Bouddha - T2 -> T21"
+            ownership_status: "not_owned"
+            price: 7.3
+
+      - series: "Fullmetal Alchemist Perfect"
+        author: "Hiromu Arakawa"
+        price: 11.95
+        books:
+          - title: "Fullmetal Alchemist Perfect - T1"
+            ownership_status: "not_owned"
+            price: 11.95
+          - title: "Fullmetal Alchemist Perfect - T2 -> T18"
+            ownership_status: "not_owned"
+            price: 11.95
+
     le_lezard_noir:
       - series: "La concierge du grand magasin"
         author: "Tsuchika NISHIMURA"
@@ -1579,55 +1585,49 @@ books:
             ownership_status: "not_owned"
             price: 16.99
 
-    casterman:
-      - series: "Les Enfants de l'araignée"
-        author: "Mario Tamura"
-        price: 27
+    pika:
+      - series: "xxxHolic - nouvelle édition"
+        author: "Clamp"
+        price: 8.5
         books:
-          - title: "Les Enfants de l'araignée"
+          - title: "xxxHolic - nouvelle édition - T1"
             ownership_status: "not_owned"
-            price: 27
+            price: 8.5
+          - title: "xxxHolic - nouvelle édition - T2 -> T19"
+            ownership_status: "not_owned"
+            price: 8.5
 
-      - series: "Quartier lointain"
-        author: "Jiro Taniguchi"
+      - series: "Card Captor Sakura"
+        author: "Clamp"
+        price: 9.1
         books:
-          - title: "Quartier lointain"
+          - title: "Card Captor Sakura - T1"
             ownership_status: "not_owned"
-            price: 24.95
+            price: 9.1
+          - title: "Card Captor Sakura - T2 -> T9"
+            ownership_status: "not_owned"
+            price: 9.1
 
-    kurokawa:
-      - series: "Yotsuba"
-        author: "Kiyohiko Azuma"
-        price: 7.95
+      - series: "L'Atelier des Sorciers - édition grimoire"
+        author: "Kamome Shirahama"
+        price: 20.05
         books:
-          - title: "Yotsuba - T1"
+          - title: "L'Atelier des Sorciers - édition grimoire T1"
+            ownership_status: "owned"
+          - title: "L'Atelier des Sorciers - édition grimoire T2"
             ownership_status: "not_owned"
-            price: 7.95
-          - title: "Yotsuba - T2 -> T15"
-            ownership_status: "not_owned"
-            price: 7.95
+            price: 20.05
 
-      - series: "Les Vacances de Jésus & Bouddha"
-        author: "Hikaru Nakamura"
-        price: 7.3
+      - series: "GTO"
+        author: "Tōru Fujisawa"
+        price: 7.2
         books:
-          - title: "Les Vacances de Jésus & Bouddha - T1"
+          - title: "GTO - T1"
             ownership_status: "not_owned"
-            price: 7.3
-          - title: "Les Vacances de Jésus & Bouddha - T2 -> T21"
+            price: 7.2
+          - title: "GTO - T2 -> T25"
             ownership_status: "not_owned"
-            price: 7.3
-
-      - series: "Fullmetal Alchemist Perfect"
-        author: "Hiromu Arakawa"
-        price: 11.95
-        books:
-          - title: "Fullmetal Alchemist Perfect - T1"
-            ownership_status: "not_owned"
-            price: 11.95
-          - title: "Fullmetal Alchemist Perfect - T2 -> T18"
-            ownership_status: "not_owned"
-            price: 11.95
+            price: 7.2
 
     junji_ito:
       - series: "Œuvres de Junji Ito"
