@@ -2,93 +2,109 @@
 layout: page
 title: Backlog
 ---
-
 <div id="backlog-toc">
   <ul>
-    <li><a href="#books">{{ site.data.translations.backlog.books }}</a></li>
-    <li><a href="#games">{{ site.data.translations.backlog.games }}</a></li>
-    <li><a href="#films">{{ site.data.translations.backlog.films }}</a></li>
-    <li><a href="#series">{{ site.data.translations.backlog.series }}</a></li>
-    <li><a href="#misc">{{ site.data.translations.backlog.misc }}</a></li>
+    {% for section in site.data.backlog %}
+      {% assign section_key = section[0] %}
+      <li>
+        <a href="#{{ section_key }}">{{ site.data.translations.backlog[section_key] }}</a>
+
+        {% assign categories = section[1] %}
+        {% if categories %}
+          <ul>
+            {% for category in categories %}
+              {% assign category_key = category[0] %}
+              <li>
+                <a href="#{{ section_key }}-{{ category_key }}">
+                  {{ site.data.translations.backlog.books_categories[category_key] }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
   </ul>
 </div>
 
-<div id="books" class="backlog-section books-section">
+{% assign books_section_id = 'books' %}
+<div id="{{books_section_id}}" class="backlog-section books-section">
   <h2><i class="fa-solid fa-book category-icon book-icon"></i> {{ site.data.translations.backlog.books }}</h2>
 
   {% for category in site.data.backlog.books %}
     {% assign category_name = category[0] %}
     {% assign subcategories = category[1] %}
 
-    <h3>{{ site.data.translations.backlog.books_categories[category_name] }}</h3>
+    <h3 id="{{books_section_id}}-{{ category_name }}">
+      {{ site.data.translations.backlog.books_categories[category_name] }}
+    </h3>
 
     {% assign subcategories_sorted = subcategories | sort %}
 
-      {% for subcategory in subcategories_sorted %}
-        {% assign subcategory_name = subcategory[0] %}
-        {% assign books_in_subcategory = subcategory[1] %}
+    {% for subcategory in subcategories_sorted %}
+      {% assign subcategory_name = subcategory[0] %}
+      {% assign books_in_subcategory = subcategory[1] %}
 
-        {% if books_in_subcategory.size > 0 %}
-          <h4>{{ site.data.translations.backlog.books_subcategories[subcategory_name] }}</h4>
+      {% if books_in_subcategory.size > 0 %}
+        <h4>{{ site.data.translations.backlog.books_subcategories[subcategory_name] }}</h4>
 
-          {% assign books_in_subcategory_sorted = books_in_subcategory | sort: 'series' %}
+        {% assign books_in_subcategory_sorted = books_in_subcategory | sort: 'series' %}
 
-          <ul>
-            {% for book_series in books_in_subcategory_sorted %}
-              <li>
-                {% assign series_books_count = book_series.books.size %}
-                {% if series_books_count > 1 %}
-                  {% assign owned_count = 0 %}
-                  {% assign total_count = book_series.books.size %}
+        <ul>
+          {% for book_series in books_in_subcategory_sorted %}
+            <li>
+              {% assign series_books_count = book_series.books.size %}
+              {% if series_books_count > 1 %}
+                {% assign owned_count = 0 %}
+                {% assign total_count = book_series.books.size %}
 
-                  {% for book in book_series.books %}
-                    {% if book.ownership_status == 'owned' %}
-                      {% assign owned_count = owned_count | plus: 1 %}
-                    {% endif %}
-                  {% endfor %}
-
-                  {% if owned_count == total_count %}
-                    {% assign series_ownership_status = 'owned' %}
-                  {% elsif owned_count == 0 %}
-                    {% assign series_ownership_status = 'not_owned' %}
-                  {% else %}
-                    {% assign series_ownership_status = 'partially_owned' %}
+                {% for book in book_series.books %}
+                  {% if book.ownership_status == 'owned' %}
+                    {% assign owned_count = owned_count | plus: 1 %}
                   {% endif %}
+                {% endfor %}
 
-                  <details>
-                    <summary>
-                      {% include ownership_status_icon.html ownership_status=series_ownership_status %}
-                      {{ book_series.series }} - {{ book_series.author }}
-                      {% if book_series.edition %} ({{ book_series.edition }}){% endif %}
-                      {% if book_series.price %} ({{ book_series.price }}€){% endif %}
-                    </summary>
-                    <ul>
-                      {% for book in book_series.books %}
-                        <li>
-                          {% include ownership_status_icon.html ownership_status=book.ownership_status %}
-                          {{ book.title }}
-                          {% if book.edition %} ({{ book.edition }}){% endif %}
-                          {% if book.price %} ({{ book.price }}€){% endif %}
-                        </li>
-                      {% endfor %}
-                    </ul>
-                  </details>
-
+                {% if owned_count == total_count %}
+                  {% assign series_ownership_status = 'owned' %}
+                {% elsif owned_count == 0 %}
+                  {% assign series_ownership_status = 'not_owned' %}
                 {% else %}
-                  {% assign book = book_series.books[0] %}
-                  {% include ownership_status_icon.html ownership_status=book.ownership_status %}
-                  {{ book.title }} - {{ book_series.author }}
-                  {% if book.edition %} ({{ book.edition }}){% endif %}
-                  {% if book.price %} ({{ book.price }}€){% endif %}
+                  {% assign series_ownership_status = 'partially_owned' %}
                 {% endif %}
-              </li>
-            {% endfor %}
-          </ul>
-        {% endif %}
-      {% endfor %}
+
+                <details>
+                  <summary>
+                    {% include ownership_status_icon.html ownership_status=series_ownership_status %}
+                    {{ book_series.series }} - {{ book_series.author }}
+                    {% if book_series.edition %} ({{ book_series.edition }}){% endif %}
+                    {% if book_series.price %} ({{ book_series.price }}€){% endif %}
+                  </summary>
+                  <ul>
+                    {% for book in book_series.books %}
+                      <li>
+                        {% include ownership_status_icon.html ownership_status=book.ownership_status %}
+                        {{ book.title }}
+                        {% if book.edition %} ({{ book.edition }}){% endif %}
+                        {% if book.price %} ({{ book.price }}€){% endif %}
+                      </li>
+                    {% endfor %}
+                  </ul>
+                </details>
+
+              {% else %}
+                {% assign book = book_series.books[0] %}
+                {% include ownership_status_icon.html ownership_status=book.ownership_status %}
+                {{ book.title }} - {{ book_series.author }}
+                {% if book.edition %} ({{ book.edition }}){% endif %}
+                {% if book.price %} ({{ book.price }}€){% endif %}
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endfor %}
   {% endfor %}
 </div>
-
 
 <div id="games" class="backlog-section games-section">
   <h2><i class="fa-solid fa-gamepad category-icon game-icon"></i> {{ site.data.translations.backlog.games }}</h2>
