@@ -381,7 +381,7 @@ a {
 
 .backlog-section {
   padding: 20px;
-  border-bottom: 1px solid $separator-color;
+  border-bottom: 2px solid $separator-color;
 }
 
 .backlog-section ul {
@@ -390,6 +390,11 @@ a {
 
 .backlog-section li li {
   margin-left: 1rem;
+}
+
+.backlog-section h3 {
+  padding-top: 0.5rem;
+  border-top: 1px solid $separator-color;
 }
 
 #backlog-toc {

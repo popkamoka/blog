@@ -134,7 +134,7 @@ title: Backlog
     {% assign subcategory_films = category[1] %}
 
     {% if subcategory_films.size > 0 %}
-      <h3>{{ site.data.translations.backlog.media_subcategorys[subcategory_name] }}</h3>
+      <h3>{{ site.data.translations.backlog.media_genres[subcategory_name] }}</h3>
 
       {% assign subcategory_films_sorted = subcategory_films | sort: 'series' %}
 
