@@ -355,21 +355,37 @@ a {
     list-style-type: none;
   }
 
+  #backlog-toc {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 1rem;
+    border: 1px solid $separator-color;
+    font-size: 0.9rem;
+  }
+  
+  #backlog-toc ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  #backlog-toc a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  #backlog-toc a:hover {
+    text-decoration: underline;
+  }
 
-  .books-section {
+  @media (max-width: 768px) {
+    #backlog-toc {
+      display: none;
+    }
   }
-  
-  .games-section {
-  }
-  
-  .films-section {
-  }
-  
-  .series-section {
-  }
-  
-  .misc-section {
-  }
+
   
 /* ============================= */
 /* ======== IMAGES ============== */
@@ -413,7 +429,7 @@ hr {
 /* ======== MEDIA QUERIES ======= */
 /* ============================= */
 
-@media screen and (max-width: 45rem) {
+@media screen and (max-width: 768px) {
 
     header li {
         display: inline;

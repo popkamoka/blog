@@ -2,7 +2,18 @@
 layout: page
 title: Backlog
 ---
-<div class="backlog-section books-section">
+
+<div id="backlog-toc">
+  <ul>
+    <li><a href="#books">{{ site.data.translations.backlog.books }}</a></li>
+    <li><a href="#games">{{ site.data.translations.backlog.games }}</a></li>
+    <li><a href="#films">{{ site.data.translations.backlog.films }}</a></li>
+    <li><a href="#series">{{ site.data.translations.backlog.series }}</a></li>
+    <li><a href="#misc">{{ site.data.translations.backlog.misc }}</a></li>
+  </ul>
+</div>
+
+<div id="books" class="backlog-section books-section">
   <h2><i class="fa-solid fa-book category-icon book-icon"></i> {{ site.data.translations.backlog.books }}</h2>
 
   {% for category in site.data.backlog.books %}
@@ -79,7 +90,7 @@ title: Backlog
 </div>
 
 
-<div class="backlog-section games-section">
+<div id="games" class="backlog-section games-section">
   <h2><i class="fa-solid fa-gamepad category-icon game-icon"></i> {{ site.data.translations.backlog.games }}</h2>
   {% for platform in site.data.backlog.games %}
     {% assign platform_name = platform[0] %}
@@ -100,7 +111,7 @@ title: Backlog
   {% endfor %}
 </div>
 
-<div class="backlog-section films-section">
+<div id="films" class="backlog-section films-section">
   <h2><i class="fa-solid fa-film category-icon film-icon"></i> {{ site.data.translations.backlog.films }}</h2>
   {% for category in site.data.backlog.films %}
     {% assign subcategory_name = category[0] %}
@@ -139,7 +150,7 @@ title: Backlog
   {% endfor %}
 </div>
 
-<div class="backlog-section series-section">
+<div id="series" class="backlog-section series-section">
   <h2><i class="fa-solid fa-tv category-icon series-icon"></i> {{ site.data.translations.backlog.series }}</h2>
 
   {% for subcategory in site.data.backlog.series %}
@@ -176,7 +187,7 @@ title: Backlog
   {% endfor %}
 </div>
 
-<div class="backlog-section misc-section">
+<div id="misc" class="backlog-section misc-section">
   <h2><i class="fa-solid fa-star category-icon default-icon"></i> {{ site.data.translations.backlog.misc }}</h2>
   <ul>
     {% for item in site.data.backlog.misc %}
