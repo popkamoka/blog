@@ -76,11 +76,13 @@ media_info:
 
 backlog:
   books: "Livres"
+
   books_categories:
     novels: "Romans"
     comics: "BDs"
     mangas: "Mangas"
     misc: "Autres"
+
   books_subcategories:
     artbook: "Artbook"
     essay: "Essais"
@@ -100,13 +102,16 @@ backlog:
     x: "Autres"
 
   games: "Jeux"
-  games_platforms:
+
+  games_categories:
     pc: "PC"
     switch: "Switch"
+    snes: "SNES"
     misc: "Autres"
 
   films: "Films"
   series: "Séries"
+
   media_genres:
     action: "Action"
     adventure: "Aventure"

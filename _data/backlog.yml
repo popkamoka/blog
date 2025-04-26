@@ -1969,6 +1969,10 @@ games:
     - title: "Clair Obscur : Expedition 33"
       studio: "Sandfall Interactive"
       ownership_status: "owned"
+  snes:
+    - title: "Chrono Trigger"
+      studio: "Square"
+      ownership_status: "owned"
 
 films:
   comedy:

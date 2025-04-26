@@ -16,7 +16,8 @@ title: Backlog
               {% assign category_key = category[0] %}
               <li>
                 <a href="#{{ section_key }}-{{ category_key }}">
-                  {{ site.data.translations.backlog.books_categories[category_key] }}
+                  {% assign translation_key = section_key | append: "_categories" %}
+                  {{ site.data.translations.backlog[translation_key][category_key] }}
                 </a>
               </li>
             {% endfor %}
@@ -106,16 +107,22 @@ title: Backlog
   {% endfor %}
 </div>
 
-<div id="games" class="backlog-section games-section">
+{% assign games_section_id = 'games' %}
+<div id="{{games_section_id}}" class="backlog-section games-section">
   <h2><i class="fa-solid fa-gamepad category-icon game-icon"></i> {{ site.data.translations.backlog.games }}</h2>
+
   {% for platform in site.data.backlog.games %}
     {% assign platform_name = platform[0] %}
     {% assign games = platform[1] %}
 
     {% if games.size > 0 %}
-      <h3>{{ site.data.translations.backlog.games_platforms[platform_name] }}</h3>
+      <h3 id="{{games_section_id}}-{{ platform_name }}">
+        {{ site.data.translations.backlog.games_categories[platform_name] }}
+      </h3>
+
+      {% assign games_sorted = games | sort: 'title' %}
       <ul>
-        {% for game in games %}
+        {% for game in games_sorted %}
           <li>
             {% include ownership_status_icon.html ownership_status=game.ownership_status %}
             {{ game.title -}}
