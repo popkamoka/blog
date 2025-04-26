@@ -370,6 +370,11 @@ a {
   border: none;
 }
 
+#scrollToTop:hover {
+  cursor: pointer;
+  color: #525252;
+}
+
 /* ============================= */
 /* ======== BACKLOG ============= */
 /* ============================= */
@@ -388,6 +393,9 @@ a {
 }
 
 #backlog-toc {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
   width: 200px;
   padding: 1rem;
   border: 1px solid $separator-color;
