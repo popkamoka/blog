@@ -45,3 +45,5 @@ Je l'ai revu récemment en VF et ça a vraiment été un plaisir, j'avais souven
 
 Le trio de base est vraiment attachant, les musiques sont parmi les meilleures que j'ai pu écouter dans un anime et c'est sans surprise que je continue à les écouter même en dehors des épisodes. 
 Gros coup de cœur pour l'opening qui suinte le style du début à la fin.
+
+{% include youtube.html id="py9QAJFDBHs" title="Scène finale de Samurai Champloo" %}
