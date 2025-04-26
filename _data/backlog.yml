@@ -1,1929 +1,1938 @@
 books:
   novels:
-    dystopian:
-      misc:
-        - series: "La servante écarlate"
-          author: "Margaret Atwood"
-          books:
-            - title: "La servante écarlate"
-              ownership_status: "not_owned"
-              price: 12.5
+    n/a:
+      - series: "La servante écarlate"
+        author: "Margaret Atwood"
+        books:
+          - title: "La servante écarlate"
+            ownership_status: "not_owned"
+            price: 12.5
 
-    misc:
-      misc:
-        - series: "La ballade de l'impossible"
-          author: "Haruki Murakami"
-          books:
-            - title: "La ballade de l'impossible"
-              ownership_status: "owned"
+      - series: "La ballade de l'impossible"
+        author: "Haruki Murakami"
+        books:
+          - title: "La ballade de l'impossible"
+            ownership_status: "owned"
 
-        - series: "Kafka sur le rivage"
-          author: "Haruki Murakami"
-          books:
-            - title: "Kafka sur le rivage"
-              ownership_status: "owned"
+      - series: "Kafka sur le rivage"
+        author: "Haruki Murakami"
+        books:
+          - title: "Kafka sur le rivage"
+            ownership_status: "owned"
 
-        - series: "Chroniques de l'oiseau à ressort"
-          author: "Haruki Murakami"
-          books:
-            - title: "Chroniques de l'oiseau à ressort"
-              ownership_status: "owned"
+      - series: "Chroniques de l'oiseau à ressort"
+        author: "Haruki Murakami"
+        books:
+          - title: "Chroniques de l'oiseau à ressort"
+            ownership_status: "owned"
 
-        - series: "La couleur des sentiments"
-          author: "Kathryn Stockett"
-          books:
-            - title: "La couleur des sentiments"
-              ownership_status: "owned"
+      - series: "La couleur des sentiments"
+        author: "Kathryn Stockett"
+        books:
+          - title: "La couleur des sentiments"
+            ownership_status: "owned"
 
-        - series: "La maison des feuilles"
-          author: "Mark Z. Danielewski"
-          books:
-            - title: "La maison des feuilles"
-              ownership_status: "owned"
+      - series: "La maison des feuilles"
+        author: "Mark Z. Danielewski"
+        books:
+          - title: "La maison des feuilles"
+            ownership_status: "owned"
 
-        - series: "Hunger Games"
-          author: "Suzanne Collins"
-          books:
-            - title: "Hunger Games"
-              ownership_status: "owned"
-            - title: "Hunger Games - L'embrasement"
-              ownership_status: "owned"
-            - title: "Hunger Games - La révolte"
-              ownership_status: "owned"
-            - title: "Hunger Games - La ballade du serpent et de l'oiseau chanteur"
-              ownership_status: "not_owned"
-              price: 9.5
-            - title: "Hunger Games - Lever de soleil sur la moisson"
-              ownership_status: "not_owned"
-              edition: "Grand format"
-              price: 19.9
+      - series: "Hunger Games"
+        author: "Suzanne Collins"
+        books:
+          - title: "Hunger Games"
+            ownership_status: "owned"
+          - title: "Hunger Games - L'embrasement"
+            ownership_status: "owned"
+          - title: "Hunger Games - La révolte"
+            ownership_status: "owned"
+          - title: "Hunger Games - La ballade du serpent et de l'oiseau chanteur"
+            ownership_status: "not_owned"
+            price: 9.5
+          - title: "Hunger Games - Lever de soleil sur la moisson"
+            ownership_status: "not_owned"
+            edition: "Grand format"
+            price: 19.9
 
-        - series: "Dune"
-          author: "Frank Herbert"
-          books:
-            - title: "Dune"
-              ownership_status: "owned"
-            - title: "Dune - Le Messie de Dune"
-              ownership_status: "owned"
-            - title: "Dune - Les Enfants de Dune"
-              ownership_status: "not_owned"
-            - title: "Dune - L'Empereur-Dieu de Dune"
-              ownership_status: "not_owned"
-            - title: "Dune - Les Hérétiques de Dune"
-              ownership_status: "not_owned"
-            - title: "Dune - La Maison des Mères"
-              ownership_status: "not_owned"
+      - series: "Dune"
+        author: "Frank Herbert"
+        books:
+          - title: "Dune"
+            ownership_status: "owned"
+          - title: "Dune - Le Messie de Dune"
+            ownership_status: "owned"
+          - title: "Dune - Les Enfants de Dune"
+            ownership_status: "not_owned"
+          - title: "Dune - L'Empereur-Dieu de Dune"
+            ownership_status: "not_owned"
+          - title: "Dune - Les Hérétiques de Dune"
+            ownership_status: "not_owned"
+          - title: "Dune - La Maison des Mères"
+            ownership_status: "not_owned"
 
-        - series: "Méto"
-          author: "Yves Grevet"
-          books:
-            - title: "Méto - La maison"
-              ownership_status: "owned"
-            - title: "Méto - L'île"
-              ownership_status: "owned"
-            - title: "Méto - Le monde"
-              ownership_status: "owned"
+      - series: "Méto"
+        author: "Yves Grevet"
+        books:
+          - title: "Méto - La maison"
+            ownership_status: "owned"
+          - title: "Méto - L'île"
+            ownership_status: "owned"
+          - title: "Méto - Le monde"
+            ownership_status: "owned"
 
-        - series: "Le magicien d'Oz"
-          author: "Frank L. Baum"
-          books:
-            - title: "Le magicien d'Oz"
-              ownership_status: "owned"
+      - series: "Le magicien d'Oz"
+        author: "Frank L. Baum"
+        books:
+          - title: "Le magicien d'Oz"
+            ownership_status: "owned"
 
-        - series: "Christine"
-          author: "Stephen King"
-          books:
-            - title: "Christine"
-              ownership_status: "owned"
+      - series: "Christine"
+        author: "Stephen King"
+        books:
+          - title: "Christine"
+            ownership_status: "owned"
 
-        - series: "Cujo"
-          author: "Stephen King"
-          books:
-            - title: "Cujo"
-              ownership_status: "owned"
+      - series: "Cujo"
+        author: "Stephen King"
+        books:
+          - title: "Cujo"
+            ownership_status: "owned"
 
-        - series: "Shining"
-          author: "Stephen King"
-          books:
-            - title: "Shining"
-              ownership_status: "owned"
+      - series: "Shining"
+        author: "Stephen King"
+        books:
+          - title: "Shining"
+            ownership_status: "owned"
 
-        - series: "La métamorphose"
-          author: "Franz Kafka"
-          books:
-            - title: "La métamorphose"
-              ownership_status: "owned"
+      - series: "La métamorphose"
+        author: "Franz Kafka"
+        books:
+          - title: "La métamorphose"
+            ownership_status: "owned"
 
-        - series: "American Psycho"
-          author: "Bret Easton Ellis"
-          books:
-            - title: "American Psycho"
-              ownership_status: "owned"
+      - series: "American Psycho"
+        author: "Bret Easton Ellis"
+        books:
+          - title: "American Psycho"
+            ownership_status: "owned"
 
-        - series: "Trilogie des fourmis"
-          author: "Bernard Werber"
-          books:
-            - title: "Les Fourmis"
-              ownership_status: "owned"
-            - title: "Le Jour des fourmis"
-              ownership_status: "not_owned"
-            - title: "La Révolution des fourmis"
-              ownership_status: "not_owned"
+      - series: "Trilogie des fourmis"
+        author: "Bernard Werber"
+        books:
+          - title: "Les Fourmis"
+            ownership_status: "owned"
+          - title: "Le Jour des fourmis"
+            ownership_status: "not_owned"
+          - title: "La Révolution des fourmis"
+            ownership_status: "not_owned"
 
-        - series: "Trilogie des chats"
-          author: "Bernard Werber"
-          books:
-            - title: "Demain les chats"
-              ownership_status: "not_owned"
-            - title: "Sa Majesté des chats"
-              ownership_status: "not_owned"
-            - title: "La Planète des chats"
-              ownership_status: "not_owned"
+      - series: "Trilogie des chats"
+        author: "Bernard Werber"
+        books:
+          - title: "Demain les chats"
+            ownership_status: "not_owned"
+          - title: "Sa Majesté des chats"
+            ownership_status: "not_owned"
+          - title: "La Planète des chats"
+            ownership_status: "not_owned"
 
-        - series: "Voyages de Gulliver"
-          author: "Jonathan Swift"
-          books:
-            - title: "Voyages de Gulliver"
-              ownership_status: "owned"
+      - series: "Voyages de Gulliver"
+        author: "Jonathan Swift"
+        books:
+          - title: "Voyages de Gulliver"
+            ownership_status: "owned"
 
-        - series: "Les Liaisons dangereuses"
-          author: "Pierre Choderlos de Laclos"
-          books:
-            - title: "Les Liaisons dangereuses"
-              ownership_status: "owned"
+      - series: "Les Liaisons dangereuses"
+        author: "Pierre Choderlos de Laclos"
+        books:
+          - title: "Les Liaisons dangereuses"
+            ownership_status: "owned"
 
-        - series: "1984"
-          author: "George Orwell"
-          books:
-            - title: "1984"
-              ownership_status: "owned"
+      - series: "1984"
+        author: "George Orwell"
+        books:
+          - title: "1984"
+            ownership_status: "owned"
 
-        - series: "L'alchimiste"
-          author: "Paulo Coelho"
-          books:
-            - title: "L'alchimiste"
-              ownership_status: "owned"
+      - series: "L'alchimiste"
+        author: "Paulo Coelho"
+        books:
+          - title: "L'alchimiste"
+            ownership_status: "owned"
 
-        - series: "Le Parfum"
-          author: "Patrick Süskind"
-          books:
-            - title: "Le Parfum"
-              ownership_status: "owned"
+      - series: "Le Parfum"
+        author: "Patrick Süskind"
+        books:
+          - title: "Le Parfum"
+            ownership_status: "owned"
 
-        - series: "Alice au pays des merveilles"
-          author: "Lewis Carroll"
-          books:
-            - title: "Alice au pays des merveilles"
-              ownership_status: "owned"
+      - series: "Alice au pays des merveilles"
+        author: "Lewis Carroll"
+        books:
+          - title: "Alice au pays des merveilles"
+            ownership_status: "owned"
 
-        - series: "Contes"
-          author: "Charles Perrault"
-          edition: "Le Livre de Poche"
-          books:
-            - title: "Contes"
-              ownership_status: "owned"
+      - series: "Contes"
+        author: "Charles Perrault"
+        edition: "Le Livre de Poche"
+        books:
+          - title: "Contes"
+            ownership_status: "owned"
 
-        - series: "Contes"
-          author: "Andersen"
-          edition: "Folio classique"
-          books:
-            - title: "Contes"
-              ownership_status: "owned"
+      - series: "Contes"
+        author: "Andersen"
+        edition: "Folio classique"
+        books:
+          - title: "Contes"
+            ownership_status: "owned"
 
-        - series: "Contes"
-          author: "Grimm"
-          edition: "Folio"
-          books:
-            - title: "Contes"
-              ownership_status: "owned"
+      - series: "Contes"
+        author: "Grimm"
+        edition: "Folio"
+        books:
+          - title: "Contes"
+            ownership_status: "owned"
 
-        - series: "Les aventures de Pinocchio"
-          author: "Carlo Collodi"
-          books:
-            - title: "Les aventures de Pinocchio"
-              ownership_status: "owned"
+      - series: "Les aventures de Pinocchio"
+        author: "Carlo Collodi"
+        books:
+          - title: "Les aventures de Pinocchio"
+            ownership_status: "owned"
 
-        - series: "Les milles et une nuits"
-          author: "Anonyme"
-          edition: "Flammarion"
-          books:
-            - title: "Les milles et une nuits - 1"
-              ownership_status: "owned"
-            - title: "Les milles et une nuits - 2"
-              ownership_status: "owned"
-            - title: "Les milles et une nuits - 3"
-              ownership_status: "owned"
+      - series: "Les milles et une nuits"
+        author: "Anonyme"
+        edition: "Flammarion"
+        books:
+          - title: "Les milles et une nuits - 1"
+            ownership_status: "owned"
+          - title: "Les milles et une nuits - 2"
+            ownership_status: "owned"
+          - title: "Les milles et une nuits - 3"
+            ownership_status: "owned"
 
-        - series: "Ne tirez pas sur l'oiseau moqueur"
-          author: "Harper Lee"
-          books:
-            - title: "Ne tirez pas sur l'oiseau moqueur"
-              ownership_status: "owned"
+      - series: "Ne tirez pas sur l'oiseau moqueur"
+        author: "Harper Lee"
+        books:
+          - title: "Ne tirez pas sur l'oiseau moqueur"
+            ownership_status: "owned"
 
-        - series: "Dracula"
-          author: "Bram Stoker"
-          books:
-            - title: "Dracula"
-              ownership_status: "owned"
+      - series: "Dracula"
+        author: "Bram Stoker"
+        books:
+          - title: "Dracula"
+            ownership_status: "owned"
 
-        - series: "Trilogie de Hurle - intégrale"
-          author: "Diana Wynne Jones"
-          edition: "Ynnis"
-          books:
-            - title: "Trilogie de Hurle - intégrale"
-              ownership_status: "not_owned"
-              price: 45.20
+      - series: "Trilogie de Hurle - intégrale"
+        author: "Diana Wynne Jones"
+        edition: "Ynnis"
+        books:
+          - title: "Trilogie de Hurle - intégrale"
+            ownership_status: "not_owned"
+            price: 45.20
 
-        - series: "Le grand Meaulnes"
-          author: "Alain-Fournier"
-          books:
-            - title: "Le grand Meaulnes"
-              ownership_status: "owned"
+      - series: "Le grand Meaulnes"
+        author: "Alain-Fournier"
+        books:
+          - title: "Le grand Meaulnes"
+            ownership_status: "owned"
 
-        - series: "Le meilleur des mondes"
-          author: "Aldous Huxley"
-          books:
-            - title: "Le meilleur des mondes"
-              ownership_status: "owned"
+      - series: "Le meilleur des mondes"
+        author: "Aldous Huxley"
+        books:
+          - title: "Le meilleur des mondes"
+            ownership_status: "owned"
 
-        - series: "Robots et extra-terrestres"
-          author: "Isaac Asimov"
-          books:
-            - title: "Robots et extra-terrestres - le renégat"
-              ownership_status: "owned"
+      - series: "Robots et extra-terrestres"
+        author: "Isaac Asimov"
+        books:
+          - title: "Robots et extra-terrestres - le renégat"
+            ownership_status: "owned"
 
-        - series: "Harry Potter"
-          author: "J.K. Rowling"
-          books:
-            - title: "Harry Potter à l'école des sorciers"
-              ownership_status: "owned"
-            - title: "Harry Potter et la chambre des secrets"
-              ownership_status: "owned"
-            - title: "Harry Potter et le prisonnier d'Azkaban"
-              ownership_status: "owned"
-            - title: "Harry Potter et la coupe de feu"
-              ownership_status: "owned"
-            - title: "Harry Potter et l'ordre du Phénix"
-              ownership_status: "owned"
-            - title: "Harry Potter et le prince de Sang-Mêlé"
-              ownership_status: "owned"
-            - title: "Harry Potter et les reliques de la mort"
-              ownership_status: "owned"
-            - title: "Harry Potter et l'enfant maudit"
-              ownership_status: "owned"
+      - series: "Harry Potter"
+        author: "J.K. Rowling"
+        books:
+          - title: "Harry Potter à l'école des sorciers"
+            ownership_status: "owned"
+          - title: "Harry Potter et la chambre des secrets"
+            ownership_status: "owned"
+          - title: "Harry Potter et le prisonnier d'Azkaban"
+            ownership_status: "owned"
+          - title: "Harry Potter et la coupe de feu"
+            ownership_status: "owned"
+          - title: "Harry Potter et l'ordre du Phénix"
+            ownership_status: "owned"
+          - title: "Harry Potter et le prince de Sang-Mêlé"
+            ownership_status: "owned"
+          - title: "Harry Potter et les reliques de la mort"
+            ownership_status: "owned"
+          - title: "Harry Potter et l'enfant maudit"
+            ownership_status: "owned"
 
-        - series: "Les Royaumes du Nord"
-          author: "Philip Pullman"
-          books:
-            - title: "Les Royaumes du Nord"
-              ownership_status: "owned"
-            - title: "La tour des anges"
-              ownership_status: "owned"
-            - title: "Le miroir dans le ciel"
-              ownership_status: "owned"
+      - series: "Les Royaumes du Nord"
+        author: "Philip Pullman"
+        books:
+          - title: "Les Royaumes du Nord"
+            ownership_status: "owned"
+          - title: "La tour des anges"
+            ownership_status: "owned"
+          - title: "Le miroir dans le ciel"
+            ownership_status: "owned"
 
-        - series: "Les Chevaliers d'Émeraude (édition collector)"
-          author: "Anne Robillard"
-          price: 8.5
-          books:
-            - title: "Les Chevaliers d'Émeraude - T1"
-              ownership_status: "owned"
-            - title: "Les Chevaliers d'Émeraude - T2"
-              ownership_status: "owned"
-            - title: "Les Chevaliers d'Émeraude - T3 -> T12"
-              ownership_status: "not_owned"
-              price: 8.5
+      - series: "Les Chevaliers d'Émeraude (édition collector)"
+        author: "Anne Robillard"
+        price: 8.5
+        books:
+          - title: "Les Chevaliers d'Émeraude - T1"
+            ownership_status: "owned"
+          - title: "Les Chevaliers d'Émeraude - T2"
+            ownership_status: "owned"
+          - title: "Les Chevaliers d'Émeraude - T3 -> T12"
+            ownership_status: "not_owned"
+            price: 8.5
 
-        - series: "Les Chroniques de Narnia"
-          author: "C.S. Lewis"
-          books:
-            - title: "Le Neveu du magicien"
-              ownership_status: "owned"
-            - title: "Le Lion, la Sorcière blanche et l'Armoire magique"
-              ownership_status: "owned"
-            - title: "Le Cheval et son écuyer"
-              ownership_status: "owned"
-            - title: "Le Prince Caspian"
-              ownership_status: "owned"
-            - title: "L'Odyssée du Passeur d'Aurore"
-              ownership_status: "owned"
-            - title: "Le Fauteuil d'argent"
-              ownership_status: "owned"
-            - title: "La Dernière bataille"
-              ownership_status: "owned"
+      - series: "Les Chroniques de Narnia"
+        author: "C.S. Lewis"
+        books:
+          - title: "Le Neveu du magicien"
+            ownership_status: "owned"
+          - title: "Le Lion, la Sorcière blanche et l'Armoire magique"
+            ownership_status: "owned"
+          - title: "Le Cheval et son écuyer"
+            ownership_status: "owned"
+          - title: "Le Prince Caspian"
+            ownership_status: "owned"
+          - title: "L'Odyssée du Passeur d'Aurore"
+            ownership_status: "owned"
+          - title: "Le Fauteuil d'argent"
+            ownership_status: "owned"
+          - title: "La Dernière bataille"
+            ownership_status: "owned"
 
-        - series: "Le Chien des Baskerville"
-          author: "Arthur Conan Doyle"
-          books:
-            - title: "Le Chien des Baskerville"
-              ownership_status: "owned"
+      - series: "Le Chien des Baskerville"
+        author: "Arthur Conan Doyle"
+        books:
+          - title: "Le Chien des Baskerville"
+            ownership_status: "owned"
 
-        - series: "Des Fleurs pour Algernon"
-          author: "Daniel Keyes"
-          books:
-            - title: "Des Fleurs pour Algernon"
-              ownership_status: "owned"
+      - series: "Des Fleurs pour Algernon"
+        author: "Daniel Keyes"
+        books:
+          - title: "Des Fleurs pour Algernon"
+            ownership_status: "owned"
 
-        - series: "L'Étrange Cas du docteur Jekyll et de M. Hyde"
-          author: "Robert Louis Stevenson"
-          books:
-            - title: "L'Étrange Cas du docteur Jekyll et de M. Hyde"
-              ownership_status: "owned"
+      - series: "L'Étrange Cas du docteur Jekyll et de M. Hyde"
+        author: "Robert Louis Stevenson"
+        books:
+          - title: "L'Étrange Cas du docteur Jekyll et de M. Hyde"
+            ownership_status: "owned"
 
-        - series: "Le roi en jaune"
-          author: "Robert W. Chambers"
-          books:
-            - title: "Le roi en jaune"
-              ownership_status: "not_owned"
-              price: 10.5
+      - series: "Le roi en jaune"
+        author: "Robert W. Chambers"
+        books:
+          - title: "Le roi en jaune"
+            ownership_status: "not_owned"
+            price: 10.5
 
-        - series: "Le Petit Prince"
-          author: "Antoine de Saint-Exupéry"
-          books:
-            - title: "Le Petit Prince"
-              ownership_status: "not_owned"
-              price: 9.9
+      - series: "Le Petit Prince"
+        author: "Antoine de Saint-Exupéry"
+        books:
+          - title: "Le Petit Prince"
+            ownership_status: "not_owned"
+            price: 9.9
 
-        - series: "Ecoute le chant du vent, suivi de Flipper, 1973"
-          author: "Haruki Murakami"
-          books:
-            - title: "Ecoute le chant du vent, suivi de Flipper, 1973"
-              ownership_status: "not_owned"
-              price: 8.6
+      - series: "Ecoute le chant du vent, suivi de Flipper, 1973"
+        author: "Haruki Murakami"
+        books:
+          - title: "Ecoute le chant du vent, suivi de Flipper, 1973"
+            ownership_status: "not_owned"
+            price: 8.6
 
-        - series: "Wicked : La véritable histoire de la méchante sorcière de l'Ouest"
-          author: "Gregory Maguire"
-          books:
-            - title: "Wicked : La véritable histoire de la méchante sorcière de l'Ouest"
-              ownership_status: "not_owned"
-              price: 9.95
+      - series: "Wicked : La véritable histoire de la méchante sorcière de l'Ouest"
+        author: "Gregory Maguire"
+        books:
+          - title: "Wicked : La véritable histoire de la méchante sorcière de l'Ouest"
+            ownership_status: "not_owned"
+            price: 9.95
 
-        - series: "Les hauts de Hurlevent"
-          author: "Emily Brontë"
-          books:
-            - title: "Les hauts de Hurlevent"
-              ownership_status: "not_owned"
-              price: 6.75
+      - series: "Les hauts de Hurlevent"
+        author: "Emily Brontë"
+        books:
+          - title: "Les hauts de Hurlevent"
+            ownership_status: "not_owned"
+            price: 6.75
 
-        - series: "Jane Eyre"
-          author: "Charlotte Brontë"
-          books:
-            - title: "Jane Eyre"
-              ownership_status: "not_owned"
-              price: 5.8
+      - series: "Jane Eyre"
+        author: "Charlotte Brontë"
+        books:
+          - title: "Jane Eyre"
+            ownership_status: "not_owned"
+            price: 5.8
 
-        - series: "La Ferme des animaux"
-          author: "George Orwell"
-          books:
-            - title: "La Ferme des animaux"
-              ownership_status: "not_owned"
-              price: 5.2
+      - series: "La Ferme des animaux"
+        author: "George Orwell"
+        books:
+          - title: "La Ferme des animaux"
+            ownership_status: "not_owned"
+            price: 5.2
 
-        - series: "Charlie et la chocolaterie"
-          author: "Roald Dahl"
-          books:
-            - title: "Charlie et la chocolaterie"
-              ownership_status: "not_owned"
-              price: 7.5
+      - series: "Charlie et la chocolaterie"
+        author: "Roald Dahl"
+        books:
+          - title: "Charlie et la chocolaterie"
+            ownership_status: "not_owned"
+            price: 7.5
 
-        - series: "Le Portrait de Dorian Gray"
-          author: "Oscar Wilde"
-          books:
-            - title: "Le Portrait de Dorian Gray"
-              ownership_status: "not_owned"
-              price: 3.3
+      - series: "Le Portrait de Dorian Gray"
+        author: "Oscar Wilde"
+        books:
+          - title: "Le Portrait de Dorian Gray"
+            ownership_status: "not_owned"
+            price: 3.3
 
-        - series: "La Divine Comédie"
-          author: "Dante Alighieri"
-          books:
-            - title: "La Divine Comédie"
-              ownership_status: "not_owned"
-              price: 14
+      - series: "La Divine Comédie"
+        author: "Dante Alighieri"
+        books:
+          - title: "La Divine Comédie"
+            ownership_status: "not_owned"
+            price: 14
 
-        - series: "Pachinko"
-          author: "Min Jin Lee"
-          books:
-            - title: "Pachinko"
-              ownership_status: "not_owned"
-              price: 9.9
+      - series: "Pachinko"
+        author: "Min Jin Lee"
+        books:
+          - title: "Pachinko"
+            ownership_status: "not_owned"
+            price: 9.9
 
-        - series: "Frankenstein"
-          author: "Mary Shelley"
-          books:
-            - title: "Frankenstein"
-              ownership_status: "not_owned"
-              price: 5.8
+      - series: "Frankenstein"
+        author: "Mary Shelley"
+        books:
+          - title: "Frankenstein"
+            ownership_status: "not_owned"
+            price: 5.8
 
-        - series: "Un ours nommé Paddington"
-          author: "Michael Bond"
-          books:
-            - title: "Un ours nommé Paddington"
-              ownership_status: "not_owned"
-              price: 9.95
+      - series: "Un ours nommé Paddington"
+        author: "Michael Bond"
+        books:
+          - title: "Un ours nommé Paddington"
+            ownership_status: "not_owned"
+            price: 9.95
 
   comics:
-    unknown:
-      unknown:
-        - series: "Maus"
-          author: "Art Spiegelman"
-          books:
-            - title: "Maus"
-              ownership_status: "owned"
+    n/a:
+      - series: "Maus"
+        author: "Art Spiegelman"
+        books:
+          - title: "Maus"
+            ownership_status: "owned"
 
-        - series: "L'Arabe du futur"
-          author: "Riad Sattouf"
-          books:
-            - title: "L'Arabe du futur T1"
-              ownership_status: "owned"
-            - title: "L'Arabe du futur T2"
-              ownership_status: "not_owned"
+      - series: "L'Arabe du futur"
+        author: "Riad Sattouf"
+        books:
+          - title: "L'Arabe du futur T1"
+            ownership_status: "owned"
+          - title: "L'Arabe du futur T2"
+            ownership_status: "not_owned"
 
-        - series: "Maliki"
-          author: "Souillon"
-          books:
-            - title: "Maliki T1 - Broie la vie en rose"
-              ownership_status: "owned"
-            - title: "Maliki T2 - Une rose à l'amer"
-              ownership_status: "owned"
-            - title: "Maliki T3 - Mots roses au clair de lune"
-              ownership_status: "owned"
-            - title: "Maliki T4 - Blanche"
-              ownership_status: "owned"
-            - title: "Maliki T5 - Prismatique"
-              ownership_status: "owned"
-            - title: "Maliki T6 - Cristallisation"
-              ownership_status: "not_owned"
-            - title: "Maliki T7.1 - Hanami"
-              ownership_status: "owned"
-            - title: "Maliki - Blog 1"
-              ownership_status: "owned"
-            - title: "Maliki - Blog 2"
-              ownership_status: "owned"
-            - title: "Maliki - Blog 3"
-              ownership_status: "owned"
-            - title: "Maliki - Blog 4"
-              ownership_status: "owned"
+      - series: "Maliki"
+        author: "Souillon"
+        books:
+          - title: "Maliki T1 - Broie la vie en rose"
+            ownership_status: "owned"
+          - title: "Maliki T2 - Une rose à l'amer"
+            ownership_status: "owned"
+          - title: "Maliki T3 - Mots roses au clair de lune"
+            ownership_status: "owned"
+          - title: "Maliki T4 - Blanche"
+            ownership_status: "owned"
+          - title: "Maliki T5 - Prismatique"
+            ownership_status: "owned"
+          - title: "Maliki T6 - Cristallisation"
+            ownership_status: "not_owned"
+          - title: "Maliki T7.1 - Hanami"
+            ownership_status: "owned"
+          - title: "Maliki - Blog 1"
+            ownership_status: "owned"
+          - title: "Maliki - Blog 2"
+            ownership_status: "owned"
+          - title: "Maliki - Blog 3"
+            ownership_status: "owned"
+          - title: "Maliki - Blog 4"
+            ownership_status: "owned"
 
-        - series: "DOFUS - Les mains d'Eniripsa"
-          author: "Nicolas Devos, Arnaud Dewaele"
-          books:
-            - title: "DOFUS - Les mains d'Eniripsa"
-              ownership_status: "owned"
+      - series: "DOFUS - Les mains d'Eniripsa"
+        author: "Nicolas Devos, Arnaud Dewaele"
+        books:
+          - title: "DOFUS - Les mains d'Eniripsa"
+            ownership_status: "owned"
 
-        - series: "DOFUS - Julith & Jahash"
-          author: "Tot, Ancestral Z"
-          books:
-            - title: "DOFUS - Julith & Jahash"
-              ownership_status: "owned"
+      - series: "DOFUS - Julith & Jahash"
+        author: "Tot, Ancestral Z"
+        books:
+          - title: "DOFUS - Julith & Jahash"
+            ownership_status: "owned"
 
-        - series: "Pandala"
-          author: "Tot, Bertrand Hottin"
-          price: 12.9
-          books:
-            - title: "Pandala - T1"
-              ownership_status: "owned"
-            - title: "Pandala - T2"
-              ownership_status: "not_owned"
-              price: 12.9
-            - title: "Pandala - T3"
-              ownership_status: "not_owned"
-              price: 12.9
+      - series: "Pandala"
+        author: "Tot, Bertrand Hottin"
+        price: 12.9
+        books:
+          - title: "Pandala - T1"
+            ownership_status: "owned"
+          - title: "Pandala - T2"
+            ownership_status: "not_owned"
+            price: 12.9
+          - title: "Pandala - T3"
+            ownership_status: "not_owned"
+            price: 12.9
 
-        - series: "Snoopy & les Peanuts"
-          author: "Charles M. Schulz"
-          edition: "Dargaud"
-          price: 32
-          books:
-            - title: "Snoopy & les Peanuts - 1950-1952 - T1"
-              ownership_status: "not_owned"
-              price: 32
-            - title: "Snoopy & les Peanuts - 1953-1954 - T2"
-              ownership_status: "not_owned"
-              price: 32
-            - title: "Snoopy & les Peanuts - 1955-1956 - T3"
-              ownership_status: "not_owned"
-              price: 32
-            - title: "Snoopy & les Peanuts - 1957-1958 - T4"
-              ownership_status: "not_owned"
-              price: 32
-            - title: "Snoopy & les Peanuts - 1959-1960 - T5"
-              ownership_status: "not_owned"
-              price: 32
-            - title: "Snoopy & les Peanuts - 1961-1962 - T6"
-              ownership_status: "not_owned"
-              price: 32
-            - title: "Snoopy & les Peanuts - 1963-1964 - T7"
-              ownership_status: "not_owned"
-              price: 32
-            - title: "Snoopy & les Peanuts - 1965-1966 - T8"
-              ownership_status: "not_owned"
-              price: 32
-            - title: "Snoopy & les Peanuts - 1967-1968 - T9"
-              ownership_status: "not_owned"
-              price: 32
-            - title: "Snoopy & les Peanuts - 1969-1970 - T10"
-              ownership_status: "not_owned"
-              price: 32
-            - title: "Snoopy & les Peanuts - 1971-1972 - T11"
-              ownership_status: "not_owned"
-              price: 32
-            - title: "Snoopy & les Peanuts - 1973-1974 - T12"
-              ownership_status: "not_owned"
-              price: 32
-            - title: "Snoopy & les Peanuts - 1975-1976 - T13"
-              ownership_status: "not_owned"
-              price: 32
-            - title: "Snoopy & les Peanuts - 1977-1978 - T14"
-              ownership_status: "not_owned"
-              price: 32
-            - title: "Snoopy & les Peanuts - 1979-1980 - T15"
-              ownership_status: "not_owned"
-              price: 32
-            - title: "Snoopy & les Peanuts - 1981-1982 - T16"
-              ownership_status: "not_owned"
-              price: 32
-            - title: "Snoopy & les Peanuts - 1983-1984 - T17"
-              ownership_status: "not_owned"
-              price: 32
-            - title: "Snoopy & les Peanuts - 1985-1986 - T18"
-              ownership_status: "owned"
-            - title: "Snoopy & les Peanuts - 1987-1988 - T19"
-              ownership_status: "not_owned"
-              price: 32
-            - title: "Snoopy & les Peanuts - 1989-1990 - T20"
-              ownership_status: "not_owned"
-              price: 32
-            - title: "Snoopy & les Peanuts - 1991-1992 - T21"
-              ownership_status: "not_owned"
-              price: 32
-            - title: "Snoopy & les Peanuts - 1993-1994 - T22"
-              ownership_status: "not_owned"
-              price: 32
-            - title: "Snoopy & les Peanuts - 1995-1996 - T23"
-              ownership_status: "not_owned"
-              price: 32
-            - title: "Snoopy & les Peanuts - 1997-1998 - T24"
-              ownership_status: "not_owned"
-              price: 32
-            - title: "Snoopy & les Peanuts - 1999-2000 - T25"
-              ownership_status: "not_owned"
-              price: 32
-            - title: "Snoopy & les Peanuts - 1950-2000 (Hors-série de conclusion) - T26"
-              ownership_status: "not_owned"
-              price: 32
+      - series: "Snoopy & les Peanuts"
+        author: "Charles M. Schulz"
+        edition: "Dargaud"
+        price: 32
+        books:
+          - title: "Snoopy & les Peanuts - 1950-1952 - T1"
+            ownership_status: "not_owned"
+            price: 32
+          - title: "Snoopy & les Peanuts - 1953-1954 - T2"
+            ownership_status: "not_owned"
+            price: 32
+          - title: "Snoopy & les Peanuts - 1955-1956 - T3"
+            ownership_status: "not_owned"
+            price: 32
+          - title: "Snoopy & les Peanuts - 1957-1958 - T4"
+            ownership_status: "not_owned"
+            price: 32
+          - title: "Snoopy & les Peanuts - 1959-1960 - T5"
+            ownership_status: "not_owned"
+            price: 32
+          - title: "Snoopy & les Peanuts - 1961-1962 - T6"
+            ownership_status: "not_owned"
+            price: 32
+          - title: "Snoopy & les Peanuts - 1963-1964 - T7"
+            ownership_status: "not_owned"
+            price: 32
+          - title: "Snoopy & les Peanuts - 1965-1966 - T8"
+            ownership_status: "not_owned"
+            price: 32
+          - title: "Snoopy & les Peanuts - 1967-1968 - T9"
+            ownership_status: "not_owned"
+            price: 32
+          - title: "Snoopy & les Peanuts - 1969-1970 - T10"
+            ownership_status: "not_owned"
+            price: 32
+          - title: "Snoopy & les Peanuts - 1971-1972 - T11"
+            ownership_status: "not_owned"
+            price: 32
+          - title: "Snoopy & les Peanuts - 1973-1974 - T12"
+            ownership_status: "not_owned"
+            price: 32
+          - title: "Snoopy & les Peanuts - 1975-1976 - T13"
+            ownership_status: "not_owned"
+            price: 32
+          - title: "Snoopy & les Peanuts - 1977-1978 - T14"
+            ownership_status: "not_owned"
+            price: 32
+          - title: "Snoopy & les Peanuts - 1979-1980 - T15"
+            ownership_status: "not_owned"
+            price: 32
+          - title: "Snoopy & les Peanuts - 1981-1982 - T16"
+            ownership_status: "not_owned"
+            price: 32
+          - title: "Snoopy & les Peanuts - 1983-1984 - T17"
+            ownership_status: "not_owned"
+            price: 32
+          - title: "Snoopy & les Peanuts - 1985-1986 - T18"
+            ownership_status: "owned"
+          - title: "Snoopy & les Peanuts - 1987-1988 - T19"
+            ownership_status: "not_owned"
+            price: 32
+          - title: "Snoopy & les Peanuts - 1989-1990 - T20"
+            ownership_status: "not_owned"
+            price: 32
+          - title: "Snoopy & les Peanuts - 1991-1992 - T21"
+            ownership_status: "not_owned"
+            price: 32
+          - title: "Snoopy & les Peanuts - 1993-1994 - T22"
+            ownership_status: "not_owned"
+            price: 32
+          - title: "Snoopy & les Peanuts - 1995-1996 - T23"
+            ownership_status: "not_owned"
+            price: 32
+          - title: "Snoopy & les Peanuts - 1997-1998 - T24"
+            ownership_status: "not_owned"
+            price: 32
+          - title: "Snoopy & les Peanuts - 1999-2000 - T25"
+            ownership_status: "not_owned"
+            price: 32
+          - title: "Snoopy & les Peanuts - 1950-2000 (Hors-série de conclusion) - T26"
+            ownership_status: "not_owned"
+            price: 32
 
-        - series: "Le Chat du rabbin"
-          author: "Joann Sfar"
-          price: 17.95
-          books:
-            - title: "Le Chat du rabbin - T1 : La Bar-Mitsva"
-              ownership_status: "owned"
-            - title: "Le Chat du rabbin - T2 : Le Malka des Lions"
-              ownership_status: "owned"
-            - title: "Le Chat du rabbin - T3 : L'Exode"
-              ownership_status: "owned"
-            - title: "Le Chat du rabbin - T4 : Le Paradis terrestre"
-              ownership_status: "owned"
-            - title: "Le Chat du rabbin - T5 : Jérusalem d'Afrique"
-              ownership_status: "owned"
-            - title: "Le Chat du rabbin - T6 : Tu n'auras pas d'autre Dieu que moi"
-              ownership_status: "not_owned"
-              price: 14.95
-            - title: "Le Chat du rabbin - T7 : La Tour de Bab-El-Oued"
-              ownership_status: "not_owned"
-              price: 17.95
-            - title: "Le Chat du rabbin - T8 : Petit panier aux amandes"
-              ownership_status: "not_owned"
-              price: 17.50
-            - title: "Le Chat du rabbin - T9 : La Reine de Shabbat"
-              ownership_status: "not_owned"
-              price: 17.95
-            - title: "Le Chat du rabbin - T10 : Rentrez chez vous"
-              ownership_status: "not_owned"
-              price: 16.95
-            - title: "Le Chat du rabbin - T11 : La Bible pour les Chats"
-              ownership_status: "not_owned"
-              price: 17.95
-            - title: "Le Chat du rabbin - T12 : La Traversée de la mer Noire"
-              ownership_status: "not_owned"
-              price: 17.95
+      - series: "Le Chat du rabbin"
+        author: "Joann Sfar"
+        price: 17.95
+        books:
+          - title: "Le Chat du rabbin - T1 : La Bar-Mitsva"
+            ownership_status: "owned"
+          - title: "Le Chat du rabbin - T2 : Le Malka des Lions"
+            ownership_status: "owned"
+          - title: "Le Chat du rabbin - T3 : L'Exode"
+            ownership_status: "owned"
+          - title: "Le Chat du rabbin - T4 : Le Paradis terrestre"
+            ownership_status: "owned"
+          - title: "Le Chat du rabbin - T5 : Jérusalem d'Afrique"
+            ownership_status: "owned"
+          - title: "Le Chat du rabbin - T6 : Tu n'auras pas d'autre Dieu que moi"
+            ownership_status: "not_owned"
+            price: 14.95
+          - title: "Le Chat du rabbin - T7 : La Tour de Bab-El-Oued"
+            ownership_status: "not_owned"
+            price: 17.95
+          - title: "Le Chat du rabbin - T8 : Petit panier aux amandes"
+            ownership_status: "not_owned"
+            price: 17.50
+          - title: "Le Chat du rabbin - T9 : La Reine de Shabbat"
+            ownership_status: "not_owned"
+            price: 17.95
+          - title: "Le Chat du rabbin - T10 : Rentrez chez vous"
+            ownership_status: "not_owned"
+            price: 16.95
+          - title: "Le Chat du rabbin - T11 : La Bible pour les Chats"
+            ownership_status: "not_owned"
+            price: 17.95
+          - title: "Le Chat du rabbin - T12 : La Traversée de la mer Noire"
+            ownership_status: "not_owned"
+            price: 17.95
 
-        - series: "La Tour"
-          author: "François Schuiten, Benoît Peeters"
-          books:
-            - title: "La Tour"
-              ownership_status: "owned"
+      - series: "La Tour"
+        author: "François Schuiten, Benoît Peeters"
+        books:
+          - title: "La Tour"
+            ownership_status: "owned"
 
-        - series: "Carbone & Silicium"
-          author: "	Mathieu Bablet"
-          books:
-            - title: "Carbone & Silicium"
-              ownership_status: "owned"
+      - series: "Carbone & Silicium"
+        author: "	Mathieu Bablet"
+        books:
+          - title: "Carbone & Silicium"
+            ownership_status: "owned"
 
-        - series: "Le bleu est une couleur chaude"
-          author: "Jul Maroh"
-          books:
-            - title: "Le bleu est une couleur chaude"
-              ownership_status: "not_owned"
-              price: 11.8
+      - series: "Le bleu est une couleur chaude"
+        author: "Jul Maroh"
+        books:
+          - title: "Le bleu est une couleur chaude"
+            ownership_status: "not_owned"
+            price: 11.8
 
-        - series: "Mutafukaz - intégrale"
-          author: "Run"
-          books:
-            - title: "Mutafukaz - intégrale"
-              ownership_status: "not_owned"
-              price: 36.9
+      - series: "Mutafukaz - intégrale"
+        author: "Run"
+        books:
+          - title: "Mutafukaz - intégrale"
+            ownership_status: "not_owned"
+            price: 36.9
 
-        - series: "Zaï zaï zaï zaï"
-          author: "Fabcaro"
-          books:
-            - title: "Zaï zaï zaï zaï"
-              ownership_status: "not_owned"
-              price: 14
+      - series: "Zaï zaï zaï zaï"
+        author: "Fabcaro"
+        books:
+          - title: "Zaï zaï zaï zaï"
+            ownership_status: "not_owned"
+            price: 14
 
-        - series: "Habibi"
-          author: "Craig Thompson"
-          books:
-            - title: "Habibi"
-              ownership_status: "not_owned"
-              price: 31.95
+      - series: "Habibi"
+        author: "Craig Thompson"
+        books:
+          - title: "Habibi"
+            ownership_status: "not_owned"
+            price: 31.95
 
-        - series: "Saga"
-          author: "Brian K. Vaughan, Fiona Staples"
-          price: 18
-          books:
-            - title: "Saga - T1"
-              ownership_status: "not_owned"
-              price: 18
-            - title: "Saga - T2 -> T12"
-              ownership_status: "not_owned"
-              price: 18
+      - series: "Saga"
+        author: "Brian K. Vaughan, Fiona Staples"
+        price: 18
+        books:
+          - title: "Saga - T1"
+            ownership_status: "not_owned"
+            price: 18
+          - title: "Saga - T2 -> T12"
+            ownership_status: "not_owned"
+            price: 18
 
-        - series: "Little Nemo au royaume du sommeil"
-          author: "Winsor McCay"
-          price: 26.9
-          books:
-            - title: "Little Nemo au royaume du sommeil volume 1"
-              ownership_status: "not_owned"
-              price: 26.9
-            - title: "Little Nemo au royaume du sommeil volume 2"
-              ownership_status: "not_owned"
-              price: 26.9
+      - series: "Little Nemo au royaume du sommeil"
+        author: "Winsor McCay"
+        price: 26.9
+        books:
+          - title: "Little Nemo au royaume du sommeil volume 1"
+            ownership_status: "not_owned"
+            price: 26.9
+          - title: "Little Nemo au royaume du sommeil volume 2"
+            ownership_status: "not_owned"
+            price: 26.9
 
-        - series: "Sandman"
-          author: "Neil Gaiman"
-          price: 36
-          books:
-            - title: "Sandman - T1"
-              ownership_status: "not_owned"
-              price: 36
-            - title: "Sandman - T2"
-              ownership_status: "not_owned"
-              price: 36
-            - title: "Sandman - T3"
-              ownership_status: "not_owned"
-              price: 36
-            - title: "Sandman - T4"
-              ownership_status: "not_owned"
-              price: 36
-            - title: "Sandman - T5"
-              ownership_status: "not_owned"
-              price: 36
-            - title: "Sandman - T6"
-              ownership_status: "not_owned"
-              price: 36
-            - title: "Sandman - T7"
-              ownership_status: "not_owned"
-              price: 36
-            - title: "Sandman - T0"
-              ownership_status: "not_owned"
-              price: 36
+      - series: "Sandman"
+        author: "Neil Gaiman"
+        price: 36
+        books:
+          - title: "Sandman - T1"
+            ownership_status: "not_owned"
+            price: 36
+          - title: "Sandman - T2"
+            ownership_status: "not_owned"
+            price: 36
+          - title: "Sandman - T3"
+            ownership_status: "not_owned"
+            price: 36
+          - title: "Sandman - T4"
+            ownership_status: "not_owned"
+            price: 36
+          - title: "Sandman - T5"
+            ownership_status: "not_owned"
+            price: 36
+          - title: "Sandman - T6"
+            ownership_status: "not_owned"
+            price: 36
+          - title: "Sandman - T7"
+            ownership_status: "not_owned"
+            price: 36
+          - title: "Sandman - T0"
+            ownership_status: "not_owned"
+            price: 36
 
-        - series: "Pinnochio"
-          author: "Winshluss"
-          books:
-            - title: "Pinnochio"
-              ownership_status: "not_owned"
-              edition: "Les Requins Marteaux"
-              price: 20
+      - series: "Pinnochio"
+        author: "Winshluss"
+        books:
+          - title: "Pinnochio"
+            ownership_status: "not_owned"
+            edition: "Les Requins Marteaux"
+            price: 20
 
-        - series: "Les aventures de Tintin - intégrale"
-          author: "Hergé"
-          books:
-            - title: "Les aventures de Tintin - intégrale"
-              ownership_status: "not_owned"
-              price: 99
+      - series: "Les aventures de Tintin - intégrale"
+        author: "Hergé"
+        books:
+          - title: "Les aventures de Tintin - intégrale"
+            ownership_status: "not_owned"
+            price: 99
 
-        - series: "Les aventures de Tintin"
-          author: "Hergé"
-          price: 12
-          books:
-            - title: "Les aventures de Tintin - T1 : Tintin au pays des Soviets"
-              ownership_status: "not_owned"
-              price: 12
-            - title: "Les aventures de Tintin - T2 : Tintin au Congo"
-              ownership_status: "not_owned"
-              price: 12
-            - title: "Les aventures de Tintin - T3 : Tintin en Amérique"
-              ownership_status: "not_owned"
-              price: 12
-            - title: "Les aventures de Tintin - T4 : Les Cigares du pharaon"
-              ownership_status: "not_owned"
-              price: 12
-            - title: "Les aventures de Tintin - T5 : Le Lotus bleu"
-              ownership_status: "not_owned"
-              price: 12
-            - title: "Les aventures de Tintin - T6 : L'Oreille cassée"
-              ownership_status: "not_owned"
-              price: 12
-            - title: "Les aventures de Tintin - T7 : L'Île noire"
-              ownership_status: "not_owned"
-              price: 12
-            - title: "Les aventures de Tintin - T8 : Le Sceptre d'Ottokar"
-              ownership_status: "not_owned"
-              price: 12
-            - title: "Les aventures de Tintin - T9 : Le Crabe aux pinces d'or"
-              ownership_status: "not_owned"
-              price: 12
-            - title: "Les aventures de Tintin - T10 : L'Étoile mystérieuse"
-              ownership_status: "not_owned"
-              price: 12
-            - title: "Les aventures de Tintin - T11 : Le Secret de La Licorne"
-              ownership_status: "not_owned"
-              price: 12
-            - title: "Les aventures de Tintin - T12 : Le Trésor de Rackham le Rouge"
-              ownership_status: "not_owned"
-              price: 12
-            - title: "Les aventures de Tintin - T13 : Les Sept Boules de cristal"
-              ownership_status: "not_owned"
-              price: 12
-            - title: "Les aventures de Tintin - T14 : Le Temple du Soleil"
-              ownership_status: "not_owned"
-              price: 12
-            - title: "Les aventures de Tintin - T15 : Tintin au pays de l'or noir"
-              ownership_status: "not_owned"
-              price: 12
-            - title: "Les aventures de Tintin - T16 : Objectif Lune"
-              ownership_status: "not_owned"
-              price: 12
-            - title: "Les aventures de Tintin - T17 : On a marché sur la Lune"
-              ownership_status: "not_owned"
-              price: 12
-            - title: "Les aventures de Tintin - T18 : L'Affaire Tournesol"
-              ownership_status: "not_owned"
-              price: 12
-            - title: "Les aventures de Tintin - T19 : Coke en stock"
-              ownership_status: "not_owned"
-              price: 12
-            - title: "Les aventures de Tintin - T20 : Tintin au Tibet"
-              ownership_status: "not_owned"
-              price: 12
-            - title: "Les aventures de Tintin - T21 : Les Bijoux de la Castafiore"
-              ownership_status: "not_owned"
-              price: 12
-            - title: "Les aventures de Tintin - T22 : Vol 714 pour Sydney"
-              ownership_status: "not_owned"
-              price: 12
-            - title: "Les aventures de Tintin - T23 : Tintin et les Picaros"
-              ownership_status: "not_owned"
-              price: 12
-            - title: "Les aventures de Tintin - T24 : Tintin et l'Alph-Art"
-              ownership_status: "not_owned"
-              price: 12
+      - series: "Les aventures de Tintin"
+        author: "Hergé"
+        price: 12
+        books:
+          - title: "Les aventures de Tintin - T1 : Tintin au pays des Soviets"
+            ownership_status: "not_owned"
+            price: 12
+          - title: "Les aventures de Tintin - T2 : Tintin au Congo"
+            ownership_status: "not_owned"
+            price: 12
+          - title: "Les aventures de Tintin - T3 : Tintin en Amérique"
+            ownership_status: "not_owned"
+            price: 12
+          - title: "Les aventures de Tintin - T4 : Les Cigares du pharaon"
+            ownership_status: "not_owned"
+            price: 12
+          - title: "Les aventures de Tintin - T5 : Le Lotus bleu"
+            ownership_status: "not_owned"
+            price: 12
+          - title: "Les aventures de Tintin - T6 : L'Oreille cassée"
+            ownership_status: "not_owned"
+            price: 12
+          - title: "Les aventures de Tintin - T7 : L'Île noire"
+            ownership_status: "not_owned"
+            price: 12
+          - title: "Les aventures de Tintin - T8 : Le Sceptre d'Ottokar"
+            ownership_status: "not_owned"
+            price: 12
+          - title: "Les aventures de Tintin - T9 : Le Crabe aux pinces d'or"
+            ownership_status: "not_owned"
+            price: 12
+          - title: "Les aventures de Tintin - T10 : L'Étoile mystérieuse"
+            ownership_status: "not_owned"
+            price: 12
+          - title: "Les aventures de Tintin - T11 : Le Secret de La Licorne"
+            ownership_status: "not_owned"
+            price: 12
+          - title: "Les aventures de Tintin - T12 : Le Trésor de Rackham le Rouge"
+            ownership_status: "not_owned"
+            price: 12
+          - title: "Les aventures de Tintin - T13 : Les Sept Boules de cristal"
+            ownership_status: "not_owned"
+            price: 12
+          - title: "Les aventures de Tintin - T14 : Le Temple du Soleil"
+            ownership_status: "not_owned"
+            price: 12
+          - title: "Les aventures de Tintin - T15 : Tintin au pays de l'or noir"
+            ownership_status: "not_owned"
+            price: 12
+          - title: "Les aventures de Tintin - T16 : Objectif Lune"
+            ownership_status: "not_owned"
+            price: 12
+          - title: "Les aventures de Tintin - T17 : On a marché sur la Lune"
+            ownership_status: "not_owned"
+            price: 12
+          - title: "Les aventures de Tintin - T18 : L'Affaire Tournesol"
+            ownership_status: "not_owned"
+            price: 12
+          - title: "Les aventures de Tintin - T19 : Coke en stock"
+            ownership_status: "not_owned"
+            price: 12
+          - title: "Les aventures de Tintin - T20 : Tintin au Tibet"
+            ownership_status: "not_owned"
+            price: 12
+          - title: "Les aventures de Tintin - T21 : Les Bijoux de la Castafiore"
+            ownership_status: "not_owned"
+            price: 12
+          - title: "Les aventures de Tintin - T22 : Vol 714 pour Sydney"
+            ownership_status: "not_owned"
+            price: 12
+          - title: "Les aventures de Tintin - T23 : Tintin et les Picaros"
+            ownership_status: "not_owned"
+            price: 12
+          - title: "Les aventures de Tintin - T24 : Tintin et l'Alph-Art"
+            ownership_status: "not_owned"
+            price: 12
 
-        - series: "Lanfeust de Troy - intégrale (T1 à T8)"
-          author: "Christophe Arleston, Didier Tarquin"
-          price: 25.5
-          books:
-            - title: "Lanfeust de Troy - intégrale T01 à T03"
-              ownership_status: "not_owned"
-              price: 25.5
-            - title: "Lanfeust de Troy - intégrale T04 à T06"
-              ownership_status: "not_owned"
-              price: 25.5
-            - title: "Lanfeust de Troy - intégrale T07 à T08"
-              ownership_status: "not_owned"
-              price: 25.5
+      - series: "Lanfeust de Troy - intégrale (T1 à T8)"
+        author: "Christophe Arleston, Didier Tarquin"
+        price: 25.5
+        books:
+          - title: "Lanfeust de Troy - intégrale T01 à T03"
+            ownership_status: "not_owned"
+            price: 25.5
+          - title: "Lanfeust de Troy - intégrale T04 à T06"
+            ownership_status: "not_owned"
+            price: 25.5
+          - title: "Lanfeust de Troy - intégrale T07 à T08"
+            ownership_status: "not_owned"
+            price: 25.5
 
-        - series: "XIII - intégrale"
-          author: "Jean Van Hamme, William Vance"
-          price: 52
-          books:
-            - title: "XIII - intégrale T1 à T6"
-              ownership_status: "not_owned"
-              price: 52
-            - title: "XIII - intégrale T7 à T12"
-              ownership_status: "not_owned"
-              price: 52
-            - title: "XIII - intégrale T14 à T19"
-              ownership_status: "not_owned"
-              price: 52
+      - series: "XIII - intégrale"
+        author: "Jean Van Hamme, William Vance"
+        price: 52
+        books:
+          - title: "XIII - intégrale T1 à T6"
+            ownership_status: "not_owned"
+            price: 52
+          - title: "XIII - intégrale T7 à T12"
+            ownership_status: "not_owned"
+            price: 52
+          - title: "XIII - intégrale T14 à T19"
+            ownership_status: "not_owned"
+            price: 52
 
-        - series: "Bone - intégrale"
-          author: "Jeff Smith"
-          price: 55
-          books:
-            - title: "Bone - intégrale"
-              ownership_status: "not_owned"
-              price: 55
+      - series: "Bone - intégrale"
+        author: "Jeff Smith"
+        price: 55
+        books:
+          - title: "Bone - intégrale"
+            ownership_status: "not_owned"
+            price: 55
 
-        - series: "Aldebaran - intégrale"
-          author: "Leo"
-          price: 39
-          books:
-            - title: "Aldebaran - intégrale"
-              ownership_status: "not_owned"
-              price: 39
+      - series: "Aldebaran - intégrale"
+        author: "Leo"
+        price: 39
+        books:
+          - title: "Aldebaran - intégrale"
+            ownership_status: "not_owned"
+            price: 39
 
-        - series: "Idées noires"
-          author: "Franquin"
-          books:
-            - title: "Idées noires"
-              ownership_status: "not_owned"
-              price: 17.9
+      - series: "Idées noires"
+        author: "Franquin"
+        books:
+          - title: "Idées noires"
+            ownership_status: "not_owned"
+            price: 17.9
 
-        - series: "Ghost World"
-          author: "Daniel Clowes"
-          books:
-            - title: "Ghost World"
-              ownership_status: "not_owned"
-              price: 19.5
+      - series: "Ghost World"
+        author: "Daniel Clowes"
+        books:
+          - title: "Ghost World"
+            ownership_status: "not_owned"
+            price: 19.5
 
-        - series: "Black Hole"
-          author: "Charles Burns"
-          books:
-            - title: "Black Hole"
-              ownership_status: "not_owned"
-              price: 29.95
+      - series: "Black Hole"
+        author: "Charles Burns"
+        books:
+          - title: "Black Hole"
+            ownership_status: "not_owned"
+            price: 29.95
 
-        - series: "Persepolis - intégrale"
-          author: "Marjane Satrapi"
-          books:
-            - title: "Persepolis - intégrale"
-              ownership_status: "not_owned"
-              price: 39
+      - series: "Persepolis - intégrale"
+        author: "Marjane Satrapi"
+        books:
+          - title: "Persepolis - intégrale"
+            ownership_status: "not_owned"
+            price: 39
 
-        - series: "Le bus"
-          author: "Paul Kirchner"
-          books:
-            - title: "Le bus"
-              ownership_status: "not_owned"
-              price: 9.95
+      - series: "Le bus"
+        author: "Paul Kirchner"
+        books:
+          - title: "Le bus"
+            ownership_status: "not_owned"
+            price: 9.95
 
-        - series: "La trilogie Nikopol"
-          author: "Enki Bilal"
-          books:
-            - title: "La trilogie Nikopol"
-              ownership_status: "not_owned"
-              price: 39.95
+      - series: "La trilogie Nikopol"
+        author: "Enki Bilal"
+        books:
+          - title: "La trilogie Nikopol"
+            ownership_status: "not_owned"
+            price: 39.95
 
-        - series: "La Grande épopée de Picsou"
-          author: "Don Rosa"
-          price: 30
-          books:
-            - title: "La Grande épopée de Picsou - Tome 1 : La Jeunesse de Picsou - Partie 1"
-              ownership_status: "not_owned"
-              price: 30
-            - title: "La Grande épopée de Picsou - Tome 2 : La Jeunesse de Picsou - Partie 2"
-              ownership_status: "not_owned"
-              price: 30
-            - title: "La Grande épopée de Picsou - Tome 3 : Le Fils du Soleil et autres histoires"
-              ownership_status: "not_owned"
-              price: 30
-            - title: "La Grande épopée de Picsou - Tome 4 : Trésors sous cloche et autres histoires"
-              ownership_status: "not_owned"
-              price: 30
-            - title: "La Grande épopée de Picsou - Tome 5 : Le Trésor de Crésus et autres histoires"
-              ownership_status: "not_owned"
-              price: 30
-            - title: "La Grande épopée de Picsou - Tome 6 : La Vallée interdite et autres histoires"
-              ownership_status: "not_owned"
-              price: 30
-            - title: "La Grande épopée de Picsou - Tome 7 : Le Retour du Chevalier noir et autres histoires"
-              ownership_status: "not_owned"
-              price: 30
+      - series: "La Grande épopée de Picsou"
+        author: "Don Rosa"
+        price: 30
+        books:
+          - title: "La Grande épopée de Picsou - Tome 1 : La Jeunesse de Picsou - Partie 1"
+            ownership_status: "not_owned"
+            price: 30
+          - title: "La Grande épopée de Picsou - Tome 2 : La Jeunesse de Picsou - Partie 2"
+            ownership_status: "not_owned"
+            price: 30
+          - title: "La Grande épopée de Picsou - Tome 3 : Le Fils du Soleil et autres histoires"
+            ownership_status: "not_owned"
+            price: 30
+          - title: "La Grande épopée de Picsou - Tome 4 : Trésors sous cloche et autres histoires"
+            ownership_status: "not_owned"
+            price: 30
+          - title: "La Grande épopée de Picsou - Tome 5 : Le Trésor de Crésus et autres histoires"
+            ownership_status: "not_owned"
+            price: 30
+          - title: "La Grande épopée de Picsou - Tome 6 : La Vallée interdite et autres histoires"
+            ownership_status: "not_owned"
+            price: 30
+          - title: "La Grande épopée de Picsou - Tome 7 : Le Retour du Chevalier noir et autres histoires"
+            ownership_status: "not_owned"
+            price: 30
 
-        - series: "L'incal - intégrale"
-          author: "Alexandro Jodorowsky, Moebius"
-          books:
-            - title: "L'incal - intégrale"
-              ownership_status: "not_owned"
-              price: 74.99
+      - series: "L'incal - intégrale"
+        author: "Alexandro Jodorowsky, Moebius"
+        books:
+          - title: "L'incal - intégrale"
+            ownership_status: "not_owned"
+            price: 74.99
 
-        - series: "Dans un rayon de soleil"
-          author: "Tillie Walden"
-          books:
-            - title: "Dans un rayon de soleil"
-              ownership_status: "not_owned"
-              price: 20.99
+      - series: "Dans un rayon de soleil"
+        author: "Tillie Walden"
+        books:
+          - title: "Dans un rayon de soleil"
+            ownership_status: "not_owned"
+            price: 20.99
 
-        - series: "Le collège noir - intégrale"
-          author: "Ulysse Malassagne"
-          books:
-            - title: "Le collège noir - intégrale"
-              ownership_status: "not_owned"
-              price: 19.9
+      - series: "Le collège noir - intégrale"
+        author: "Ulysse Malassagne"
+        books:
+          - title: "Le collège noir - intégrale"
+            ownership_status: "not_owned"
+            price: 19.9
 
-        - series: "Le Jardin, Paris"
-          author: "Gaëlle Geniller"
-          books:
-            - title: "Le Jardin, Paris"
-              ownership_status: "not_owned"
-              price: 25.95
+      - series: "Le Jardin, Paris"
+        author: "Gaëlle Geniller"
+        books:
+          - title: "Le Jardin, Paris"
+            ownership_status: "not_owned"
+            price: 25.95
 
-        - series: "Minuit passé"
-          author: "Gaëlle Geniller"
-          books:
-            - title: "Minuit passé"
-              ownership_status: "not_owned"
-              price: 25.5
+      - series: "Minuit passé"
+        author: "Gaëlle Geniller"
+        books:
+          - title: "Minuit passé"
+            ownership_status: "not_owned"
+            price: 25.5
 
-        - series: "Monsieur Mardi-Gras Descendres - intégrale"
-          author: "Liberge"
-          books:
-            - title: "Monsieur Mardi-Gras Descendres - intégrale"
-              ownership_status: "not_owned"
-              price: 49
+      - series: "Monsieur Mardi-Gras Descendres - intégrale"
+        author: "Liberge"
+        books:
+          - title: "Monsieur Mardi-Gras Descendres - intégrale"
+            ownership_status: "not_owned"
+            price: 49
 
-        - series: "Les aventures de Moomin"
-          author: "Tove Jansson"
-          books:
-            - title: "Les Aventures de Moomin - Tome 1 : Moomin et la grande inondation"
-              ownership_status: "not_owned"
-              price: 15
-            - title: "Les Aventures de Moomin - Tome 2 : Moomin et la comète"
-              ownership_status: "not_owned"
-              price: 15
-            - title: "Les Aventures de Moomin - Tome 3 : Le chapeau de magicien"
-              ownership_status: "not_owned"
-              price: 15
-            - title: "Les Aventures de Moomin - Tome 4 : L'été dramatique de Moomin"
-              ownership_status: "not_owned"
-              price: 15
-            - title: "Les Aventures de Moomin - Tome 5 : L'hiver ensorcelé de Moomin"
-              ownership_status: "not_owned"
-              price: 15
-            - title: "Les Aventures de Moomin - Tome 6 : Les mémoires de Papa Moomin"
-              ownership_status: "not_owned"
-              price: 15
-            - title: "Les Aventures de Moomin - Tome 7 : Neuf histoires de la vallée des Moomins"
-              ownership_status: "not_owned"
-              price: 15
-            - title: "Les Aventures de Moomin - Tome 8 : Papa Moomin et la mer"
-              ownership_status: "not_owned"
-              price: 15
-            - title: "Les Aventures de Moomin - Tome 9 : Tard en novembre"
-              ownership_status: "not_owned"
-              price: 15
+      - series: "Les aventures de Moomin"
+        author: "Tove Jansson"
+        books:
+          - title: "Les Aventures de Moomin - Tome 1 : Moomin et la grande inondation"
+            ownership_status: "not_owned"
+            price: 15
+          - title: "Les Aventures de Moomin - Tome 2 : Moomin et la comète"
+            ownership_status: "not_owned"
+            price: 15
+          - title: "Les Aventures de Moomin - Tome 3 : Le chapeau de magicien"
+            ownership_status: "not_owned"
+            price: 15
+          - title: "Les Aventures de Moomin - Tome 4 : L'été dramatique de Moomin"
+            ownership_status: "not_owned"
+            price: 15
+          - title: "Les Aventures de Moomin - Tome 5 : L'hiver ensorcelé de Moomin"
+            ownership_status: "not_owned"
+            price: 15
+          - title: "Les Aventures de Moomin - Tome 6 : Les mémoires de Papa Moomin"
+            ownership_status: "not_owned"
+            price: 15
+          - title: "Les Aventures de Moomin - Tome 7 : Neuf histoires de la vallée des Moomins"
+            ownership_status: "not_owned"
+            price: 15
+          - title: "Les Aventures de Moomin - Tome 8 : Papa Moomin et la mer"
+            ownership_status: "not_owned"
+            price: 15
+          - title: "Les Aventures de Moomin - Tome 9 : Tard en novembre"
+            ownership_status: "not_owned"
+            price: 15
 
-        - series: "Grand Vampire - intégrale"
-          author: "Joann Sfar"
-          books:
-            - title: "Grand Vampire - intégrale"
-              ownership_status: "not_owned"
-              price: 39
+      - series: "Grand Vampire - intégrale"
+        author: "Joann Sfar"
+        books:
+          - title: "Grand Vampire - intégrale"
+            ownership_status: "not_owned"
+            price: 39
 
-        - series: "Lou! - intégrale S1"
-          author: "Julien Neel"
-          books:
-            - title: "Lou! - intégrale S1"
-              ownership_status: "not_owned"
-              price: 45
+      - series: "Lou! - intégrale S1"
+        author: "Julien Neel"
+        books:
+          - title: "Lou! - intégrale S1"
+            ownership_status: "not_owned"
+            price: 45
 
-        - series: "Dofus Heroes"
-          author: "Eric Herenguel, Julen Ribas"
-          books:
-            - title: "Dofus Heroes T1 - Kerubim"
-              ownership_status: "not_owned"
-              price: 12.9
-            - title: "Dofus Heroes T2 - Kerubim"
-              ownership_status: "not_owned"
-              price: 12.9
+      - series: "Dofus Heroes"
+        author: "Eric Herenguel, Julen Ribas"
+        books:
+          - title: "Dofus Heroes T1 - Kerubim"
+            ownership_status: "not_owned"
+            price: 12.9
+          - title: "Dofus Heroes T2 - Kerubim"
+            ownership_status: "not_owned"
+            price: 12.9
 
   mangas:
-    unknown:
-      unknown:
-        - series: "Ogrest"
-          author: "Mig"
-          price: 7.95
-          books:
-            - title: "Ogrest - T1"
-              ownership_status: "not_owned"
-              price: 7.95
-            - title: "Ogrest - T2"
-              ownership_status: "not_owned"
-              price: 7.95
-            - title: "Ogrest - T3"
-              ownership_status: "not_owned"
-              price: 7.95
-            - title: "Ogrest - T4"
-              ownership_status: "not_owned"
-              price: 7.95
+    ankama:
+      - series: "DOFUS (manfra)"
+        author: "Ancestral Z, Mojojojo, Tot"
+        price: 7.95
+        books:
+          - title: "DOFUS - manga - T1"
+            ownership_status: "not_owned"
+            price: 7.95
+          - title: "DOFUS - manga - T2 -> T30"
+            ownership_status: "not_owned"
+            price: 7.95
 
-        - series: "Dragon Ball Perfect Edition"
-          author: "Akira Toriyama"
-          price: 11.75
-          books:
-            - title: "Dragon Ball Perfect Edition T1"
-              ownership_status: "owned"
-            - title: "Dragon Ball Perfect Edition T2"
-              ownership_status: "owned"
-            - title: "Dragon Ball Perfect Edition T3"
-              ownership_status: "owned"
-            - title: "Dragon Ball Perfect Edition T4"
-              ownership_status: "owned"
-            - title: "Dragon Ball Perfect Edition T5"
-              ownership_status: "owned"
-            - title: "Dragon Ball Perfect Edition T6"
-              ownership_status: "owned"
-            - title: "Dragon Ball Perfect Edition T7"
-              ownership_status: "owned"
-            - title: "Dragon Ball Perfect Edition T8"
-              ownership_status: "owned"
-            - title: "Dragon Ball Perfect Edition T9 -> T34"
-              ownership_status: "not_owned"
-              price: 11.75
+      - series: "Dofus Monster"
+        author: "Ankama"
+        books:
+          - title: "Dofus Monster - Tome 1 : Le Chêne Mou"
+            ownership_status: "not_owned"
+            price: 7.95
+          - title: "Dofus Monster - Tome 2 : Le Dragon Cochon"
+            ownership_status: "not_owned"
+            price: 7.95
+          - title: "Dofus Monster - Tome 3 : Le Chevalier Noir"
+            ownership_status: "not_owned"
+            price: 7.95
+          - title: "Dofus Monster - Tome 4 : Firefoux"
+            ownership_status: "not_owned"
+            price: 7.95
+          - title: "Dofus Monster - Tome 5 : Nomekop le Crapoteur"
+            ownership_status: "not_owned"
+            price: 7.95
+          - title: "Dofus Monster - Tome 6 : Brumen Tinctorias"
+            ownership_status: "not_owned"
+            price: 7.95
+          - title: "Dofus Monster - Tome 7 : Zatoïshwan"
+            ownership_status: "not_owned"
+            price: 7.95
+          - title: "Dofus Monster - Tome 8 : Wa Wabbit"
+            ownership_status: "not_owned"
+            price: 7.95
+          - title: "Dofus Monster - Tome 9 : Koulosse"
+            ownership_status: "not_owned"
+            price: 7.95
+          - title: "Dofus Monster - Tome 10 : Sphincter Cell"
+            ownership_status: "not_owned"
+            price: 7.95
+          - title: "Dofus Monster - Tome 11 : Bworker"
+            ownership_status: "not_owned"
+            price: 7.95
+          - title: "Dofus Monster - Tome 12 : Moon"
+            ownership_status: "not_owned"
+            price: 7.95
 
-        - series: "Rainbow (édition triple)"
-          author: "George Abe, 	Masasumi Kakizaki"
-          books:
-            - title: "Rainbow T1"
-              ownership_status: "owned"
-            - title: "Rainbow T2"
-              ownership_status: "owned"
-            - title: "Rainbow T3"
-              ownership_status: "owned"
-            - title: "Rainbow T4"
-              ownership_status: "owned"
-            - title: "Rainbow T5"
-              ownership_status: "owned"
-            - title: "Rainbow T6"
-              ownership_status: "owned"
-            - title: "Rainbow T7"
-              ownership_status: "owned"
+      - series: "Ogrest"
+        author: "Mig"
+        price: 7.95
+        books:
+          - title: "Ogrest - T1"
+            ownership_status: "not_owned"
+            price: 7.95
+          - title: "Ogrest - T2"
+            ownership_status: "not_owned"
+            price: 7.95
+          - title: "Ogrest - T3"
+            ownership_status: "not_owned"
+            price: 7.95
+          - title: "Ogrest - T4"
+            ownership_status: "not_owned"
+            price: 7.95
 
-        - series: "L'Atelier des Sorciers - édition grimoire"
-          author: "Kamome Shirahama"
-          price: 20.05
-          books:
-            - title: "L'Atelier des Sorciers - édition grimoire T1"
-              ownership_status: "owned"
-            - title: "L'Atelier des Sorciers - édition grimoire T2"
-              ownership_status: "not_owned"
-              price: 20.05
+    glenat:
+      - series: "L'ère des cristaux"
+        author: "Haruko Ichikawa"
+        price: 7.9
+        books:
+          - title: "L'ère des cristaux - T1"
+            ownership_status: "not_owned"
+            price: 7.9
+          - title: "L'ère des cristaux - T2 -> T13"
+            ownership_status: "not_owned"
+            price: 7.9
 
-        - series: "Amer béton - intégrale"
-          author: "Taiyō Matsumoto"
-          books:
-            - title: "Amer béton - intégrale"
-              ownership_status: "owned"
+      - series: "L'école emportée - édition originale"
+        author: "Kazuo Umezu"
+        price: 10.95
+        books:
+          - title: "L'école emportée - édition originale - T1"
+            ownership_status: "not_owned"
+            price: 10.95
+          - title: "L'école emportée - édition originale - T2 -> T6"
+            ownership_status: "not_owned"
+            price: 10.95
 
-        - series: "Nausicaä de la Vallée du Vent"
-          author: "Hayao Miyazaki"
-          edition: "Glénat"
-          price: 11.75
-          books:
-            - title: "Nausicaä de la Vallée du Vent - T1"
-              ownership_status: "owned"
-            - title: "Nausicaä de la Vallée du Vent - T2 -> T7"
-              ownership_status: "not_owned"
-              price: 11.75
+      - series: "BLAME!"
+        author: "Tsutomu Nihei"
+        price: 14.95
+        books:
+          - title: "BLAME! - T1"
+            ownership_status: "not_owned"
+            price: 14.95
+          - title: "BLAME! - T2 -> T6"
+            ownership_status: "not_owned"
+            price: 14.95
 
-        - series: "Doraemon"
-          author: "Fujiko F. Fujio"
-          price: 7.30
-          books:
-            - title: "Doraemon - T1"
-              ownership_status: "owned"
-            - title: "Doraemon - T2 -> T45"
-              ownership_status: "not_owned"
-              price: 7.30
+      - series: "Berserk - nouvelle édition"
+        author: "Kentaro Miura"
+        price: 7.2
+        books:
+          - title: "Berserk - nouvelle édition - T1"
+            ownership_status: "not_owned"
+            price: 7.2
+          - title: "Berserk - nouvelle édition - T2 -> T42"
+            ownership_status: "not_owned"
+            price: 7.2
 
-        - series: "March Comes in like a Lion"
-          author: "Chica Umino"
-          price: 8.10
-          books:
-            - title: "March Comes in like a Lion - T1"
-              ownership_status: "owned"
-            - title: "March Comes in like a Lion - T2 -> T17"
-              ownership_status: "not_owned"
-              price: 8.10
+      - series: "Neon Genesis Evangelion - Perfect Edition"
+        author: "Yoshiyuki Sadamoto"
+        price: 14.95
+        books:
+          - title: "Neon Genesis Evangelion - Perfect Edition - T1"
+            ownership_status: "not_owned"
+            price: 14.95
+          - title: "Neon Genesis Evangelion - Perfect Edition - T2 -> T7"
+            ownership_status: "not_owned"
+            price: 14.95
 
-        - series: "Pluto"
-          author: "Naoki Urasawa"
-          price: 8.10
-          books:
-            - title: "Pluto - T1"
-              ownership_status: "owned"
-            - title: "Pluto - T2"
-              ownership_status: "owned"
-            - title: "Pluto - T3 -> T8"
-              ownership_status: "not_owned"
-              price: 8.10
+      - series: "Akira - édition originale"
+        author: "Katsuhiro Otomo"
+        price: 14.95
+        books:
+          - title: "Akira - édition originale - T1"
+            ownership_status: "not_owned"
+            price: 14.95
+          - title: "Akira - édition originale - T2 -> T6"
+            ownership_status: "not_owned"
+            price: 14.95
 
-        - series: "Bakuman"
-          author: "Tsugumi Ohba, Takeshi Obata"
-          price: 7.30
-          books:
-            - title: "Bakuman - T1"
-              ownership_status: "owned"
-            - title: "Bakuman - T2"
-              ownership_status: "owned"
-            - title: "Bakuman - T3"
-              ownership_status: "owned"
-            - title: "Bakuman - T4 -> T20"
-              ownership_status: "not_owned"
-              price: 7.30
+      - series: "The Ghost in the Shell Perfect edition"
+        author: "Masamune Shirow"
+        price: 14.95
+        books:
+          - title: "The Ghost in the Shell Perfect edition - T1"
+            ownership_status: "not_owned"
+            price: 14.95
+          - title: "The Ghost in the Shell Perfect edition - T2"
+            ownership_status: "not_owned"
+            price: 14.95
+          - title: "The Ghost in the Shell Perfect edition - T1.5"
+            ownership_status: "not_owned"
+            price: 14.95
 
-        - series: "I am a Hero"
-          author: "Kengo Hanazawa"
-          price: 7.45
-          books:
-            - title: "I am a Hero - T1"
-              ownership_status: "owned"
-            - title: "I am a Hero - T2"
-              ownership_status: "owned"
-            - title: "I am a Hero - T3"
-              ownership_status: "owned"
-            - title: "I am a Hero - T4"
-              ownership_status: "owned"
-            - title: "I am a Hero - T5 -> T22"
-              ownership_status: "not_owned"
-              price: 7.45
+      - series: "Parasite - Édition originale"
+        author: "Hitoshi Iwaaki"
+        price: 10.95
+        books:
+          - title: "Parasite - Édition originale - T1"
+            ownership_status: "not_owned"
+            price: 10.95
+          - title: "Parasite - Édition originale - T2 -> T8"
+            ownership_status: "not_owned"
+            price: 10.95
 
-        - series: "Last Hero Inuyashiki"
-          author: "Hiroya Oku"
-          price: 7.95
-          books:
-            - title: "Last Hero Inuyashiki - T1"
-              ownership_status: "owned"
-            - title: "Last Hero Inuyashiki - T2"
-              ownership_status: "owned"
-            - title: "Last Hero Inuyashiki - T3 -> T10"
-              ownership_status: "not_owned"
-              price: 7.95
+      - series: "Docteur Slump Perfect Edition"
+        author: "Akira Toriyama"
+        price: 10.95
+        books:
+          - title: "Docteur Slump Perfect Edition - T1"
+            ownership_status: "not_owned"
+            price: 10.95
+          - title: "Docteur Slump Perfect Edition - T2 -> T15"
+            ownership_status: "not_owned"
+            price: 10.95
 
-        - series: "Hunter x Hunter"
-          author: "Yoshihiro Togashi"
-          price: 7.30
-          books:
-            - title: "Hunter x Hunter - T1"
-              ownership_status: "owned"
-            - title: "Hunter x Hunter - T2"
-              ownership_status: "owned"
-            - title: "Hunter x Hunter - T3"
-              ownership_status: "owned"
-            - title: "Hunter x Hunter - T4"
-              ownership_status: "owned"
-            - title: "Hunter x Hunter - T5"
-              ownership_status: "owned"
-            - title: "Hunter x Hunter - T6"
-              ownership_status: "owned"
-            - title: "Hunter x Hunter - T7"
-              ownership_status: "owned"
-            - title: "Hunter x Hunter - T8"
-              ownership_status: "owned"
-            - title: "Hunter x Hunter - T9"
-              ownership_status: "owned"
-            - title: "Hunter x Hunter - T10"
-              ownership_status: "owned"
-            - title: "Hunter x Hunter - T11"
-              ownership_status: "owned"
-            - title: "Hunter x Hunter - T12"
-              ownership_status: "owned"
-            - title: "Hunter x Hunter - T13"
-              ownership_status: "owned"
-            - title: "Hunter x Hunter - T14"
-              ownership_status: "owned"
-            - title: "Hunter x Hunter - T15"
-              ownership_status: "owned"
-            - title: "Hunter x Hunter - T16"
-              ownership_status: "owned"
-            - title: "Hunter x Hunter - T17"
-              ownership_status: "owned"
-            - title: "Hunter x Hunter - T18 -> T38"
-              ownership_status: "not_owned"
-              price: 7.30
+      - series: "Dragon Ball Perfect Edition"
+        author: "Akira Toriyama"
+        price: 11.75
+        books:
+          - title: "Dragon Ball Perfect Edition T1"
+            ownership_status: "owned"
+          - title: "Dragon Ball Perfect Edition T2"
+            ownership_status: "owned"
+          - title: "Dragon Ball Perfect Edition T3"
+            ownership_status: "owned"
+          - title: "Dragon Ball Perfect Edition T4"
+            ownership_status: "owned"
+          - title: "Dragon Ball Perfect Edition T5"
+            ownership_status: "owned"
+          - title: "Dragon Ball Perfect Edition T6"
+            ownership_status: "owned"
+          - title: "Dragon Ball Perfect Edition T7"
+            ownership_status: "owned"
+          - title: "Dragon Ball Perfect Edition T8"
+            ownership_status: "owned"
+          - title: "Dragon Ball Perfect Edition T9 -> T34"
+            ownership_status: "not_owned"
+            price: 11.75
 
-        - series: "Les Chevaliers du Zodiaque - édition originale"
-          author: "Masami Kurumada"
-          books:
-            - title: "Les Chevaliers du Zodiaque - édition originale - T1"
-              ownership_status: "owned"
-            - title: "Les Chevaliers du Zodiaque - édition originale - T2"
-              ownership_status: "owned"
-            - title: "Les Chevaliers du Zodiaque - édition originale - T3"
-              ownership_status: "owned"
-            - title: "Les Chevaliers du Zodiaque - édition originale - T4"
-              ownership_status: "owned"
-            - title: "Les Chevaliers du Zodiaque - édition originale - T5"
-              ownership_status: "owned"
-            - title: "Les Chevaliers du Zodiaque - édition originale - T6"
-              ownership_status: "owned"
-            - title: "Les Chevaliers du Zodiaque - édition originale - T7"
-              ownership_status: "owned"
-            - title: "Les Chevaliers du Zodiaque - édition originale - T8"
-              ownership_status: "owned"
-            - title: "Les Chevaliers du Zodiaque - édition originale - T9"
-              ownership_status: "owned"
-            - title: "Les Chevaliers du Zodiaque - édition originale - T10"
-              ownership_status: "owned"
-            - title: "Les Chevaliers du Zodiaque - édition originale - T11"
-              ownership_status: "owned"
-            - title: "Les Chevaliers du Zodiaque - édition originale - T12"
-              ownership_status: "owned"
-            - title: "Les Chevaliers du Zodiaque - édition originale - T13"
-              ownership_status: "owned"
-            - title: "Les Chevaliers du Zodiaque - édition originale - T14"
-              ownership_status: "owned"
-            - title: "Les Chevaliers du Zodiaque - édition originale - T15"
-              ownership_status: "owned"
-            - title: "Les Chevaliers du Zodiaque - édition originale - T16"
-              ownership_status: "owned"
-            - title: "Les Chevaliers du Zodiaque - édition originale - T17"
-              ownership_status: "owned"
-            - title: "Les Chevaliers du Zodiaque - édition originale - T18"
-              ownership_status: "owned"
-            - title: "Les Chevaliers du Zodiaque - édition originale - T19"
-              ownership_status: "owned"
-            - title: "Les Chevaliers du Zodiaque - édition originale - T20"
-              ownership_status: "owned"
-            - title: "Les Chevaliers du Zodiaque - édition originale - T21"
-              ownership_status: "owned"
-            - title: "Les Chevaliers du Zodiaque - édition originale - T22"
-              ownership_status: "owned"
-            - title: "Les Chevaliers du Zodiaque - édition originale - T23"
-              ownership_status: "owned"
-            - title: "Les Chevaliers du Zodiaque - édition originale - T24"
-              ownership_status: "owned"
-            - title: "Les Chevaliers du Zodiaque - édition originale - T25"
-              ownership_status: "owned"
-            - title: "Les Chevaliers du Zodiaque - édition originale - T26"
-              ownership_status: "owned"
-            - title: "Les Chevaliers du Zodiaque - édition originale - T27"
-              ownership_status: "owned"
-            - title: "Les Chevaliers du Zodiaque - édition originale - T28"
-              ownership_status: "owned"
+      - series: "Nausicaä de la Vallée du Vent"
+        author: "Hayao Miyazaki"
+        price: 11.75
+        books:
+          - title: "Nausicaä de la Vallée du Vent - T1"
+            ownership_status: "owned"
+          - title: "Nausicaä de la Vallée du Vent - T2 -> T7"
+            ownership_status: "not_owned"
+            price: 11.75
 
-        - series: "Opus"
-          author: "Satoshi Kon"
-          books:
-            - title: "Opus - T1"
-              ownership_status: "owned"
-            - title: "Opus - T2"
-              ownership_status: "owned"
+      - series: "Gunnm - édition originale"
+        author: "Yukito Kishiro"
+        price: 7.9
+        books:
+          - title: "Gunnm - édition originale T01"
+            ownership_status: "not_owned"
+            price: 7.9
+          - title: "Gunnm - édition originale T02 -> T9"
+            ownership_status: "not_owned"
+            price: 7.9
 
-        - series: "Ping Pong - édition prestige"
-          author: "Taiyō Matsumoto"
-          price: 29.99
-          books:
-            - title: "Ping Pong - édition prestige T01"
-              ownership_status: "not_owned"
-              price: 29.99
-            - title: "Ping Pong - édition prestige T02"
-              ownership_status: "not_owned"
-              price: 29.99
+    crunchyroll:
+      - series: "Rainbow (édition triple)"
+        author: "George Abe, 	Masasumi Kakizaki"
+        books:
+          - title: "Rainbow T1"
+            ownership_status: "owned"
+          - title: "Rainbow T2"
+            ownership_status: "owned"
+          - title: "Rainbow T3"
+            ownership_status: "owned"
+          - title: "Rainbow T4"
+            ownership_status: "owned"
+          - title: "Rainbow T5"
+            ownership_status: "owned"
+          - title: "Rainbow T6"
+            ownership_status: "owned"
+          - title: "Rainbow T7"
+            ownership_status: "owned"
 
-        - series: "Dead Dead Demon's Dededededestruction"
-          author: "Inio Asano"
-          price: 8.10
-          books:
-            - title: "Dead Dead Demon's Dededededestruction - T1"
-              ownership_status: "not_owned"
-              price: 8.10
-            - title: "Dead Dead Demon's Dededededestruction - T2 -> T12"
-              ownership_status: "not_owned"
-              price: 8.10
+      - series: "All You Need is Kill"
+        author: "Hiroshi Sakurazaka, Takeshi Obata"
+        price: 7.25
+        books:
+          - title: "All You Need is Kill T01"
+            ownership_status: "not_owned"
+            price: 7.25
+          - title: "All You Need is Kill T02"
+            ownership_status: "not_owned"
+            price: 7.25
 
-        - series: "La concierge du grand magasin"
-          author: "Tsuchika NISHIMURA"
-          books:
-            - title: "La concierge du grand magasin"
-              ownership_status: "not_owned"
-              price: 19
+    pika:
+      - series: "xxxHolic - nouvelle édition"
+        author: "Clamp"
+        price: 8.5
+        books:
+          - title: "xxxHolic - nouvelle édition - T1"
+            ownership_status: "not_owned"
+            price: 8.5
+          - title: "xxxHolic - nouvelle édition - T2 -> T19"
+            ownership_status: "not_owned"
+            price: 8.5
 
-        - series: "GTO"
-          author: "Tōru Fujisawa"
-          price: 7.2
-          books:
-            - title: "GTO - T1"
-              ownership_status: "not_owned"
-              price: 7.2
-            - title: "GTO - T2 -> T25"
-              ownership_status: "not_owned"
-              price: 7.2
+      - series: "Card Captor Sakura"
+        author: "Clamp"
+        price: 9.1
+        books:
+          - title: "Card Captor Sakura - T1"
+            ownership_status: "not_owned"
+            price: 9.1
+          - title: "Card Captor Sakura - T2 -> T9"
+            ownership_status: "not_owned"
+            price: 9.1
 
-        - series: "Planètes Perfect Edition"
-          author: "Makoto Yukimura"
-          price: 16.99
-          books:
-            - title: "Planètes Perfect Edition - T1"
-              ownership_status: "not_owned"
-              price: 16.99
-            - title: "Planètes Perfect Edition - T2"
-              ownership_status: "not_owned"
-              price: 16.99
-            - title: "Planètes Perfect Edition - T3"
-              ownership_status: "not_owned"
-              price: 16.99
+      - series: "L'Atelier des Sorciers - édition grimoire"
+        author: "Kamome Shirahama"
+        price: 20.05
+        books:
+          - title: "L'Atelier des Sorciers - édition grimoire T1"
+            ownership_status: "owned"
+          - title: "L'Atelier des Sorciers - édition grimoire T2"
+            ownership_status: "not_owned"
+            price: 20.05
 
-        - series: "Quartier lointain"
-          author: "Jiro Taniguchi"
-          books:
-            - title: "Quartier lointain"
-              ownership_status: "not_owned"
-              price: 24.95
+      - series: "GTO"
+        author: "Tōru Fujisawa"
+        price: 7.2
+        books:
+          - title: "GTO - T1"
+            ownership_status: "not_owned"
+            price: 7.2
+          - title: "GTO - T2 -> T25"
+            ownership_status: "not_owned"
+            price: 7.2
 
-        - series: "Le voyage de Shuna"
-          author: "Hayao Miyazaki"
-          books:
-            - title: "Le voyage de Shuna"
-              ownership_status: "not_owned"
-              price: 25
+    delcourt:
+      - series: "Gantz - Perfect Edition"
+        author: "Hiroya Oku"
+        price: 15.99
+        books:
+          - title: "Gantz - Perfect Edition - T1"
+            ownership_status: "not_owned"
+            price: 15.99
+          - title: "Gantz - Perfect Edition - T2 -> T18"
+            ownership_status: "not_owned"
+            price: 15.99
 
-        - series: "All You Need is Kill"
-          author: "Hiroshi Sakurazaka, Takeshi Obata"
-          price: 7.25
-          books:
-            - title: "All You Need is Kill T01"
-              ownership_status: "not_owned"
-              price: 7.25
-            - title: "All You Need is Kill T02"
-              ownership_status: "not_owned"
-              price: 7.25
+      - series: "Amer béton - intégrale"
+        author: "Taiyō Matsumoto"
+        books:
+          - title: "Amer béton - intégrale"
+            ownership_status: "owned"
 
-        - series: "Nana"
-          author: "Ai Yazawa"
-          price: 7.29
-          books:
-            - title: "Nana T01"
-              ownership_status: "not_owned"
-              price: 7.29
-            - title: "Nana T02 -> T21"
-              ownership_status: "not_owned"
-              price: 7.29
+      - series: "Ping Pong - édition prestige"
+        author: "Taiyō Matsumoto"
+        price: 29.99
+        books:
+          - title: "Ping Pong - édition prestige T01"
+            ownership_status: "not_owned"
+            price: 29.99
+          - title: "Ping Pong - édition prestige T02"
+            ownership_status: "not_owned"
+            price: 29.99
 
-        - series: "Gunnm - édition originale"
-          author: "Yukito Kishiro"
-          price: 7.9
-          books:
-            - title: "Gunnm - édition originale T01"
-              ownership_status: "not_owned"
-              price: 7.9
-            - title: "Gunnm - édition originale T02 -> T9"
-              ownership_status: "not_owned"
-              price: 7.9
+      - series: "Nana"
+        author: "Ai Yazawa"
+        price: 7.29
+        books:
+          - title: "Nana T01"
+            ownership_status: "not_owned"
+            price: 7.29
+          - title: "Nana T02 -> T21"
+            ownership_status: "not_owned"
+            price: 7.29
 
-        - series: "Yotsuba"
-          author: "Kiyohiko Azuma"
-          price: 7.95
-          books:
-            - title: "Yotsuba - T1"
-              ownership_status: "not_owned"
-              price: 7.95
-            - title: "Yotsuba - T2 -> T15"
-              ownership_status: "not_owned"
-              price: 7.95
+    kana:
+      - series: "Bonne Nuit Punpun"
+        author: "Inio Asano"
+        edition: "Big Kana"
+        price: 8.1
+        books:
+          - title: "Bonne Nuit Punpun - T1"
+            ownership_status: "not_owned"
+            price: 8.1
+          - title: "Bonne Nuit Punpun - T2 -> T13"
+            ownership_status: "not_owned"
+            price: 8.1
 
-        - series: "Les Vacances de Jésus & Bouddha"
-          author: "Hikaru Nakamura"
-          price: 7.3
-          books:
-            - title: "Les Vacances de Jésus & Bouddha - T1"
-              ownership_status: "not_owned"
-              price: 7.3
-            - title: "Les Vacances de Jésus & Bouddha - T2 -> T21"
-              ownership_status: "not_owned"
-              price: 7.3
+      - series: "Monster Intégrale Deluxe"
+        author: "Naoki Urasawa"
+        edition: "Big Kana"
+        price: 15.9
+        books:
+          - title: "Monster Intégrale Deluxe - T1"
+            ownership_status: "not_owned"
+            price: 15.9
+          - title: "Monster Intégrale Deluxe - T2 -> T9"
+            ownership_status: "not_owned"
+            price: 15.9
 
-        - series: "Docteur Slump Perfect Edition"
-          author: "Akira Toriyama"
-          price: 10.95
-          books:
-            - title: "Docteur Slump Perfect Edition - T1"
-              ownership_status: "not_owned"
-              price: 10.95
-            - title: "Docteur Slump Perfect Edition - T2 -> T15"
-              ownership_status: "not_owned"
-              price: 10.95
+      - series: "Dead Dead Demon's Dededededestruction"
+        author: "Inio Asano"
+        edition: "Big Kana"
+        price: 8.10
+        books:
+          - title: "Dead Dead Demon's Dededededestruction - T1"
+            ownership_status: "not_owned"
+            price: 8.10
+          - title: "Dead Dead Demon's Dededededestruction - T2 -> T12"
+            ownership_status: "not_owned"
+            price: 8.10
 
-        - series: "Fullmetal Alchemist Perfect"
-          author: "Hiromu Arakawa"
-          price: 11.95
-          books:
-            - title: "Fullmetal Alchemist Perfect - T1"
-              ownership_status: "not_owned"
-              price: 11.95
-            - title: "Fullmetal Alchemist Perfect - T2 -> T18"
-              ownership_status: "not_owned"
-              price: 11.95
+      - series: "Doraemon"
+        author: "Fujiko F. Fujio"
+        price: 7.30
+        books:
+          - title: "Doraemon - T1"
+            ownership_status: "owned"
+          - title: "Doraemon - T2 -> T45"
+            ownership_status: "not_owned"
+            price: 7.30
 
-        - series: "Parasite - Édition originale"
-          author: "Hitoshi Iwaaki"
-          price: 10.95
-          books:
-            - title: "Parasite - Édition originale - T1"
-              ownership_status: "not_owned"
-              price: 10.95
-            - title: "Parasite - Édition originale - T2 -> T8"
-              ownership_status: "not_owned"
-              price: 10.95
+      - series: "March Comes in like a Lion"
+        author: "Chica Umino"
+        edition: "Big Kana"
+        price: 8.10
+        books:
+          - title: "March Comes in like a Lion - T1"
+            ownership_status: "owned"
+          - title: "March Comes in like a Lion - T2 -> T17"
+            ownership_status: "not_owned"
+            price: 8.10
 
-        - series: "Monster Intégrale Deluxe"
-          author: "Naoki Urasawa"
-          price: 15.9
-          books:
-            - title: "Monster Intégrale Deluxe - T1"
-              ownership_status: "not_owned"
-              price: 15.9
-            - title: "Monster Intégrale Deluxe - T2 -> T9"
-              ownership_status: "not_owned"
-              price: 15.9
+      - series: "Pluto"
+        author: "Naoki Urasawa"
+        edition: "Big Kana"
+        price: 8.10
+        books:
+          - title: "Pluto - T1"
+            ownership_status: "owned"
+          - title: "Pluto - T2"
+            ownership_status: "owned"
+          - title: "Pluto - T3 -> T8"
+            ownership_status: "not_owned"
+            price: 8.10
 
-        - series: "20th Century Boys Perfect Edition"
-          author: "Naoki Urasawa"
-          price: 16.99
-          books:
-            - title: "20th Century Boys Perfect Edition - T1"
-              ownership_status: "not_owned"
-              price: 16.99
-            - title: "20th Century Boys Perfect Edition - T2 -> T11"
-              ownership_status: "not_owned"
-              price: 16.99
+      - series: "Bakuman"
+        author: "Tsugumi Ohba, Takeshi Obata"
+        price: 7.30
+        books:
+          - title: "Bakuman - T1"
+            ownership_status: "owned"
+          - title: "Bakuman - T2"
+            ownership_status: "owned"
+          - title: "Bakuman - T3"
+            ownership_status: "owned"
+          - title: "Bakuman - T4 -> T20"
+            ownership_status: "not_owned"
+            price: 7.30
 
-        - series: "The Ghost in the Shell Perfect edition"
-          author: "Masamune Shirow"
-          price: 14.95
-          books:
-            - title: "The Ghost in the Shell Perfect edition - T1"
-              ownership_status: "not_owned"
-              price: 14.95
-            - title: "The Ghost in the Shell Perfect edition - T2"
-              ownership_status: "not_owned"
-              price: 14.95
-            - title: "The Ghost in the Shell Perfect edition - T1.5"
-              ownership_status: "not_owned"
-              price: 14.95
+      - series: "I am a Hero"
+        author: "Kengo Hanazawa"
+        edition: "Big Kana"
+        price: 7.45
+        books:
+          - title: "I am a Hero - T1"
+            ownership_status: "owned"
+          - title: "I am a Hero - T2"
+            ownership_status: "owned"
+          - title: "I am a Hero - T3"
+            ownership_status: "owned"
+          - title: "I am a Hero - T4"
+            ownership_status: "owned"
+          - title: "I am a Hero - T5 -> T22"
+            ownership_status: "not_owned"
+            price: 7.45
 
-        - series: "Akira - édition originale"
-          author: "Katsuhiro Otomo"
-          price: 14.95
-          books:
-            - title: "Akira - édition originale - T1"
-              ownership_status: "not_owned"
-              price: 14.95
-            - title: "Akira - édition originale - T2 -> T6"
-              ownership_status: "not_owned"
-              price: 14.95
+      - series: "Hunter x Hunter"
+        author: "Yoshihiro Togashi"
+        price: 7.30
+        books:
+          - title: "Hunter x Hunter - T1"
+            ownership_status: "owned"
+          - title: "Hunter x Hunter - T2"
+            ownership_status: "owned"
+          - title: "Hunter x Hunter - T3"
+            ownership_status: "owned"
+          - title: "Hunter x Hunter - T4"
+            ownership_status: "owned"
+          - title: "Hunter x Hunter - T5"
+            ownership_status: "owned"
+          - title: "Hunter x Hunter - T6"
+            ownership_status: "owned"
+          - title: "Hunter x Hunter - T7"
+            ownership_status: "owned"
+          - title: "Hunter x Hunter - T8"
+            ownership_status: "owned"
+          - title: "Hunter x Hunter - T9"
+            ownership_status: "owned"
+          - title: "Hunter x Hunter - T10"
+            ownership_status: "owned"
+          - title: "Hunter x Hunter - T11"
+            ownership_status: "owned"
+          - title: "Hunter x Hunter - T12"
+            ownership_status: "owned"
+          - title: "Hunter x Hunter - T13"
+            ownership_status: "owned"
+          - title: "Hunter x Hunter - T14"
+            ownership_status: "owned"
+          - title: "Hunter x Hunter - T15"
+            ownership_status: "owned"
+          - title: "Hunter x Hunter - T16"
+            ownership_status: "owned"
+          - title: "Hunter x Hunter - T17"
+            ownership_status: "owned"
+          - title: "Hunter x Hunter - T18 -> T38"
+            ownership_status: "not_owned"
+            price: 7.30
 
-        - series: "Neon Genesis Evangelion - Perfect Edition"
-          author: "Yoshiyuki Sadamoto"
-          price: 14.95
-          books:
-            - title: "Neon Genesis Evangelion - Perfect Edition - T1"
-              ownership_status: "not_owned"
-              price: 14.95
-            - title: "Neon Genesis Evangelion - Perfect Edition - T2 -> T7"
-              ownership_status: "not_owned"
-              price: 14.95
+      - series: "Les Chevaliers du Zodiaque - édition originale"
+        author: "Masami Kurumada"
+        books:
+          - title: "Les Chevaliers du Zodiaque - édition originale - T1"
+            ownership_status: "owned"
+          - title: "Les Chevaliers du Zodiaque - édition originale - T2"
+            ownership_status: "owned"
+          - title: "Les Chevaliers du Zodiaque - édition originale - T3"
+            ownership_status: "owned"
+          - title: "Les Chevaliers du Zodiaque - édition originale - T4"
+            ownership_status: "owned"
+          - title: "Les Chevaliers du Zodiaque - édition originale - T5"
+            ownership_status: "owned"
+          - title: "Les Chevaliers du Zodiaque - édition originale - T6"
+            ownership_status: "owned"
+          - title: "Les Chevaliers du Zodiaque - édition originale - T7"
+            ownership_status: "owned"
+          - title: "Les Chevaliers du Zodiaque - édition originale - T8"
+            ownership_status: "owned"
+          - title: "Les Chevaliers du Zodiaque - édition originale - T9"
+            ownership_status: "owned"
+          - title: "Les Chevaliers du Zodiaque - édition originale - T10"
+            ownership_status: "owned"
+          - title: "Les Chevaliers du Zodiaque - édition originale - T11"
+            ownership_status: "owned"
+          - title: "Les Chevaliers du Zodiaque - édition originale - T12"
+            ownership_status: "owned"
+          - title: "Les Chevaliers du Zodiaque - édition originale - T13"
+            ownership_status: "owned"
+          - title: "Les Chevaliers du Zodiaque - édition originale - T14"
+            ownership_status: "owned"
+          - title: "Les Chevaliers du Zodiaque - édition originale - T15"
+            ownership_status: "owned"
+          - title: "Les Chevaliers du Zodiaque - édition originale - T16"
+            ownership_status: "owned"
+          - title: "Les Chevaliers du Zodiaque - édition originale - T17"
+            ownership_status: "owned"
+          - title: "Les Chevaliers du Zodiaque - édition originale - T18"
+            ownership_status: "owned"
+          - title: "Les Chevaliers du Zodiaque - édition originale - T19"
+            ownership_status: "owned"
+          - title: "Les Chevaliers du Zodiaque - édition originale - T20"
+            ownership_status: "owned"
+          - title: "Les Chevaliers du Zodiaque - édition originale - T21"
+            ownership_status: "owned"
+          - title: "Les Chevaliers du Zodiaque - édition originale - T22"
+            ownership_status: "owned"
+          - title: "Les Chevaliers du Zodiaque - édition originale - T23"
+            ownership_status: "owned"
+          - title: "Les Chevaliers du Zodiaque - édition originale - T24"
+            ownership_status: "owned"
+          - title: "Les Chevaliers du Zodiaque - édition originale - T25"
+            ownership_status: "owned"
+          - title: "Les Chevaliers du Zodiaque - édition originale - T26"
+            ownership_status: "owned"
+          - title: "Les Chevaliers du Zodiaque - édition originale - T27"
+            ownership_status: "owned"
+          - title: "Les Chevaliers du Zodiaque - édition originale - T28"
+            ownership_status: "owned"
 
-        - series: "Berserk - nouvelle édition"
-          author: "Kentaro Miura"
-          price: 7.2
-          books:
-            - title: "Berserk - nouvelle édition - T1"
-              ownership_status: "not_owned"
-              price: 7.2
-            - title: "Berserk - nouvelle édition - T2 -> T42"
-              ownership_status: "not_owned"
-              price: 7.2
+    ki-oon:
+      - series: "Last Hero Inuyashiki"
+        author: "Hiroya Oku"
+        price: 7.95
+        books:
+          - title: "Last Hero Inuyashiki - T1"
+            ownership_status: "owned"
+          - title: "Last Hero Inuyashiki - T2"
+            ownership_status: "owned"
+          - title: "Last Hero Inuyashiki - T3 -> T10"
+            ownership_status: "not_owned"
+            price: 7.95
 
-        - series: "BLAME!"
-          author: "Tsutomu Nihei"
-          price: 14.95
-          books:
-            - title: "BLAME! - T1"
-              ownership_status: "not_owned"
-              price: 14.95
-            - title: "BLAME! - T2 -> T6"
-              ownership_status: "not_owned"
-              price: 14.95
+    le_lezard_noir:
+      - series: "La concierge du grand magasin"
+        author: "Tsuchika NISHIMURA"
+        books:
+          - title: "La concierge du grand magasin"
+            ownership_status: "not_owned"
+            price: 19
 
-        - series: "Gantz - Perfect Edition"
-          author: "Hiroya Oku"
-          price: 15.99
-          books:
-            - title: "Gantz - Perfect Edition - T1"
-              ownership_status: "not_owned"
-              price: 15.99
-            - title: "Gantz - Perfect Edition - T2 -> T18"
-              ownership_status: "not_owned"
-              price: 15.99
+    panini:
+      - series: "20th Century Boys Perfect Edition"
+        author: "Naoki Urasawa"
+        price: 16.99
+        books:
+          - title: "20th Century Boys Perfect Edition - T1"
+            ownership_status: "not_owned"
+            price: 16.99
+          - title: "20th Century Boys Perfect Edition - T2 -> T11"
+            ownership_status: "not_owned"
+            price: 16.99
 
-        - series: "Bonne Nuit Punpun"
-          author: "Inio Asano"
-          price: 8.1
-          books:
-            - title: "Bonne Nuit Punpun - T1"
-              ownership_status: "not_owned"
-              price: 8.1
-            - title: "Bonne Nuit Punpun - T2 -> T13"
-              ownership_status: "not_owned"
-              price: 8.1
+      - series: "Planètes Perfect Edition"
+        author: "Makoto Yukimura"
+        price: 16.99
+        books:
+          - title: "Planètes Perfect Edition - T1"
+            ownership_status: "not_owned"
+            price: 16.99
+          - title: "Planètes Perfect Edition - T2"
+            ownership_status: "not_owned"
+            price: 16.99
+          - title: "Planètes Perfect Edition - T3"
+            ownership_status: "not_owned"
+            price: 16.99
 
-        - series: "Card Captor Sakura"
-          author: "Clamp"
-          price: 9.1
-          books:
-            - title: "Card Captor Sakura - T1"
-              ownership_status: "not_owned"
-              price: 9.1
-            - title: "Card Captor Sakura - T2 -> T9"
-              ownership_status: "not_owned"
-              price: 9.1
+    casterman:
+      - series: "Les Enfants de l'araignée"
+        author: "Mario Tamura"
+        price: 27
+        books:
+          - title: "Les Enfants de l'araignée"
+            ownership_status: "not_owned"
+            price: 27
 
-        - series: "L'école emportée - édition originale"
-          author: "Kazuo Umezu"
-          price: 10.95
-          books:
-            - title: "L'école emportée - édition originale - T1"
-              ownership_status: "not_owned"
-              price: 10.95
-            - title: "L'école emportée - édition originale - T2 -> T6"
-              ownership_status: "not_owned"
-              price: 10.95
+      - series: "Quartier lointain"
+        author: "Jiro Taniguchi"
+        books:
+          - title: "Quartier lointain"
+            ownership_status: "not_owned"
+            price: 24.95
 
-        - series: "Les Enfants de l'araignée"
-          author: "Mario Tamura"
-          price: 27
-          books:
-            - title: "Les Enfants de l'araignée"
-              ownership_status: "not_owned"
-              price: 27
+    kurokawa:
+      - series: "Yotsuba"
+        author: "Kiyohiko Azuma"
+        price: 7.95
+        books:
+          - title: "Yotsuba - T1"
+            ownership_status: "not_owned"
+            price: 7.95
+          - title: "Yotsuba - T2 -> T15"
+            ownership_status: "not_owned"
+            price: 7.95
 
-        - series: "L'ère des cristaux"
-          author: "Haruko Ichikawa"
-          price: 7.9
-          books:
-            - title: "L'ère des cristaux - T1"
-              ownership_status: "not_owned"
-              price: 7.9
-            - title: "L'ère des cristaux - T2 -> T13"
-              ownership_status: "not_owned"
-              price: 7.9
+      - series: "Les Vacances de Jésus & Bouddha"
+        author: "Hikaru Nakamura"
+        price: 7.3
+        books:
+          - title: "Les Vacances de Jésus & Bouddha - T1"
+            ownership_status: "not_owned"
+            price: 7.3
+          - title: "Les Vacances de Jésus & Bouddha - T2 -> T21"
+            ownership_status: "not_owned"
+            price: 7.3
 
-        - series: "xxxHolic - nouvelle édition"
-          author: "Clamp"
-          price: 8.5
-          books:
-            - title: "xxxHolic - nouvelle édition - T1"
-              ownership_status: "not_owned"
-              price: 8.5
-            - title: "xxxHolic - nouvelle édition - T2 -> T19"
-              ownership_status: "not_owned"
-              price: 8.5
+      - series: "Fullmetal Alchemist Perfect"
+        author: "Hiromu Arakawa"
+        price: 11.95
+        books:
+          - title: "Fullmetal Alchemist Perfect - T1"
+            ownership_status: "not_owned"
+            price: 11.95
+          - title: "Fullmetal Alchemist Perfect - T2 -> T18"
+            ownership_status: "not_owned"
+            price: 11.95
 
-        - series: "DOFUS (manfra)"
-          author: "Ancestral Z, Mojojojo, Tot"
-          price: 7.95
-          books:
-            - title: "DOFUS - manga - T1"
-              ownership_status: "not_owned"
-              price: 7.95
-            - title: "DOFUS - manga - T2 -> T30"
-              ownership_status: "not_owned"
-              price: 7.95
+    junji_ito:
+      - series: "Œuvres de Junji Ito"
+        author: "Junji Ito"
+        books:
+          - title: "Spirale (Uzumaki) (2002)"
+            edition: "Delcourt/Tonkam, édition intégrale"
+            ownership_status: "not_owned"
+            price: 29.99
+          - title: "Tomie (2004)"
+            edition: "Mangetsu, édition intégrale"
+            ownership_status: "not_owned"
+            price: 29.95
+          - title: "Gyo (2006)"
+            edition: "Delcourt/Tonkam, édition intégrale"
+            ownership_status: "not_owned"
+            price: 29.95
+          - title: "Le Mystère de la chair (2008)"
+            edition: "Delcourt/Tonkam"
+            ownership_status: "not_owned"
+            price: 12.50
+          - title: "Le Voleur de visages (2008)"
+            edition: "Delcourt/Tonkam"
+            ownership_status: "not_owned"
+            price: 12.50
+          - title: "Le Journal de Soïchi (2009)"
+            edition: "Delcourt/Tonkam"
+            ownership_status: "not_owned"
+            price: 12.50
+          - title: "Le Journal maudit de Soïchi (2009)"
+            edition: "Delcourt/Tonkam"
+            ownership_status: "not_owned"
+            price: 12.50
+          - title: "La Femme limace (2009)"
+            edition: "Delcourt/Tonkam"
+            ownership_status: "not_owned"
+            price: 12.50
+          - title: "Les Fruits sanglants (2010)"
+            edition: "Delcourt/Tonkam"
+            ownership_status: "not_owned"
+            price: 12.50
+          - title: "Hallucinations (2010)"
+            edition: "Delcourt/Tonkam"
+            ownership_status: "not_owned"
+            price: 12.50
+          - title: "La Maison de poupées (2010)"
+            edition: "Delcourt/Tonkam"
+            ownership_status: "not_owned"
+            price: 12.50
+          - title: "La Ville sans rue (2011)"
+            edition: "Delcourt/Tonkam"
+            ownership_status: "not_owned"
+            price: 12.50
+          - title: "La Fille perverse (2011)"
+            edition: "Delcourt/Tonkam"
+            ownership_status: "not_owned"
+            price: 12.50
+          - title: "Le Cirque des horreurs (2012)"
+            edition: "Delcourt/Tonkam"
+            ownership_status: "not_owned"
+            price: 12.50
+          - title: "Black Paradox (2012)"
+            edition: "Delcourt/Tonkam"
+            ownership_status: "not_owned"
+            price: 12.50
+          - title: "Le Tunnel (2013)"
+            edition: "Delcourt/Tonkam"
+            ownership_status: "not_owned"
+            price: 12.50
+          - title: "Le Mort amoureux (2013)"
+            edition: "Delcourt/Tonkam"
+            ownership_status: "not_owned"
+            price: 12.50
+          - title: "Frankenstein (2014)"
+            edition: "Mangetsu, édition 2022"
+            ownership_status: "not_owned"
+            price: 24.95
+          - title: "Le Journal des chats de Junji Ito (2016)"
+            edition: "Delcourt/Tonkam"
+            ownership_status: "not_owned"
+            price: 12.50
+          - title: "Sensor (2021)"
+            edition: "Mangetsu"
+            ownership_status: "not_owned"
+            price: 16.95
+          - title: "Les Chefs-d'œuvre de Junji Ito Tome 1 (2021)"
+            edition: "Mangetsu"
+            ownership_status: "not_owned"
+            price: 24.95
+          - title: "Les Chefs-d'œuvre de Junji Ito Tome 2 (2022)"
+            edition: "Mangetsu"
+            ownership_status: "not_owned"
+            price: 24.95
+          - title: "Zone Fantôme Tome 1 (2022)"
+            edition: "Mangetsu"
+            ownership_status: "not_owned"
+            price: 16.95
+          - title: "Histoires courtes (2022)"
+            edition: "Delcourt/Tonkam"
+            ownership_status: "not_owned"
+            price: 12.50
+          - title: "Soïchi (2022)"
+            edition: "Mangetsu"
+            ownership_status: "not_owned"
+            price: 24.95
+          - title: "L'Amour et la mort (2023)"
+            edition: "Mangetsu"
+            ownership_status: "not_owned"
+            price: 24.95
+          - title: "Zone Fantôme Tome 2 (2023)"
+            edition: "Mangetsu"
+            ownership_status: "not_owned"
+            price: 16.95
+          - title: "Fragments d'horreur (2023)"
+            edition: "Mangetsu"
+            ownership_status: "not_owned"
+            price: 24.95
+          - title: "Rémina (2023)"
+            edition: "Delcourt/Tonkam, édition prestige"
+            ownership_status: "not_owned"
+            price: 19.99
+          - title: "L'École décomposée (2023)"
+            edition: "Mangetsu"
+            ownership_status: "not_owned"
+            price: 24.95
+          - title: "Les Cauchemars de Mimi (2023)"
+            edition: "Mangetsu"
+            ownership_status: "not_owned"
+            price: 24.95
+          - title: "Carnage (2024)"
+            edition: "Mangetsu"
+            ownership_status: "not_owned"
+            price: 24.95
+          - title: "Le Déserteur (2024)"
+            edition: "Mangetsu"
+            ownership_status: "not_owned"
+            price: 24.95
+          - title: "Tombes (2024)"
+            edition: "Mangetsu"
+            ownership_status: "not_owned"
+            price: 24.95
+          - title: "La Déchéance d'un homme (2024)"
+            edition: "Delcourt, intégrale"
+            ownership_status: "not_owned"
+            price: 24.95
+          - title: "Décapitées (2025)"
+            edition: "Mangetsu"
+            ownership_status: "not_owned"
+            price: 24.95
 
-        - series: "Dofus Monster"
-          author: "Ankama"
-          books:
-            - title: "Dofus Monster - Tome 1 : Le Chêne Mou"
-              ownership_status: "not_owned"
-              price: 7.95
-            - title: "Dofus Monster - Tome 2 : Le Dragon Cochon"
-              ownership_status: "not_owned"
-              price: 7.95
-            - title: "Dofus Monster - Tome 3 : Le Chevalier Noir"
-              ownership_status: "not_owned"
-              price: 7.95
-            - title: "Dofus Monster - Tome 4 : Firefoux"
-              ownership_status: "not_owned"
-              price: 7.95
-            - title: "Dofus Monster - Tome 5 : Nomekop le Crapoteur"
-              ownership_status: "not_owned"
-              price: 7.95
-            - title: "Dofus Monster - Tome 6 : Brumen Tinctorias"
-              ownership_status: "not_owned"
-              price: 7.95
-            - title: "Dofus Monster - Tome 7 : Zatoïshwan"
-              ownership_status: "not_owned"
-              price: 7.95
-            - title: "Dofus Monster - Tome 8 : Wa Wabbit"
-              ownership_status: "not_owned"
-              price: 7.95
-            - title: "Dofus Monster - Tome 9 : Koulosse"
-              ownership_status: "not_owned"
-              price: 7.95
-            - title: "Dofus Monster - Tome 10 : Sphincter Cell"
-              ownership_status: "not_owned"
-              price: 7.95
-            - title: "Dofus Monster - Tome 11 : Bworker"
-              ownership_status: "not_owned"
-              price: 7.95
-            - title: "Dofus Monster - Tome 12 : Moon"
-              ownership_status: "not_owned"
-              price: 7.95
+    misc:
+      - series: "Opus"
+        author: "Satoshi Kon"
+        books:
+          - title: "Opus - T1"
+            ownership_status: "owned"
+          - title: "Opus - T2"
+            ownership_status: "owned"
 
-        - series: "Œuvres de Junji Ito"
-          author: "Junji Ito"
-          books:
-            - title: "Spirale (Uzumaki) (2002)"
-              edition: "Delcourt/Tonkam, édition intégrale"
-              ownership_status: "not_owned"
-              price: 29.99
-            - title: "Tomie (2004)"
-              edition: "Mangetsu, édition intégrale"
-              ownership_status: "not_owned"
-              price: 29.95
-            - title: "Gyo (2006)"
-              edition: "Delcourt/Tonkam, édition intégrale"
-              ownership_status: "not_owned"
-              price: 29.95
-            - title: "Le Mystère de la chair (2008)"
-              edition: "Delcourt/Tonkam"
-              ownership_status: "not_owned"
-              price: 12.50
-            - title: "Le Voleur de visages (2008)"
-              edition: "Delcourt/Tonkam"
-              ownership_status: "not_owned"
-              price: 12.50
-            - title: "Le Journal de Soïchi (2009)"
-              edition: "Delcourt/Tonkam"
-              ownership_status: "not_owned"
-              price: 12.50
-            - title: "Le Journal maudit de Soïchi (2009)"
-              edition: "Delcourt/Tonkam"
-              ownership_status: "not_owned"
-              price: 12.50
-            - title: "La Femme limace (2009)"
-              edition: "Delcourt/Tonkam"
-              ownership_status: "not_owned"
-              price: 12.50
-            - title: "Les Fruits sanglants (2010)"
-              edition: "Delcourt/Tonkam"
-              ownership_status: "not_owned"
-              price: 12.50
-            - title: "Hallucinations (2010)"
-              edition: "Delcourt/Tonkam"
-              ownership_status: "not_owned"
-              price: 12.50
-            - title: "La Maison de poupées (2010)"
-              edition: "Delcourt/Tonkam"
-              ownership_status: "not_owned"
-              price: 12.50
-            - title: "La Ville sans rue (2011)"
-              edition: "Delcourt/Tonkam"
-              ownership_status: "not_owned"
-              price: 12.50
-            - title: "La Fille perverse (2011)"
-              edition: "Delcourt/Tonkam"
-              ownership_status: "not_owned"
-              price: 12.50
-            - title: "Le Cirque des horreurs (2012)"
-              edition: "Delcourt/Tonkam"
-              ownership_status: "not_owned"
-              price: 12.50
-            - title: "Black Paradox (2012)"
-              edition: "Delcourt/Tonkam"
-              ownership_status: "not_owned"
-              price: 12.50
-            - title: "Le Tunnel (2013)"
-              edition: "Delcourt/Tonkam"
-              ownership_status: "not_owned"
-              price: 12.50
-            - title: "Le Mort amoureux (2013)"
-              edition: "Delcourt/Tonkam"
-              ownership_status: "not_owned"
-              price: 12.50
-            - title: "Frankenstein (2014)"
-              edition: "Mangetsu, édition 2022"
-              ownership_status: "not_owned"
-              price: 24.95
-            - title: "Le Journal des chats de Junji Ito (2016)"
-              edition: "Delcourt/Tonkam"
-              ownership_status: "not_owned"
-              price: 12.50
-            - title: "Sensor (2021)"
-              edition: "Mangetsu"
-              ownership_status: "not_owned"
-              price: 16.95
-            - title: "Les Chefs-d'œuvre de Junji Ito Tome 1 (2021)"
-              edition: "Mangetsu"
-              ownership_status: "not_owned"
-              price: 24.95
-            - title: "Les Chefs-d'œuvre de Junji Ito Tome 2 (2022)"
-              edition: "Mangetsu"
-              ownership_status: "not_owned"
-              price: 24.95
-            - title: "Zone Fantôme Tome 1 (2022)"
-              edition: "Mangetsu"
-              ownership_status: "not_owned"
-              price: 16.95
-            - title: "Histoires courtes (2022)"
-              edition: "Delcourt/Tonkam"
-              ownership_status: "not_owned"
-              price: 12.50
-            - title: "Soïchi (2022)"
-              edition: "Mangetsu"
-              ownership_status: "not_owned"
-              price: 24.95
-            - title: "L'Amour et la mort (2023)"
-              edition: "Mangetsu"
-              ownership_status: "not_owned"
-              price: 24.95
-            - title: "Zone Fantôme Tome 2 (2023)"
-              edition: "Mangetsu"
-              ownership_status: "not_owned"
-              price: 16.95
-            - title: "Fragments d'horreur (2023)"
-              edition: "Mangetsu"
-              ownership_status: "not_owned"
-              price: 24.95
-            - title: "Rémina (2023)"
-              edition: "Delcourt/Tonkam, édition prestige"
-              ownership_status: "not_owned"
-              price: 19.99
-            - title: "L'École décomposée (2023)"
-              edition: "Mangetsu"
-              ownership_status: "not_owned"
-              price: 24.95
-            - title: "Les Cauchemars de Mimi (2023)"
-              edition: "Mangetsu"
-              ownership_status: "not_owned"
-              price: 24.95
-            - title: "Carnage (2024)"
-              edition: "Mangetsu"
-              ownership_status: "not_owned"
-              price: 24.95
-            - title: "Le Déserteur (2024)"
-              edition: "Mangetsu"
-              ownership_status: "not_owned"
-              price: 24.95
-            - title: "Tombes (2024)"
-              edition: "Mangetsu"
-              ownership_status: "not_owned"
-              price: 24.95
-            - title: "La Déchéance d'un homme (2024)"
-              edition: "Delcourt, intégrale"
-              ownership_status: "not_owned"
-              price: 24.95
-            - title: "Décapitées (2025)"
-              edition: "Mangetsu"
-              ownership_status: "not_owned"
-              price: 24.95
+      - series: "Le voyage de Shuna"
+        author: "Hayao Miyazaki"
+        books:
+          - title: "Le voyage de Shuna"
+            ownership_status: "not_owned"
+            price: 25
 
   misc:
     essay:
-      third_editions:
-        - series: "La Saga Evangelion. L'œuvre d'une vie"
-          author: "Virginie Nebbia"
-          books:
-            - title: "La Saga Evangelion. L'œuvre d'une vie"
-              ownership_status: "owned"
+      - series: "La Saga Evangelion. L'œuvre d'une vie"
+        author: "Virginie Nebbia"
+        books:
+          - title: "La Saga Evangelion. L'œuvre d'une vie"
+            ownership_status: "owned"
 
-        - series: "Michel Ocelot. Le poète des ombres"
-          author: "Nathan Bonvallet"
-          books:
-            - title: "Michel Ocelot. Le poète des ombres"
-              ownership_status: "owned"
+      - series: "Michel Ocelot. Le poète des ombres"
+        author: "Nathan Bonvallet"
+        books:
+          - title: "Michel Ocelot. Le poète des ombres"
+            ownership_status: "owned"
 
-        - series: "Le Monument Elden Ring. Le grand œuvre de FromSoftware"
-          author: "Sylvain Romieu"
-          books:
-            - title: "Le Monument Elden Ring. Le grand œuvre de FromSoftware"
-              ownership_status: "owned"
+      - series: "Le Monument Elden Ring. Le grand œuvre de FromSoftware"
+        author: "Sylvain Romieu"
+        books:
+          - title: "Le Monument Elden Ring. Le grand œuvre de FromSoftware"
+            ownership_status: "owned"
 
-        - series: "Dark Souls. Par-delà la mort"
-          author: "Damien Mecheri, Sylvain Romieu"
-          books:
-            - title: "Dark Souls. Par-delà la mort - Volume 1"
-              ownership_status: "owned"
-            - title: "Dark Souls. Par-delà la mort - Volume 2"
-              ownership_status: "owned"
+      - series: "Dark Souls. Par-delà la mort"
+        author: "Damien Mecheri, Sylvain Romieu"
+        books:
+          - title: "Dark Souls. Par-delà la mort - Volume 1"
+            ownership_status: "owned"
+          - title: "Dark Souls. Par-delà la mort - Volume 2"
+            ownership_status: "owned"
 
-        - series: "L'oeuvre étrange de Taro Yoko"
-          author: "Nicolas Turcev"
-          books:
-            - title: "L'oeuvre étrange de Taro Yoko"
-              ownership_status: "not_owned"
-              price: 24.9
+      - series: "L'oeuvre étrange de Taro Yoko"
+        author: "Nicolas Turcev"
+        books:
+          - title: "L'oeuvre étrange de Taro Yoko"
+            ownership_status: "not_owned"
+            price: 24.9
 
-        - series: "Sea of Stars: Les concept arts de Bryce Kho"
-          author: "Bryce Kho"
-          books:
-            - title: "Sea of Stars: Les concept arts de Bryce Kho"
-              ownership_status: "not_owned"
-              price: 39.9
+      - series: "Sea of Stars: Les concept arts de Bryce Kho"
+        author: "Bryce Kho"
+        books:
+          - title: "Sea of Stars: Les concept arts de Bryce Kho"
+            ownership_status: "not_owned"
+            price: 39.9
 
     artbook:
-      misc:
-        - series: "Studio Ghibli: Architecture in Animation"
-          author: "VIZ"
-          books:
-            - title: "Studio Ghibli: Architecture in Animation"
-              ownership_status: "not_owned"
-              price: 32.6
-        - series: "Tekkonkinkreet Film ARTBOOK White/ Shiro Side: Construction site"
-          author: "Beyond C"
-          books:
-            - title: "Tekkonkinkreet Film ARTBOOK White/ Shiro Side: Construction site"
-              ownership_status: "not_owned"
-              price: 29.99
+      - series: "Studio Ghibli: Architecture in Animation"
+        author: "VIZ"
+        books:
+          - title: "Studio Ghibli: Architecture in Animation"
+            ownership_status: "not_owned"
+            price: 32.6
+      - series: "Tekkonkinkreet Film ARTBOOK White/ Shiro Side: Construction site"
+        author: "Beyond C"
+        books:
+          - title: "Tekkonkinkreet Film ARTBOOK White/ Shiro Side: Construction site"
+            ownership_status: "not_owned"
+            price: 29.99
 
-        - series: "Liminal: Les nouveaux espaces de l'angoisse"
-          author: "Alt236"
-          books:
-            - title: "Liminal: Les nouveaux espaces de l'angoisse"
-              ownership_status: "not_owned"
-              price: 35
+      - series: "Liminal: Les nouveaux espaces de l'angoisse"
+        author: "Alt236"
+        books:
+          - title: "Liminal: Les nouveaux espaces de l'angoisse"
+            ownership_status: "not_owned"
+            price: 35
 
-        - series: "DOFUS ARTBOOK"
-          author: "Ankama"
-          books:
-            - title: "DOFUS ARTBOOK - SESSION 1"
-              ownership_status: "not_owned"
-              price: 25.9
-            - title: "DOFUS ARTBOOK - SESSION 2"
-              ownership_status: "not_owned"
-              price: 25.9
-            - title: "DOFUS ARTBOOK - SESSION 3"
-              ownership_status: "not_owned"
-              price: 25.9
+      - series: "DOFUS ARTBOOK"
+        author: "Ankama"
+        books:
+          - title: "DOFUS ARTBOOK - SESSION 1"
+            ownership_status: "not_owned"
+            price: 25.9
+          - title: "DOFUS ARTBOOK - SESSION 2"
+            ownership_status: "not_owned"
+            price: 25.9
+          - title: "DOFUS ARTBOOK - SESSION 3"
+            ownership_status: "not_owned"
+            price: 25.9
 
-        - series: "CFSL.NET"
-          author: "CFSL"
-          books:
-            - title: "CFSL.NET - Volume 1"
-              ownership_status: "not_owned"
-            - title: "CFSL.NET - Volume 2"
-              ownership_status: "owned"
-            - title: "CFSL.NET - Volume 3"
-              ownership_status: "not_owned"
-            - title: "CFSL.NET - Volume 4"
-              ownership_status: "not_owned"
-            - title: "CFSL.NET - Volume 5"
-              ownership_status: "not_owned"
-            - title: "CFSL.NET - Volume 6"
-              ownership_status: "owned"
-            - title: "CFSL.NET - Volume 7"
-              ownership_status: "not_owned"
+      - series: "CFSL.NET"
+        author: "CFSL"
+        books:
+          - title: "CFSL.NET - Volume 1"
+            ownership_status: "not_owned"
+          - title: "CFSL.NET - Volume 2"
+            ownership_status: "owned"
+          - title: "CFSL.NET - Volume 3"
+            ownership_status: "not_owned"
+          - title: "CFSL.NET - Volume 4"
+            ownership_status: "not_owned"
+          - title: "CFSL.NET - Volume 5"
+            ownership_status: "not_owned"
+          - title: "CFSL.NET - Volume 6"
+            ownership_status: "owned"
+          - title: "CFSL.NET - Volume 7"
+            ownership_status: "not_owned"
 
-        - series: "L'art de Elden Ring"
-          author: "Mana Books"
-          books:
-            - title: "L'art de Elden Ring - volume 1"
-              ownership_status: "not_owned"
-              price: 39.9
-            - title: "L'art de Elden Ring - volume 2"
-              ownership_status: "not_owned"
-              price: 39.9
+      - series: "L'art de Elden Ring"
+        author: "Mana Books"
+        books:
+          - title: "L'art de Elden Ring - volume 1"
+            ownership_status: "not_owned"
+            price: 39.9
+          - title: "L'art de Elden Ring - volume 2"
+            ownership_status: "not_owned"
+            price: 39.9
 
-        - series: "Subway Art"
-          author: "Martha Cooper, Henry Chalfant"
-          books:
-            - title: "Subway Art"
-              ownership_status: "not_owned"
-              price: 23.19
+      - series: "Subway Art"
+        author: "Martha Cooper, Henry Chalfant"
+        books:
+          - title: "Subway Art"
+            ownership_status: "not_owned"
+            price: 23.19
 
-        - series: "Kawase Hasui: Le poète du paysage"
-          author: "Brigitte Koyama-Richard"
-          books:
-            - title: "Kawase Hasui: Le poète du paysage"
-              ownership_status: "not_owned"
-              price: 49.9
+      - series: "Kawase Hasui: Le poète du paysage"
+        author: "Brigitte Koyama-Richard"
+        books:
+          - title: "Kawase Hasui: Le poète du paysage"
+            ownership_status: "not_owned"
+            price: 49.9
 
-        - series: "Persona 5 + Persona 5 Royal: Official Design Works"
-          author: "Atlus"
-          books:
-            - title: "Persona 5 + Persona 5 Royal: Official Design Works"
-              ownership_status: "not_owned"
-              price: 69.08
+      - series: "Persona 5 + Persona 5 Royal: Official Design Works"
+        author: "Atlus"
+        books:
+          - title: "Persona 5 + Persona 5 Royal: Official Design Works"
+            ownership_status: "not_owned"
+            price: 69.08
 
-        - series: "L'Atelier des Sorciers - L'Art des Sorciers"
-          author: "Kamome Shirahama"
-          books:
-            - title: "L'Atelier des Sorciers - L'Art des Sorciers"
-              ownership_status: "not_owned"
-              price: 25
+      - series: "L'Atelier des Sorciers - L'Art des Sorciers"
+        author: "Kamome Shirahama"
+        books:
+          - title: "L'Atelier des Sorciers - L'Art des Sorciers"
+            ownership_status: "not_owned"
+            price: 25
 
     cooking:
-      misc:
-        - series: "Simplissime 100 recettes : 1 plat et c'est tout"
-          author: "Jean-François Mallet"
-          books:
-            - title: "Simplissime 100 recettes : 1 plat et c'est tout"
-              ownership_status: "not_owned"
-              price: 6.95
+      - series: "Simplissime 100 recettes : 1 plat et c'est tout"
+        author: "Jean-François Mallet"
+        books:
+          - title: "Simplissime 100 recettes : 1 plat et c'est tout"
+            ownership_status: "not_owned"
+            price: 6.95
 
 games:
   pc:

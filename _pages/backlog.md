@@ -7,27 +7,21 @@ title: Backlog
 
   {% for category in site.data.backlog.books %}
     {% assign category_name = category[0] %}
-    {% assign genres_in_category = category[1] %}
+    {% assign subcategories = category[1] %}
 
-    <h2>{{ site.data.translations.backlog.books_categories[category_name] }}</h2>
+    <h3>{{ site.data.translations.backlog.books_categories[category_name] }}</h3>
 
-    {% for genre in genres_in_category %}
-      {% assign genre_name = genre[0] %}
-      {% assign editors_in_genre = genre[1] %}
+      {% for subcategory in subcategories %}
+        {% assign subcategory_name = subcategory[0] %}
+        {% assign books_in_subcategory = subcategory[1] %}
 
-      <h3>{{ site.data.translations.backlog.books_genres[genre_name] }}</h3>
+        {% if books_in_subcategory.size > 0 %}
+          <h4>{{ site.data.translations.backlog.books_subcategories[subcategory_name] }}</h4>
 
-      {% for editor in editors_in_genre %}
-        {% assign editor_name = editor[0] %}
-        {% assign books_in_editor = editor[1] %}
-
-        {% if books_in_editor.size > 0 %}
-          <h4>{{ site.data.translations.backlog.books_editors[editor_name] }}</h4>
-
-          {% assign books_in_editor_sorted = books_in_editor | sort: 'series' %}
+          {% assign books_in_subcategory_sorted = books_in_subcategory | sort: 'series' %}
 
           <ul>
-            {% for book_series in books_in_editor_sorted %}
+            {% for book_series in books_in_subcategory_sorted %}
               <li>
                 {% assign series_books_count = book_series.books.size %}
                 {% if series_books_count > 1 %}
@@ -79,7 +73,6 @@ title: Backlog
           </ul>
         {% endif %}
       {% endfor %}
-    {% endfor %}
   {% endfor %}
 </div>
 
@@ -108,16 +101,16 @@ title: Backlog
 <div class="backlog-section films-section">
   <h2><i class="fa-solid fa-film category-icon film-icon"></i> {{ site.data.translations.backlog.films }}</h2>
   {% for category in site.data.backlog.films %}
-    {% assign genre_name = category[0] %}
-    {% assign genre_films = category[1] %}
+    {% assign subcategory_name = category[0] %}
+    {% assign subcategory_films = category[1] %}
 
-    {% if genre_films.size > 0 %}
-      <h3>{{ site.data.translations.backlog.media_genres[genre_name] }}</h3>
+    {% if subcategory_films.size > 0 %}
+      <h3>{{ site.data.translations.backlog.media_subcategorys[subcategory_name] }}</h3>
 
-      {% assign genre_films_sorted = genre_films | sort: 'series' %}
+      {% assign subcategory_films_sorted = subcategory_films | sort: 'series' %}
 
       <ul>
-        {% for film_series in genre_films_sorted %}
+        {% for film_series in subcategory_films_sorted %}
           <li>
             {% assign series_films_count = film_series.films.size %}
             {% if series_films_count > 1 %}
@@ -147,12 +140,12 @@ title: Backlog
 <div class="backlog-section series-section">
   <h2><i class="fa-solid fa-tv category-icon series-icon"></i> {{ site.data.translations.backlog.series }}</h2>
 
-  {% for genre in site.data.backlog.series %}
-    {% assign genre_name = genre[0] %}
-    {% assign series = genre[1] %}
+  {% for subcategory in site.data.backlog.series %}
+    {% assign subcategory_name = subcategory[0] %}
+    {% assign series = subcategory[1] %}
 
     {% if series.size > 0 %}
-      <h3>{{ site.data.translations.backlog.media_genres[genre_name] }}</h3>
+      <h3>{{ site.data.translations.backlog.media_subcategorys[subcategory_name] }}</h3>
       <ul>
         {% for serie in series %}
           <li>
