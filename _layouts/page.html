@@ -2,3 +2,20 @@
 layout: default
 ---
 <section class="post">{{ content }}</section>
+
+<button id="scrollToTop"><i class="fa-solid fa-circle-arrow-up"></i></button>
+<script>
+  const scrollToTopButton = document.getElementById('scrollToTop');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 200) {
+      scrollToTopButton.style.display = 'block';
+    } else {
+      scrollToTopButton.style.display = 'none';
+    }
+  });
+
+  scrollToTopButton.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+</script>
