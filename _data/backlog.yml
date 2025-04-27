@@ -2370,6 +2370,180 @@ games:
           ownership_status: "not_owned"
 
   ps2:
+    - series: "Sly Cooper"
+      studio: "Sucker Punch Productions"
+      games:
+        - title: "Sly Cooper and the Thievius Raccoonus"
+          studio: "Sucker Punch Productions"
+          ownership_status: "not_owned"
+        - title: "Sly 2: Band of Thieves"
+          studio: "Sucker Punch Productions"
+          ownership_status: "not_owned"
+        - title: "Sly 3: Honor Among Thieves"
+          studio: "Sucker Punch Productions"
+          ownership_status: "not_owned"
+
+    - series: "Ratchet & Clank"
+      studio: "Insomniac Games"
+      games:
+        - title: "Ratchet & Clank"
+          studio: "Insomniac Games"
+          ownership_status: "not_owned"
+        - title: "Ratchet & Clank: Going Commando"
+          studio: "Insomniac Games"
+          ownership_status: "not_owned"
+        - title: "Ratchet & Clank: Up Your Arsenal"
+          studio: "Insomniac Games"
+          ownership_status: "not_owned"
+
+    - series: "SSX: On Tour"
+      studio: "EA Sports"
+      games:
+        - title: "SSX: On Tour"
+          studio: "EA Sports"
+          ownership_status: "not_owned"
+
+    - series: "Beyond Good & Evil"
+      studio: "Ubisoft"
+      games:
+        - title: "Beyond Good & Evil"
+          studio: "Ubisoft"
+          ownership_status: "not_owned"
+
+    - series: "Devil May Cry"
+      studio: "Capcom"
+      games:
+        - title: "Devil May Cry"
+          studio: "Capcom"
+          ownership_status: "not_owned"
+        - title: "Devil May Cry 2"
+          studio: "Capcom"
+          ownership_status: "not_owned"
+        - title: "Devil May Cry 3: Dante's Awakening"
+          studio: "Capcom"
+          ownership_status: "not_owned"
+
+    - series: "Ico"
+      studio: "Team Ico"
+      games:
+        - title: "Ico"
+          studio: "Team Ico"
+          ownership_status: "not_owned"
+
+    - series: "Shadow of the Colossus"
+      studio: "Team Ico"
+      games:
+        - title: "Shadow of the Colossus"
+          studio: "Team Ico"
+          ownership_status: "not_owned"
+
+    - series: "God of War"
+      studio: "Santa Monica Studio"
+      games:
+        - title: "God of War"
+          studio: "Santa Monica Studio"
+          ownership_status: "not_owned"
+        - title: "God of War II"
+          studio: "Santa Monica Studio"
+          ownership_status: "not_owned"
+        - title: "God of War III"
+          studio: "Santa Monica Studio"
+          ownership_status: "not_owned"
+
+    - series: "Prince of Persia"
+      studio: "Ubisoft"
+      games:
+        - title: "Prince of Persia: The Sands of Time"
+          studio: "Ubisoft"
+          ownership_status: "not_owned"
+        - title: "Prince of Persia: Warrior Within"
+          studio: "Ubisoft"
+          ownership_status: "not_owned"
+        - title: "Prince of Persia: The Two Thrones"
+          studio: "Ubisoft"
+          ownership_status: "not_owned"
+
+    - series: "Klonoa 2: Lunatea's Veil"
+      studio: "Namco"
+      games:
+        - title: "Klonoa 2: Lunatea's Veil"
+          studio: "Namco"
+          ownership_status: "not_owned"
+
+    - series: "Rayman 3: Hoodlum Havoc"
+      studio: "Ubisoft"
+      games:
+        - title: "Rayman 3: Hoodlum Havoc"
+          studio: "Ubisoft"
+          ownership_status: "not_owned"
+
+    - series: "Dark Cloud"
+      studio: "Level-5"
+      games:
+        - title: "Dark Cloud"
+          studio: "Level-5"
+          ownership_status: "not_owned"
+        - title: "Dark Chronicle"
+          studio: "Level-5"
+          ownership_status: "not_owned"
+
+    - series: "Dog's Life"
+      studio: "Neko Entertainment"
+      games:
+        - title: "Dog's Life"
+          studio: "Neko Entertainment"
+          ownership_status: "not_owned"
+
+    - series: "Rez"
+      studio: "United Game Artists"
+      games:
+        - title: "Rez"
+          studio: "United Game Artists"
+          ownership_status: "not_owned"
+
+    - series: "Pac-Man World 2"
+      studio: "Namco"
+      games:
+        - title: "Pac-Man World 2"
+          studio: "Namco"
+          ownership_status: "not_owned"
+
+    - series: "Whiplash"
+      studio: "Criterion Games"
+      games:
+        - title: "Whiplash"
+          studio: "Criterion Games"
+          ownership_status: "not_owned"
+
+    - series: "Sonic Heroes"
+      studio: "Sonic Team"
+      games:
+        - title: "Sonic Heroes"
+          studio: "Sonic Team"
+          ownership_status: "not_owned"
+
+    - series: "EyeToy"
+      studio: "Sony Computer Entertainment"
+      games:
+        - title: "EyeToy: Play"
+          studio: "Sony Computer Entertainment"
+          ownership_status: "not_owned"
+        - title: "EyeToy: Play 2"
+          studio: "Sony Computer Entertainment"
+          ownership_status: "not_owned"
+        - title: "EyeToy: Antigrav"
+          studio: "Sony Computer Entertainment"
+          ownership_status: "not_owned"
+        - title: "EyeToy: Play 3"
+          studio: "Sony Computer Entertainment"
+          ownership_status: "not_owned"
+        - title: "EyeToy: Monkey Mania"
+          studio: "Sony Computer Entertainment"
+          ownership_status: "not_owned"
+        - title: "EyeToy: Play Sports"
+          studio: "Sony Computer Entertainment"
+          ownership_status: "not_owned"
+
   gba:
     - series: "Wario Land 4"
       studio: "Nintendo"

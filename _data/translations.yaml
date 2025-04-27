@@ -117,6 +117,7 @@ backlog:
     psp: "PSP"
     dc: "Dreamcast"
     gc: "GameCube"
+    ps2: "PS2"
     misc: "Autres"
 
   films: "Films"
