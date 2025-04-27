@@ -109,6 +109,11 @@ backlog:
     snes: "SNES"
     gb: "GB"
     gba: "GBA"
+    nds: "NDS"
+    megadrive: "Megadrive"
+    megacd: "Mega CD"
+    psx: "PS1"
+    psp: "PSP"
     misc: "Autres"
 
   films: "Films"

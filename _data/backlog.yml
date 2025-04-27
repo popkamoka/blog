@@ -2015,6 +2015,25 @@ games:
           ownership_status: "owned"
   nes:
   megadrive:
+    - series: "Sonic the Hedgehog"
+      studio: "Sega"
+      games:
+        - title: "Sonic the Hedgehog"
+          studio: "Sega"
+          ownership_status: "owned"
+        - title: "Sonic the Hedgehog 2"
+          studio: "Sega"
+          ownership_status: "owned"
+        - title: "Sonic the Hedgehog 3"
+          studio: "Sega"
+          ownership_status: "owned"
+        - title: "Sonic & Knuckles"
+          studio: "Sega"
+          ownership_status: "owned"
+        - title: "Sonic 3D Blast"
+          studio: "Sega"
+          ownership_status: "owned"
+
   gb:
     - series: "Metroid II: Return of Samus"
       studio: "Nintendo"
@@ -2023,7 +2042,142 @@ games:
           studio: "Nintendo"
           ownership_status: "owned"
   snes:
+    - series: "Donkey Kong Country"
+      studio: "Rare"
+      games:
+        - title: "Donkey Kong Country"
+          studio: "Rare"
+          ownership_status: "owned"
+        - title: "Donkey Kong Country 2: Diddy's Kong Quest"
+          studio: "Rare"
+          ownership_status: "owned"
+        - title: "Donkey Kong Country 3: Dixie Kong's Double Trouble!"
+          studio: "Rare"
+          ownership_status: "owned"
+    - series: "EarthBound"
+      studio: "Nintendo"
+      games:
+        - title: "EarthBound"
+          studio: "Nintendo"
+          ownership_status: "owned"
+    - series: "Final Fantasy"
+      studio: "Square Enix"
+      games:
+        - title: "Final Fantasy VI"
+          studio: "Square Enix"
+          ownership_status: "owned"
+    - series: "Megaman"
+      studio: "Capcom"
+      games:
+        - title: "Megaman X"
+          studio: "Capcom"
+          ownership_status: "owned"
+    - series: "Pocky & Rocky"
+      studio: "Natsume"
+      games:
+        - title: "Pocky & Rocky"
+          studio: "Natsume"
+          ownership_status: "owned"
+        - title: "Pocky & Rocky 2"
+          studio: "Natsume"
+          ownership_status: "owned"
+    - series: "Secret of Mana"
+      studio: "Square Enix"
+      games:
+        - title: "Secret of Mana"
+          studio: "Square Enix"
+          ownership_status: "owned"
+    - series: "Mario"
+      studio: "Nintendo"
+      games:
+        - title: "Super Mario All-Stars"
+          studio: "Nintendo"
+          ownership_status: "owned"
+        - title: "Super Mario World"
+          studio: "Nintendo"
+          ownership_status: "owned"
+        - title: "Super Mario World 2: Yoshi's Island"
+          studio: "Nintendo"
+          ownership_status: "owned"
+    - series: "Super Metroid"
+      studio: "Nintendo"
+      games:
+        - title: "Super Metroid"
+          studio: "Nintendo"
+          ownership_status: "owned"
+  megacd:
+    - series: "Sonic CD"
+      studio: "Sega"
+      games:
+        - title: "Sonic CD"
+          studio: "Sega"
+          ownership_status: "owned"
   psx:
+    - series: "Ape Escape"
+      studio: "Sony Computer Entertainment"
+      games:
+        - title: "Ape Escape"
+          studio: "Sony Computer Entertainment"
+          ownership_status: "owned"
+
+    - series: "Crash Bandicoot"
+      studio: "Naughty Dog"
+      games:
+        - title: "Crash Bandicoot 2: Cortex Strikes Back"
+          studio: "Naughty Dog"
+          ownership_status: "owned"
+        - title: "Crash Bandicoot 3: Warped"
+          studio: "Naughty Dog"
+          ownership_status: "owned"
+
+    - series: "Final Fantasy VII"
+      studio: "Square Enix"
+      games:
+        - title: "Final Fantasy VII"
+          studio: "Square Enix"
+          ownership_status: "owned"
+
+    - series: "Klonoa: Door to Phantomile"
+      studio: "Namco"
+      games:
+        - title: "Klonoa: Door to Phantomile"
+          studio: "Namco"
+          ownership_status: "owned"
+
+    - series: "Ghoul Panic"
+      studio: "Konami"
+      games:
+        - title: "Ghoul Panic"
+          studio: "Konami"
+          ownership_status: "owned"
+
+    - series: "Pac-Man World"
+      studio: "Namco"
+      games:
+        - title: "Pac-Man World"
+          studio: "Namco"
+          ownership_status: "owned"
+
+    - series: "Rayman"
+      studio: "Ubisoft"
+      games:
+        - title: "Rayman"
+          studio: "Ubisoft"
+          ownership_status: "owned"
+
+    - series: "Spyro the Dragon"
+      studio: "Insomniac Games"
+      games:
+        - title: "Spyro : Year of the Dragon"
+          studio: "Insomniac Games"
+          ownership_status: "owned"
+
+    - series: "Tombi!"
+      studio: "Whoopee Camp"
+      games:
+        - title: "Tombi!"
+          studio: "Whoopee Camp"
+          ownership_status: "owned"
   gbc:
   n64:
   dmc:
@@ -2087,13 +2241,105 @@ games:
         - title: "Castlevania: Aria of Sorrow"
           studio: "Konami"
           ownership_status: "owned"
-        - title: "Castlevania: Dawn of Sorrow"
-          studio: "Konami"
-          ownership_status: "owned"
+
   ps3:
   wii:
   psp:
+    - series: "Echochrome"
+      studio: "Mediatonic"
+      games:
+        - title: "Echoshift"
+          studio: "Mediatonic"
+          ownership_status: "owned"
+
+    - series: "Every Extend Extra"
+      studio: "Mediatonic"
+      games:
+        - title: "Every Extend Extra"
+          studio: "Mediatonic"
+          ownership_status: "owned"
+
+    - series: "LocoRoco"
+      studio: "Japan Studio"
+      games:
+        - title: "LocoRoco Midnight Carnival"
+          studio: "Japan Studio"
+          ownership_status: "owned"
+
+    - series: "Lumines"
+      studio: "Q Entertainment"
+      games:
+        - title: "Lumines II"
+          studio: "Q Entertainment"
+          ownership_status: "owned"
+
+    - seies: "Mercury Meltdown"
+      studio: "Ignition Entertainment"
+      games:
+        - title: "Mercury Meltdown"
+          studio: "Ignition Entertainment"
+          ownership_status: "owned"
+
+    - series: "Patapon"
+      studio: "Japan Studio"
+      games:
+        - title: "Patapon 2"
+          studio: "Japan Studio"
+          ownership_status: "owned"
+        - title: "Patapon 3"
+          studio: "Japan Studio"
+          ownership_status: "owned"
+
   nds:
+    - series: "Castlevania (Iga)"
+      studio: "Konami"
+      games:
+        - title: "Castlevania: Dawn of Sorrow"
+          studio: "Konami"
+          ownership_status: "owned"
+        - title: "Castlevania: Portrait of Ruin"
+          studio: "Konami"
+          ownership_status: "owned"
+        - title: "Castlevania: Order of Ecclesia"
+          studio: "Konami"
+          ownership_status: "owned"
+    - series: "Chrono Trigger"
+      studio: "Square Enix"
+      games:
+        - title: "Chrono Trigger"
+          studio: "Square Enix"
+          ownership_status: "owned"
+    - series: "Mario & Luigi"
+      studio: "Nintendo"
+      games:
+        - title: "Mario & Luigi: les Frères du temps"
+          studio: "Nintendo"
+          ownership_status: "owned"
+        - title: "Mario & Luigi: Voyage au centre de Bowser"
+          studio: "Nintendo"
+          ownership_status: "owned"
+    - series: "Pokémon"
+      studio: "The Pokémon Company"
+      games:
+        - title: "Pokémon version Platine"
+          studio: "The Pokémon Company"
+          ownership_status: "owned"
+        - title: "Pokémon version Blanche"
+          studio: "The Pokémon Company"
+          ownership_status: "owned"
+        - title: "Pokémon version Blanche 2"
+          studio: "The Pokémon Company"
+          ownership_status: "owned"
+    - series: "Pokémon Donjon Mystère"
+      studio: "The Pokémon Company"
+      games:
+        - title: "Pokémon Donjon Mystère: Équipe de secours Bleu"
+          studio: "The Pokémon Company"
+          ownership_status: "owned"
+        - title: "Pokémon Donjon Mystère: Explorateurs du Ciel"
+          studio: "The Pokémon Company"
+          ownership_status: "owned"
+
   vita:
   3ds:
   wiiu:
