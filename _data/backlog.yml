@@ -2485,10 +2485,10 @@ games:
           ownership_status: "not_owned"
 
     - series: "Dog's Life"
-      studio: "Neko Entertainment"
+      studio: "Frontier Developments"
       games:
         - title: "Dog's Life"
-          studio: "Neko Entertainment"
+          studio: "Frontier Developments"
           ownership_status: "not_owned"
 
     - series: "Rez"
@@ -2860,10 +2860,10 @@ games:
 
   ps4:
     - series: "The Last Guardian"
-      studio: "Team Ico"
+      studio: "Japan Studio (SIE Japan Studio) + GenDesign"
       games:
         - title: "The Last Guardian"
-          studio: "Team Ico"
+          studio: "Japan Studio (SIE Japan Studio) + GenDesign"
           ownership_status: "not_owned"
 
     - series: "Bloodborne"
