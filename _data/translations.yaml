@@ -118,6 +118,8 @@ backlog:
     dc: "Dreamcast"
     gc: "GameCube"
     ps2: "PS2"
+    ps3: "PS3"
+    wii: "Wii"
     misc: "Autres"
 
   films: "Films"

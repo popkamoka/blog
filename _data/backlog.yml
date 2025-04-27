@@ -2550,10 +2550,10 @@ games:
           ownership_status: "owned"
 
     - series: "Mother 3"
-      studio: "Nintendo"
+      studio: "HAL Laboratory"
       games:
         - title: "Mother 3"
-          studio: "Nintendo"
+          studio: "HAL Laboratory"
           ownership_status: "owned"
 
     - series: "Metroid"
@@ -2601,7 +2601,69 @@ games:
           ownership_status: "owned"
 
   ps3:
+    - series: "Demon's Souls"
+      studio: "From Software"
+      games:
+        - title: "Demon's Souls"
+          studio: "From Software"
+          ownership_status: "not_owned"
+
+    - series: "The Last Guardian"
+      studio: "Team Ico"
+      games:
+        - title: "The Last Guardian"
+          studio: "Team Ico"
+          ownership_status: "not_owned"
+
   wii:
+    - series: "Super Mario Galaxy"
+      studio: "Nintendo"
+      games:
+        - title: "Super Mario Galaxy"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+        - title: "Super Mario Galaxy 2"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+
+    - series: "Donkey Kong Country Returns"
+      studio: "Retro Studios"
+      games:
+        - title: "Donkey Kong Country Returns"
+          studio: "Retro Studios"
+          ownership_status: "not_owned"
+
+    - series: "Super Paper Mario"
+      studio: "Intelligent Systems"
+      games:
+        - title: "Super Paper Mario"
+          studio: "Intelligent Systems"
+          ownership_status: "not_owned"
+
+    - series: "Trauma Center"
+      studio: "Capcom"
+      games:
+        - title: "Trauma Center: New Blood"
+          studio: "Capcom"
+          ownership_status: "not_owned"
+        - title: "Trauma Team"
+          studio: "Capcom"
+          ownership_status: "not_owned"
+
+    - series: "Kororinpa"
+      studio: "Hudson Soft"
+      games:
+        - title: "Kororinpa: Marble Mania"
+          studio: "Hudson Soft"
+          ownership_status: "not_owned"
+
+    - series: "Lost in Shadow"
+      studio: "Hudson Soft"
+      games:
+        - title: "Lost in Shadow"
+          studio: "Hudson Soft"
+          ownership_status: "not_owned"
+
   psp:
     - series: "Echochrome"
       studio: "Mediatonic"
