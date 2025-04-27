@@ -2608,13 +2608,6 @@ games:
           studio: "From Software"
           ownership_status: "not_owned"
 
-    - series: "The Last Guardian"
-      studio: "Team Ico"
-      games:
-        - title: "The Last Guardian"
-          studio: "Team Ico"
-          ownership_status: "not_owned"
-
   wii:
     - series: "Super Mario Galaxy"
       studio: "Nintendo"
@@ -2818,10 +2811,144 @@ games:
           ownership_status: "not_owned"
 
   vita:
+    - series: "Gravity Rush"
+      studio: "SCE Japan Studio"
+      games:
+        - title: "Gravity Rush"
+          studio: "SCE Japan Studio"
+          ownership_status: "not_owned"
+
   3ds:
+    - series: "Super Mario 3D Land"
+      studio: "Nintendo"
+      games:
+        - title: "Super Mario 3D Land"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+
+    - series: "Pokémon"
+      studio: "The Pokémon Company"
+      games:
+        - title: "Pokémon Ultra-Lune"
+          studio: "The Pokémon Company"
+          ownership_status: "not_owned"
+
+    - series: "Professeur Layton"
+      studio: "Level-5"
+      games:
+        - title: "Professeur Layton et l'Héritage des Aslantes"
+          studio: "Level-5"
+          ownership_status: "not_owned"
+        - title: "Professeur Layton et le Masque des Miracles"
+          studio: "Level-5"
+          ownership_status: "not_owned"
+
   wiiu:
+    - series: "Pikmin 3"
+      studio: "Nintendo"
+      games:
+        - title: "Pikmin 3"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+
+    - series: "Donkey Kong Country: Tropical Freeze"
+      studio: "Retro Studios"
+      games:
+        - title: "Donkey Kong Country: Tropical Freeze"
+          studio: "Retro Studios"
+          ownership_status: "not_owned"
+
   ps4:
+    - series: "The Last Guardian"
+      studio: "Team Ico"
+      games:
+        - title: "The Last Guardian"
+          studio: "Team Ico"
+          ownership_status: "not_owned"
+
+    - series: "Bloodborne"
+      studio: "From Software"
+      games:
+        - title: "Bloodborne"
+          studio: "From Software"
+          ownership_status: "not_owned"
+
+    - series: "The Last of Us"
+      studio: "Naughty Dog"
+      games:
+        - title: "The Last of Us"
+          studio: "Naughty Dog"
+          ownership_status: "not_owned"
+        - title: "The Last of Us Part II"
+          studio: "Naughty Dog"
+          ownership_status: "not_owned"
+
+    - series: "God of War"
+      studio: "Santa Monica Studio"
+      games:
+        - title: "God of War"
+          studio: "Santa Monica Studio"
+          ownership_status: "not_owned"
+
+    - series: "Horizon Zero Dawn"
+      studio: "Guerrilla Games"
+      games:
+        - title: "Horizon Zero Dawn"
+          studio: "Guerrilla Games"
+          ownership_status: "not_owned"
+
   switch:
+    - series: "Super Mario Bros Wonder"
+      studio: "Nintendo"
+      games:
+        - title: "Super Mario Bros Wonder"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+
+    - series: "Xenoblade Chronicles"
+      studio: "Monolith Soft"
+      games:
+        - title: "Xenoblade Chronicles: Definitive Edition"
+          studio: "Monolith Soft"
+          ownership_status: "not_owned"
+
+    - series: "Bayonetta Origins: Cereza and the Lost Demon"
+      studio: "PlatinumGames"
+      games:
+        - title: "Bayonetta Origins: Cereza and the Lost Demon"
+          studio: "PlatinumGames"
+          ownership_status: "not_owned"
+
+    - series: "WarioWare"
+      studio: "Nintendo"
+      games:
+        - title: "WarioWare: Get It Together!"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+        - title: "WarioWare: Move It!"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+
+    - series: "Pikmin"
+      studio: "Nintendo"
+      games:
+        - title: "Pikmin 4"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+
+    - series: "13 Sentinels: Aegis Rim"
+      studio: "Vanillaware"
+      games:
+        - title: "13 Sentinels: Aegis Rim"
+          studio: "Vanillaware"
+          ownership_status: "not_owned"
+
+    - series: "Kirby and the Forgotten Land"
+      studio: "HAL Laboratory"
+      games:
+        - title: "Kirby and the Forgotten Land"
+          studio: "HAL Laboratory"
+          ownership_status: "not_owned"
 
 films:
   comedy:

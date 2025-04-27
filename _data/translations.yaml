@@ -120,6 +120,10 @@ backlog:
     ps2: "PS2"
     ps3: "PS3"
     wii: "Wii"
+    vita: "Vita"
+    3ds: "3DS"
+    wiiu: "Wii U"
+    ps4: "PS4"
     misc: "Autres"
 
   films: "Films"
