@@ -16,7 +16,7 @@ title: Backlog
               {% assign category_key = category[0] %}
               <li>
                 <a href="#{{ section_key }}-{{ category_key }}">
-                  {% assign translation_key = section_key | append: "_categories" %}
+                  {% assign translation_key = section_key | append: '_categories' %}
                   {{ site.data.translations.backlog[translation_key][category_key] }}
                 </a>
               </li>
@@ -49,7 +49,7 @@ title: Backlog
       {% if books_in_subcategory.size > 0 %}
         <h4>{{ site.data.translations.backlog.books_subcategories[subcategory_name] }}</h4>
 
-        {% assign books_in_subcategory_sorted = books_in_subcategory | sort: 'series' %} 
+        {% assign books_in_subcategory_sorted = books_in_subcategory | sort: 'series' %}
 
         <ul>
           {% for book_series in books_in_subcategory_sorted %}
@@ -82,7 +82,7 @@ title: Backlog
                   </summary>
                   <ul>
                     {% for book in book_series.books %}
-                      <li>
+                      <li class="{% if book.progress_status == 'done' %}strikethrough{% endif %}">
                         {% include ownership_status_icon.html ownership_status=book.ownership_status %}
                         {{ book.title }}
                         {% if book.edition %} ({{ book.edition }}){% endif %}
@@ -94,10 +94,12 @@ title: Backlog
 
               {% else %}
                 {% assign book = book_series.books[0] %}
-                {% include ownership_status_icon.html ownership_status=book.ownership_status %}
-                {{ book.title }} - {{ book_series.author }}
-                {% if book.edition %} ({{ book.edition }}){% endif %}
-                {% if book.price %} ({{ book.price }}€){% endif %}
+                <span class="{% if book.progress_status == 'done' %}strikethrough{% endif %}">
+                  {% include ownership_status_icon.html ownership_status=book.ownership_status %}
+                  {{ book.title }} - {{ book_series.author }}
+                  {% if book.edition %} ({{ book.edition }}){% endif %}
+                  {% if book.price %} ({{ book.price }}€){% endif %}
+                </span>
               {% endif %}
             </li>
           {% endfor %}
@@ -124,54 +126,56 @@ title: Backlog
 
       {% assign games_sorted = games | sort: 'series' %}
 
-        <ul>
-          {% for game_series in games_sorted %}
-            <li>
-              {% assign series_games_count = game_series.games.size %}
-              {% if series_games_count > 1 %}
-                {% assign owned_count = 0 %}
-                {% assign total_count = game_series.games.size %}
+      <ul>
+        {% for game_series in games_sorted %}
+          <li>
+            {% assign series_games_count = game_series.games.size %}
+            {% if series_games_count > 1 %}
+              {% assign owned_count = 0 %}
+              {% assign total_count = game_series.games.size %}
 
-                {% for game in game_series.games %}
-                  {% if game.ownership_status == 'owned' %}
-                    {% assign owned_count = owned_count | plus: 1 %}
-                  {% endif %}
-                {% endfor %}
-
-                {% if owned_count == total_count %}
-                  {% assign series_ownership_status = 'owned' %}
-                {% elsif owned_count == 0 %}
-                  {% assign series_ownership_status = 'not_owned' %}
-                {% else %}
-                  {% assign series_ownership_status = 'partially_owned' %}
+              {% for game in game_series.games %}
+                {% if game.ownership_status == 'owned' %}
+                  {% assign owned_count = owned_count | plus: 1 %}
                 {% endif %}
+              {% endfor %}
 
-                <details>
-                  <summary>
-                    {% include ownership_status_icon.html ownership_status=series_ownership_status %}
-                    {{ game_series.series }}
-                    {% if game_series.studio %} - {{ game_series.studio }}{% endif %}
-                  </summary>
-                  <ul>
-                    {% for game in game_series.games %}
-                      <li>
-                        {% include ownership_status_icon.html ownership_status=game.ownership_status %}
-                        {{ game.title }}
-                        {% if game.studio %} - {{ game.studio }}{% endif %}
-                      </li>
-                    {% endfor %}
-                  </ul>
-                </details>
-
+              {% if owned_count == total_count %}
+                {% assign series_ownership_status = 'owned' %}
+              {% elsif owned_count == 0 %}
+                {% assign series_ownership_status = 'not_owned' %}
               {% else %}
-                {% assign game = game_series.games[0] %}
+                {% assign series_ownership_status = 'partially_owned' %}
+              {% endif %}
+
+              <details>
+                <summary>
+                  {% include ownership_status_icon.html ownership_status=series_ownership_status %}
+                  {{ game_series.series }}
+                  {% if game_series.studio %} - {{ game_series.studio }}{% endif %}
+                </summary>
+                <ul>
+                  {% for game in game_series.games %}
+                    <li class="{% if game.progress_status == 'done' %}strikethrough{% endif %}">
+                      {% include ownership_status_icon.html ownership_status=game.ownership_status %}
+                      {{ game.title }}
+                      {% if game.studio %} - {{ game.studio }}{% endif %}
+                    </li>
+                  {% endfor %}
+                </ul>
+              </details>
+
+            {% else %}
+              {% assign game = game_series.games[0] %}
+              <span class="{% if game.progress_status == 'done' %}strikethrough{% endif %}">
                 {% include ownership_status_icon.html ownership_status=game.ownership_status %}
                 {{ game.title }}
                 {% if game.studio %} - {{ game.studio }}{% endif %}
-              {% endif %}
-            </li>
-          {% endfor %}
-        </ul>
+              </span>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
     {% endif %}
   {% endfor %}
 </div>
