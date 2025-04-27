@@ -2666,24 +2666,24 @@ games:
 
   psp:
     - series: "Echochrome"
-      studio: "Mediatonic"
+      studio: "SCE Japan Studio"
       games:
         - title: "Echoshift"
-          studio: "Mediatonic"
+          studio: "SCE Japan Studio"
           ownership_status: "owned"
 
     - series: "Every Extend Extra"
-      studio: "Mediatonic"
+      studio: "Q Entertainment"
       games:
         - title: "Every Extend Extra"
-          studio: "Mediatonic"
+          studio: "Q Entertainment"
           ownership_status: "owned"
 
     - series: "LocoRoco"
-      studio: "Japan Studio"
+      studio: "SCE Japan Studio"
       games:
         - title: "LocoRoco Midnight Carnival"
-          studio: "Japan Studio"
+          studio: "SCE Japan Studio"
           ownership_status: "owned"
 
     - series: "Lumines"
@@ -2701,13 +2701,13 @@ games:
           ownership_status: "owned"
 
     - series: "Patapon"
-      studio: "Japan Studio"
+      studio: "SCE Japan Studio"
       games:
         - title: "Patapon 2"
-          studio: "Japan Studio"
+          studio: "SCE Japan Studio"
           ownership_status: "owned"
         - title: "Patapon 3"
-          studio: "Japan Studio"
+          studio: "SCE Japan Studio"
           ownership_status: "owned"
 
   nds:
