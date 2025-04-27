@@ -2446,9 +2446,6 @@ games:
         - title: "God of War II"
           studio: "Santa Monica Studio"
           ownership_status: "not_owned"
-        - title: "God of War III"
-          studio: "Santa Monica Studio"
-          ownership_status: "not_owned"
 
     - series: "Prince of Persia"
       studio: "Ubisoft"
@@ -2509,10 +2506,10 @@ games:
           ownership_status: "not_owned"
 
     - series: "Whiplash"
-      studio: "Criterion Games"
+      studio: "Crystal Dynamics"
       games:
         - title: "Whiplash"
-          studio: "Criterion Games"
+          studio: "Crystal Dynamics"
           ownership_status: "not_owned"
 
     - series: "Sonic Heroes"
