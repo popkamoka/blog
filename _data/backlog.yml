@@ -2711,54 +2711,111 @@ games:
           ownership_status: "owned"
 
   nds:
+    - series: "The World Ends With You"
+      studio: "Square Enix"
+      games:
+        - title: "The World Ends With You"
+          studio: "Square Enix"
+          ownership_status: "not_owned"
+
+    - series: "Another Code"
+      studio: "Cing"
+      games:
+        - title: "Another Code: R - A Journey into Lost Memories"
+          studio: "Cing"
+          ownership_status: "not_owned"
+
+    - series: "Hotel Dusk"
+      studio: "Cing"
+      games:
+        - title: "Hotel Dusk: Room 215"
+          studio: "Cing"
+          ownership_status: "not_owned"
+        - title: "Last Window: The Secret of Cape West"
+          studio: "Cing"
+          ownership_status: "not_owned"
+
+    - series: "Professeur Layton"
+      studio: "Level-5"
+      games:
+        - title: "Professeur Layton et l'Étrange Village"
+          studio: "Level-5"
+          ownership_status: "not_owned"
+        - title: "Professeur Layton et la Boîte de Pandore"
+          studio: "Level-5"
+          ownership_status: "not_owned"
+        - title: "Professeur Layton et le Destin perdu"
+          studio: "Level-5"
+          ownership_status: "not_owned"
+        - title: "Professeur Layton et l'Appel du Spectre"
+          studio: "Level-5"
+          ownership_status: "not_owned"
+
     - series: "Castlevania (Iga)"
       studio: "Konami"
       games:
         - title: "Castlevania: Dawn of Sorrow"
           studio: "Konami"
-          ownership_status: "owned"
+          ownership_status: "not_owned"
         - title: "Castlevania: Portrait of Ruin"
           studio: "Konami"
-          ownership_status: "owned"
+          ownership_status: "not_owned"
         - title: "Castlevania: Order of Ecclesia"
           studio: "Konami"
-          ownership_status: "owned"
+          ownership_status: "not_owned"
+
     - series: "Chrono Trigger"
       studio: "Square Enix"
       games:
         - title: "Chrono Trigger"
           studio: "Square Enix"
-          ownership_status: "owned"
+          ownership_status: "not_owned"
+
     - series: "Mario & Luigi"
       studio: "Nintendo"
       games:
         - title: "Mario & Luigi: les Frères du temps"
           studio: "Nintendo"
-          ownership_status: "owned"
+          ownership_status: "not_owned"
         - title: "Mario & Luigi: Voyage au centre de Bowser"
           studio: "Nintendo"
-          ownership_status: "owned"
+          ownership_status: "not_owned"
+
     - series: "Pokémon"
       studio: "The Pokémon Company"
       games:
         - title: "Pokémon version Platine"
           studio: "The Pokémon Company"
-          ownership_status: "owned"
+          ownership_status: "not_owned"
         - title: "Pokémon version Blanche"
           studio: "The Pokémon Company"
-          ownership_status: "owned"
+          ownership_status: "not_owned"
         - title: "Pokémon version Blanche 2"
           studio: "The Pokémon Company"
-          ownership_status: "owned"
+          ownership_status: "not_owned"
+
+    - series: "Pokémon Ranger"
+      studio: "The Pokémon Company"
+      games:
+        - title: "Pokémon Ranger"
+          studio: "The Pokémon Company"
+          ownership_status: "not_owned"
+        - title: "Pokémon Ranger: Ombres d'almia"
+          studio: "The Pokémon Company"
+          ownership_status: "not_owned"
+        - title: "Pokémon Ranger: Sillages de lumière"
+          studio: "The Pokémon Company"
+          ownership_status: "not_owned"
+
     - series: "Pokémon Donjon Mystère"
       studio: "The Pokémon Company"
       games:
         - title: "Pokémon Donjon Mystère: Équipe de secours Bleu"
           studio: "The Pokémon Company"
-          ownership_status: "owned"
+          ownership_status: "not_owned"
         - title: "Pokémon Donjon Mystère: Explorateurs du Ciel"
           studio: "The Pokémon Company"
-          ownership_status: "owned"
+          ownership_status: "not_owned"
 
   vita:
   3ds:
