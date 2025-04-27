@@ -111,6 +111,8 @@ title: Backlog
 <div id="{{games_section_id}}" class="backlog-section games-section">
   <h2><i class="fa-solid fa-gamepad category-icon game-icon"></i> {{ site.data.translations.backlog.games }}</h2>
 
+  <a href="https://store.steampowered.com/wishlist/id/POPKAMOKA/?sort=dateadded">Wishlist Steam</a>
+
   {% for platform in site.data.backlog.games %}
     {% assign platform_name = platform[0] %}
     {% assign games = platform[1] %}

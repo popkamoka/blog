@@ -113,7 +113,10 @@ backlog:
     megadrive: "Megadrive"
     megacd: "Mega CD"
     psx: "PS1"
+    n64: "N64"
     psp: "PSP"
+    dc: "Dreamcast"
+    gc: "GameCube"
     misc: "Autres"
 
   films: "Films"

@@ -1949,14 +1949,14 @@ games:
       games:
         - title: "Nine Sols"
           studio: "Red Candle Games"
-          ownership_status: "owned"
+          ownership_status: "not_owned"
 
     - series: "Inscryption"
       studio: "Daniel Mullins Games"
       games:
         - title: "Inscryption"
           studio: "Daniel Mullins Games"
-          ownership_status: "owned"
+          ownership_status: "not_owned"
 
     - series: "Resident Evil"
       studio: "Capcom"
@@ -1970,108 +1970,171 @@ games:
       games:
         - title: "Signalis"
           studio: "rose-engine"
-          ownership_status: "owned"
+          ownership_status: "not_owned"
 
     - series: "Call of the Sea"
       studio: "Out of the Blue Games"
       games:
         - title: "Call of the Sea"
           studio: "Out of the Blue Games"
-          ownership_status: "owned"
+          ownership_status: "not_owned"
 
     - series: "Pepper Grinder"
       studio: "Ahr Ech"
       games:
         - title: "Pepper Grinder"
           studio: "Ahr Ech"
-          ownership_status: "owned"
+          ownership_status: "not_owned"
 
     - series: "The Operator"
       studio: "Bureau 81"
       games:
         - title: "The Operator"
           studio: "Bureau 81"
-          ownership_status: "owned"
+          ownership_status: "not_owned"
 
     - series: "Mouthwashing"
       studio: "Wrong Organ"
       games:
         - title: "Mouthwashing"
           studio: "Wrong Organ"
-          ownership_status: "owned"
+          ownership_status: "not_owned"
 
     - series: "The Hundred Line : Last Defense Academy"
       studio: "Too Kyo Games"
       games:
         - title: "The Hundred Line : Last Defense Academy"
           studio: "Too Kyo Games"
-          ownership_status: "owned"
+          ownership_status: "not_owned"
 
     - series: "Clair Obscur : Expedition 33"
       studio: "Sandfall Interactive"
       games:
         - title: "Clair Obscur : Expedition 33"
           studio: "Sandfall Interactive"
+          ownership_status: "not_owned"
+
+    - series: "Loop Hero"
+      studio: "Four Quarters"
+      games:
+        - title: "Loop Hero"
+          studio: "Four Quarters"
           ownership_status: "owned"
+
+    - series: "Wattam"
+      studio: "Funomena"
+      games:
+        - title: "Wattam"
+          studio: "Funomena"
+          ownership_status: "owned"
+
+    - series: "DJMAX Respect V"
+      studio: "Neowiz"
+      games:
+        - title: "DJMAX Respect V"
+          studio: "Neowiz"
+          ownership_status: "owned"
+
+    - series: "Baldur's Gate 3"
+      studio: "Larian Studios"
+      games:
+        - title: "Baldur's Gate 3"
+          studio: "Larian Studios"
+          ownership_status: "owned"
+
+    - series: "Dofus"
+      studio: "Ankama"
+      games:
+        - title: "Dofus"
+          studio: "Ankama"
+          ownership_status: "owned"
+
+    - series: "Wakfu"
+      studio: "Ankama"
+      games:
+        - title: "Wakfu"
+          studio: "Ankama"
+          ownership_status: "owned"
+
+    - series: "Trackmania"
+      studio: "Ubisoft"
+      games:
+        - title: "Trackmania Turbo"
+          studio: "Ubisoft"
+          ownership_status: "owned"
+
+    - series: "Elden Ring (coop)"
+      studio: "From Software"
+      games:
+        - title: "Elden Ring (coop)"
+          studio: "From Software"
+          ownership_status: "owned"
+
   nes:
+
   megadrive:
     - series: "Sonic the Hedgehog"
-      studio: "Sega"
+      studio: "Sonic Team"
       games:
         - title: "Sonic the Hedgehog"
-          studio: "Sega"
+          studio: "Sonic Team"
           ownership_status: "owned"
         - title: "Sonic the Hedgehog 2"
-          studio: "Sega"
+          studio: "Sonic Team"
           ownership_status: "owned"
         - title: "Sonic the Hedgehog 3"
-          studio: "Sega"
+          studio: "Sonic Team"
           ownership_status: "owned"
         - title: "Sonic & Knuckles"
-          studio: "Sega"
+          studio: "Sonic Team"
           ownership_status: "owned"
         - title: "Sonic 3D Blast"
-          studio: "Sega"
+          studio: "Sonic Team"
           ownership_status: "owned"
 
   gb:
     - series: "Metroid II: Return of Samus"
       studio: "Nintendo"
       games:
-        - title: "Metroid II: Return of Samus"
+        - title: "Metroid II: Return of Samus (AM2R)"
           studio: "Nintendo"
-          ownership_status: "owned"
+          ownership_status: "not_owned"
+
   snes:
     - series: "Donkey Kong Country"
-      studio: "Rare"
+      studio: "RARE"
       games:
         - title: "Donkey Kong Country"
-          studio: "Rare"
+          studio: "RARE"
           ownership_status: "owned"
         - title: "Donkey Kong Country 2: Diddy's Kong Quest"
-          studio: "Rare"
+          studio: "RARE"
           ownership_status: "owned"
         - title: "Donkey Kong Country 3: Dixie Kong's Double Trouble!"
-          studio: "Rare"
+          studio: "RARE"
           ownership_status: "owned"
+
     - series: "EarthBound"
-      studio: "Nintendo"
+      studio: "Ape, HAL Laboratory"
       games:
         - title: "EarthBound"
-          studio: "Nintendo"
+          studio: "Ape, HAL Laboratory"
           ownership_status: "owned"
+
     - series: "Final Fantasy"
       studio: "Square Enix"
       games:
         - title: "Final Fantasy VI"
           studio: "Square Enix"
           ownership_status: "owned"
+
     - series: "Megaman"
       studio: "Capcom"
       games:
         - title: "Megaman X"
           studio: "Capcom"
           ownership_status: "owned"
+
     - series: "Pocky & Rocky"
       studio: "Natsume"
       games:
@@ -2081,12 +2144,14 @@ games:
         - title: "Pocky & Rocky 2"
           studio: "Natsume"
           ownership_status: "owned"
+
     - series: "Secret of Mana"
       studio: "Square Enix"
       games:
         - title: "Secret of Mana"
           studio: "Square Enix"
           ownership_status: "owned"
+
     - series: "Mario"
       studio: "Nintendo"
       games:
@@ -2099,19 +2164,22 @@ games:
         - title: "Super Mario World 2: Yoshi's Island"
           studio: "Nintendo"
           ownership_status: "owned"
+
     - series: "Super Metroid"
       studio: "Nintendo"
       games:
         - title: "Super Metroid"
           studio: "Nintendo"
           ownership_status: "owned"
+
   megacd:
     - series: "Sonic CD"
-      studio: "Sega"
+      studio: "Sonic Team"
       games:
         - title: "Sonic CD"
-          studio: "Sega"
+          studio: "Sonic Team"
           ownership_status: "owned"
+
   psx:
     - series: "Ape Escape"
       studio: "Sony Computer Entertainment"
@@ -2178,10 +2246,129 @@ games:
         - title: "Tombi!"
           studio: "Whoopee Camp"
           ownership_status: "owned"
+
   gbc:
+
   n64:
-  dmc:
+    - series: "Space Station Silicon Valley"
+      studio: "Take-Two Interactive"
+      games:
+        - title: "Space Station Silicon Valley"
+          studio: "Take-Two Interactive"
+          ownership_status: "not_owned"
+
+    - series: "Yoshi's Story"
+      studio: "Nintendo"
+      games:
+        - title: "Yoshi's Story"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+
+    - series: "Banjo-Tooie"
+      studio: "Rare"
+      games:
+        - title: "Banjo-Kazooie"
+          studio: "Rare"
+          ownership_status: "not_owned"
+
+    - series: "The Legend of Zelda"
+      studio: "Nintendo"
+      games:
+        - title: "The Legend of Zelda: Ocarina of Time"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+        - title: "The Legend of Zelda: Majora's Mask"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+
+    - series: "Paper Mario"
+      studio: "Intelligent Systems"
+      games:
+        - title: "Paper Mario"
+          studio: "Intelligent Systems"
+          ownership_status: "not_owned"
+
+    - series: "Mischief Makers"
+      studio: "Treasure"
+      games:
+        - title: "Mischief Makers"
+          studio: "Treasure"
+          ownership_status: "not_owned"
+
+  dc:
+    - series: "Sonic Adventure"
+      studio: "Sonic Team"
+      games:
+        - title: "Sonic Adventure"
+          studio: "Sonic Team"
+          ownership_status: "not_owned"
+        - title: "Sonic Adventure 2"
+          studio: "Sonic Team"
+          ownership_status: "not_owned"
+
+    - series: "Space Channel 5"
+      studio: "Sega"
+      games:
+        - title: "Space Channel 5"
+          studio: "Sega"
+          ownership_status: "not_owned"
+
+    - series: "Rayman 2: The Great Escape"
+      studio: "Ubisoft"
+      games:
+        - title: "Rayman 2: The Great Escape"
+          studio: "Ubisoft"
+          ownership_status: "not_owned"
+
   gc:
+    - series: "Metroid Prime"
+      studio: "Nintendo"
+      games:
+        - title: "Metroid Prime"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+        - title: "Metroid Prime 2: Echoes"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+
+    - series: "Pikmin"
+      studio: "Nintendo"
+      games:
+        - title: "Pikmin"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+        - title: "Pikmin 2"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+
+    - series: "The Legend of Zelda: The Wind Waker"
+      studio: "Nintendo"
+      games:
+        - title: "The Legend of Zelda: The Wind Waker"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+
+    - series: "Super Mario Sunshine"
+      studio: "Nintendo"
+      games:
+        - title: "Super Mario Sunshine"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+
+    - series: "Paper Mario: The Thousand-Year Door"
+      studio: "Intelligent Systems"
+      games:
+        - title: "Paper Mario: The Thousand-Year Door"
+          studio: "Intelligent Systems"
+          ownership_status: "not_owned"
+
+    - series: "The Legend of Zelda: Twilight Princess"
+      studio: "Nintendo"
+      games:
+        - title: "The Legend of Zelda: Twilight Princess"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+
   ps2:
   gba:
     - series: "Wario Land 4"
