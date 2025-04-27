@@ -1,6 +1,20 @@
 books:
   novels:
     n/a:
+      - series: "L'espace d'un an"
+        author: "Becky Chambers"
+        books:
+          - title: "L'espace d'un an"
+            ownership_status: "not_owned"
+            price: 10.35
+
+      - series: "Histoires de Moine et de Robot"
+        author: "Becky Chambers"
+        books:
+          - title: "Un psaume pour les recyclés sauvages"
+            ownership_status: "not_owned"
+            price: 13.5
+
       - series: "La servante écarlate"
         author: "Margaret Atwood"
         books:
