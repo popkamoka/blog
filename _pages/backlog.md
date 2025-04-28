@@ -82,7 +82,7 @@ title: Backlog
                   </summary>
                   <ul>
                     {% for book in book_series.books %}
-                      <li class="{% if book.progress_status == 'done' %}strikethrough{% endif %}">
+                      <li>
                         {% include ownership_status_icon.html ownership_status=book.ownership_status %}
                         {{ book.title }}
                         {% if book.edition %} ({{ book.edition }}){% endif %}
@@ -94,12 +94,10 @@ title: Backlog
 
               {% else %}
                 {% assign book = book_series.books[0] %}
-                <span class="{% if book.progress_status == 'done' %}strikethrough{% endif %}">
                   {% include ownership_status_icon.html ownership_status=book.ownership_status %}
                   {{ book.title }} - {{ book_series.author }}
                   {% if book.edition %} ({{ book.edition }}){% endif %}
                   {% if book.price %} ({{ book.price }}€){% endif %}
-                </span>
               {% endif %}
             </li>
           {% endfor %}
@@ -156,7 +154,7 @@ title: Backlog
                 </summary>
                 <ul>
                   {% for game in game_series.games %}
-                    <li class="{% if game.progress_status == 'done' %}strikethrough{% endif %}">
+                    <li >
                       {% include ownership_status_icon.html ownership_status=game.ownership_status %}
                       {{ game.title }}
                       {% if game.studio %} - {{ game.studio }}{% endif %}
@@ -167,11 +165,9 @@ title: Backlog
 
             {% else %}
               {% assign game = game_series.games[0] %}
-              <span class="{% if game.progress_status == 'done' %}strikethrough{% endif %}">
                 {% include ownership_status_icon.html ownership_status=game.ownership_status %}
                 {{ game.title }}
                 {% if game.studio %} - {{ game.studio }}{% endif %}
-              </span>
             {% endif %}
           </li>
         {% endfor %}
