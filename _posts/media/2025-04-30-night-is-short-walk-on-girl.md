@@ -36,9 +36,9 @@ On retrouve Massaki Yuasa aux commandes de cette suite spirituelle de The Tatami
 
 On y suit une protagoniste qui profite d'une nuit sans queue ni tête qui ne veut pas s'arrêter, où elle navigue de bar en bar et finit par participer à un concours d'alcool, recherche son bouquin d'enfance préféré, participe à une pièce de théâtre ambulante et guérit même ses amis atteints de rhume. En parallèle, on suit l'histoire d'un garçon qui tente de lui déclarer sa flamme mais qui n'y arrive pas.
 
-J'ai beaucoup aimé suivre la protagoniste, toujours prête à participer à tout et à aider des inconnus, tout en gardant toujours une attitude très optimiste. Rajoutez à celà le style très abstrait et surréaliste de Yuasa, et vous obtenez un film très agréable à regarder que ça soit par son style graphique ou son histoire.
+J'ai beaucoup aimé suivre la protagoniste, toujours prête à participer à tout et à aider des inconnus, tout en gardant toujours une attitude très optimiste. Rajoutez à cela le style très abstrait et surréaliste de Yuasa, et vous obtenez un film très agréable à regarder que ça soit par son style graphique ou son histoire.
 
-J'ai été moins emporté par le subplot du garçon qui veut déclarer sa flamme, bien que la scène d'hésitation à la fin du film avec la protagoniste qui le cherche était vraiment géniale, avec des décors dans un style architecturale très géométrique et surréaliste. 
+J'ai été moins emporté par la sous-intrigue du garçon qui veut déclarer sa flamme, bien que la scène d'hésitation à la fin du film avec la protagoniste qui le cherche était vraiment géniale, avec des décors dans un style architectural très géométrique et surréaliste. 
 
 Cela reste cependant un film qui fait définitivement du bien à regarder, que ce soit au moral ou aux yeux.
 

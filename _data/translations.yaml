@@ -6,9 +6,9 @@ status:
   on_hold: "En pause"
 
 ownership_status:
-  owned: "Possédé"
-  not_owned: "Non possédé"
-  partially_owned: "Partiellement possédé"
+  owned: "Oui"
+  not_owned: "Non"
+  partially_owned: "Partiellement acquis"
   not_applicable: "Non applicable"
 
 ownership_format:
@@ -38,7 +38,7 @@ book_info:
   ean: "EAN"
   publication_date: "Date de publication"
   genre: "Genre"
-  ownership_status: "Livre possédé"
+  ownership_status: "Dans ma collection"
   ownership_format: "Format"
   progress_status: "Statut de lecture"
   start_date: "Date de début de lecture"
@@ -52,7 +52,7 @@ game_info:
   platform: "Plateforme"
   release_date: "Date de sortie"
   genre: "Genre"
-  ownership_status: "Jeu possédé"
+  ownership_status: "Dans ma collection"
   ownership_format: "Format"
   progress_status: "Statut de progression"
   start_date: "Date de début de jeu"
@@ -68,7 +68,7 @@ media_info:
   release_date: "Date de sortie"
   genre: "Genre"
   episodes: "Nombre d'épisodes"
-  ownership_status: "Média possédé"
+  ownership_status: "Dans ma collection"
   ownership_format: "Format"
   progress_status: "Statut de visionnage"
   start_date: "Date de début de visionnage"
