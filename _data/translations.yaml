@@ -142,6 +142,8 @@ backlog:
     fantasy: "Fantastique"
     animation: "Animation"
     documentary: "Documentaire"
+    animation_west: "Animation (WEST)"
+    animation_jp: "Animation (JP)"
 
   misc: "Autres"
 

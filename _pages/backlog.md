@@ -223,7 +223,7 @@ title: Backlog
     {% assign series = subcategory[1] %}
 
     {% if series.size > 0 %}
-      <h3>{{ site.data.translations.backlog.media_subcategorys[subcategory_name] }}</h3>
+      <h3>{{ site.data.translations.backlog.media_genres[subcategory_name] }}</h3>
       <ul>
         {% for serie in series %}
           <li>
@@ -243,7 +243,7 @@ title: Backlog
             {% else %}
               {% assign season = serie.seasons[0] %}
               {% include ownership_status_icon.html ownership_status=season.ownership_status %}
-              <p>{{ serie.title }} - {{ season.title }} ({{ season.episodes }} épisodes)</p>
+              {{ serie.title }} - {{ season.title }} ({{ season.episodes }} épisodes)
             {% endif %}
           </li>
         {% endfor %}

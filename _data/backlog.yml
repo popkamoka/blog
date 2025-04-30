@@ -2986,7 +2986,7 @@ films:
           ownership_status: "owned"
 
 series:
-  animation:
+  animation_west:
     - title: "Invincible (2021)"
       ownership_status: "not_owned"
       seasons:
@@ -2995,6 +2995,14 @@ series:
           ownership_status: "owned"
         - title: "Invincible S2"
           episodes: 8
+          ownership_status: "not_owned"
+
+  animation_jp:
+    - title: "The Tatami Time Machine Blues"
+      ownership_status: "not_owned"
+      seasons:
+        - title: "The Tatami Time Machine Blues"
+          episodes: 5
           ownership_status: "not_owned"
 
 misc:
