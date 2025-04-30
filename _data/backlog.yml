@@ -2973,12 +2973,6 @@ films:
           ownership_status: "owned"
 
   animation:
-    - series: "Night Is Short, Walk on Girl"
-      director: "Masaaki Yuasa"
-      films:
-        - title: "Night Is Short, Walk on Girl"
-          ownership_status: "owned"
-
     - series: "Akira"
       director: "Katsuhiro Ōtomo"
       films:
