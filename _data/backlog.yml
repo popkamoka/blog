@@ -2997,7 +2997,6 @@ series:
   animation_west:
     - title: "Invincible (2021)"
       director: "Robert Kirkman"
-      ownership_status: "not_owned"
       seasons:
         - title: "Invincible S1"
           episodes: 8
@@ -3009,10 +3008,16 @@ series:
   animation_jp:
     - title: "The Tatami Time Machine Blues"
       studio: "Science SARU"
-      ownership_status: "not_owned"
       seasons:
         - title: "The Tatami Time Machine Blues"
           episodes: 5
+          ownership_status: "not_owned"
+
+    - title: "Sonny Boy"
+      studio: "Madhouse"
+      seasons:
+        - title: "Sonny Boy"
+          episodes: 12
           ownership_status: "not_owned"
 
 misc:

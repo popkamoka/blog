@@ -192,9 +192,29 @@ title: Backlog
           <li>
             {% assign series_films_count = film_series.films.size %}
             {% if series_films_count > 1 %}
+                {% assign owned_count = 0 %}
+                {% assign total_count = film_series.films.size %}
+
+                {% for film in film_series.films %}
+                  {% if film.ownership_status == 'owned' %}
+                    {% assign owned_count = owned_count | plus: 1 %}
+                  {% endif %}
+                {% endfor %}
+
+                {% if owned_count == total_count %}
+                  {% assign series_ownership_status = 'owned' %}
+                {% elsif owned_count == 0 %}
+                  {% assign series_ownership_status = 'not_owned' %}
+                {% else %}
+                  {% assign series_ownership_status = 'partially_owned' %}
+                {% endif %}
+
+
               <details>
                 <summary>
+                  {% include ownership_status_icon.html ownership_status=series_ownership_status %}
                   {{ film_series.series }}
+
                   {% if film_series.director %} - {{ film_series.director }}
                   {% elsif film_series.studio %} - {{ film_series.studio }}
                   {% endif %}
@@ -250,14 +270,31 @@ title: Backlog
           <li>
             {% assign series_seasons_count = serie.seasons.size %}
             {% if series_seasons_count > 1 %}
+                {% assign owned_count = 0 %}
+                {% assign total_count = serie.seasons.size %}
+
+                {% for serie in serie.seasons %}
+                  {% if serie.ownership_status == 'owned' %}
+                    {% assign owned_count = owned_count | plus: 1 %}
+                  {% endif %}
+                {% endfor %}
+
+                {% if owned_count == total_count %}
+                  {% assign series_ownership_status = 'owned' %}
+                {% elsif owned_count == 0 %}
+                  {% assign series_ownership_status = 'not_owned' %}
+                {% else %}
+                  {% assign series_ownership_status = 'partially_owned' %}
+                {% endif %}
+
               <details>
                 <summary>
+                  {% include ownership_status_icon.html ownership_status=series_ownership_status %}
                   {{ serie.title }} 
 
                   {% if serie.director %} - {{ serie.director }} 
                   {% elsif serie.studio %} - {{ serie.studio }} 
                   {% endif %}    
-                   
                 </summary>
                 <ul>
                   {% for season in serie.seasons %}
