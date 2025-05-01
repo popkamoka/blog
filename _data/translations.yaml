@@ -116,7 +116,7 @@ backlog:
     n64: "N64"
     psp: "PSP"
     dc: "Dreamcast"
-    gc: "GameCube"
+    gc: "Gamecube"
     ps2: "PS2"
     ps3: "PS3"
     wii: "Wii"
@@ -144,6 +144,7 @@ backlog:
     documentary: "Documentaire"
     animation_west: "Animation (WEST)"
     animation_jp: "Animation (JP)"
+    theater: "Théâtre"
 
   misc: "Autres"
 

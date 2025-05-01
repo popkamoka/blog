@@ -1970,7 +1970,7 @@ games:
       games:
         - title: "Inscryption"
           studio: "Daniel Mullins Games"
-          ownership_status: "not_owned"
+          ownership_status: "owned"
 
     - series: "Resident Evil"
       studio: "Capcom"
@@ -2728,7 +2728,7 @@ games:
     - series: "Another Code"
       studio: "Cing"
       games:
-        - title: "Another Code: R - A Journey into Lost Memories"
+        - title: "Another Code : Mémoires doubles"
           studio: "Cing"
           ownership_status: "not_owned"
 
@@ -2883,7 +2883,7 @@ games:
     - series: "Bloodborne"
       studio: "From Software"
       games:
-        - title: "Bloodborne"
+        - title: "Bloodborne : The Old Hunters"
           studio: "From Software"
           ownership_status: "not_owned"
 
@@ -2972,7 +2972,7 @@ films:
         - title: "Paddington 2 (2017)"
           ownership_status: "owned"
 
-  animation:
+  animation_jp:
     - series: "Akira"
       director: "Katsuhiro Ōtomo"
       films:
@@ -2985,9 +2985,18 @@ films:
         - title: "Metropolis"
           ownership_status: "owned"
 
+  theater:
+    - series: "La flûte enchantée"
+      studio: "France 4"
+      films:
+        - title: "La flûte enchantée"
+          ownership_status: "not_owned"
+          url: https://www.france.tv/spectacles-et-culture/theatre-et-danse/6610685-la-flute-enchantee.html
+
 series:
   animation_west:
     - title: "Invincible (2021)"
+      director: "Robert Kirkman"
       ownership_status: "not_owned"
       seasons:
         - title: "Invincible S1"
@@ -2999,6 +3008,7 @@ series:
 
   animation_jp:
     - title: "The Tatami Time Machine Blues"
+      studio: "Science SARU"
       ownership_status: "not_owned"
       seasons:
         - title: "The Tatami Time Machine Blues"

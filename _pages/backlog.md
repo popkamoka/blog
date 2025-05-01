@@ -94,10 +94,10 @@ title: Backlog
 
               {% else %}
                 {% assign book = book_series.books[0] %}
-                  {% include ownership_status_icon.html ownership_status=book.ownership_status %}
-                  {{ book.title }} - {{ book_series.author }}
-                  {% if book.edition %} ({{ book.edition }}){% endif %}
-                  {% if book.price %} ({{ book.price }}€){% endif %}
+                {% include ownership_status_icon.html ownership_status=book.ownership_status %}
+                {{ book.title }} - {{ book_series.author }}
+                {% if book.edition %} ({{ book.edition }}){% endif %}
+                {% if book.price %} ({{ book.price }}€){% endif %}
               {% endif %}
             </li>
           {% endfor %}
@@ -154,7 +154,7 @@ title: Backlog
                 </summary>
                 <ul>
                   {% for game in game_series.games %}
-                    <li >
+                    <li>
                       {% include ownership_status_icon.html ownership_status=game.ownership_status %}
                       {{ game.title }}
                       {% if game.studio %} - {{ game.studio }}{% endif %}
@@ -165,9 +165,9 @@ title: Backlog
 
             {% else %}
               {% assign game = game_series.games[0] %}
-                {% include ownership_status_icon.html ownership_status=game.ownership_status %}
-                {{ game.title }}
-                {% if game.studio %} - {{ game.studio }}{% endif %}
+              {% include ownership_status_icon.html ownership_status=game.ownership_status %}
+              {{ game.title }}
+              {% if game.studio %} - {{ game.studio }}{% endif %}
             {% endif %}
           </li>
         {% endfor %}
@@ -193,12 +193,23 @@ title: Backlog
             {% assign series_films_count = film_series.films.size %}
             {% if series_films_count > 1 %}
               <details>
-                <summary>{{ film_series.series }} - {{ film_series.director }}</summary>
+                <summary>
+                  {{ film_series.series }}
+                  {% if film_series.director %} - {{ film_series.director }}
+                  {% elsif film_series.studio %} - {{ film_series.studio }}
+                  {% endif %}
+                </summary>
                 <ul>
                   {% for film in film_series.films %}
                     <li>
                       {% include ownership_status_icon.html ownership_status=film.ownership_status %}
-                      {{ film.title }}
+
+                      {% if film.url %}
+                        <a href="{{ film.url }}" target="_blank">{{ film.title }}</a>
+                      {% else %}
+                        {{ film.title }}
+                      {% endif %}
+                      
                     </li>
                   {% endfor %}
                 </ul>
@@ -206,7 +217,17 @@ title: Backlog
             {% else %}
               {% assign film = film_series.films[0] %}
               {% include ownership_status_icon.html ownership_status=film.ownership_status %}
-              {{ film.title }} - {{ film_series.director }}
+
+              {% if film.url %}
+                <a href="{{ film.url }}" target="_blank">{{ film.title }}</a>
+              {% else %}
+                {{ film.title }}
+              {% endif %}
+
+              {% if film_series.director %} - {{ film_series.director }}
+              {% elsif film_series.studio %} - {{ film_series.studio }}
+
+              {% endif %}
             {% endif %}
           </li>
         {% endfor %}
@@ -230,12 +251,19 @@ title: Backlog
             {% assign series_seasons_count = serie.seasons.size %}
             {% if series_seasons_count > 1 %}
               <details>
-                <summary>{{ serie.title }}</summary>
+                <summary>
+                  {{ serie.title }} 
+
+                  {% if serie.director %} - {{ serie.director }} 
+                  {% elsif serie.studio %} - {{ serie.studio }} 
+                  {% endif %}    
+                   
+                </summary>
                 <ul>
                   {% for season in serie.seasons %}
                     <li>
                       {% include ownership_status_icon.html ownership_status=season.ownership_status %}
-                      {{ season.title }} ({{ season.episodes }} épisodes)
+                      {{ season.title }}{% if season.episodes %} ({{ season.episodes }} épisodes){% endif %}
                     </li>
                   {% endfor %}
                 </ul>
@@ -243,7 +271,13 @@ title: Backlog
             {% else %}
               {% assign season = serie.seasons[0] %}
               {% include ownership_status_icon.html ownership_status=season.ownership_status %}
-              {{ serie.title }} - {{ season.title }} ({{ season.episodes }} épisodes)
+              {{ serie.title }} 
+
+              {% if serie.director %} - {{ serie.director }} 
+              {% elsif serie.studio %} - {{ serie.studio }} 
+              {% endif %}   
+
+              {% if season.episodes %} ({{ season.episodes }} épisodes){% endif %}
             {% endif %}
           </li>
         {% endfor %}
