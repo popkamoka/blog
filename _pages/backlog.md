@@ -303,8 +303,7 @@ title: Backlog
                   {% for season in serie.seasons %}
                     <li>
                       {% include ownership_status_icon.html ownership_status=season.ownership_status %}
-                      {{ season.title }}{% if season.episodes %} ({{ season.episodes }} épisode{% if season.episodes > 1 %}s
-                      {% endif %}){% endif %}     
+                      {{ season.title }}{% if season.episodes %} ({{ season.episodes }} épisode{% if season.episodes > 1 %}s{% endif %}){% endif %}     
                     </li>
                   {% endfor %}
                 </ul>
@@ -316,7 +315,9 @@ title: Backlog
 
               {% if serie.director %} - {{ serie.director }} 
               {% elsif serie.studio %} - {{ serie.studio }} 
-              {% if season.episodes %} ({{ season.episodes }} épisode{% if season.episodes > 1 %}s{% endif %}){% endif %}     
+              {% endif %}   
+
+              {% if season.episodes %} ({{ season.episodes }} épisode{% if season.episodes > 1 %}s{% endif %}){% endif %}  
             {% endif %}
           </li>
         {% endfor %}

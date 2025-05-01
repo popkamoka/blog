@@ -3222,7 +3222,7 @@ series:
         - title: "Doctor Who S4 (2008)"
           episodes: 13
           ownership_status: "not_owned"
-        - title: "Doctor Who Specials (2008–2010)"
+        - title: "Doctor Who Specials (2008-2010)"
           episodes: 5
           ownership_status: "not_owned"
         - title: "Doctor Who S5 (2010)"
@@ -3231,7 +3231,7 @@ series:
         - title: "Doctor Who S6 (2011)"
           episodes: 13
           ownership_status: "not_owned"
-        - title: "Doctor Who S7 (2012–2013)"
+        - title: "Doctor Who S7 (2012-2013)"
           episodes: 13
           ownership_status: "not_owned"
         - title: "Doctor Who Specials (2013)"
