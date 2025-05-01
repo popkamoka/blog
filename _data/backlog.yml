@@ -2973,6 +2973,18 @@ films:
           ownership_status: "not_owned"
 
   drama:
+    - series: "Moonrise Kingdom"
+      director: "Wes Anderson"
+      films:
+        - title: "Moonrise Kingdom (2012)"
+          ownership_status: "not_owned"
+
+    - series: "Whiplash"
+      director: "Damien Chazelle"
+      films:
+        - title: "Whiplash (2014)"
+          ownership_status: "not_owned"
+
     - series: "Old Boy"
       director: "Park Chan-wook"
       films:
@@ -3188,6 +3200,18 @@ films:
           ownership_status: "not_owned"
 
   comedy:
+    - series: "The Grand Budapest Hotel"
+      director: "Wes Anderson"
+      films:
+        - title: "The Grand Budapest Hotel (2014)"
+          ownership_status: "not_owned"
+
+    - series: "La Merveilleuse Histoire de Henry Sugar"
+      director: "Wes Anderson"
+      films:
+        - title: "La Merveilleuse Histoire de Henry Sugar (2023)"
+          ownership_status: "not_owned"
+
     - series: "Le Fabuleux Destin d'Amélie Poulain"
       director: "Jean-Pierre Jeunet"
       films:
@@ -3239,6 +3263,24 @@ films:
           url: https://www.france.tv/spectacles-et-culture/theatre-et-danse/6610685-la-flute-enchantee.html
 
   animation:
+    - series: "L'île aux chiens"
+      director: "Wes Anderson"
+      films:
+        - title: "L'île aux chiens (2018)"
+          ownership_status: "not_owned"
+
+    - series: "Fantastic Mr. Fox"
+      director: "Wes Anderson"
+      films:
+        - title: "Fantastic Mr. Fox (2009)"
+          ownership_status: "not_owned"
+
+    - series: "Le Roi et l'Oiseau"
+      director: "Paul Grimault"
+      films:
+        - title: "Le Roi et l'Oiseau (1980)"
+          ownership_status: "not_owned"
+
     - series: "Pixar"
       director: "Collectif"
       films:
@@ -3653,6 +3695,47 @@ films:
           ownership_status: "not_owned"
 
 series:
+  horror:
+    - title: "American Horror Story"
+      director: "Ryan Murphy, Brad Falchuk"
+      seasons:
+        - title: "American Horror Story S1: Murder House (2011)"
+          episodes: 12
+          ownership_status: "not_owned"
+        - title: "American Horror Story S2: Asylum (2012)"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "American Horror Story S3: Coven (2013)"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "American Horror Story S4: Freak Show (2014)"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "American Horror Story S5: Hotel (2015)"
+          episodes: 12
+          ownership_status: "not_owned"
+        - title: "American Horror Story S6: Roanoke (2016)"
+          episodes: 10
+          ownership_status: "not_owned"
+        - title: "American Horror Story S7: Cult (2017)"
+          episodes: 11
+          ownership_status: "not_owned"
+        - title: "American Horror Story S8: Apocalypse (2018)"
+          episodes: 10
+          ownership_status: "not_owned"
+        - title: "American Horror Story S9: 1984 (2019)"
+          episodes: 9
+          ownership_status: "not_owned"
+        - title: "American Horror Story S10: Double Feature (2021)"
+          episodes: 10
+          ownership_status: "not_owned"
+        - title: "American Horror Story S11: NYC (2022)"
+          episodes: 10
+          ownership_status: "not_owned"
+        - title: "American Horror Story S12: Delicate (2023-2024)"
+          episodes: 9
+          ownership_status: "not_owned"
+
   drama:
     - title: "Breaking Bad"
       director: "Vince Gilligan"
@@ -3819,6 +3902,25 @@ series:
           ownership_status: "not_owned"
 
   animation:
+    - title: "Daria"
+      director: "Glenn Eichler, Susie Lewis"
+      seasons:
+        - title: "Daria S1 (1997)"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "Daria S2 (1998)"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "Daria S3 (1999)"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "Daria S4 (2000)"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "Daria S5 (2001)"
+          episodes: 13
+          ownership_status: "not_owned"
+
     - title: "Souvenirs de Gravity Falls"
       director: "Alex Hirsch"
       seasons:
@@ -3986,6 +4088,13 @@ series:
           ownership_status: "not_owned"
 
   animation_jp:
+    - title: "Terror in Resonance"
+      director: "Shinichirō Watanabe"
+      seasons:
+        - title: "Terror in Resonance"
+          episodes: 11
+          ownership_status: "not_owned"
+
     - title: "Haibane Renmei"
       studio: "Radix"
       seasons:
