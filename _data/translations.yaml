@@ -165,6 +165,10 @@ backlog:
 
   misc: "Autres"
 
+  misc_categories:
+    art: "Art"
+    music: "Musique"
+
 common:
   rating: "Note"
   status: "Statut"

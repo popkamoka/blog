@@ -346,12 +346,30 @@ title: Backlog
 {% assign misc_section_id = 'misc' %}
 <div id="{{misc_section_id}}" class="backlog-section misc-section">
   <h2><i class="fa-solid fa-star category-icon default-icon"></i> {{ site.data.translations.backlog.misc }}</h2>
-  <ul>
-    {% for item in site.data.backlog.misc %}
-      <li>
-        {% include ownership_status_icon.html item=item %}
-        {{ item.title }} - ({{ item.type }})
-      </li>
-    {% endfor %}
-  </ul>
+ {% for category in site.data.backlog.misc %}
+    {% assign subcategory_name = category[0] %}
+    {% assign subcategory_items = category[1] %}
+
+    {% if subcategory_items.size > 0 %}
+      <h3 id="{{misc_section_id}}-{{ subcategory_name }}">
+        {{ site.data.translations.backlog.misc_categories[subcategory_name] }}
+      </h3>
+
+      {% assign subcategory_items_sorted = subcategory_items | sort: 'title' %}
+
+      <ul>
+        {% for item in subcategory_items_sorted %}
+          <li>
+              {% include ownership_status_icon.html ownership_status="not_applicable" %}
+              {% if item.url %}
+                <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
+              {% else %}
+                {{ item.title }}
+              {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endfor %}
 </div>
+
