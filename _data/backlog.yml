@@ -2965,21 +2965,168 @@ games:
           ownership_status: "not_owned"
 
 films:
+  musical:
+    - series: "The Greatest Showman"
+      director: "Michael Gracey"
+      films:
+        - title: "The Greatest Showman (2017)"
+          ownership_status: "not_owned"
+
+  drama:
+    - series: "Big Eyes"
+      director: "Tim Burton"
+      films:
+        - title: "Big Eyes (2014)"
+          ownership_status: "not_owned"
+
+    - series: "La ligne verte"
+      director: "Frank Darabont"
+      films:
+        - title: "La ligne verte (1999)"
+          ownership_status: "not_owned"
+
+    - series: "Pulp Fiction"
+      director: "Quentin Tarantino"
+      films:
+        - title: "Pulp Fiction (1994)"
+          ownership_status: "not_owned"
+
+  action:
+    - series: "Kill Bill"
+      director: "Quentin Tarantino"
+      films:
+        - title: "Kill Bill: Volume 1 (2003)"
+          ownership_status: "not_owned"
+        - title: "Kill Bill: Volume 2 (2004)"
+          ownership_status: "not_owned"
+
   fantasy:
+    - series: "Alice au Pays des Merveilles"
+      director: "Tim Burton, James Bobin"
+      films:
+        - title: "Alice au Pays des Merveilles (2010)"
+          ownership_status: "not_owned"
+        - title: "Alice de l'autre côté du miroir (2016)"
+          ownership_status: "not_owned"
+
+    - series: "Big Fish"
+      director: "Tim Burton"
+      films:
+        - title: "Big Fish (2003)"
+          ownership_status: "not_owned"
+
+    - series: "Edward aux mains d'argent"
+      director: "Tim Burton"
+      films:
+        - title: "Edward aux mains d'argent (1990)"
+          ownership_status: "not_owned"
+
     - series: "Miss Peregrine et les Enfants particuliers"
       director: "Tim Burton"
       films:
         - title: "Miss Peregrine et les Enfants particuliers (2016)"
           ownership_status: "not_owned"
 
+    - series: "Harry Potter"
+      director: "Divers"
+      films:
+        - title: "Harry Potter à l'école des sorciers (2001)"
+          ownership_status: "not_owned"
+        - title: "Harry Potter et la Chambre des secrets (2002)"
+          ownership_status: "not_owned"
+        - title: "Harry Potter et le Prisonnier d'Azkaban (2004)"
+          ownership_status: "not_owned"
+        - title: "Harry Potter et la Coupe de feu (2005)"
+          ownership_status: "not_owned"
+        - title: "Harry Potter et l'Ordre du Phénix (2007)"
+          ownership_status: "not_owned"
+        - title: "Harry Potter et le Prince de Sang-Mêlé (2009)"
+          ownership_status: "not_owned"
+        - title: "Harry Potter et les Reliques de la Mort : Partie 1 (2010)"
+          ownership_status: "not_owned"
+        - title: "Harry Potter et les Reliques de la Mort : Partie 2 (2011)"
+          ownership_status: "not_owned"
+
+    - series: "Le Seigneur des Anneaux"
+      director: "Peter Jackson"
+      films:
+        - title: "Le Seigneur des Anneaux : La Communauté de l'Anneau (2001)"
+          ownership_status: "not_owned"
+        - title: "Le Seigneur des Anneaux : Les Deux Tours (2002)"
+          ownership_status: "not_owned"
+        - title: "Le Seigneur des Anneaux : Le Retour du Roi (2003)"
+          ownership_status: "not_owned"
+        - title: "Le Hobbit : Un voyage inattendu (2012)"
+          ownership_status: "not_owned"
+        - title: "Le Hobbit : La Désolation de Smaug (2013)"
+          ownership_status: "not_owned"
+        - title: "Le Hobbit : La Bataille des Cinq Armées (2014)"
+          ownership_status: "not_owned"
+
   sci_fi:
+    - series: "Inception"
+      director: "Christopher Nolan"
+      films:
+        - title: "Inception (2010)"
+          ownership_status: "not_owned"
+
+    - series: "Interstellar"
+      director: "Christopher Nolan"
+      films:
+        - title: "Interstellar (2014)"
+          ownership_status: "not_owned"
+
+    - series: "Star Wars"
+      director: "George Lucas"
+      films:
+        - title: "Star Wars: Episode IV - A New Hope (1977)"
+          ownership_status: "not_owned"
+        - title: "Star Wars: Episode V - The Empire Strikes Back (1980)"
+          ownership_status: "not_owned"
+        - title: "Star Wars: Episode VI - Return of the Jedi (1983)"
+          ownership_status: "not_owned"
+        - title: "Star Wars: Episode I - The Phantom Menace (1999)"
+          ownership_status: "not_owned"
+        - title: "Star Wars: Episode II - Attack of the Clones (2002)"
+          ownership_status: "not_owned"
+        - title: "Star Wars: Episode III - Revenge of the Sith (2005)"
+          ownership_status: "not_owned"
+        - title: "Star Wars: Episode VII - The Force Awakens (2015)"
+          ownership_status: "not_owned"
+        - title: "Rogue One: A Star Wars Story (2016)"
+          ownership_status: "not_owned"
+        - title: "Star Wars: Episode VIII - The Last Jedi (2017)"
+          ownership_status: "not_owned"
+        - title: "Solo: A Star Wars Story (2018)"
+          ownership_status: "not_owned"
+        - title: "Star Wars: Episode IX - The Rise of Skywalker (2019)"
+          ownership_status: "not_owned"
+
     - series: "Bienvenue à Gattaca"
       director: "Andrew Niccol"
       films:
         - title: "Bienvenue à Gattaca (1997)"
           ownership_status: "not_owned"
 
+    - series: "Le cinquième élément"
+      director: "Luc Besson"
+      films:
+        - title: "Le cinquième élément (1997)"
+          ownership_status: "not_owned"
+
   comedy:
+    - series: "Beetlejuice"
+      director: "Tim Burton"
+      films:
+        - title: "Beetlejuice (1988)"
+          ownership_status: "not_owned"
+
+    - series: "Forrest Gump"
+      director: "Robert Zemeckis"
+      films:
+        - title: "Forrest Gump (1994)"
+          ownership_status: "not_owned"
+
     - series: "Cunk on Life"
       director: "Charlie Brooker"
       films:
@@ -2998,6 +3145,12 @@ films:
         - title: "Les Désastreuses Aventures des orphelins Baudelaire (2004)"
           ownership_status: "not_owned"
 
+    - series: "The Truman Show"
+      director: "Peter Weir"
+      films:
+        - title: "The Truman Show (1998)"
+          ownership_status: "not_owned"
+
   theater:
     - series: "La flûte enchantée"
       studio: "France 4"
@@ -3007,6 +3160,82 @@ films:
           url: https://www.france.tv/spectacles-et-culture/theatre-et-danse/6610685-la-flute-enchantee.html
 
   animation:
+    - series: "Pixar"
+      director: "Collectif"
+      films:
+        - title: "Toy Story (1995)"
+          ownership_status: "not_owned"
+        - title: "1001 Pattes (1998)"
+          ownership_status: "not_owned"
+        - title: "Toy Story 2 (1999)"
+          ownership_status: "not_owned"
+        - title: "Monstres & Cie (2001)"
+          ownership_status: "not_owned"
+        - title: "Le Monde de Nemo (2003)"
+          ownership_status: "not_owned"
+        - title: "Les Indestructibles (2004)"
+          ownership_status: "not_owned"
+        - title: "Cars : Quatre Roues (2006)"
+          ownership_status: "not_owned"
+        - title: "Ratatouille (2007)"
+          ownership_status: "not_owned"
+        - title: "WALL-E (2008)"
+          ownership_status: "not_owned"
+        - title: "Là-haut (2009)"
+          ownership_status: "not_owned"
+        - title: "Toy Story 3 (2010)"
+          ownership_status: "not_owned"
+        - title: "Cars 2 (2011)"
+          ownership_status: "not_owned"
+        - title: "Rebelle (2012)"
+          ownership_status: "not_owned"
+        - title: "Monstres Academy (2013)"
+          ownership_status: "not_owned"
+        - title: "Vice-Versa (2015)"
+          ownership_status: "not_owned"
+        - title: "Le Monde de Dory (2016)"
+          ownership_status: "not_owned"
+        - title: "Cars 3 (2017)"
+          ownership_status: "not_owned"
+        - title: "Coco (2017)"
+          ownership_status: "not_owned"
+        - title: "Les Indestructibles 2 (2018)"
+          ownership_status: "not_owned"
+        - title: "Toy Story 4 (2019)"
+          ownership_status: "not_owned"
+        - title: "En avant (2020)"
+          ownership_status: "not_owned"
+        - title: "Soul (2020)"
+          ownership_status: "not_owned"
+        - title: "Luca (2021)"
+          ownership_status: "not_owned"
+        - title: "Alerte Rouge (2022)"
+          ownership_status: "not_owned"
+        - title: "Buzz l'Éclair (2022)"
+          ownership_status: "not_owned"
+        - title: "Élémentaire (2023)"
+          ownership_status: "not_owned"
+        - title: "Vice-Versa 2 (2024)"
+          ownership_status: "not_owned"
+
+    - series: "Les noces funèbres"
+      director: "Tim Burton"
+      films:
+        - title: "Les noces funèbres (2005)"
+          ownership_status: "not_owned"
+
+    - series: "Coraline"
+      director: "Henry Selick"
+      films:
+        - title: "Coraline (2009)"
+          ownership_status: "not_owned"
+
+    - series: "Frankenweenie"
+      director: "Tim Burton"
+      films:
+        - title: "Frankenweenie (2012)"
+          ownership_status: "not_owned"
+
     - series: "DreamWorks Animation"
       director: "Collectif"
       films:
@@ -3363,6 +3592,22 @@ series:
           ownership_status: "not_owned"
         - title: "Breaking Bad S5 (2012-2013)"
           episodes: 16
+          ownership_status: "not_owned"
+
+    - title: "The Boys"
+      director: "Eric Kripke, Evan Endicott, Josh Stoddard"
+      seasons:
+        - title: "The Boys S1 (2019)"
+          episodes: 8
+          ownership_status: "not_owned"
+        - title: "The Boys S2 (2020)"
+          episodes: 8
+          ownership_status: "not_owned"
+        - title: "The Boys S3 (2022)"
+          episodes: 8
+          ownership_status: "not_owned"
+        - title: "The Boys S4 (2024)"
+          episodes: 8
           ownership_status: "not_owned"
 
   sci_fi:

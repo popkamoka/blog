@@ -130,6 +130,7 @@ backlog:
   series: "Séries"
 
   films_categories:
+    musical: "Comédie musicale"
     action: "Action"
     adventure: "Aventure"
     comedy: "Comédie"
