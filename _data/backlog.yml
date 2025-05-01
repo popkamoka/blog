@@ -2965,6 +2965,13 @@ games:
           ownership_status: "not_owned"
 
 films:
+  fantasy:
+    - series: "Miss Peregrine et les Enfants particuliers"
+      director: "Tim Burton"
+      films:
+        - title: "Miss Peregrine et les Enfants particuliers (2016)"
+          ownership_status: "not_owned"
+
   sci_fi:
     - series: "Bienvenue à Gattaca"
       director: "Andrew Niccol"
@@ -2973,13 +2980,62 @@ films:
           ownership_status: "not_owned"
 
   comedy:
+    - series: "Cunk on Life"
+      director: "Charlie Brooker"
+      films:
+        - title: "Cunk on Life (2024)"
+          ownership_status: "not_owned"
+
     - series: "Paddington"
       director: "Paul King"
       films:
         - title: "Paddington 2 (2017)"
           ownership_status: "owned"
 
+    - series: "Les Désastreuses Aventures des orphelins Baudelaire"
+      director: "Brad Silberling"
+      films:
+        - title: "Les Désastreuses Aventures des orphelins Baudelaire (2004)"
+          ownership_status: "not_owned"
+
+  animation:
+    - series: "Panique au village"
+      director: "Vincent Patar, Stéphane Aubier"
+      films:
+        - title: "Panique au village (2009)"
+          ownership_status: "not_owned"
+
+    - series: "Les Triplettes de Belleville"
+      director: "Sylvain Chomet"
+      films:
+        - title: "Les Triplettes de Belleville (2003)"
+          ownership_status: "not_owned"
+
+    - series: "Le chant de la mer"
+      director: "Tomm Moore"
+      films:
+        - title: "Le chant de la mer (2014)"
+          ownership_status: "not_owned"
+
+    - series: "Le Prophète"
+      director: "Tom Moore"
+      films:
+        - title: "Le Prophète (2014)"
+          ownership_status: "not_owned"
+
+    - series: "Le Peuple Loup"
+      director: "Tom Moore"
+      films:
+        - title: "Le Peuple Loup (2020)"
+          ownership_status: "not_owned"
+
   animation_jp:
+    - series: "Le Roi des ronces"
+      studio: "Sunrise"
+      films:
+        - title: "Le Roi des ronces"
+          ownership_status: "not_owned"
+
     - series: "La Belladone de la tristesse"
       director: "Eiichi Yamamoto"
       films:
@@ -3119,7 +3175,145 @@ films:
           url: https://www.france.tv/spectacles-et-culture/theatre-et-danse/6610685-la-flute-enchantee.html
 
 series:
+  sci_fi:
+    - title: "Black Mirror"
+      director: "Charlie Brooker"
+      seasons:
+        - title: "Black Mirror S1 (2011)"
+          episodes: 3
+          ownership_status: "not_owned"
+        - title: "Black Mirror S2 (2013)"
+          episodes: 3
+          ownership_status: "not_owned"
+        - title: "Black Mirror Special: White Christmas (2014)"
+          episodes: 1
+          ownership_status: "not_owned"
+        - title: "Black Mirror S3 (2016)"
+          episodes: 6
+          ownership_status: "not_owned"
+        - title: "Black Mirror S4 (2017)"
+          episodes: 6
+          ownership_status: "not_owned"
+        - title: "Black Mirror: Bandersnatch (2018)"
+          episodes: 1
+          ownership_status: "not_owned"
+        - title: "Black Mirror S5 (2019)"
+          episodes: 3
+          ownership_status: "not_owned"
+        - title: "Black Mirror S6 (2023)"
+          episodes: 5
+          ownership_status: "not_owned"
+        - title: "Black Mirror S7 (2025)"
+          episodes: 6
+          ownership_status: "not_owned"
+
+    - title: "Doctor Who (2005 - 2022)"
+      director: "Russell T Davies"
+      seasons:
+        - title: "Doctor Who S1 (2005)"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "Doctor Who S2 (2006)"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "Doctor Who S3 (2007)"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "Doctor Who S4 (2008)"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "Doctor Who Specials (2008–2010)"
+          episodes: 5
+          ownership_status: "not_owned"
+        - title: "Doctor Who S5 (2010)"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "Doctor Who S6 (2011)"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "Doctor Who S7 (2012–2013)"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "Doctor Who Specials (2013)"
+          episodes: 2
+          ownership_status: "not_owned"
+        - title: "Doctor Who S8 (2014)"
+          episodes: 12
+          ownership_status: "not_owned"
+        - title: "Doctor Who S9 (2015)"
+          episodes: 12
+          ownership_status: "not_owned"
+        - title: "Doctor Who S10 (2017)"
+          episodes: 12
+          ownership_status: "not_owned"
+        - title: "Doctor Who S11 (2018)"
+          episodes: 10
+          ownership_status: "not_owned"
+        - title: "Doctor Who S12 (2020)"
+          episodes: 10
+          ownership_status: "not_owned"
+        - title: "Doctor Who S13 (2021)"
+          episodes: 6
+          ownership_status: "not_owned"
+        - title: "Doctor Who Specials (2022)"
+          episodes: 3
+          ownership_status: "not_owned"
+
+    - title: "Doctor Who (2023 - x)"
+      director: "Russell T Davies"
+      seasons:
+        - title: "Doctor Who Specials (2023)"
+          episodes: 3
+          ownership_status: "not_owned"
+        - title: "Doctor Who S14 (2024)"
+          episodes: 9
+          ownership_status: "not_owned"
+        - title: "Doctor Who S15 (2025)"
+          episodes: 9
+          ownership_status: "not_owned"
+
+  comedy:
+    - title: "Cunk on Earth"
+      director: "Charlie Brooker"
+      seasons:
+        - title: "Cunk on Earth"
+          episodes: 5
+          ownership_status: "not_owned"
+
   animation_west:
+    - title: "Dofus: Aux trésors de Kerubim"
+      studio: "Ankama Animations"
+      seasons:
+        - title: "Dofus: Aux trésors de Kerubim"
+          episodes: 52
+          ownership_status: "not_owned"
+
+    - title: "Secret Level"
+      director: "Tim Miller"
+      seasons:
+        - title: "Secret Level"
+          episodes: 15
+          ownership_status: "not_owned"
+
+    - title: "Scavengers Reign"
+      director: "Joseph Bennett, Charles Huettner"
+      seasons:
+        - title: "Scavengers Reign"
+          episodes: 12
+          ownership_status: "not_owned"
+
+    - title: "Love, Death and Robots"
+      seasons:
+        - title: "Love, Death and Robots S1"
+          episodes: 18
+          ownership_status: "not_owned"
+        - title: "Love, Death and Robots S2"
+          episodes: 8
+          ownership_status: "not_owned"
+        - title: "Love, Death and Robots S3"
+          episodes: 9
+          ownership_status: "not_owned"
+
     - title: "Invincible (2021)"
       director: "Robert Kirkman"
       seasons:
@@ -3135,7 +3329,7 @@ series:
       seasons:
         - title: "The Midnight Gospel"
           episodes: 8
-          ownership_status: "owned"
+          ownership_status: "not_owned"
 
     - title: "Les Simpsons"
       director: "Matt Groening"
@@ -3247,6 +3441,27 @@ series:
           ownership_status: "not_owned"
 
   animation_jp:
+    - title: "La Réceptionniste Pokémon"
+      director: "Iku Ogawa"
+      seasons:
+        - title: "La Réceptionniste Pokémon"
+          episodes: 4
+          ownership_status: "owned"
+
+    - title: "Kaiba"
+      director: "Masaaki Yuasa"
+      seasons:
+        - title: "Kaiba"
+          episodes: 12
+          ownership_status: "not_owned"
+
+    - title: "Devilman Crybaby"
+      director: "Masaaki Yuasa"
+      seasons:
+        - title: "Devilman Crybaby"
+          episodes: 10
+          ownership_status: "not_owned"
+
     - title: "Cowboy Bebop"
       director: "Shinichirō Watanabe"
       seasons:
@@ -3287,7 +3502,7 @@ series:
       seasons:
         - title: "The Tatami Time Machine Blues"
           episodes: 6
-          ownership_status: "not_owned"
+          ownership_status: "owned"
 
     - title: "Sonny Boy"
       studio: "Madhouse"
