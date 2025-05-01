@@ -3818,7 +3818,7 @@ series:
           episodes: 8
           ownership_status: "not_owned"
 
-  animation_west:
+  animation:
     - title: "Souvenirs de Gravity Falls"
       director: "Alex Hirsch"
       seasons:
