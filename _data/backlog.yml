@@ -3030,6 +3030,18 @@ films:
           ownership_status: "not_owned"
 
   animation_jp:
+    - series: "Ghost in the Shell"
+      director: "Mamoru Oshii"
+      films:
+        - title: "Ghost in the Shell (1995)"
+          ownership_status: "not_owned"
+
+    - series: "Angel's Egg"
+      studio: "Studio Deen"
+      films:
+        - title: "Angel's Egg"
+          ownership_status: "not_owned"
+
     - series: "Le Roi des ronces"
       studio: "Sunrise"
       films:
@@ -3094,6 +3106,12 @@ films:
         - title: "Puella Magi Madoka Magica the Movie: Eternal"
           ownership_status: "not_owned"
         - title: "Puella Magi Madoka Magica the Movie: Rebellion"
+          ownership_status: "not_owned"
+
+    - series: "Le Château de Cagliostro"
+      director: "Hayao Miyazaki"
+      films:
+        - title: "Le Château de Cagliostro (1979)"
           ownership_status: "not_owned"
 
     - series: "Studio Ghibli"
@@ -3441,6 +3459,127 @@ series:
           ownership_status: "not_owned"
 
   animation_jp:
+    - title: "Haibane Renmei"
+      studio: "Radix"
+      seasons:
+        - title: "Haibane Renmei"
+          episodes: 13
+          ownership_status: "not_owned"
+
+    - title: "Tokyo Magnitude 8.0"
+      studio: "Bones"
+      seasons:
+        - title: "Tokyo Magnitude 8.0"
+          episodes: 11
+          ownership_status: "not_owned"
+
+    - title: "Sarazanmai"
+      studio: "MAPPA"
+      seasons:
+        - title: "Sarazanmai"
+          episodes: 11
+          ownership_status: "not_owned"
+
+    - title: "Texhnolyze"
+      studio: "Madhouse"
+      seasons:
+        - title: "Texhnolyze"
+          episodes: 22
+          ownership_status: "not_owned"
+
+    - title: "Mawaru-Penguindrum"
+      studio: "Brain's Base"
+      seasons:
+        - title: "Mawaru-Penguindrum"
+          episodes: 24
+          ownership_status: "not_owned"
+
+    - title: "Aria the Animation"
+      studio: "Hal Film Maker"
+      seasons:
+        - title: "Aria the Animation"
+          episodes: 13
+          ownership_status: "not_owned"
+
+    - title: "Ergo Proxy"
+      studio: "Manglobe"
+      seasons:
+        - title: "Ergo Proxy"
+          episodes: 23
+          ownership_status: "not_owned"
+
+    - title: "Code Geass: Lelouch of the Rebellion"
+      studio: "Sunrise"
+      seasons:
+        - title: "Code Geass: Lelouch of the Rebellion"
+          episodes: 25
+          ownership_status: "not_owned"
+        - title: "Code Geass: Lelouch of the Rebellion R2"
+          episodes: 25
+          ownership_status: "not_owned"
+
+    - title: "Serial Experiments Lain"
+      studio: "Ryūtarō Nakamura"
+      seasons:
+        - title: "Serial Experiments Lain"
+          episodes: 13
+          ownership_status: "not_owned"
+
+    - title: "Nichijou"
+      studio: "Kyoto Animation"
+      seasons:
+        - title: "Nichijou"
+          episodes: 26
+          ownership_status: "not_owned"
+
+    - title: "Mononoke"
+      studio: "Toei Animation"
+      seasons:
+        - title: "Mononoke"
+          episodes: 12
+          ownership_status: "not_owned"
+
+    - title: "FLCL"
+      studio: "Gainax"
+      seasons:
+        - title: "FLCL"
+          episodes: 6
+          ownership_status: "not_owned"
+
+    - title: "Kill la Kill"
+      studio: "Trigger"
+      seasons:
+        - title: "Kill la Kill"
+          episodes: 24
+          ownership_status: "not_owned"
+
+    - title: "Mob Psycho 100"
+      studio: "Bones"
+      seasons:
+        - title: "Mob Psycho 100"
+          episodes: 12
+          ownership_status: "not_owned"
+        - title: "Mob Psycho 100 II"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "Mob Psycho 100 III"
+          episodes: 12
+          ownership_status: "not_owned"
+
+    - title: "Gurren Lagann"
+      studio: "Gainax"
+      seasons:
+        - title: "Gurren Lagann"
+          episodes: 27
+          ownership_status: "not_owned"
+
+    - title: "Jojo's Bizarre Adventure"
+      director: "Hirohiko Araki"
+      seasons:
+        - title: "JoJo's Bizarre Adventure: Stone Ocean"
+          episodes: 38
+          ownership_status: "not_owned"
+
     - title: "La Réceptionniste Pokémon"
       director: "Iku Ogawa"
       seasons:
