@@ -6,6 +6,7 @@ title: Backlog
   <ul>
     {% for section in site.data.backlog %}
       {% assign section_key = section[0] %}
+
       <li>
         <a href="#{{ section_key }}">{{ site.data.translations.backlog[section_key] }}</a>
 
@@ -14,15 +15,24 @@ title: Backlog
           <ul>
             {% for category in categories %}
               {% assign category_key = category[0] %}
-              <li>
-                <a href="#{{ section_key }}-{{ category_key }}">
-                  {% assign translation_key = section_key | append: '_categories' %}
-                  {{ site.data.translations.backlog[translation_key][category_key] }}
-                </a>
-              </li>
+              {% assign category_items = category[1] %}
+
+              {% if category_items.size > 0 %}
+                <li>
+                  <a href="#{{ section_key }}-{{ category_key }}">
+                    {% assign translation_key = section_key | append: '_categories' %}
+                    {% if site.data.translations.backlog[translation_key] and site.data.translations.backlog[translation_key][category_key] %}
+                      {{ site.data.translations.backlog[translation_key][category_key] }}
+                    {% else %}
+                      {{ category_key }}_untranslated
+                    {% endif %}
+                  </a>
+                </li>
+              {% endif %}
+
             {% endfor %}
           </ul>
-        {% endif %}
+        {% endif %}     
       </li>
     {% endfor %}
   </ul>
@@ -176,14 +186,17 @@ title: Backlog
   {% endfor %}
 </div>
 
-<div id="films" class="backlog-section films-section">
+{% assign films_section_id = 'films' %}
+<div id="{{films_section_id}}" class="backlog-section films-section">
   <h2><i class="fa-solid fa-film category-icon film-icon"></i> {{ site.data.translations.backlog.films }}</h2>
   {% for category in site.data.backlog.films %}
     {% assign subcategory_name = category[0] %}
     {% assign subcategory_films = category[1] %}
 
     {% if subcategory_films.size > 0 %}
-      <h3>{{ site.data.translations.backlog.media_genres[subcategory_name] }}</h3>
+      <h3 id="{{films_section_id}}-{{ subcategory_name }}">
+        {{ site.data.translations.backlog.films_categories[subcategory_name] }}
+      </h3>
 
       {% assign subcategory_films_sorted = subcategory_films | sort: 'series' %}
 
@@ -256,7 +269,9 @@ title: Backlog
   {% endfor %}
 </div>
 
-<div id="series" class="backlog-section series-section">
+
+{% assign series_section_id = 'series' %}
+<div id="{{series_section_id}}" class="backlog-section series-section">
   <h2><i class="fa-solid fa-tv category-icon series-icon"></i> {{ site.data.translations.backlog.series }}</h2>
 
   {% for subcategory in site.data.backlog.series %}
@@ -264,7 +279,9 @@ title: Backlog
     {% assign subcategory_series = subcategory[1] %}
 
     {% if subcategory_series.size > 0 %}
-      <h3>{{ site.data.translations.backlog.media_genres[subcategory_name] }}</h3>
+      <h3 id="{{series_section_id}}-{{ subcategory_name }}">
+        {{ site.data.translations.backlog.series_categories[subcategory_name] }}
+      </h3>
 
       {% assign subcategory_series_sorted = subcategory_series | sort: 'title' %}
 
@@ -326,7 +343,8 @@ title: Backlog
   {% endfor %}
 </div>
 
-<div id="misc" class="backlog-section misc-section">
+{% assign misc_section_id = 'misc' %}
+<div id="{{misc_section_id}}" class="backlog-section misc-section">
   <h2><i class="fa-solid fa-star category-icon default-icon"></i> {{ site.data.translations.backlog.misc }}</h2>
   <ul>
     {% for item in site.data.backlog.misc %}

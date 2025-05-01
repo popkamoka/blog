@@ -405,10 +405,31 @@ a {
   top: 1rem;
   right: 1rem;
   width: 200px;
+  max-height: 80vh;
   padding: 1rem;
   border: 1px solid $separator-color;
   background: rgba(255, 255, 255, 0.95);
   font-size: 0.9rem;
+  overflow-y: auto;
+
+  /* Custom scrollbar styling */
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 4px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: #a1a1a1;
+  }
 }
 
 #backlog-toc ul {

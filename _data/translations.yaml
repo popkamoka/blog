@@ -129,7 +129,24 @@ backlog:
   films: "Films"
   series: "Séries"
 
-  media_genres:
+  films_categories:
+    action: "Action"
+    adventure: "Aventure"
+    comedy: "Comédie"
+    drama: "Drame"
+    horror: "Horreur"
+    mystery: "Mystère"
+    romance: "Romance"
+    sci_fi: "Science-fiction"
+    thriller: "Thriller"
+    fantasy: "Fantastique"
+    animation: "Animation"
+    documentary: "Documentaire"
+    animation_west: "Animation (WEST)"
+    animation_jp: "Animation (JP)"
+    theater: "Théâtre"
+
+  series_categories:
     action: "Action"
     adventure: "Aventure"
     comedy: "Comédie"
