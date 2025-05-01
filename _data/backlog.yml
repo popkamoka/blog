@@ -2980,6 +2980,26 @@ films:
           ownership_status: "owned"
 
   animation_jp:
+    - series: "La Belladone de la tristesse"
+      director: "Eiichi Yamamoto"
+      films:
+        - title: "La Belladone de la tristesse"
+          ownership_status: "not_owned"
+
+    - series: "Utena: L'apocalypse de l'adolescence"
+      director: "Kunihiko Ikuhara"
+      films:
+        - title: "Utena: L'apocalypse de l'adolescence"
+          ownership_status: "not_owned"
+
+    - series: "Cardcaptor Sakura"
+      director: "Morio Asaka"
+      films:
+        - title: "Cardcaptor Sakura: The Movie"
+          ownership_status: "not_owned"
+        - title: "Cardcaptor Sakura: The Movie 2 - The Sealed Card"
+          ownership_status: "not_owned"
+
     - series: "Akira"
       director: "Katsuhiro Ōtomo"
       films:
@@ -3018,6 +3038,76 @@ films:
         - title: "Puella Magi Madoka Magica the Movie: Eternal"
           ownership_status: "not_owned"
         - title: "Puella Magi Madoka Magica the Movie: Rebellion"
+          ownership_status: "not_owned"
+
+    - series: "Studio Ghibli"
+      director: "Hayao Miyazaki, Isao Takahata"
+      films:
+        - title: "Nausicaä de la Vallée du Vent (1984)"
+          ownership_status: "not_owned"
+        - title: "Le Château dans le ciel (1986)"
+          ownership_status: "not_owned"
+        - title: "Mon voisin Totoro (1988)"
+          ownership_status: "not_owned"
+        - title: "Le Tombeau des lucioles (1988)"
+          ownership_status: "not_owned"
+        - title: "Kiki la petite sorcière (1989)"
+          ownership_status: "not_owned"
+        - title: "Souvenirs goutte à goutte (1991)"
+          ownership_status: "not_owned"
+        - title: "Porco Rosso (1992)"
+          ownership_status: "not_owned"
+        - title: "Je peux entendre l'océan (1993)"
+          ownership_status: "not_owned"
+        - title: "Pompoko (1994)"
+          ownership_status: "not_owned"
+        - title: "Si tu tends l'oreille (1995)"
+          ownership_status: "not_owned"
+        - title: "Princesse Mononoké (1997)"
+          ownership_status: "not_owned"
+        - title: "Mes voisins les Yamada (1999)"
+          ownership_status: "not_owned"
+        - title: "Le Voyage de Chihiro (2001)"
+          ownership_status: "not_owned"
+        - title: "Le Royaume des chats (2002)"
+          ownership_status: "not_owned"
+        - title: "Le Château ambulant (2004)"
+          ownership_status: "not_owned"
+        - title: "Les Contes de Terremer (2006)"
+          ownership_status: "not_owned"
+        - title: "Ponyo sur la falaise (2008)"
+          ownership_status: "not_owned"
+        - title: "Arrietty, le petit monde des chapardeurs (2010)"
+          ownership_status: "not_owned"
+        - title: "La Colline aux coquelicots (2011)"
+          ownership_status: "not_owned"
+        - title: "Le vent se lève (2013)"
+          ownership_status: "not_owned"
+        - title: "Le Conte de la princesse Kaguya (2013)"
+          ownership_status: "not_owned"
+        - title: "Souvenirs de Marnie (2014)"
+          ownership_status: "not_owned"
+        - title: "Aya et la Sorcière (2020)"
+          ownership_status: "not_owned"
+        - title: "Le Garçon et le Héron (2023)"
+          ownership_status: "not_owned"
+
+    - series: "Perfect Blue"
+      director: "Satoshi Kon"
+      films:
+        - title: "Perfect Blue"
+          ownership_status: "not_owned"
+
+    - series: "Millenium Actress"
+      director: "Satoshi Kon"
+      films:
+        - title: "Millennium Actress"
+          ownership_status: "not_owned"
+
+    - series: "Tokyo Godfathers"
+      director: "Satoshi Kon"
+      films:
+        - title: "Tokyo Godfathers"
           ownership_status: "not_owned"
 
   theater:
@@ -3157,6 +3247,41 @@ series:
           ownership_status: "not_owned"
 
   animation_jp:
+    - title: "Cowboy Bebop"
+      director: "Shinichirō Watanabe"
+      seasons:
+        - title: "Cowboy Bebop"
+          episodes: 26
+          ownership_status: "not_owned"
+
+    - title: "Space Dandy"
+      director: "Shinichirō Watanabe"
+      seasons:
+        - title: "Space Dandy"
+          episodes: 26
+          ownership_status: "not_owned"
+
+    - title: "Kids on the Slope"
+      director: "Shinichirō Watanabe"
+      seasons:
+        - title: "Kids on the Slope"
+          episodes: 12
+          ownership_status: "not_owned"
+
+    - title: "Carole et Tuesday"
+      director: "Shinichirō Watanabe"
+      seasons:
+        - title: "Carole et Tuesday"
+          episodes: 24
+          ownership_status: "not_owned"
+
+    - title: "Lazarus Project"
+      director: "Shinichirō Watanabe"
+      seasons:
+        - title: "Lazarus Project"
+          episodes: 12
+          ownership_status: "not_owned"
+
     - title: "The Tatami Time Machine Blues"
       studio: "Science SARU"
       seasons:
@@ -3190,6 +3315,30 @@ series:
       seasons:
         - title: "Puella Magi Madoka Magica"
           episodes: 12
+          ownership_status: "not_owned"
+
+    - title: "Paranoia Agent"
+      studio: "Madhouse"
+      seasons:
+        - title: "Paranoia Agent"
+          episodes: 13
+          ownership_status: "not_owned"
+
+    - title: "Cardcaptor Sakura"
+      studio: "Madhouse"
+      seasons:
+        - title: "Cardcaptor Sakura"
+          episodes: 70
+          ownership_status: "not_owned"
+        - title: "Cardcaptor Sakura: Clear Card"
+          episodes: 22
+          ownership_status: "not_owned"
+
+    - title: "Utena: La fillette révolutionnaire"
+      studio: "J.C. Staff"
+      seasons:
+        - title: "Utena: La fillette révolutionnaire"
+          episodes: 39
           ownership_status: "not_owned"
 
 misc:

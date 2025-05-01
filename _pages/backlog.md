@@ -261,12 +261,15 @@ title: Backlog
 
   {% for subcategory in site.data.backlog.series %}
     {% assign subcategory_name = subcategory[0] %}
-    {% assign series = subcategory[1] %}
+    {% assign subcategory_series = subcategory[1] %}
 
-    {% if series.size > 0 %}
+    {% if subcategory_series.size > 0 %}
       <h3>{{ site.data.translations.backlog.media_genres[subcategory_name] }}</h3>
+
+      {% assign subcategory_series_sorted = subcategory_series | sort: 'title' %}
+
       <ul>
-        {% for serie in series %}
+        {% for serie in subcategory_series_sorted %}
           <li>
             {% assign series_seasons_count = serie.seasons.size %}
             {% if series_seasons_count > 1 %}
