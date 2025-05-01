@@ -2973,6 +2973,18 @@ films:
           ownership_status: "not_owned"
 
   drama:
+    - series: "Black Swan"
+      director: "Darren Aronofsky"
+      films:
+        - title: "Black Swan (2010)"
+          ownership_status: "not_owned"
+
+    - series: "Le monde de Charlie"
+      director: "Stephen Chbosky"
+      films:
+        - title: "Le monde de Charlie (2012)"
+          ownership_status: "not_owned"
+
     - series: "Big Eyes"
       director: "Tim Burton"
       films:
@@ -3064,6 +3076,12 @@ films:
           ownership_status: "not_owned"
 
   sci_fi:
+    - series: "2001: L'Odyssée de l'espace"
+      director: "Stanley Kubrick"
+      films:
+        - title: "2001: L'Odyssée de l'espace (1968)"
+          ownership_status: "not_owned"
+
     - series: "Inception"
       director: "Christopher Nolan"
       films:
@@ -3114,7 +3132,20 @@ films:
         - title: "Le cinquième élément (1997)"
           ownership_status: "not_owned"
 
+  thriller:
+    - series: "Le loup de Wall Street"
+      director: "Martin Scorsese"
+      films:
+        - title: "Le loup de Wall Street (2013)"
+          ownership_status: "not_owned"
+
   comedy:
+    - series: "Le Fabuleux Destin d'Amélie Poulain"
+      director: "Jean-Pierre Jeunet"
+      films:
+        - title: "Le Fabuleux Destin d'Amélie Poulain (2001)"
+          ownership_status: "not_owned"
+
     - series: "Beetlejuice"
       director: "Tim Burton"
       films:
