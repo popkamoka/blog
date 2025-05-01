@@ -2965,6 +2965,13 @@ games:
           ownership_status: "not_owned"
 
 films:
+  sci_fi:
+    - series: "Bienvenue à Gattaca"
+      director: "Andrew Niccol"
+      films:
+        - title: "Bienvenue à Gattaca (1997)"
+          ownership_status: "not_owned"
+
   comedy:
     - series: "Paddington"
       director: "Paul King"
@@ -2984,6 +2991,34 @@ films:
       films:
         - title: "Metropolis"
           ownership_status: "owned"
+
+    - series: "The End of Evangelion"
+      director: "Hideaki Anno"
+      films:
+        - title: "The End of Evangelion"
+          ownership_status: "not_owned"
+
+    - series: "Rebuild of Evangelion"
+      director: "Hideaki Anno"
+      films:
+        - title: "Evangelion 1.0: You Are (Not) Alone"
+          ownership_status: "not_owned"
+        - title: "Evangelion 2.0: You Can (Not) Advance"
+          ownership_status: "not_owned"
+        - title: "Evangelion 3.0: You Can (Not) Redo"
+          ownership_status: "not_owned"
+        - title: "Evangelion: 3.0+1.0 Thrice Upon a Time"
+          ownership_status: "not_owned"
+
+    - series: "Puella Magi Madoka Magica the Movie"
+      director: "Akiyuki Shinbo"
+      films:
+        - title: "Puella Magi Madoka Magica the Movie: Beginnings"
+          ownership_status: "not_owned"
+        - title: "Puella Magi Madoka Magica the Movie: Eternal"
+          ownership_status: "not_owned"
+        - title: "Puella Magi Madoka Magica the Movie: Rebellion"
+          ownership_status: "not_owned"
 
   theater:
     - series: "La flûte enchantée"
@@ -3005,18 +3040,155 @@ series:
           episodes: 8
           ownership_status: "not_owned"
 
+    - title: "The Midnight Gospel"
+      director: "Pendleton Ward, Duncan Trussell"
+      seasons:
+        - title: "The Midnight Gospel"
+          episodes: 8
+          ownership_status: "owned"
+
+    - title: "Les Simpsons"
+      director: "Matt Groening"
+      seasons:
+        - title: "Les Simpsons S1"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S2"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S3"
+          episodes: 24
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S4"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S5"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S6"
+          episodes: 25
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S7"
+          episodes: 25
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S8"
+          episodes: 25
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S9"
+          episodes: 25
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S10"
+          episodes: 23
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S11"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S12"
+          episodes: 21
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S13"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S14"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S15"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S16"
+          episodes: 21
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S17"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S18"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S19"
+          episodes: 20
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S20"
+          episodes: 21
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S21"
+          episodes: 23
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S22"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S23"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S24"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S25"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S26"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S27"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S28"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S29"
+          episodes: 21
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S30"
+          episodes: 23
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S31"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S32"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S33"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S34"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S35"
+          episodes: 18
+          ownership_status: "not_owned"
+
   animation_jp:
     - title: "The Tatami Time Machine Blues"
       studio: "Science SARU"
       seasons:
         - title: "The Tatami Time Machine Blues"
-          episodes: 5
+          episodes: 6
           ownership_status: "not_owned"
 
     - title: "Sonny Boy"
       studio: "Madhouse"
       seasons:
         - title: "Sonny Boy"
+          episodes: 12
+          ownership_status: "not_owned"
+
+    - title: "Nadia, le secret de l'eau bleue"
+      studio: "Gainax"
+      seasons:
+        - title: "Nadia, le secret de l'eau bleue"
+          episodes: 39
+          ownership_status: "not_owned"
+
+    - title: "Neon Genesis Evangelion"
+      studio: "Gainax"
+      seasons:
+        - title: "Neon Genesis Evangelion"
+          episodes: 26
+          ownership_status: "not_owned"
+
+    - title: "Puella Magi Madoka Magica"
+      studio: "SHAFT"
+      seasons:
+        - title: "Puella Magi Madoka Magica"
           episodes: 12
           ownership_status: "not_owned"
 
