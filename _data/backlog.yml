@@ -2973,6 +2973,36 @@ films:
           ownership_status: "not_owned"
 
   drama:
+    - series: "Old Boy"
+      director: "Park Chan-wook"
+      films:
+        - title: "Old Boy (2003)"
+          ownership_status: "not_owned"
+
+    - series: "Shining"
+      director: "Stanley Kubrick"
+      films:
+        - title: "Shining (1980)"
+          ownership_status: "not_owned"
+
+    - series: "La cité de Dieu"
+      director: "Fernando Meirelles, Kátia Lund"
+      films:
+        - title: "La cité de Dieu (2002)"
+          ownership_status: "not_owned"
+
+    - series: "Vol au-dessus d'un nid de coucou"
+      director: "Milos Forman"
+      films:
+        - title: "Vol au-dessus d'un nid de coucou (1975)"
+          ownership_status: "not_owned"
+
+    - series: "La liste de Schindler"
+      director: "Steven Spielberg"
+      films:
+        - title: "La liste de Schindler (1993)"
+          ownership_status: "not_owned"
+
     - series: "Black Swan"
       director: "Darren Aronofsky"
       films:
@@ -3010,6 +3040,18 @@ films:
         - title: "Kill Bill: Volume 1 (2003)"
           ownership_status: "not_owned"
         - title: "Kill Bill: Volume 2 (2004)"
+          ownership_status: "not_owned"
+
+    - series: "Matrix"
+      director: "Sœurs Wachowski"
+      films:
+        - title: "The Matrix (1999)"
+          ownership_status: "not_owned"
+        - title: "The Matrix Reloaded (2003)"
+          ownership_status: "not_owned"
+        - title: "The Matrix Revolutions (2003)"
+          ownership_status: "not_owned"
+        - title: "The Matrix Resurrections (2021)"
           ownership_status: "not_owned"
 
   fantasy:
@@ -3133,6 +3175,12 @@ films:
           ownership_status: "not_owned"
 
   thriller:
+    - series: "Le silence des agneaux"
+      director: "Jonathan Demme"
+      films:
+        - title: "Le silence des agneaux (1991)"
+          ownership_status: "not_owned"
+
     - series: "Le loup de Wall Street"
       director: "Martin Scorsese"
       films:
@@ -3746,7 +3794,38 @@ series:
           episodes: 5
           ownership_status: "not_owned"
 
+  thriller:
+    - title: "Severance"
+      director: "Dan Erickson"
+      seasons:
+        - title: "Severance S1 (2022)"
+          episodes: 9
+          ownership_status: "not_owned"
+        - title: "Severance S2 (2025)"
+          episodes: 10
+          ownership_status: "not_owned"
+
+    - title: "Dark"
+      director: "Baran bo Odar, Jantje Friese"
+      seasons:
+        - title: "Dark S1 (2017)"
+          episodes: 10
+          ownership_status: "not_owned"
+        - title: "Dark S2 (2019)"
+          episodes: 8
+          ownership_status: "not_owned"
+        - title: "Dark S3 (2020)"
+          episodes: 8
+          ownership_status: "not_owned"
+
   animation_west:
+    - title: "Souvenirs de Gravity Falls"
+      director: "Alex Hirsch"
+      seasons:
+        - title: "Souvenirs de Gravity Falls"
+          episodes: 41
+          ownership_status: "not_owned"
+
     - title: "Dofus: Aux trésors de Kerubim"
       studio: "Ankama Animations"
       seasons:
