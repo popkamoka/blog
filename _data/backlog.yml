@@ -462,7 +462,7 @@ books:
           - title: "Maliki T5 - Prismatique"
             ownership_status: "owned"
           - title: "Maliki T6 - Cristallisation"
-            ownership_status: "not_owned"
+            ownership_status: "owned"
           - title: "Maliki T7.1 - Hanami"
             ownership_status: "owned"
           - title: "Maliki - Blog 1"
@@ -1964,13 +1964,6 @@ games:
         - title: "Nine Sols"
           studio: "Red Candle Games"
           ownership_status: "not_owned"
-
-    - series: "Inscryption"
-      studio: "Daniel Mullins Games"
-      games:
-        - title: "Inscryption"
-          studio: "Daniel Mullins Games"
-          ownership_status: "owned"
 
     - series: "Resident Evil"
       studio: "Capcom"
