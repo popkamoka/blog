@@ -1081,6 +1081,17 @@ books:
             price: 7.95
 
     casterman:
+      - series: "Gloutons et dragons"
+        author: "Ryoko Kui"
+        price: 8.45
+        books:
+          - title: "Gloutons et dragons - T1"
+            ownership_status: "not_owned"
+            price: 8.45
+          - title: "Gloutons et dragons - T2 -> T14"
+            ownership_status: "not_owned"
+            price: 8.45
+
       - series: "Les Enfants de l'araignée"
         author: "Mario Tamura"
         price: 27
@@ -1127,6 +1138,14 @@ books:
             price: 7.25
 
     delcourt:
+      - series: "La fin du système"
+        author: "Takeshi Natsuhara (Scénario), Shinobu Kaitani (Dessins)"
+        price: 8.55
+        books:
+          - title: "La fin du système - T1"
+            ownership_status: "not_owned"
+            price: 8.55
+
       - series: "Gantz - Perfect Edition"
         author: "Hiroya Oku"
         price: 15.99
@@ -1519,6 +1538,28 @@ books:
             ownership_status: "owned"
 
     ki-oon:
+      - series: "Les liens du sang"
+        author: "Shuzo Oshimi"
+        price: 7.95
+        books:
+          - title: "Les liens du sang - T1"
+            ownership_status: "not_owned"
+            price: 7.95
+          - title: "Les liens du sang - T2 -> T17"
+            ownership_status: "not_owned"
+            price: 7.95
+
+      - series: "Les chefs-d'oeuvre de Lovecraft"
+        author: "Gō Tanabe"
+        price: 18
+        books:
+          - title: "Les montagnes hallucinées - T1"
+            ownership_status: "not_owned"
+            price: 18.55
+          - title: "Les montagnes hallucinées - T2"
+            ownership_status: "not_owned"
+            price: 18.55
+
       - series: "Last Hero Inuyashiki"
         author: "Hiroya Oku"
         price: 7.95
@@ -1574,6 +1615,17 @@ books:
             price: 19
 
     panini:
+      - series: "Shibatarian"
+        author: "Katsuya Iwamuro"
+        price: 7.3
+        books:
+          - title: "Shibatarian - T1"
+            ownership_status: "not_owned"
+            price: 7.3
+          - title: "Shibatarian - T2 -> T4"
+            ownership_status: "not_owned"
+            price: 7.3
+
       - series: "20th Century Boys Perfect Edition"
         author: "Naoki Urasawa"
         price: 16.99
@@ -1642,6 +1694,23 @@ books:
           - title: "GTO - T2 -> T25"
             ownership_status: "not_owned"
             price: 7.2
+
+    label_619:
+      - series: "Shin Zero"
+        author: "Mathieu Bablet, Guillaume Singelin"
+        books:
+          - title: "Shin Zero"
+            ownership_status: "not_owned"
+            price: 13.9
+
+    soleil:
+      - series: "Dorohedoro - Chaos edition"
+        author: "Q Hayashida"
+        price: 20.1
+        books:
+          - title: "Dorohedoro - Chaos edition - T1"
+            ownership_status: "not_owned"
+            price: 20.1
 
     junji_ito:
       - series: "Œuvres de Junji Ito"
@@ -1807,6 +1876,30 @@ books:
           - title: "Le voyage de Shuna"
             ownership_status: "not_owned"
             price: 25
+
+      - series: "Mère Cosmos"
+        author: "Minoru Sugiyama"
+        books:
+          - title: "Mère Cosmos"
+            ownership_status: "not_owned"
+            price: 16
+
+      - series: "Planetarium Ghost Travel"
+        author: "Sakana Sakatsuki"
+        books:
+          - title: "Planetarium Ghost Travel - T1"
+            ownership_status: "not_owned"
+            price: 12.9
+
+      - series: "LOST GODS"
+        author: "Evergreen Yeh"
+        books:
+          - title: "LOST GODS"
+            ownership_status: "not_owned"
+            price: 11
+          - title: "LOST GODS - MAXA, LA SORCIERE AUX YEUX DE CHAT"
+            ownership_status: "not_owned"
+            price: 11
 
   misc:
     essay:
