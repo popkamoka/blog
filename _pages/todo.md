@@ -6,6 +6,7 @@ title: Todo
 ### Œuvres en cours ou prévues prochainement
 - Jeu : Super Mario All-Stars
 - Jeu : Please Fix The Road
+- Jeu : Loop Hero
 - Roman: La course au mouton sauvage - Haruki Murakami
 - Anime: The Tatami Time Machine Blues
 
