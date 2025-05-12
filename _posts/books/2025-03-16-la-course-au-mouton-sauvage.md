@@ -13,13 +13,13 @@ ean: 9782264076533
 work_publication_date: 04/03/2021
 genre: roman
 cover: /assets/images/books/la-course-au-mouton-sauvage-haruki-murakami/cover.jpg
-rating:
+rating: 4
 
 ownership_status : owned
 ownership_format : physical
-progress_status: in_progress
+progress_status: completed
 start_date: X
-end_date: X
+end_date: 11/05/2025
 ---
 ## Résumé
 Sur la page promotionnelle d'une assurance-vie, un jeune publicitaire fraîchement divorcé insère la photo, en apparence banale, d'un troupeau de moutons. Mais l'un des animaux, qui porte sur sa laine une tache en forme d'étoile, suscite l'intérêt d'un homme en noir, proche collaborateur du Maître , un homme politique très puissant. Et voilà le jeune homme sommé - lourdes menaces à l'appui - de retrouver ce mystérieux mouton. Ainsi débute son voyage initiatique vers l'île de Hokkaido, avec pour compagne une jeune femme aux oreilles bouleversantes de perfection, un improbable jeu de piste dans un univers qui défie toute logique.
