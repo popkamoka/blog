@@ -7,7 +7,7 @@ title: Todo
 - Jeu : Super Mario All-Stars
 - Jeu : Please Fix The Road
 - Jeu : Loop Hero
-- Roman: La course au mouton sauvage - Haruki Murakami
+- Livre : ???
 - Anime: The Tatami Time Machine Blues
 
 ### Améliorations du blog
