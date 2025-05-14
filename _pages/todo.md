@@ -7,7 +7,7 @@ title: Todo
 - Jeu : Super Mario All-Stars
 - Jeu : Please Fix The Road
 - Jeu : Loop Hero
-- Livre : ???
+- Livre : L'alchimiste - Paulo Coelho
 - Anime: The Tatami Time Machine Blues
 
 ### Améliorations du blog
