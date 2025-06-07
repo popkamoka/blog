@@ -167,6 +167,7 @@ backlog:
   misc: "Autres"
 
   misc_categories:
+    games: "Jeux"
     art: "Art"
     music: "Musique"
 

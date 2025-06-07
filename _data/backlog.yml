@@ -4418,6 +4418,9 @@ series:
           ownership_status: "not_owned"
 
 misc:
+  games:
+    - title: "Tetsuya Mizuguchi"
+
   art:
     - title: "Architecture mauresque"
     - title: "Lotte Reiniger"
