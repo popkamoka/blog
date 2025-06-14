@@ -1,0 +1,1007 @@
+games:
+  pc:
+    - series: "Metaphor ReFantazio"
+      studio: "Atlus"
+      games:
+        - title: "Metaphor ReFantazio"
+          studio: "Atlus"
+          ownership_status: "owned"
+
+    - series: "Nine Sols"
+      studio: "Red Candle Games"
+      games:
+        - title: "Nine Sols"
+          studio: "Red Candle Games"
+          ownership_status: "not_owned"
+
+    - series: "Resident Evil"
+      studio: "Capcom"
+      games:
+        - title: "Resident Evil 0"
+          studio: "Capcom"
+          ownership_status: "owned"
+
+    - series: "Signalis"
+      studio: "rose-engine"
+      games:
+        - title: "Signalis"
+          studio: "rose-engine"
+          ownership_status: "not_owned"
+
+    - series: "Call of the Sea"
+      studio: "Out of the Blue Games"
+      games:
+        - title: "Call of the Sea"
+          studio: "Out of the Blue Games"
+          ownership_status: "not_owned"
+
+    - series: "Pepper Grinder"
+      studio: "Ahr Ech"
+      games:
+        - title: "Pepper Grinder"
+          studio: "Ahr Ech"
+          ownership_status: "not_owned"
+
+    - series: "The Operator"
+      studio: "Bureau 81"
+      games:
+        - title: "The Operator"
+          studio: "Bureau 81"
+          ownership_status: "not_owned"
+
+    - series: "Mouthwashing"
+      studio: "Wrong Organ"
+      games:
+        - title: "Mouthwashing"
+          studio: "Wrong Organ"
+          ownership_status: "not_owned"
+
+    - series: "The Hundred Line : Last Defense Academy"
+      studio: "Too Kyo Games"
+      games:
+        - title: "The Hundred Line : Last Defense Academy"
+          studio: "Too Kyo Games"
+          ownership_status: "not_owned"
+
+    - series: "Clair Obscur : Expedition 33"
+      studio: "Sandfall Interactive"
+      games:
+        - title: "Clair Obscur : Expedition 33"
+          studio: "Sandfall Interactive"
+          ownership_status: "not_owned"
+
+    - series: "Loop Hero"
+      studio: "Four Quarters"
+      games:
+        - title: "Loop Hero"
+          studio: "Four Quarters"
+          ownership_status: "owned"
+
+    - series: "Wattam"
+      studio: "Funomena"
+      games:
+        - title: "Wattam"
+          studio: "Funomena"
+          ownership_status: "owned"
+
+    - series: "DJMAX Respect V"
+      studio: "Neowiz"
+      games:
+        - title: "DJMAX Respect V"
+          studio: "Neowiz"
+          ownership_status: "owned"
+
+    - series: "Baldur's Gate 3"
+      studio: "Larian Studios"
+      games:
+        - title: "Baldur's Gate 3"
+          studio: "Larian Studios"
+          ownership_status: "owned"
+
+    - series: "Dofus"
+      studio: "Ankama"
+      games:
+        - title: "Dofus"
+          studio: "Ankama"
+          ownership_status: "owned"
+
+    - series: "Wakfu"
+      studio: "Ankama"
+      games:
+        - title: "Wakfu"
+          studio: "Ankama"
+          ownership_status: "owned"
+
+    - series: "Trackmania"
+      studio: "Ubisoft"
+      games:
+        - title: "Trackmania Turbo"
+          studio: "Ubisoft"
+          ownership_status: "owned"
+
+    - series: "Elden Ring (coop)"
+      studio: "From Software"
+      games:
+        - title: "Elden Ring (coop)"
+          studio: "From Software"
+          ownership_status: "owned"
+
+  nes:
+
+  megadrive:
+    - series: "Sonic the Hedgehog"
+      studio: "Sonic Team"
+      games:
+        - title: "Sonic the Hedgehog"
+          studio: "Sonic Team"
+          ownership_status: "owned"
+        - title: "Sonic the Hedgehog 2"
+          studio: "Sonic Team"
+          ownership_status: "owned"
+        - title: "Sonic the Hedgehog 3"
+          studio: "Sonic Team"
+          ownership_status: "owned"
+        - title: "Sonic & Knuckles"
+          studio: "Sonic Team"
+          ownership_status: "owned"
+        - title: "Sonic 3D Blast"
+          studio: "Sonic Team"
+          ownership_status: "owned"
+
+  gb:
+    - series: "Metroid II: Return of Samus"
+      studio: "Nintendo"
+      games:
+        - title: "Metroid II: Return of Samus (AM2R)"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+
+  snes:
+    - series: "Donkey Kong Country"
+      studio: "RARE"
+      games:
+        - title: "Donkey Kong Country"
+          studio: "RARE"
+          ownership_status: "owned"
+        - title: "Donkey Kong Country 2: Diddy's Kong Quest"
+          studio: "RARE"
+          ownership_status: "owned"
+        - title: "Donkey Kong Country 3: Dixie Kong's Double Trouble!"
+          studio: "RARE"
+          ownership_status: "owned"
+
+    - series: "EarthBound"
+      studio: "Ape, HAL Laboratory"
+      games:
+        - title: "EarthBound"
+          studio: "Ape, HAL Laboratory"
+          ownership_status: "owned"
+
+    - series: "Final Fantasy"
+      studio: "Square Enix"
+      games:
+        - title: "Final Fantasy VI"
+          studio: "Square Enix"
+          ownership_status: "owned"
+
+    - series: "Megaman"
+      studio: "Capcom"
+      games:
+        - title: "Megaman X"
+          studio: "Capcom"
+          ownership_status: "owned"
+
+    - series: "Pocky & Rocky"
+      studio: "Natsume"
+      games:
+        - title: "Pocky & Rocky"
+          studio: "Natsume"
+          ownership_status: "owned"
+        - title: "Pocky & Rocky 2"
+          studio: "Natsume"
+          ownership_status: "owned"
+
+    - series: "Secret of Mana"
+      studio: "Square Enix"
+      games:
+        - title: "Secret of Mana"
+          studio: "Square Enix"
+          ownership_status: "owned"
+
+    - series: "Mario"
+      studio: "Nintendo"
+      games:
+        - title: "Super Mario All-Stars"
+          studio: "Nintendo"
+          ownership_status: "owned"
+        - title: "Super Mario World"
+          studio: "Nintendo"
+          ownership_status: "owned"
+        - title: "Super Mario World 2: Yoshi's Island"
+          studio: "Nintendo"
+          ownership_status: "owned"
+
+    - series: "Super Metroid"
+      studio: "Nintendo"
+      games:
+        - title: "Super Metroid"
+          studio: "Nintendo"
+          ownership_status: "owned"
+
+  megacd:
+    - series: "Sonic CD"
+      studio: "Sonic Team"
+      games:
+        - title: "Sonic CD"
+          studio: "Sonic Team"
+          ownership_status: "owned"
+
+  psx:
+    - series: "Ape Escape"
+      studio: "Sony Computer Entertainment"
+      games:
+        - title: "Ape Escape"
+          studio: "Sony Computer Entertainment"
+          ownership_status: "owned"
+
+    - series: "Crash Bandicoot"
+      studio: "Naughty Dog"
+      games:
+        - title: "Crash Bandicoot 2: Cortex Strikes Back"
+          studio: "Naughty Dog"
+          ownership_status: "owned"
+        - title: "Crash Bandicoot 3: Warped"
+          studio: "Naughty Dog"
+          ownership_status: "owned"
+
+    - series: "Final Fantasy VII"
+      studio: "Square Enix"
+      games:
+        - title: "Final Fantasy VII"
+          studio: "Square Enix"
+          ownership_status: "owned"
+
+    - series: "Klonoa: Door to Phantomile"
+      studio: "Namco"
+      games:
+        - title: "Klonoa: Door to Phantomile"
+          studio: "Namco"
+          ownership_status: "owned"
+
+    - series: "Ghoul Panic"
+      studio: "Konami"
+      games:
+        - title: "Ghoul Panic"
+          studio: "Konami"
+          ownership_status: "owned"
+
+    - series: "Pac-Man World"
+      studio: "Namco"
+      games:
+        - title: "Pac-Man World"
+          studio: "Namco"
+          ownership_status: "owned"
+
+    - series: "Rayman"
+      studio: "Ubisoft"
+      games:
+        - title: "Rayman"
+          studio: "Ubisoft"
+          ownership_status: "owned"
+
+    - series: "Spyro the Dragon"
+      studio: "Insomniac Games"
+      games:
+        - title: "Spyro : Year of the Dragon"
+          studio: "Insomniac Games"
+          ownership_status: "owned"
+
+    - series: "Tombi!"
+      studio: "Whoopee Camp"
+      games:
+        - title: "Tombi!"
+          studio: "Whoopee Camp"
+          ownership_status: "owned"
+
+  gbc:
+
+  n64:
+    - series: "Space Station Silicon Valley"
+      studio: "Take-Two Interactive"
+      games:
+        - title: "Space Station Silicon Valley"
+          studio: "Take-Two Interactive"
+          ownership_status: "not_owned"
+
+    - series: "Yoshi's Story"
+      studio: "Nintendo"
+      games:
+        - title: "Yoshi's Story"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+
+    - series: "Banjo-Tooie"
+      studio: "Rare"
+      games:
+        - title: "Banjo-Kazooie"
+          studio: "Rare"
+          ownership_status: "not_owned"
+
+    - series: "The Legend of Zelda"
+      studio: "Nintendo"
+      games:
+        - title: "The Legend of Zelda: Ocarina of Time"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+        - title: "The Legend of Zelda: Majora's Mask"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+
+    - series: "Paper Mario"
+      studio: "Intelligent Systems"
+      games:
+        - title: "Paper Mario"
+          studio: "Intelligent Systems"
+          ownership_status: "not_owned"
+
+    - series: "Mischief Makers"
+      studio: "Treasure"
+      games:
+        - title: "Mischief Makers"
+          studio: "Treasure"
+          ownership_status: "not_owned"
+
+  dc:
+    - series: "Sonic Adventure"
+      studio: "Sonic Team"
+      games:
+        - title: "Sonic Adventure"
+          studio: "Sonic Team"
+          ownership_status: "not_owned"
+        - title: "Sonic Adventure 2"
+          studio: "Sonic Team"
+          ownership_status: "not_owned"
+
+    - series: "Space Channel 5"
+      studio: "Sega"
+      games:
+        - title: "Space Channel 5"
+          studio: "Sega"
+          ownership_status: "not_owned"
+
+    - series: "Rayman 2: The Great Escape"
+      studio: "Ubisoft"
+      games:
+        - title: "Rayman 2: The Great Escape"
+          studio: "Ubisoft"
+          ownership_status: "not_owned"
+
+  gc:
+    - series: "Metroid Prime"
+      studio: "Nintendo"
+      games:
+        - title: "Metroid Prime"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+        - title: "Metroid Prime 2: Echoes"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+
+    - series: "Pikmin"
+      studio: "Nintendo"
+      games:
+        - title: "Pikmin"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+        - title: "Pikmin 2"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+
+    - series: "The Legend of Zelda: The Wind Waker"
+      studio: "Nintendo"
+      games:
+        - title: "The Legend of Zelda: The Wind Waker"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+
+    - series: "Super Mario Sunshine"
+      studio: "Nintendo"
+      games:
+        - title: "Super Mario Sunshine"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+
+    - series: "Paper Mario: The Thousand-Year Door"
+      studio: "Intelligent Systems"
+      games:
+        - title: "Paper Mario: The Thousand-Year Door"
+          studio: "Intelligent Systems"
+          ownership_status: "not_owned"
+
+    - series: "The Legend of Zelda: Twilight Princess"
+      studio: "Nintendo"
+      games:
+        - title: "The Legend of Zelda: Twilight Princess"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+
+  ps2:
+    - series: "Sly Cooper"
+      studio: "Sucker Punch Productions"
+      games:
+        - title: "Sly Cooper and the Thievius Raccoonus"
+          studio: "Sucker Punch Productions"
+          ownership_status: "not_owned"
+        - title: "Sly 2: Band of Thieves"
+          studio: "Sucker Punch Productions"
+          ownership_status: "not_owned"
+        - title: "Sly 3: Honor Among Thieves"
+          studio: "Sucker Punch Productions"
+          ownership_status: "not_owned"
+
+    - series: "Ratchet & Clank"
+      studio: "Insomniac Games"
+      games:
+        - title: "Ratchet & Clank"
+          studio: "Insomniac Games"
+          ownership_status: "not_owned"
+        - title: "Ratchet & Clank: Going Commando"
+          studio: "Insomniac Games"
+          ownership_status: "not_owned"
+        - title: "Ratchet & Clank: Up Your Arsenal"
+          studio: "Insomniac Games"
+          ownership_status: "not_owned"
+
+    - series: "SSX: On Tour"
+      studio: "EA Sports"
+      games:
+        - title: "SSX: On Tour"
+          studio: "EA Sports"
+          ownership_status: "not_owned"
+
+    - series: "Beyond Good & Evil"
+      studio: "Ubisoft"
+      games:
+        - title: "Beyond Good & Evil"
+          studio: "Ubisoft"
+          ownership_status: "not_owned"
+
+    - series: "Devil May Cry"
+      studio: "Capcom"
+      games:
+        - title: "Devil May Cry"
+          studio: "Capcom"
+          ownership_status: "not_owned"
+        - title: "Devil May Cry 2"
+          studio: "Capcom"
+          ownership_status: "not_owned"
+        - title: "Devil May Cry 3: Dante's Awakening"
+          studio: "Capcom"
+          ownership_status: "not_owned"
+
+    - series: "Ico"
+      studio: "Team Ico"
+      games:
+        - title: "Ico"
+          studio: "Team Ico"
+          ownership_status: "not_owned"
+
+    - series: "Shadow of the Colossus"
+      studio: "Team Ico"
+      games:
+        - title: "Shadow of the Colossus"
+          studio: "Team Ico"
+          ownership_status: "not_owned"
+
+    - series: "God of War"
+      studio: "Santa Monica Studio"
+      games:
+        - title: "God of War"
+          studio: "Santa Monica Studio"
+          ownership_status: "not_owned"
+        - title: "God of War II"
+          studio: "Santa Monica Studio"
+          ownership_status: "not_owned"
+
+    - series: "Prince of Persia"
+      studio: "Ubisoft"
+      games:
+        - title: "Prince of Persia: The Sands of Time"
+          studio: "Ubisoft"
+          ownership_status: "not_owned"
+        - title: "Prince of Persia: Warrior Within"
+          studio: "Ubisoft"
+          ownership_status: "not_owned"
+        - title: "Prince of Persia: The Two Thrones"
+          studio: "Ubisoft"
+          ownership_status: "not_owned"
+
+    - series: "Klonoa 2: Lunatea's Veil"
+      studio: "Namco"
+      games:
+        - title: "Klonoa 2: Lunatea's Veil"
+          studio: "Namco"
+          ownership_status: "not_owned"
+
+    - series: "Rayman 3: Hoodlum Havoc"
+      studio: "Ubisoft"
+      games:
+        - title: "Rayman 3: Hoodlum Havoc"
+          studio: "Ubisoft"
+          ownership_status: "not_owned"
+
+    - series: "Dark Cloud"
+      studio: "Level-5"
+      games:
+        - title: "Dark Cloud"
+          studio: "Level-5"
+          ownership_status: "not_owned"
+        - title: "Dark Chronicle"
+          studio: "Level-5"
+          ownership_status: "not_owned"
+
+    - series: "Dog's Life"
+      studio: "Frontier Developments"
+      games:
+        - title: "Dog's Life"
+          studio: "Frontier Developments"
+          ownership_status: "not_owned"
+
+    - series: "Rez"
+      studio: "United Game Artists"
+      games:
+        - title: "Rez"
+          studio: "United Game Artists"
+          ownership_status: "not_owned"
+
+    - series: "Pac-Man World 2"
+      studio: "Namco"
+      games:
+        - title: "Pac-Man World 2"
+          studio: "Namco"
+          ownership_status: "not_owned"
+
+    - series: "Whiplash"
+      studio: "Crystal Dynamics"
+      games:
+        - title: "Whiplash"
+          studio: "Crystal Dynamics"
+          ownership_status: "not_owned"
+
+    - series: "Sonic Heroes"
+      studio: "Sonic Team"
+      games:
+        - title: "Sonic Heroes"
+          studio: "Sonic Team"
+          ownership_status: "not_owned"
+
+    - series: "EyeToy"
+      studio: "Sony Computer Entertainment"
+      games:
+        - title: "EyeToy: Play"
+          studio: "Sony Computer Entertainment"
+          ownership_status: "not_owned"
+        - title: "EyeToy: Play 2"
+          studio: "Sony Computer Entertainment"
+          ownership_status: "not_owned"
+        - title: "EyeToy: Antigrav"
+          studio: "Sony Computer Entertainment"
+          ownership_status: "not_owned"
+        - title: "EyeToy: Play 3"
+          studio: "Sony Computer Entertainment"
+          ownership_status: "not_owned"
+        - title: "EyeToy: Monkey Mania"
+          studio: "Sony Computer Entertainment"
+          ownership_status: "not_owned"
+        - title: "EyeToy: Play Sports"
+          studio: "Sony Computer Entertainment"
+          ownership_status: "not_owned"
+
+  gba:
+    - series: "Wario Land 4"
+      studio: "Nintendo"
+      games:
+        - title: "Wario Land 4"
+          studio: "Nintendo"
+          ownership_status: "owned"
+
+    - series: "Mother 3"
+      studio: "HAL Laboratory"
+      games:
+        - title: "Mother 3"
+          studio: "HAL Laboratory"
+          ownership_status: "owned"
+
+    - series: "Metroid"
+      studio: "Nintendo"
+      games:
+        - title: "Metroid: Zero Mission"
+          studio: "Nintendo"
+          ownership_status: "owned"
+        - title: "Metroid Fusion"
+          studio: "Nintendo"
+          ownership_status: "owned"
+
+    - series: "Mario & Luigi : Superstar Saga"
+      studio: "Nintendo"
+      games:
+        - title: "Mario & Luigi : Superstar Saga"
+          studio: "Nintendo"
+          ownership_status: "owned"
+
+    - series: "The Legend of Zelda: The Minish Cap"
+      studio: "Nintendo"
+      games:
+        - title: "The Legend of Zelda: The Minish Cap"
+          studio: "Nintendo"
+          ownership_status: "owned"
+
+    - series: "Kurukuru Kururin"
+      studio: "Eighting"
+      games:
+        - title: "Kurukuru Kururin"
+          studio: "Eighting"
+          ownership_status: "owned"
+
+    - series: "Castlevania (Iga)"
+      studio: "Konami"
+      games:
+        - title: "Castlevania: Circle of the Moon"
+          studio: "Konami"
+          ownership_status: "owned"
+        - title: "Castlevania: Harmony of Dissonance"
+          studio: "Konami"
+          ownership_status: "owned"
+        - title: "Castlevania: Aria of Sorrow"
+          studio: "Konami"
+          ownership_status: "owned"
+
+  ps3:
+    - series: "Demon's Souls"
+      studio: "From Software"
+      games:
+        - title: "Demon's Souls"
+          studio: "From Software"
+          ownership_status: "not_owned"
+
+  wii:
+    - series: "Super Mario Galaxy"
+      studio: "Nintendo"
+      games:
+        - title: "Super Mario Galaxy"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+        - title: "Super Mario Galaxy 2"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+
+    - series: "Donkey Kong Country Returns"
+      studio: "Retro Studios"
+      games:
+        - title: "Donkey Kong Country Returns"
+          studio: "Retro Studios"
+          ownership_status: "not_owned"
+
+    - series: "Super Paper Mario"
+      studio: "Intelligent Systems"
+      games:
+        - title: "Super Paper Mario"
+          studio: "Intelligent Systems"
+          ownership_status: "not_owned"
+
+    - series: "Trauma Center"
+      studio: "Capcom"
+      games:
+        - title: "Trauma Center: New Blood"
+          studio: "Capcom"
+          ownership_status: "not_owned"
+        - title: "Trauma Team"
+          studio: "Capcom"
+          ownership_status: "not_owned"
+
+    - series: "Kororinpa"
+      studio: "Hudson Soft"
+      games:
+        - title: "Kororinpa: Marble Mania"
+          studio: "Hudson Soft"
+          ownership_status: "not_owned"
+
+    - series: "Lost in Shadow"
+      studio: "Hudson Soft"
+      games:
+        - title: "Lost in Shadow"
+          studio: "Hudson Soft"
+          ownership_status: "not_owned"
+
+  psp:
+    - series: "Echochrome"
+      studio: "SCE Japan Studio"
+      games:
+        - title: "Echoshift"
+          studio: "SCE Japan Studio"
+          ownership_status: "owned"
+
+    - series: "Every Extend Extra"
+      studio: "Q Entertainment"
+      games:
+        - title: "Every Extend Extra"
+          studio: "Q Entertainment"
+          ownership_status: "owned"
+
+    - series: "LocoRoco"
+      studio: "SCE Japan Studio"
+      games:
+        - title: "LocoRoco Midnight Carnival"
+          studio: "SCE Japan Studio"
+          ownership_status: "owned"
+
+    - series: "Lumines"
+      studio: "Q Entertainment"
+      games:
+        - title: "Lumines II"
+          studio: "Q Entertainment"
+          ownership_status: "owned"
+
+    - seies: "Mercury Meltdown"
+      studio: "Ignition Entertainment"
+      games:
+        - title: "Mercury Meltdown"
+          studio: "Ignition Entertainment"
+          ownership_status: "owned"
+
+    - series: "Patapon"
+      studio: "SCE Japan Studio"
+      games:
+        - title: "Patapon 2"
+          studio: "SCE Japan Studio"
+          ownership_status: "owned"
+        - title: "Patapon 3"
+          studio: "SCE Japan Studio"
+          ownership_status: "owned"
+
+  nds:
+    - series: "The World Ends With You"
+      studio: "Square Enix"
+      games:
+        - title: "The World Ends With You"
+          studio: "Square Enix"
+          ownership_status: "not_owned"
+
+    - series: "Another Code"
+      studio: "Cing"
+      games:
+        - title: "Another Code : Mémoires doubles"
+          studio: "Cing"
+          ownership_status: "not_owned"
+
+    - series: "Hotel Dusk"
+      studio: "Cing"
+      games:
+        - title: "Hotel Dusk: Room 215"
+          studio: "Cing"
+          ownership_status: "not_owned"
+        - title: "Last Window: The Secret of Cape West"
+          studio: "Cing"
+          ownership_status: "not_owned"
+
+    - series: "Professeur Layton"
+      studio: "Level-5"
+      games:
+        - title: "Professeur Layton et l'Étrange Village"
+          studio: "Level-5"
+          ownership_status: "not_owned"
+        - title: "Professeur Layton et la Boîte de Pandore"
+          studio: "Level-5"
+          ownership_status: "not_owned"
+        - title: "Professeur Layton et le Destin perdu"
+          studio: "Level-5"
+          ownership_status: "not_owned"
+        - title: "Professeur Layton et l'Appel du Spectre"
+          studio: "Level-5"
+          ownership_status: "not_owned"
+
+    - series: "Castlevania (Iga)"
+      studio: "Konami"
+      games:
+        - title: "Castlevania: Dawn of Sorrow"
+          studio: "Konami"
+          ownership_status: "not_owned"
+        - title: "Castlevania: Portrait of Ruin"
+          studio: "Konami"
+          ownership_status: "not_owned"
+        - title: "Castlevania: Order of Ecclesia"
+          studio: "Konami"
+          ownership_status: "not_owned"
+
+    - series: "Chrono Trigger"
+      studio: "Square Enix"
+      games:
+        - title: "Chrono Trigger"
+          studio: "Square Enix"
+          ownership_status: "not_owned"
+
+    - series: "Mario & Luigi"
+      studio: "Nintendo"
+      games:
+        - title: "Mario & Luigi: les Frères du temps"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+        - title: "Mario & Luigi: Voyage au centre de Bowser"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+
+    - series: "Pokémon"
+      studio: "The Pokémon Company"
+      games:
+        - title: "Pokémon version Platine"
+          studio: "The Pokémon Company"
+          ownership_status: "not_owned"
+        - title: "Pokémon version Blanche"
+          studio: "The Pokémon Company"
+          ownership_status: "not_owned"
+        - title: "Pokémon version Blanche 2"
+          studio: "The Pokémon Company"
+          ownership_status: "not_owned"
+
+    - series: "Pokémon Ranger"
+      studio: "The Pokémon Company"
+      games:
+        - title: "Pokémon Ranger"
+          studio: "The Pokémon Company"
+          ownership_status: "not_owned"
+        - title: "Pokémon Ranger: Ombres d'almia"
+          studio: "The Pokémon Company"
+          ownership_status: "not_owned"
+        - title: "Pokémon Ranger: Sillages de lumière"
+          studio: "The Pokémon Company"
+          ownership_status: "not_owned"
+
+    - series: "Pokémon Donjon Mystère"
+      studio: "The Pokémon Company"
+      games:
+        - title: "Pokémon Donjon Mystère: Équipe de secours Bleu"
+          studio: "The Pokémon Company"
+          ownership_status: "not_owned"
+        - title: "Pokémon Donjon Mystère: Explorateurs du Ciel"
+          studio: "The Pokémon Company"
+          ownership_status: "not_owned"
+
+  vita:
+    - series: "Gravity Rush"
+      studio: "SCE Japan Studio"
+      games:
+        - title: "Gravity Rush"
+          studio: "SCE Japan Studio"
+          ownership_status: "not_owned"
+
+  3ds:
+    - series: "Super Mario 3D Land"
+      studio: "Nintendo"
+      games:
+        - title: "Super Mario 3D Land"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+
+    - series: "Pokémon"
+      studio: "The Pokémon Company"
+      games:
+        - title: "Pokémon Ultra-Lune"
+          studio: "The Pokémon Company"
+          ownership_status: "not_owned"
+
+    - series: "Professeur Layton"
+      studio: "Level-5"
+      games:
+        - title: "Professeur Layton et l'Héritage des Aslantes"
+          studio: "Level-5"
+          ownership_status: "not_owned"
+        - title: "Professeur Layton et le Masque des Miracles"
+          studio: "Level-5"
+          ownership_status: "not_owned"
+
+  wiiu:
+    - series: "Pikmin 3"
+      studio: "Nintendo"
+      games:
+        - title: "Pikmin 3"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+
+    - series: "Donkey Kong Country: Tropical Freeze"
+      studio: "Retro Studios"
+      games:
+        - title: "Donkey Kong Country: Tropical Freeze"
+          studio: "Retro Studios"
+          ownership_status: "not_owned"
+
+  ps4:
+    - series: "The Last Guardian"
+      studio: "Japan Studio (SIE Japan Studio) + GenDesign"
+      games:
+        - title: "The Last Guardian"
+          studio: "Japan Studio (SIE Japan Studio) + GenDesign"
+          ownership_status: "not_owned"
+
+    - series: "Bloodborne"
+      studio: "From Software"
+      games:
+        - title: "Bloodborne : The Old Hunters"
+          studio: "From Software"
+          ownership_status: "not_owned"
+
+    - series: "The Last of Us"
+      studio: "Naughty Dog"
+      games:
+        - title: "The Last of Us"
+          studio: "Naughty Dog"
+          ownership_status: "not_owned"
+        - title: "The Last of Us Part II"
+          studio: "Naughty Dog"
+          ownership_status: "not_owned"
+
+    - series: "God of War"
+      studio: "Santa Monica Studio"
+      games:
+        - title: "God of War"
+          studio: "Santa Monica Studio"
+          ownership_status: "not_owned"
+
+    - series: "Horizon Zero Dawn"
+      studio: "Guerrilla Games"
+      games:
+        - title: "Horizon Zero Dawn"
+          studio: "Guerrilla Games"
+          ownership_status: "not_owned"
+
+  switch:
+    - series: "Super Mario Bros Wonder"
+      studio: "Nintendo"
+      games:
+        - title: "Super Mario Bros Wonder"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+
+    - series: "Xenoblade Chronicles"
+      studio: "Monolith Soft"
+      games:
+        - title: "Xenoblade Chronicles: Definitive Edition"
+          studio: "Monolith Soft"
+          ownership_status: "not_owned"
+
+    - series: "Bayonetta Origins: Cereza and the Lost Demon"
+      studio: "PlatinumGames"
+      games:
+        - title: "Bayonetta Origins: Cereza and the Lost Demon"
+          studio: "PlatinumGames"
+          ownership_status: "not_owned"
+
+    - series: "WarioWare"
+      studio: "Nintendo"
+      games:
+        - title: "WarioWare: Get It Together!"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+        - title: "WarioWare: Move It!"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+
+    - series: "Pikmin"
+      studio: "Nintendo"
+      games:
+        - title: "Pikmin 4"
+          studio: "Nintendo"
+          ownership_status: "not_owned"
+
+    - series: "13 Sentinels: Aegis Rim"
+      studio: "Vanillaware"
+      games:
+        - title: "13 Sentinels: Aegis Rim"
+          studio: "Vanillaware"
+          ownership_status: "not_owned"
+
+    - series: "Kirby and the Forgotten Land"
+      studio: "HAL Laboratory"
+      games:
+        - title: "Kirby and the Forgotten Land"
+          studio: "HAL Laboratory"
+          ownership_status: "not_owned"

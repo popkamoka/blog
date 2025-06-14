@@ -3,10 +3,15 @@ layout: page
 title: Backlog
 ---
 <div id="backlog-toc">
-  <ul>
-    {% for section in site.data.backlog %}
-      {% assign section_key = section[0] %}
+<ul>
+  {% assign backlog_sources = "books,games,films,series,misc" | split: "," %}
 
+  {% for source in backlog_sources %}
+    {% assign data_key = "backlog_" | append: source %}
+    {% assign backlog = site.data[data_key] %}
+
+    {% for section in backlog %}
+      {% assign section_key = section[0] %}
       <li>
         <a href="#{{ section_key }}">{{ site.data.translations.backlog[section_key] }}</a>
 
@@ -29,20 +34,20 @@ title: Backlog
                   </a>
                 </li>
               {% endif %}
-
             {% endfor %}
           </ul>
-        {% endif %}     
+        {% endif %}
       </li>
     {% endfor %}
-  </ul>
+  {% endfor %}
+</ul>
 </div>
 
 {% assign books_section_id = 'books' %}
 <div id="{{books_section_id}}" class="backlog-section books-section">
   <h2><i class="fa-solid fa-book category-icon book-icon"></i> {{ site.data.translations.backlog.books }}</h2>
 
-  {% for category in site.data.backlog.books %}
+  {% for category in site.data.backlog_books.books %}
     {% assign category_name = category[0] %}
     {% assign subcategories = category[1] %}
 
@@ -123,7 +128,7 @@ title: Backlog
 
   <a href="https://store.steampowered.com/wishlist/id/POPKAMOKA/?sort=dateadded">Wishlist Steam</a>
 
-  {% for platform in site.data.backlog.games %}
+  {% for platform in site.data.backlog_games.games %}
     {% assign platform_name = platform[0] %}
     {% assign games = platform[1] %}
 
@@ -189,7 +194,7 @@ title: Backlog
 {% assign films_section_id = 'films' %}
 <div id="{{films_section_id}}" class="backlog-section films-section">
   <h2><i class="fa-solid fa-film category-icon film-icon"></i> {{ site.data.translations.backlog.films }}</h2>
-  {% for category in site.data.backlog.films %}
+  {% for category in site.data.backlog_films.films %}
     {% assign subcategory_name = category[0] %}
     {% assign subcategory_films = category[1] %}
 
@@ -274,7 +279,7 @@ title: Backlog
 <div id="{{series_section_id}}" class="backlog-section series-section">
   <h2><i class="fa-solid fa-tv category-icon series-icon"></i> {{ site.data.translations.backlog.series }}</h2>
 
-  {% for subcategory in site.data.backlog.series %}
+  {% for subcategory in site.data.backlog_series.series %}
     {% assign subcategory_name = subcategory[0] %}
     {% assign subcategory_series = subcategory[1] %}
 
@@ -346,7 +351,7 @@ title: Backlog
 {% assign misc_section_id = 'misc' %}
 <div id="{{misc_section_id}}" class="backlog-section misc-section">
   <h2><i class="fa-solid fa-star category-icon default-icon"></i> {{ site.data.translations.backlog.misc }}</h2>
- {% for category in site.data.backlog.misc %}
+ {% for category in site.data.backlog_misc.misc %}
     {% assign subcategory_name = category[0] %}
     {% assign subcategory_items = category[1] %}
 

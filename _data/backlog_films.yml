@@ -1,0 +1,729 @@
+films:
+  musical:
+    - series: "The Greatest Showman"
+      director: "Michael Gracey"
+      films:
+        - title: "The Greatest Showman (2017)"
+          ownership_status: "not_owned"
+
+  drama:
+    - series: "Moonrise Kingdom"
+      director: "Wes Anderson"
+      films:
+        - title: "Moonrise Kingdom (2012)"
+          ownership_status: "not_owned"
+
+    - series: "Whiplash"
+      director: "Damien Chazelle"
+      films:
+        - title: "Whiplash (2014)"
+          ownership_status: "not_owned"
+
+    - series: "Old Boy"
+      director: "Park Chan-wook"
+      films:
+        - title: "Old Boy (2003)"
+          ownership_status: "not_owned"
+
+    - series: "Shining"
+      director: "Stanley Kubrick"
+      films:
+        - title: "Shining (1980)"
+          ownership_status: "not_owned"
+
+    - series: "La cité de Dieu"
+      director: "Fernando Meirelles, Kátia Lund"
+      films:
+        - title: "La cité de Dieu (2002)"
+          ownership_status: "not_owned"
+
+    - series: "Vol au-dessus d'un nid de coucou"
+      director: "Milos Forman"
+      films:
+        - title: "Vol au-dessus d'un nid de coucou (1975)"
+          ownership_status: "not_owned"
+
+    - series: "La liste de Schindler"
+      director: "Steven Spielberg"
+      films:
+        - title: "La liste de Schindler (1993)"
+          ownership_status: "not_owned"
+
+    - series: "Black Swan"
+      director: "Darren Aronofsky"
+      films:
+        - title: "Black Swan (2010)"
+          ownership_status: "not_owned"
+
+    - series: "Le monde de Charlie"
+      director: "Stephen Chbosky"
+      films:
+        - title: "Le monde de Charlie (2012)"
+          ownership_status: "not_owned"
+
+    - series: "Big Eyes"
+      director: "Tim Burton"
+      films:
+        - title: "Big Eyes (2014)"
+          ownership_status: "not_owned"
+
+    - series: "La ligne verte"
+      director: "Frank Darabont"
+      films:
+        - title: "La ligne verte (1999)"
+          ownership_status: "not_owned"
+
+    - series: "Pulp Fiction"
+      director: "Quentin Tarantino"
+      films:
+        - title: "Pulp Fiction (1994)"
+          ownership_status: "not_owned"
+
+  action:
+    - series: "Kill Bill"
+      director: "Quentin Tarantino"
+      films:
+        - title: "Kill Bill: Volume 1 (2003)"
+          ownership_status: "not_owned"
+        - title: "Kill Bill: Volume 2 (2004)"
+          ownership_status: "not_owned"
+
+    - series: "Matrix"
+      director: "Sœurs Wachowski"
+      films:
+        - title: "The Matrix (1999)"
+          ownership_status: "not_owned"
+        - title: "The Matrix Reloaded (2003)"
+          ownership_status: "not_owned"
+        - title: "The Matrix Revolutions (2003)"
+          ownership_status: "not_owned"
+        - title: "The Matrix Resurrections (2021)"
+          ownership_status: "not_owned"
+
+  fantasy:
+    - series: "Alice au Pays des Merveilles"
+      director: "Tim Burton, James Bobin"
+      films:
+        - title: "Alice au Pays des Merveilles (2010)"
+          ownership_status: "not_owned"
+        - title: "Alice de l'autre côté du miroir (2016)"
+          ownership_status: "not_owned"
+
+    - series: "Big Fish"
+      director: "Tim Burton"
+      films:
+        - title: "Big Fish (2003)"
+          ownership_status: "not_owned"
+
+    - series: "Edward aux mains d'argent"
+      director: "Tim Burton"
+      films:
+        - title: "Edward aux mains d'argent (1990)"
+          ownership_status: "not_owned"
+
+    - series: "Miss Peregrine et les Enfants particuliers"
+      director: "Tim Burton"
+      films:
+        - title: "Miss Peregrine et les Enfants particuliers (2016)"
+          ownership_status: "not_owned"
+
+    - series: "Harry Potter"
+      director: "Divers"
+      films:
+        - title: "Harry Potter à l'école des sorciers (2001)"
+          ownership_status: "not_owned"
+        - title: "Harry Potter et la Chambre des secrets (2002)"
+          ownership_status: "not_owned"
+        - title: "Harry Potter et le Prisonnier d'Azkaban (2004)"
+          ownership_status: "not_owned"
+        - title: "Harry Potter et la Coupe de feu (2005)"
+          ownership_status: "not_owned"
+        - title: "Harry Potter et l'Ordre du Phénix (2007)"
+          ownership_status: "not_owned"
+        - title: "Harry Potter et le Prince de Sang-Mêlé (2009)"
+          ownership_status: "not_owned"
+        - title: "Harry Potter et les Reliques de la Mort : Partie 1 (2010)"
+          ownership_status: "not_owned"
+        - title: "Harry Potter et les Reliques de la Mort : Partie 2 (2011)"
+          ownership_status: "not_owned"
+
+    - series: "Le Seigneur des Anneaux"
+      director: "Peter Jackson"
+      films:
+        - title: "Le Seigneur des Anneaux : La Communauté de l'Anneau (2001)"
+          ownership_status: "not_owned"
+        - title: "Le Seigneur des Anneaux : Les Deux Tours (2002)"
+          ownership_status: "not_owned"
+        - title: "Le Seigneur des Anneaux : Le Retour du Roi (2003)"
+          ownership_status: "not_owned"
+        - title: "Le Hobbit : Un voyage inattendu (2012)"
+          ownership_status: "not_owned"
+        - title: "Le Hobbit : La Désolation de Smaug (2013)"
+          ownership_status: "not_owned"
+        - title: "Le Hobbit : La Bataille des Cinq Armées (2014)"
+          ownership_status: "not_owned"
+
+  sci_fi:
+    - series: "2001: L'Odyssée de l'espace"
+      director: "Stanley Kubrick"
+      films:
+        - title: "2001: L'Odyssée de l'espace (1968)"
+          ownership_status: "not_owned"
+
+    - series: "Inception"
+      director: "Christopher Nolan"
+      films:
+        - title: "Inception (2010)"
+          ownership_status: "not_owned"
+
+    - series: "Interstellar"
+      director: "Christopher Nolan"
+      films:
+        - title: "Interstellar (2014)"
+          ownership_status: "not_owned"
+
+    - series: "Star Wars"
+      director: "George Lucas"
+      films:
+        - title: "Star Wars: Episode IV - A New Hope (1977)"
+          ownership_status: "not_owned"
+        - title: "Star Wars: Episode V - The Empire Strikes Back (1980)"
+          ownership_status: "not_owned"
+        - title: "Star Wars: Episode VI - Return of the Jedi (1983)"
+          ownership_status: "not_owned"
+        - title: "Star Wars: Episode I - The Phantom Menace (1999)"
+          ownership_status: "not_owned"
+        - title: "Star Wars: Episode II - Attack of the Clones (2002)"
+          ownership_status: "not_owned"
+        - title: "Star Wars: Episode III - Revenge of the Sith (2005)"
+          ownership_status: "not_owned"
+        - title: "Star Wars: Episode VII - The Force Awakens (2015)"
+          ownership_status: "not_owned"
+        - title: "Rogue One: A Star Wars Story (2016)"
+          ownership_status: "not_owned"
+        - title: "Star Wars: Episode VIII - The Last Jedi (2017)"
+          ownership_status: "not_owned"
+        - title: "Solo: A Star Wars Story (2018)"
+          ownership_status: "not_owned"
+        - title: "Star Wars: Episode IX - The Rise of Skywalker (2019)"
+          ownership_status: "not_owned"
+
+    - series: "Bienvenue à Gattaca"
+      director: "Andrew Niccol"
+      films:
+        - title: "Bienvenue à Gattaca (1997)"
+          ownership_status: "not_owned"
+
+    - series: "Le cinquième élément"
+      director: "Luc Besson"
+      films:
+        - title: "Le cinquième élément (1997)"
+          ownership_status: "not_owned"
+
+  thriller:
+    - series: "Le silence des agneaux"
+      director: "Jonathan Demme"
+      films:
+        - title: "Le silence des agneaux (1991)"
+          ownership_status: "not_owned"
+
+    - series: "Le loup de Wall Street"
+      director: "Martin Scorsese"
+      films:
+        - title: "Le loup de Wall Street (2013)"
+          ownership_status: "not_owned"
+
+  comedy:
+    - series: "The Grand Budapest Hotel"
+      director: "Wes Anderson"
+      films:
+        - title: "The Grand Budapest Hotel (2014)"
+          ownership_status: "not_owned"
+
+    - series: "La Merveilleuse Histoire de Henry Sugar"
+      director: "Wes Anderson"
+      films:
+        - title: "La Merveilleuse Histoire de Henry Sugar (2023)"
+          ownership_status: "not_owned"
+
+    - series: "Le Fabuleux Destin d'Amélie Poulain"
+      director: "Jean-Pierre Jeunet"
+      films:
+        - title: "Le Fabuleux Destin d'Amélie Poulain (2001)"
+          ownership_status: "not_owned"
+
+    - series: "Beetlejuice"
+      director: "Tim Burton"
+      films:
+        - title: "Beetlejuice (1988)"
+          ownership_status: "not_owned"
+
+    - series: "Forrest Gump"
+      director: "Robert Zemeckis"
+      films:
+        - title: "Forrest Gump (1994)"
+          ownership_status: "not_owned"
+
+    - series: "Cunk on Life"
+      director: "Charlie Brooker"
+      films:
+        - title: "Cunk on Life (2024)"
+          ownership_status: "not_owned"
+
+    - series: "Paddington"
+      director: "Paul King"
+      films:
+        - title: "Paddington 2 (2017)"
+          ownership_status: "owned"
+
+    - series: "Les Désastreuses Aventures des orphelins Baudelaire"
+      director: "Brad Silberling"
+      films:
+        - title: "Les Désastreuses Aventures des orphelins Baudelaire (2004)"
+          ownership_status: "not_owned"
+
+    - series: "The Truman Show"
+      director: "Peter Weir"
+      films:
+        - title: "The Truman Show (1998)"
+          ownership_status: "not_owned"
+
+  theater:
+    - series: "La flûte enchantée"
+      studio: "France 4"
+      films:
+        - title: "La flûte enchantée"
+          ownership_status: "not_owned"
+          url: https://www.france.tv/spectacles-et-culture/theatre-et-danse/6610685-la-flute-enchantee.html
+
+  animation:
+    - series: "L'île aux chiens"
+      director: "Wes Anderson"
+      films:
+        - title: "L'île aux chiens (2018)"
+          ownership_status: "not_owned"
+
+    - series: "Fantastic Mr. Fox"
+      director: "Wes Anderson"
+      films:
+        - title: "Fantastic Mr. Fox (2009)"
+          ownership_status: "not_owned"
+
+    - series: "Le Roi et l'Oiseau"
+      director: "Paul Grimault"
+      films:
+        - title: "Le Roi et l'Oiseau (1980)"
+          ownership_status: "not_owned"
+
+    - series: "Pixar"
+      director: "Collectif"
+      films:
+        - title: "Toy Story (1995)"
+          ownership_status: "not_owned"
+        - title: "1001 Pattes (1998)"
+          ownership_status: "not_owned"
+        - title: "Toy Story 2 (1999)"
+          ownership_status: "not_owned"
+        - title: "Monstres & Cie (2001)"
+          ownership_status: "not_owned"
+        - title: "Le Monde de Nemo (2003)"
+          ownership_status: "not_owned"
+        - title: "Les Indestructibles (2004)"
+          ownership_status: "not_owned"
+        - title: "Cars : Quatre Roues (2006)"
+          ownership_status: "not_owned"
+        - title: "Ratatouille (2007)"
+          ownership_status: "not_owned"
+        - title: "WALL-E (2008)"
+          ownership_status: "not_owned"
+        - title: "Là-haut (2009)"
+          ownership_status: "not_owned"
+        - title: "Toy Story 3 (2010)"
+          ownership_status: "not_owned"
+        - title: "Cars 2 (2011)"
+          ownership_status: "not_owned"
+        - title: "Rebelle (2012)"
+          ownership_status: "not_owned"
+        - title: "Monstres Academy (2013)"
+          ownership_status: "not_owned"
+        - title: "Vice-Versa (2015)"
+          ownership_status: "not_owned"
+        - title: "Le Monde de Dory (2016)"
+          ownership_status: "not_owned"
+        - title: "Cars 3 (2017)"
+          ownership_status: "not_owned"
+        - title: "Coco (2017)"
+          ownership_status: "not_owned"
+        - title: "Les Indestructibles 2 (2018)"
+          ownership_status: "not_owned"
+        - title: "Toy Story 4 (2019)"
+          ownership_status: "not_owned"
+        - title: "En avant (2020)"
+          ownership_status: "not_owned"
+        - title: "Soul (2020)"
+          ownership_status: "not_owned"
+        - title: "Luca (2021)"
+          ownership_status: "not_owned"
+        - title: "Alerte Rouge (2022)"
+          ownership_status: "not_owned"
+        - title: "Buzz l'Éclair (2022)"
+          ownership_status: "not_owned"
+        - title: "Élémentaire (2023)"
+          ownership_status: "not_owned"
+        - title: "Vice-Versa 2 (2024)"
+          ownership_status: "not_owned"
+
+    - series: "Les noces funèbres"
+      director: "Tim Burton"
+      films:
+        - title: "Les noces funèbres (2005)"
+          ownership_status: "not_owned"
+
+    - series: "Coraline"
+      director: "Henry Selick"
+      films:
+        - title: "Coraline (2009)"
+          ownership_status: "not_owned"
+
+    - series: "Frankenweenie"
+      director: "Tim Burton"
+      films:
+        - title: "Frankenweenie (2012)"
+          ownership_status: "not_owned"
+
+    - series: "DreamWorks Animation"
+      director: "Collectif"
+      films:
+        - title: "Le Prince d'Égypte (1998)"
+          ownership_status: "not_owned"
+        - title: "La Route d'Eldorado (2000)"
+          ownership_status: "not_owned"
+        - title: "Joseph, le Roi des Rêves (2000)"
+          ownership_status: "not_owned"
+        - title: "Sinbad : La Légende des sept mers (2003)"
+          ownership_status: "not_owned"
+        - title: "Gang de requins (2004)"
+          ownership_status: "not_owned"
+        - title: "Madagascar (2005)"
+          ownership_status: "not_owned"
+        - title: "Wallace et Gromit : Le Mystère du lapin-garou (2005)"
+          ownership_status: "not_owned"
+        - title: "Nos voisins, les hommes (2006)"
+          ownership_status: "not_owned"
+        - title: "Souris City (2006)"
+          ownership_status: "not_owned"
+        - title: "Bee Movie : Drôle d'abeille (2007)"
+          ownership_status: "not_owned"
+        - title: "Kung Fu Panda (2008)"
+          ownership_status: "not_owned"
+        - title: "Madagascar 2 (2008)"
+          ownership_status: "not_owned"
+        - title: "Monstres contre Aliens (2009)"
+          ownership_status: "not_owned"
+        - title: "Shrek 4 : Il était une fin (2010)"
+          ownership_status: "not_owned"
+        - title: "Kung Fu Panda 2 (2011)"
+          ownership_status: "not_owned"
+        - title: "Le Chat Potté (2011)"
+          ownership_status: "not_owned"
+        - title: "Madagascar 3 : Bons Baisers d'Europe (2012)"
+          ownership_status: "not_owned"
+        - title: "Les Cinq Légendes (2012)"
+          ownership_status: "not_owned"
+        - title: "M. Peabody et Sherman : Les Voyages dans le temps (2014)"
+          ownership_status: "not_owned"
+        - title: "Dragons 2 (2014)"
+          ownership_status: "not_owned"
+        - title: "Les Pingouins de Madagascar (2014)"
+          ownership_status: "not_owned"
+        - title: "Kung Fu Panda 3 (2016)"
+          ownership_status: "not_owned"
+        - title: "Le Chat Potté 2 : La Dernière Quête (2022)"
+          ownership_status: "not_owned"
+        - title: "Ruby, l'ado Kraken (2023)"
+          ownership_status: "not_owned"
+        - title: "Le Robot sauvage (2024)"
+          ownership_status: "not_owned"
+        - title: "Kung Fu Panda 4 (2024)"
+          ownership_status: "not_owned"
+
+    - series: "Disney"
+      director: "Collectif"
+      films:
+        - title: "Blanche-Neige et les Sept Nains (1937)"
+          ownership_status: "not_owned"
+        - title: "Pinocchio (1940)"
+          ownership_status: "not_owned"
+        - title: "Fantasia (1940)"
+          ownership_status: "not_owned"
+        - title: "Dumbo (1941)"
+          ownership_status: "not_owned"
+        - title: "Bambi (1942)"
+          ownership_status: "not_owned"
+        - title: "Cendrillon (1950)"
+          ownership_status: "not_owned"
+        - title: "Alice au pays des merveilles (1951)"
+          ownership_status: "not_owned"
+        - title: "Peter Pan (1953)"
+          ownership_status: "not_owned"
+        - title: "La Belle et le Clochard (1955)"
+          ownership_status: "not_owned"
+        - title: "La Belle au bois dormant (1959)"
+          ownership_status: "not_owned"
+        - title: "Les 101 Dalmatiens (1961)"
+          ownership_status: "not_owned"
+        - title: "Merlin l'Enchanteur (1963)"
+          ownership_status: "not_owned"
+        - title: "Le Livre de la jungle (1967)"
+          ownership_status: "not_owned"
+        - title: "Les Aristochats (1970)"
+          ownership_status: "not_owned"
+        - title: "Robin des Bois (1973)"
+          ownership_status: "not_owned"
+        - title: "Rox et Rouky (1981)"
+          ownership_status: "not_owned"
+        - title: "Taram et le Chaudron magique (1985)"
+          ownership_status: "not_owned"
+        - title: "La Petite Sirène (1989)"
+          ownership_status: "not_owned"
+        - title: "La Belle et la Bête (1991)"
+          ownership_status: "not_owned"
+        - title: "Aladdin (1992)"
+          ownership_status: "not_owned"
+        - title: "Le Roi Lion (1994)"
+          ownership_status: "not_owned"
+        - title: "Pocahontas (1995)"
+          ownership_status: "not_owned"
+        - title: "Le Bossu de Notre-Dame (1996)"
+          ownership_status: "not_owned"
+        - title: "Hercule (1997)"
+          ownership_status: "not_owned"
+        - title: "Mulan (1998)"
+          ownership_status: "not_owned"
+        - title: "Tarzan (1999)"
+          ownership_status: "not_owned"
+        - title: "Fantasia 2000 (2000)"
+          ownership_status: "not_owned"
+        - title: "Kuzco, l'empereur mégalo (2000)"
+          ownership_status: "not_owned"
+        - title: "Atlantide, l'empire perdu (2001)"
+          ownership_status: "not_owned"
+        - title: "Lilo & Stitch (2002)"
+          ownership_status: "not_owned"
+        - title: "La Planète au trésor (2002)"
+          ownership_status: "not_owned"
+        - title: "Frère des ours (2003)"
+          ownership_status: "not_owned"
+        - title: "La Princesse et la Grenouille (2009)"
+          ownership_status: "not_owned"
+        - title: "Raiponce (2010)"
+          ownership_status: "not_owned"
+        - title: "Winnie l'ourson (2011)"
+          ownership_status: "not_owned"
+        - title: "Les Mondes de Ralph (2012)"
+          ownership_status: "not_owned"
+        - title: "La Reine des neiges (2013)"
+          ownership_status: "not_owned"
+        - title: "Les Nouveaux Héros (2014)"
+          ownership_status: "not_owned"
+        - title: "Zootopie (2016)"
+          ownership_status: "not_owned"
+        - title: "Vaiana : La Légende du bout du monde (2016)"
+          ownership_status: "not_owned"
+        - title: "Ralph 2.0 (2018)"
+          ownership_status: "not_owned"
+        - title: "La Reine des neiges 2 (2019)"
+          ownership_status: "not_owned"
+        - title: "Raya et le Dernier Dragon (2021)"
+          ownership_status: "not_owned"
+        - title: "Encanto : La Fantastique Famille Madrigal (2021)"
+          ownership_status: "not_owned"
+        - title: "Avalonia, l'étrange voyage (2022)"
+          ownership_status: "not_owned"
+        - title: "Wish : Asha et la bonne étoile (2023)"
+          ownership_status: "not_owned"
+
+    - series: "Panique au village"
+      director: "Vincent Patar, Stéphane Aubier"
+      films:
+        - title: "Panique au village (2009)"
+          ownership_status: "not_owned"
+
+    - series: "Les Triplettes de Belleville"
+      director: "Sylvain Chomet"
+      films:
+        - title: "Les Triplettes de Belleville (2003)"
+          ownership_status: "not_owned"
+
+    - series: "Le chant de la mer"
+      director: "Tomm Moore"
+      films:
+        - title: "Le chant de la mer (2014)"
+          ownership_status: "not_owned"
+
+    - series: "Le Prophète"
+      director: "Tom Moore"
+      films:
+        - title: "Le Prophète (2014)"
+          ownership_status: "not_owned"
+
+    - series: "Le Peuple Loup"
+      director: "Tom Moore"
+      films:
+        - title: "Le Peuple Loup (2020)"
+          ownership_status: "not_owned"
+
+  animation_jp:
+    - series: "Ghost in the Shell"
+      director: "Mamoru Oshii"
+      films:
+        - title: "Ghost in the Shell (1995)"
+          ownership_status: "not_owned"
+
+    - series: "Angel's Egg"
+      studio: "Studio Deen"
+      films:
+        - title: "Angel's Egg"
+          ownership_status: "not_owned"
+
+    - series: "Le Roi des ronces"
+      studio: "Sunrise"
+      films:
+        - title: "Le Roi des ronces"
+          ownership_status: "not_owned"
+
+    - series: "La Belladone de la tristesse"
+      director: "Eiichi Yamamoto"
+      films:
+        - title: "La Belladone de la tristesse"
+          ownership_status: "not_owned"
+
+    - series: "Utena: L'apocalypse de l'adolescence"
+      director: "Kunihiko Ikuhara"
+      films:
+        - title: "Utena: L'apocalypse de l'adolescence"
+          ownership_status: "not_owned"
+
+    - series: "Cardcaptor Sakura"
+      director: "Morio Asaka"
+      films:
+        - title: "Cardcaptor Sakura: The Movie"
+          ownership_status: "not_owned"
+        - title: "Cardcaptor Sakura: The Movie 2 - The Sealed Card"
+          ownership_status: "not_owned"
+
+    - series: "Akira"
+      director: "Katsuhiro Ōtomo"
+      films:
+        - title: "Akira"
+          ownership_status: "owned"
+
+    - series: "Metropolis"
+      director: "Rintarô"
+      films:
+        - title: "Metropolis"
+          ownership_status: "owned"
+
+    - series: "The End of Evangelion"
+      director: "Hideaki Anno"
+      films:
+        - title: "The End of Evangelion"
+          ownership_status: "not_owned"
+
+    - series: "Rebuild of Evangelion"
+      director: "Hideaki Anno"
+      films:
+        - title: "Evangelion 1.0: You Are (Not) Alone"
+          ownership_status: "not_owned"
+        - title: "Evangelion 2.0: You Can (Not) Advance"
+          ownership_status: "not_owned"
+        - title: "Evangelion 3.0: You Can (Not) Redo"
+          ownership_status: "not_owned"
+        - title: "Evangelion: 3.0+1.0 Thrice Upon a Time"
+          ownership_status: "not_owned"
+
+    - series: "Puella Magi Madoka Magica the Movie"
+      director: "Akiyuki Shinbo"
+      films:
+        - title: "Puella Magi Madoka Magica the Movie: Beginnings"
+          ownership_status: "not_owned"
+        - title: "Puella Magi Madoka Magica the Movie: Eternal"
+          ownership_status: "not_owned"
+        - title: "Puella Magi Madoka Magica the Movie: Rebellion"
+          ownership_status: "not_owned"
+
+    - series: "Le Château de Cagliostro"
+      director: "Hayao Miyazaki"
+      films:
+        - title: "Le Château de Cagliostro (1979)"
+          ownership_status: "not_owned"
+
+    - series: "Studio Ghibli"
+      director: "Hayao Miyazaki, Isao Takahata"
+      films:
+        - title: "Nausicaä de la Vallée du Vent (1984)"
+          ownership_status: "not_owned"
+        - title: "Le Château dans le ciel (1986)"
+          ownership_status: "not_owned"
+        - title: "Mon voisin Totoro (1988)"
+          ownership_status: "not_owned"
+        - title: "Le Tombeau des lucioles (1988)"
+          ownership_status: "not_owned"
+        - title: "Kiki la petite sorcière (1989)"
+          ownership_status: "not_owned"
+        - title: "Souvenirs goutte à goutte (1991)"
+          ownership_status: "not_owned"
+        - title: "Porco Rosso (1992)"
+          ownership_status: "not_owned"
+        - title: "Je peux entendre l'océan (1993)"
+          ownership_status: "not_owned"
+        - title: "Pompoko (1994)"
+          ownership_status: "not_owned"
+        - title: "Si tu tends l'oreille (1995)"
+          ownership_status: "not_owned"
+        - title: "Princesse Mononoké (1997)"
+          ownership_status: "not_owned"
+        - title: "Mes voisins les Yamada (1999)"
+          ownership_status: "not_owned"
+        - title: "Le Voyage de Chihiro (2001)"
+          ownership_status: "not_owned"
+        - title: "Le Royaume des chats (2002)"
+          ownership_status: "not_owned"
+        - title: "Le Château ambulant (2004)"
+          ownership_status: "not_owned"
+        - title: "Les Contes de Terremer (2006)"
+          ownership_status: "not_owned"
+        - title: "Ponyo sur la falaise (2008)"
+          ownership_status: "not_owned"
+        - title: "Arrietty, le petit monde des chapardeurs (2010)"
+          ownership_status: "not_owned"
+        - title: "La Colline aux coquelicots (2011)"
+          ownership_status: "not_owned"
+        - title: "Le vent se lève (2013)"
+          ownership_status: "not_owned"
+        - title: "Le Conte de la princesse Kaguya (2013)"
+          ownership_status: "not_owned"
+        - title: "Souvenirs de Marnie (2014)"
+          ownership_status: "not_owned"
+        - title: "Aya et la Sorcière (2020)"
+          ownership_status: "not_owned"
+        - title: "Le Garçon et le Héron (2023)"
+          ownership_status: "not_owned"
+
+    - series: "Perfect Blue"
+      director: "Satoshi Kon"
+      films:
+        - title: "Perfect Blue"
+          ownership_status: "not_owned"
+
+    - series: "Millenium Actress"
+      director: "Satoshi Kon"
+      films:
+        - title: "Millennium Actress"
+          ownership_status: "not_owned"
+
+    - series: "Tokyo Godfathers"
+      director: "Satoshi Kon"
+      films:
+        - title: "Tokyo Godfathers"
+          ownership_status: "not_owned"

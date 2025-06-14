@@ -1,0 +1,643 @@
+series:
+  horror:
+    - title: "American Horror Story"
+      director: "Ryan Murphy, Brad Falchuk"
+      seasons:
+        - title: "American Horror Story S1: Murder House (2011)"
+          episodes: 12
+          ownership_status: "not_owned"
+        - title: "American Horror Story S2: Asylum (2012)"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "American Horror Story S3: Coven (2013)"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "American Horror Story S4: Freak Show (2014)"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "American Horror Story S5: Hotel (2015)"
+          episodes: 12
+          ownership_status: "not_owned"
+        - title: "American Horror Story S6: Roanoke (2016)"
+          episodes: 10
+          ownership_status: "not_owned"
+        - title: "American Horror Story S7: Cult (2017)"
+          episodes: 11
+          ownership_status: "not_owned"
+        - title: "American Horror Story S8: Apocalypse (2018)"
+          episodes: 10
+          ownership_status: "not_owned"
+        - title: "American Horror Story S9: 1984 (2019)"
+          episodes: 9
+          ownership_status: "not_owned"
+        - title: "American Horror Story S10: Double Feature (2021)"
+          episodes: 10
+          ownership_status: "not_owned"
+        - title: "American Horror Story S11: NYC (2022)"
+          episodes: 10
+          ownership_status: "not_owned"
+        - title: "American Horror Story S12: Delicate (2023-2024)"
+          episodes: 9
+          ownership_status: "not_owned"
+
+  drama:
+    - title: "Breaking Bad"
+      director: "Vince Gilligan"
+      seasons:
+        - title: "Breaking Bad S1 (2008)"
+          episodes: 7
+          ownership_status: "not_owned"
+        - title: "Breaking Bad S2 (2009)"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "Breaking Bad S3 (2010)"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "Breaking Bad S4 (2011)"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "Breaking Bad S5 (2012-2013)"
+          episodes: 16
+          ownership_status: "not_owned"
+
+    - title: "The Boys"
+      director: "Eric Kripke, Evan Endicott, Josh Stoddard"
+      seasons:
+        - title: "The Boys S1 (2019)"
+          episodes: 8
+          ownership_status: "not_owned"
+        - title: "The Boys S2 (2020)"
+          episodes: 8
+          ownership_status: "not_owned"
+        - title: "The Boys S3 (2022)"
+          episodes: 8
+          ownership_status: "not_owned"
+        - title: "The Boys S4 (2024)"
+          episodes: 8
+          ownership_status: "not_owned"
+
+  sci_fi:
+    - title: "Black Mirror"
+      director: "Charlie Brooker"
+      seasons:
+        - title: "Black Mirror S1 (2011)"
+          episodes: 3
+          ownership_status: "not_owned"
+        - title: "Black Mirror S2 (2013)"
+          episodes: 3
+          ownership_status: "not_owned"
+        - title: "Black Mirror Special: White Christmas (2014)"
+          episodes: 1
+          ownership_status: "not_owned"
+        - title: "Black Mirror S3 (2016)"
+          episodes: 6
+          ownership_status: "not_owned"
+        - title: "Black Mirror S4 (2017)"
+          episodes: 6
+          ownership_status: "not_owned"
+        - title: "Black Mirror: Bandersnatch (2018)"
+          episodes: 1
+          ownership_status: "not_owned"
+        - title: "Black Mirror S5 (2019)"
+          episodes: 3
+          ownership_status: "not_owned"
+        - title: "Black Mirror S6 (2023)"
+          episodes: 5
+          ownership_status: "not_owned"
+        - title: "Black Mirror S7 (2025)"
+          episodes: 6
+          ownership_status: "not_owned"
+
+    - title: "Doctor Who (2005 - 2022)"
+      director: "Russell T Davies"
+      seasons:
+        - title: "Doctor Who S1 (2005)"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "Doctor Who S2 (2006)"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "Doctor Who S3 (2007)"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "Doctor Who S4 (2008)"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "Doctor Who Specials (2008-2010)"
+          episodes: 5
+          ownership_status: "not_owned"
+        - title: "Doctor Who S5 (2010)"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "Doctor Who S6 (2011)"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "Doctor Who S7 (2012-2013)"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "Doctor Who Specials (2013)"
+          episodes: 2
+          ownership_status: "not_owned"
+        - title: "Doctor Who S8 (2014)"
+          episodes: 12
+          ownership_status: "not_owned"
+        - title: "Doctor Who S9 (2015)"
+          episodes: 12
+          ownership_status: "not_owned"
+        - title: "Doctor Who S10 (2017)"
+          episodes: 12
+          ownership_status: "not_owned"
+        - title: "Doctor Who S11 (2018)"
+          episodes: 10
+          ownership_status: "not_owned"
+        - title: "Doctor Who S12 (2020)"
+          episodes: 10
+          ownership_status: "not_owned"
+        - title: "Doctor Who S13 (2021)"
+          episodes: 6
+          ownership_status: "not_owned"
+        - title: "Doctor Who Specials (2022)"
+          episodes: 3
+          ownership_status: "not_owned"
+
+    - title: "Doctor Who (2023 - x)"
+      director: "Russell T Davies"
+      seasons:
+        - title: "Doctor Who Specials (2023)"
+          episodes: 3
+          ownership_status: "not_owned"
+        - title: "Doctor Who S14 (2024)"
+          episodes: 9
+          ownership_status: "not_owned"
+        - title: "Doctor Who S15 (2025)"
+          episodes: 9
+          ownership_status: "not_owned"
+
+  comedy:
+    - title: "Cunk on Earth"
+      director: "Charlie Brooker"
+      seasons:
+        - title: "Cunk on Earth"
+          episodes: 5
+          ownership_status: "not_owned"
+
+  thriller:
+    - title: "Severance"
+      director: "Dan Erickson"
+      seasons:
+        - title: "Severance S1 (2022)"
+          episodes: 9
+          ownership_status: "not_owned"
+        - title: "Severance S2 (2025)"
+          episodes: 10
+          ownership_status: "not_owned"
+
+    - title: "Dark"
+      director: "Baran bo Odar, Jantje Friese"
+      seasons:
+        - title: "Dark S1 (2017)"
+          episodes: 10
+          ownership_status: "not_owned"
+        - title: "Dark S2 (2019)"
+          episodes: 8
+          ownership_status: "not_owned"
+        - title: "Dark S3 (2020)"
+          episodes: 8
+          ownership_status: "not_owned"
+
+  animation:
+    - title: "Daria"
+      director: "Glenn Eichler, Susie Lewis"
+      seasons:
+        - title: "Daria S1 (1997)"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "Daria S2 (1998)"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "Daria S3 (1999)"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "Daria S4 (2000)"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "Daria S5 (2001)"
+          episodes: 13
+          ownership_status: "not_owned"
+
+    - title: "Souvenirs de Gravity Falls"
+      director: "Alex Hirsch"
+      seasons:
+        - title: "Souvenirs de Gravity Falls"
+          episodes: 41
+          ownership_status: "not_owned"
+
+    - title: "Dofus: Aux trésors de Kerubim"
+      studio: "Ankama Animations"
+      seasons:
+        - title: "Dofus: Aux trésors de Kerubim"
+          episodes: 52
+          ownership_status: "not_owned"
+
+    - title: "Secret Level"
+      director: "Tim Miller"
+      seasons:
+        - title: "Secret Level"
+          episodes: 15
+          ownership_status: "not_owned"
+
+    - title: "Scavengers Reign"
+      director: "Joseph Bennett, Charles Huettner"
+      seasons:
+        - title: "Scavengers Reign"
+          episodes: 12
+          ownership_status: "not_owned"
+
+    - title: "Love, Death and Robots"
+      seasons:
+        - title: "Love, Death and Robots S1"
+          episodes: 18
+          ownership_status: "not_owned"
+        - title: "Love, Death and Robots S2"
+          episodes: 8
+          ownership_status: "not_owned"
+        - title: "Love, Death and Robots S3"
+          episodes: 9
+          ownership_status: "not_owned"
+
+    - title: "Invincible (2021)"
+      director: "Robert Kirkman"
+      seasons:
+        - title: "Invincible S1"
+          episodes: 8
+          ownership_status: "owned"
+        - title: "Invincible S2"
+          episodes: 8
+          ownership_status: "not_owned"
+
+    - title: "The Midnight Gospel"
+      director: "Pendleton Ward, Duncan Trussell"
+      seasons:
+        - title: "The Midnight Gospel"
+          episodes: 8
+          ownership_status: "not_owned"
+
+    - title: "Les Simpsons"
+      director: "Matt Groening"
+      seasons:
+        - title: "Les Simpsons S1"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S2"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S3"
+          episodes: 24
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S4"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S5"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S6"
+          episodes: 25
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S7"
+          episodes: 25
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S8"
+          episodes: 25
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S9"
+          episodes: 25
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S10"
+          episodes: 23
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S11"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S12"
+          episodes: 21
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S13"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S14"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S15"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S16"
+          episodes: 21
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S17"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S18"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S19"
+          episodes: 20
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S20"
+          episodes: 21
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S21"
+          episodes: 23
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S22"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S23"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S24"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S25"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S26"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S27"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S28"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S29"
+          episodes: 21
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S30"
+          episodes: 23
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S31"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S32"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S33"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S34"
+          episodes: 22
+          ownership_status: "not_owned"
+        - title: "Les Simpsons S35"
+          episodes: 18
+          ownership_status: "not_owned"
+
+  animation_jp:
+    - title: "Trava Fist Planet"
+      director: "Katsuhito Ishii"
+      seasons:
+        - title: "Trava Fist Planet"
+          episodes: 1
+          ownership_status: "not_owned"
+
+    - title: "Terror in Resonance"
+      director: "Shinichirō Watanabe"
+      seasons:
+        - title: "Terror in Resonance"
+          episodes: 11
+          ownership_status: "not_owned"
+
+    - title: "Haibane Renmei"
+      studio: "Radix"
+      seasons:
+        - title: "Haibane Renmei"
+          episodes: 13
+          ownership_status: "not_owned"
+
+    - title: "Tokyo Magnitude 8.0"
+      studio: "Bones"
+      seasons:
+        - title: "Tokyo Magnitude 8.0"
+          episodes: 11
+          ownership_status: "not_owned"
+
+    - title: "Sarazanmai"
+      studio: "MAPPA"
+      seasons:
+        - title: "Sarazanmai"
+          episodes: 11
+          ownership_status: "not_owned"
+
+    - title: "Texhnolyze"
+      studio: "Madhouse"
+      seasons:
+        - title: "Texhnolyze"
+          episodes: 22
+          ownership_status: "not_owned"
+
+    - title: "Mawaru-Penguindrum"
+      studio: "Brain's Base"
+      seasons:
+        - title: "Mawaru-Penguindrum"
+          episodes: 24
+          ownership_status: "not_owned"
+
+    - title: "Aria the Animation"
+      studio: "Hal Film Maker"
+      seasons:
+        - title: "Aria the Animation"
+          episodes: 13
+          ownership_status: "not_owned"
+
+    - title: "Ergo Proxy"
+      studio: "Manglobe"
+      seasons:
+        - title: "Ergo Proxy"
+          episodes: 23
+          ownership_status: "not_owned"
+
+    - title: "Code Geass: Lelouch of the Rebellion"
+      studio: "Sunrise"
+      seasons:
+        - title: "Code Geass: Lelouch of the Rebellion"
+          episodes: 25
+          ownership_status: "not_owned"
+        - title: "Code Geass: Lelouch of the Rebellion R2"
+          episodes: 25
+          ownership_status: "not_owned"
+
+    - title: "Serial Experiments Lain"
+      studio: "Ryūtarō Nakamura"
+      seasons:
+        - title: "Serial Experiments Lain"
+          episodes: 13
+          ownership_status: "not_owned"
+
+    - title: "Nichijou"
+      studio: "Kyoto Animation"
+      seasons:
+        - title: "Nichijou"
+          episodes: 26
+          ownership_status: "not_owned"
+
+    - title: "Mononoke"
+      studio: "Toei Animation"
+      seasons:
+        - title: "Mononoke"
+          episodes: 12
+          ownership_status: "not_owned"
+
+    - title: "FLCL"
+      studio: "Gainax"
+      seasons:
+        - title: "FLCL"
+          episodes: 6
+          ownership_status: "not_owned"
+
+    - title: "Kill la Kill"
+      studio: "Trigger"
+      seasons:
+        - title: "Kill la Kill"
+          episodes: 24
+          ownership_status: "not_owned"
+
+    - title: "Mob Psycho 100"
+      studio: "Bones"
+      seasons:
+        - title: "Mob Psycho 100"
+          episodes: 12
+          ownership_status: "not_owned"
+        - title: "Mob Psycho 100 II"
+          episodes: 13
+          ownership_status: "not_owned"
+        - title: "Mob Psycho 100 III"
+          episodes: 12
+          ownership_status: "not_owned"
+
+    - title: "Gurren Lagann"
+      studio: "Gainax"
+      seasons:
+        - title: "Gurren Lagann"
+          episodes: 27
+          ownership_status: "not_owned"
+
+    - title: "JoJo's Bizarre Adventure: Stone Ocean"
+      director: "Hirohiko Araki"
+      seasons:
+        - title: "JoJo's Bizarre Adventure: Stone Ocean"
+          episodes: 38
+          ownership_status: "not_owned"
+
+    - title: "La Réceptionniste Pokémon"
+      director: "Iku Ogawa"
+      seasons:
+        - title: "La Réceptionniste Pokémon"
+          episodes: 4
+          ownership_status: "owned"
+
+    - title: "Kaiba"
+      director: "Masaaki Yuasa"
+      seasons:
+        - title: "Kaiba"
+          episodes: 12
+          ownership_status: "not_owned"
+
+    - title: "Devilman Crybaby"
+      director: "Masaaki Yuasa"
+      seasons:
+        - title: "Devilman Crybaby"
+          episodes: 10
+          ownership_status: "not_owned"
+
+    - title: "Cowboy Bebop"
+      director: "Shinichirō Watanabe"
+      seasons:
+        - title: "Cowboy Bebop"
+          episodes: 26
+          ownership_status: "not_owned"
+
+    - title: "Space Dandy"
+      director: "Shinichirō Watanabe"
+      seasons:
+        - title: "Space Dandy"
+          episodes: 26
+          ownership_status: "not_owned"
+
+    - title: "Kids on the Slope"
+      director: "Shinichirō Watanabe"
+      seasons:
+        - title: "Kids on the Slope"
+          episodes: 12
+          ownership_status: "not_owned"
+
+    - title: "Carole et Tuesday"
+      director: "Shinichirō Watanabe"
+      seasons:
+        - title: "Carole et Tuesday"
+          episodes: 24
+          ownership_status: "not_owned"
+
+    - title: "Lazarus Project"
+      director: "Shinichirō Watanabe"
+      seasons:
+        - title: "Lazarus Project"
+          episodes: 12
+          ownership_status: "not_owned"
+
+    - title: "The Tatami Time Machine Blues"
+      studio: "Science SARU"
+      seasons:
+        - title: "The Tatami Time Machine Blues"
+          episodes: 6
+          ownership_status: "owned"
+
+    - title: "Sonny Boy"
+      studio: "Madhouse"
+      seasons:
+        - title: "Sonny Boy"
+          episodes: 12
+          ownership_status: "not_owned"
+
+    - title: "Nadia, le secret de l'eau bleue"
+      studio: "Gainax"
+      seasons:
+        - title: "Nadia, le secret de l'eau bleue"
+          episodes: 39
+          ownership_status: "not_owned"
+
+    - title: "Neon Genesis Evangelion"
+      studio: "Gainax"
+      seasons:
+        - title: "Neon Genesis Evangelion"
+          episodes: 26
+          ownership_status: "not_owned"
+
+    - title: "Puella Magi Madoka Magica"
+      studio: "SHAFT"
+      seasons:
+        - title: "Puella Magi Madoka Magica"
+          episodes: 12
+          ownership_status: "not_owned"
+
+    - title: "Paranoia Agent"
+      studio: "Madhouse"
+      seasons:
+        - title: "Paranoia Agent"
+          episodes: 13
+          ownership_status: "not_owned"
+
+    - title: "Cardcaptor Sakura"
+      studio: "Madhouse"
+      seasons:
+        - title: "Cardcaptor Sakura"
+          episodes: 70
+          ownership_status: "not_owned"
+        - title: "Cardcaptor Sakura: Clear Card"
+          episodes: 22
+          ownership_status: "not_owned"
+
+    - title: "Utena: La fillette révolutionnaire"
+      studio: "J.C. Staff"
+      seasons:
+        - title: "Utena: La fillette révolutionnaire"
+          episodes: 39
+          ownership_status: "not_owned"
