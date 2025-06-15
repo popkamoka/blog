@@ -1,6 +1,12 @@
 books:
   novels:
     n/a:
+      - series: "Vendredi ou la vie sauvage"
+        author: "Michel Tournier"
+        books:
+          - title: "Vendredi ou la vie sauvage"
+            ownership_status: "owned"
+
       - series: "L'espace d'un an"
         author: "Becky Chambers"
         books:
@@ -19,7 +25,7 @@ books:
         author: "Margaret Atwood"
         books:
           - title: "La servante écarlate"
-            ownership_status: "not_owned"
+            ownership_status: "owned"
             price: 12.5
 
       - series: "La ballade de l'impossible"
@@ -137,17 +143,19 @@ books:
           - title: "Les Fourmis"
             ownership_status: "owned"
           - title: "Le Jour des fourmis"
-            ownership_status: "not_owned"
+            ownership_status: "owned"
           - title: "La Révolution des fourmis"
-            ownership_status: "not_owned"
+            ownership_status: "owned"
+          - title: "Le livre secret des fourmis"
+            ownership_status: "owned"
 
       - series: "Trilogie des chats"
         author: "Bernard Werber"
         books:
           - title: "Demain les chats"
-            ownership_status: "not_owned"
+            ownership_status: "owned"
           - title: "Sa Majesté des chats"
-            ownership_status: "not_owned"
+            ownership_status: "owned"
           - title: "La Planète des chats"
             ownership_status: "not_owned"
 
@@ -345,21 +353,21 @@ books:
         author: "Robert W. Chambers"
         books:
           - title: "Le roi en jaune"
-            ownership_status: "not_owned"
+            ownership_status: "owned"
             price: 10.5
 
       - series: "Le Petit Prince"
         author: "Antoine de Saint-Exupéry"
         books:
           - title: "Le Petit Prince"
-            ownership_status: "not_owned"
+            ownership_status: "owned"
             price: 9.9
 
       - series: "Ecoute le chant du vent, suivi de Flipper, 1973"
         author: "Haruki Murakami"
         books:
           - title: "Ecoute le chant du vent, suivi de Flipper, 1973"
-            ownership_status: "not_owned"
+            ownership_status: "owned"
             price: 8.6
 
       - series: "Wicked : La véritable histoire de la méchante sorcière de l'Ouest"
@@ -380,7 +388,7 @@ books:
         author: "Charlotte Brontë"
         books:
           - title: "Jane Eyre"
-            ownership_status: "not_owned"
+            ownership_status: "owned"
             price: 5.8
 
       - series: "La Ferme des animaux"
@@ -394,14 +402,14 @@ books:
         author: "Roald Dahl"
         books:
           - title: "Charlie et la chocolaterie"
-            ownership_status: "not_owned"
+            ownership_status: "owned"
             price: 7.5
 
       - series: "Le Portrait de Dorian Gray"
         author: "Oscar Wilde"
         books:
           - title: "Le Portrait de Dorian Gray"
-            ownership_status: "not_owned"
+            ownership_status: "owned"
             price: 3.3
 
       - series: "La Divine Comédie"
@@ -415,14 +423,14 @@ books:
         author: "Min Jin Lee"
         books:
           - title: "Pachinko"
-            ownership_status: "not_owned"
+            ownership_status: "owned"
             price: 9.9
 
       - series: "Frankenstein"
         author: "Mary Shelley"
         books:
           - title: "Frankenstein"
-            ownership_status: "not_owned"
+            ownership_status: "owned"
             price: 5.8
 
       - series: "Un ours nommé Paddington"
@@ -431,6 +439,12 @@ books:
           - title: "Un ours nommé Paddington"
             ownership_status: "not_owned"
             price: 9.95
+
+      - series: "Peter Pan"
+        author: "J.M. Barrie"
+        books:
+          - title: "Peter Pan"
+            ownership_status: "owned"
 
   comics:
     n/a:
@@ -597,8 +611,7 @@ books:
           - title: "Le Chat du rabbin - T5 : Jérusalem d'Afrique"
             ownership_status: "owned"
           - title: "Le Chat du rabbin - T6 : Tu n'auras pas d'autre Dieu que moi"
-            ownership_status: "not_owned"
-            price: 14.95
+            ownership_status: "owned"
           - title: "Le Chat du rabbin - T7 : La Tour de Bab-El-Oued"
             ownership_status: "not_owned"
             price: 17.95
@@ -1376,7 +1389,9 @@ books:
         books:
           - title: "Doraemon - T1"
             ownership_status: "owned"
-          - title: "Doraemon - T2 -> T45"
+          - title: "Doraemon - T2"
+            ownership_status: "owned"
+          - title: "Doraemon - T3 -> T45"
             ownership_status: "not_owned"
             price: 7.30
 
@@ -1414,7 +1429,19 @@ books:
             ownership_status: "owned"
           - title: "Bakuman - T3"
             ownership_status: "owned"
-          - title: "Bakuman - T4 -> T20"
+          - title: "Bakuman - T4"
+            ownership_status: "owned"
+          - title: "Bakuman - T5"
+            ownership_status: "owned"
+          - title: "Bakuman - T6"
+            ownership_status: "owned"
+          - title: "Bakuman - T7"
+            ownership_status: "owned"
+          - title: "Bakuman - T8"
+            ownership_status: "owned"
+          - title: "Bakuman - T9"
+            ownership_status: "owned"
+          - title: "Bakuman - T10 -> T20"
             ownership_status: "not_owned"
             price: 7.30
 
@@ -1573,6 +1600,17 @@ books:
             price: 7.95
 
     kurokawa:
+      - series: "Mob Psycho 100"
+        author: "ONE"
+        price: 7.65
+        books:
+          - title: "Mob Psycho 100 - T1"
+            ownership_status: "owned"
+          - title: "Mob Psycho 100 - T2"
+            ownership_status: "owned"
+          - title: "Mob Psycho 100 - T3 -> T16"
+            ownership_status: "not_owned"
+
       - series: "Yotsuba"
         author: "Kiyohiko Azuma"
         price: 7.95
@@ -1589,9 +1627,10 @@ books:
         price: 7.3
         books:
           - title: "Les Vacances de Jésus & Bouddha - T1"
-            ownership_status: "not_owned"
-            price: 7.3
-          - title: "Les Vacances de Jésus & Bouddha - T2 -> T21"
+            ownership_status: "owned"
+          - title: "Les Vacances de Jésus & Bouddha - T2"
+            ownership_status: "owned"
+          - title: "Les Vacances de Jésus & Bouddha - T3 -> T21"
             ownership_status: "not_owned"
             price: 7.3
 
