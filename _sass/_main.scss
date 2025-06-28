@@ -472,7 +472,8 @@ a {
 /* ====== FILTRES BACKLOG ====== */
 /* ============================= */
 
-.global-filter-container {
+.global-filter-container,
+.search-container {
   margin: 1.5rem 0;
   padding: 0.75rem;
   border: 1px solid #e9ecef;
@@ -483,7 +484,12 @@ a {
   flex-wrap: wrap;
 }
 
-.filter-label {
+.search-container {
+  margin-top: 0.3rem;
+}
+
+.filter-label,
+.search-label {
   font-size: 0.9rem;
   color: #666;
   font-weight: 500;
@@ -492,6 +498,49 @@ a {
   i {
     margin-right: 0.2rem;
     color: #999;
+  }
+}
+
+.search-input {
+  flex: 1;
+  min-width: 200px;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  transition: border-color 0.2s ease;
+
+  &:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.1);
+  }
+
+  &::placeholder {
+    color: #aaa;
+  }
+}
+
+.clear-search-btn {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  i {
+    color: #666;
+    font-size: 0.8rem;
+  }
+
+  &:hover {
+    background: #e9ecef;
+    border-color: #999;
   }
 }
 
@@ -545,6 +594,13 @@ a {
     gap: 0.75rem;
   }
 
+  .search-container {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: nowrap;
+  }
+
   .filter-buttons {
     flex-direction: column;
     align-items: stretch;
@@ -553,6 +609,15 @@ a {
 
   .filter-btn {
     text-align: center;
+  }
+
+  .search-input {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .clear-search-btn {
+    flex-shrink: 0;
   }
 
   #backlog-toc {

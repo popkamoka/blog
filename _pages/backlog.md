@@ -52,6 +52,14 @@ title: Backlog
   </div>
 </div>
 
+<div class="search-container">
+  <span class="search-label"><i class="fa-solid fa-search"></i> Rechercher :</span>
+  <input type="text" id="backlog-search" class="search-input" placeholder="Titre, auteur, studio...">
+  <button id="clear-search" class="clear-search-btn" title="Effacer la recherche">
+    <i class="fa-solid fa-times"></i>
+  </button>
+</div>
+
 {% assign books_section_id = 'books' %}
 <div id="{{books_section_id}}" class="backlog-section books-section">
   <h2><i class="fa-solid fa-book category-icon book-icon"></i> {{ site.data.translations.backlog.books }}</h2>
@@ -135,7 +143,7 @@ title: Backlog
 <div id="{{games_section_id}}" class="backlog-section games-section">
   <h2><i class="fa-solid fa-gamepad category-icon game-icon"></i> {{ site.data.translations.backlog.games }}</h2>
 
-  <a href="https://store.steampowered.com/wishlist/id/POPKAMOKA/?sort=dateadded">Wishlist Steam</a>
+  <a id="steam-wishlist-link" href="https://store.steampowered.com/wishlist/id/POPKAMOKA/?sort=dateadded">Wishlist Steam</a>
 
   {% for platform in site.data.backlog_games.games %}
     {% assign platform_name = platform[0] %}
@@ -388,4 +396,5 @@ title: Backlog
 </div>
 
 <script src="{{ '/assets/js/backlog-filters.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/backlog-search.js' | relative_url }}"></script>
 

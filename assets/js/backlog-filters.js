@@ -15,6 +15,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Filtrer toutes les sections
         filterAllSections(this.dataset.filter);
+
+        // Notifier le système de recherche du changement de filtre
+        if (window.backlogSearch) {
+          window.backlogSearch.onFilterChange(this.dataset.filter);
+        }
       });
     });
   }
@@ -29,7 +34,15 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Masquer les catégories vides dans toutes les sections
-    hideEmptyCategoriesInAllSections();
+    // Utiliser la fonction globale du script de recherche si disponible
+    if (
+      window.backlogSearch &&
+      window.backlogSearch.hideEmptyCategoriesAndSections
+    ) {
+      window.backlogSearch.hideEmptyCategoriesAndSections();
+    } else {
+      hideEmptyCategoriesInAllSections();
+    }
   }
 
   // Fonction pour filtrer une section spécifique
@@ -92,9 +105,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Fonction pour masquer les catégories vides dans toutes les sections
   function hideEmptyCategoriesInAllSections() {
-    const sectionsToFilter = ["books", "games", "films", "series"];
+    const allSections = ["books", "games", "films", "series", "misc"];
 
-    sectionsToFilter.forEach((sectionId) => {
+    allSections.forEach((sectionId) => {
       hideEmptyCategoriesInSection(sectionId);
     });
   }
@@ -123,7 +136,11 @@ document.addEventListener("DOMContentLoaded", function () {
       let hasVisibleContent = false;
       let currentElement = h3.nextElementSibling;
 
-      while (currentElement && currentElement.tagName !== "H3") {
+      while (
+        currentElement &&
+        currentElement.tagName !== "H3" &&
+        currentElement.tagName !== "H2"
+      ) {
         if (
           currentElement.tagName === "H4" &&
           currentElement.style.display !== "none"
@@ -138,12 +155,18 @@ document.addEventListener("DOMContentLoaded", function () {
             hasVisibleContent = true;
             break;
           }
+        } else if (currentElement.tagName === "A") {
+          // Pour la section games qui a un lien Steam wishlist
+          hasVisibleContent = true;
         }
         currentElement = currentElement.nextElementSibling;
       }
 
       h3.style.display = hasVisibleContent ? "block" : "none";
     });
+
+    // Vérifier si la section entière doit être masquée (uniquement applicable lors de la recherche)
+    // Cette logique sera gérée par le script de recherche
   }
 
   // Initialiser les filtres globaux
