@@ -1,0 +1,9 @@
+{% assign image_url = include.src | relative_url %}
+<figure>
+  <a href="{{ image_url }}" class="glightbox">
+    <img src="{{ image_url }}" alt="{{ include.alt }}">
+  </a>
+  {% if include.caption %}
+    <figcaption>{{ include.caption }}</figcaption>
+  {% endif %}
+</figure>

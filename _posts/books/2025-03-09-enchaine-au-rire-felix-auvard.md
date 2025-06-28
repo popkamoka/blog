@@ -37,10 +37,11 @@ inavouables… Au programme: Salomé Lahoche, Héloïse Le Bail, Clémence Sauva
 ## Notes personnelles
 Plutôt sympa, j'ai préféré celui-ci à "Savoir vivre". Le style graphique est impeccable avec du dessin 100% numérique. Les thématiques m'ont globalement beaucoup plus touché aussi (style vestimentaire et rapport aux marques, musique et culture jap, jeunesse et création sur internet).
 
-<figure>
-  <img src="{{ '/assets/images/books/enchaine-au-rire-felix-auvard/extrait.jpg' | relative_url }}" alt="Extrait du livre 'Enchaîné au rire'">
-  <figcaption>Crédit : Félix Auvard</figcaption>
-</figure>
+{% include lightbox_image.html 
+   src="/assets/images/books/enchaine-au-rire-felix-auvard/extrait.jpg"
+   alt="Extrait du livre 'Enchaîné au rire'"
+   title="Extrait du livre 'Enchaîné au rire' - Crédit : Félix Auvard"
+   caption="Crédit : Félix Auvard" %}
 
 Il y avait quelques planches de guests dont j'ai beaucoup aimé la variété en terme d'histoires et surtout de styles graphiques.
 
