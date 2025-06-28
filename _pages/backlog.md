@@ -43,6 +43,15 @@ title: Backlog
 </ul>
 </div>
 
+<div class="global-filter-container">
+  <span class="filter-label"><i class="fa-solid fa-filter"></i> Filtrer par statut :</span>
+  <div class="filter-buttons">
+    <button class="filter-btn active" data-filter="all">Tous</button>
+    <button class="filter-btn" data-filter="owned">Possédé</button>
+    <button class="filter-btn" data-filter="not_owned">Non possédé</button>
+  </div>
+</div>
+
 {% assign books_section_id = 'books' %}
 <div id="{{books_section_id}}" class="backlog-section books-section">
   <h2><i class="fa-solid fa-book category-icon book-icon"></i> {{ site.data.translations.backlog.books }}</h2>

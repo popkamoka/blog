@@ -1,23 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Fonction pour initialiser les filtres des livres
-  function initBookFilters() {
-    const booksSection = document.getElementById("books");
-    if (!booksSection) return;
-
-    // Créer le conteneur des filtres
-    const filterContainer = document.createElement("div");
-    filterContainer.className = "filter-container";
-    filterContainer.innerHTML = `
-            <div class="filter-buttons">
-                <button class="filter-btn active" data-filter="all">Tous</button>
-                <button class="filter-btn" data-filter="owned">Possédé</button>
-                <button class="filter-btn" data-filter="not_owned">Non possédé</button>
-            </div>
-        `;
-
-    // Insérer les filtres juste après le titre de la section
-    const sectionTitle = booksSection.querySelector("h2");
-    sectionTitle.insertAdjacentElement("afterend", filterContainer);
+  // Fonction pour initialiser les filtres globaux du backlog
+  function initGlobalBacklogFilters() {
+    const filterContainer = document.querySelector(".global-filter-container");
+    if (!filterContainer) return;
 
     // Ajouter les événements aux boutons
     const filterButtons = filterContainer.querySelectorAll(".filter-btn");
@@ -28,19 +13,34 @@ document.addEventListener("DOMContentLoaded", function () {
         // Ajouter la classe active au bouton cliqué
         this.classList.add("active");
 
-        // Filtrer les livres
-        filterBooks(this.dataset.filter);
+        // Filtrer toutes les sections
+        filterAllSections(this.dataset.filter);
       });
     });
   }
 
-  // Fonction pour filtrer les livres
-  function filterBooks(filter) {
-    const booksSection = document.getElementById("books");
-    const bookItems = booksSection.querySelectorAll("ul li");
+  // Fonction pour filtrer toutes les sections du backlog
+  function filterAllSections(filter) {
+    // Sections à filtrer (exclut 'misc' qui n'a pas d'ownership status)
+    const sectionsToFilter = ["books", "games", "films", "series"];
+
+    sectionsToFilter.forEach((sectionId) => {
+      filterSection(sectionId, filter);
+    });
+
+    // Masquer les catégories vides dans toutes les sections
+    hideEmptyCategoriesInAllSections();
+  }
+
+  // Fonction pour filtrer une section spécifique
+  function filterSection(sectionId, filter) {
+    const section = document.getElementById(sectionId);
+    if (!section) return;
+
+    const items = section.querySelectorAll("ul li");
 
     // Filtrer les éléments individuels
-    bookItems.forEach((item) => {
+    items.forEach((item) => {
       if (filter === "all") {
         item.style.display = "list-item";
         return;
@@ -88,17 +88,24 @@ document.addEventListener("DOMContentLoaded", function () {
         item.style.display = "none";
       }
     });
-
-    // Masquer les catégories et sous-catégories vides
-    hideEmptyCategories();
   }
 
-  // Fonction pour masquer les catégories vides
-  function hideEmptyCategories() {
-    const booksSection = document.getElementById("books");
+  // Fonction pour masquer les catégories vides dans toutes les sections
+  function hideEmptyCategoriesInAllSections() {
+    const sectionsToFilter = ["books", "games", "films", "series"];
+
+    sectionsToFilter.forEach((sectionId) => {
+      hideEmptyCategoriesInSection(sectionId);
+    });
+  }
+
+  // Fonction pour masquer les catégories vides dans une section
+  function hideEmptyCategoriesInSection(sectionId) {
+    const section = document.getElementById(sectionId);
+    if (!section) return;
 
     // Gérer les sous-catégories (h4) d'abord
-    const subcategories = booksSection.querySelectorAll("h4");
+    const subcategories = section.querySelectorAll("h4");
     subcategories.forEach((h4) => {
       const nextUl = h4.nextElementSibling;
       if (nextUl && nextUl.tagName === "UL") {
@@ -110,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Gérer les catégories principales (h3)
-    const categories = booksSection.querySelectorAll("h3");
+    const categories = section.querySelectorAll("h3");
     categories.forEach((h3) => {
       // Vérifier s'il y a des sous-catégories visibles ou des listes directement après h3
       let hasVisibleContent = false;
@@ -139,6 +146,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // Initialiser les filtres
-  initBookFilters();
+  // Initialiser les filtres globaux
+  initGlobalBacklogFilters();
 });
