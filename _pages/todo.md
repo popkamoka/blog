@@ -12,7 +12,6 @@ title: Todo
 - Anime: The Tatami Time Machine Blues
 
 ### Améliorations du blog
-- Faire fonctionner lightbox pour les images, voir si on peut harmoniser ça aussi entre covers et illus
 - Fixer le décalage du menu quand on clique sur certains boutons
 - Vérifier que les tags fonctionnent bien sur Github
 - Réparer le layout des articles en version mobile

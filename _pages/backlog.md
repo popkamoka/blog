@@ -378,3 +378,5 @@ title: Backlog
   {% endfor %}
 </div>
 
+<script src="{{ '/assets/js/backlog-filters.js' | relative_url }}"></script>
+

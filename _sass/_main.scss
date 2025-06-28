@@ -468,7 +468,58 @@ a {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 768px) {
+/* ============================= */
+/* ====== FILTRES BACKLOG ====== */
+/* ============================= */
+
+.filter-container {
+  margin: 1rem 0;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  background: white;
+  color: #666;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &:hover {
+    border-color: #999;
+  }
+
+  &.active {
+    color: white;
+    border: none;
+
+    &[data-filter="all"] {
+      background: #666;
+    }
+
+    &[data-filter="owned"] {
+      background: #008fae;
+    }
+
+    &[data-filter="not_owned"] {
+      background: #be156c;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .filter-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
   #backlog-toc {
     display: none;
   }
@@ -536,6 +587,10 @@ hr {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+  }
+
+  #backlog-toc {
+    display: none;
   }
 }
 
