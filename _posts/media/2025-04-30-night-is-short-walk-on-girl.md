@@ -27,10 +27,9 @@ end_date: 30/04/2025
 L'histoire tourne autour de deux étudiants, "la fille aux cheveux noir" et le "Senpai" qui cherche à lui déclarer sa flamme, sans cesse détourné par différents protagonistes et autres péripéties à travers la nuit dans les rues de Kyoto.
 
 ## Notes personnelles
-<figure>
-    <img src="{{ '/assets/images/media/night-is-short-walk-on-girl-masaaki-yuasa/extrait.png' | relative_url  }}" alt="">
-    <figcaption></figcaption>
-</figure>
+{% include lightbox_image.html 
+   src="/assets/images/media/night-is-short-walk-on-girl-masaaki-yuasa/extrait.png"
+   alt="Extrait du film" %}
 
 On retrouve Massaki Yuasa aux commandes de cette suite spirituelle de The Tatami Galaxy, duquel on retrouve d'ailleurs certains personnages. Ce film est une adaptation d'un roman de Tomihiko Morimi, qui signait aussi celui dont originait The Tatami Galaxy.
 
@@ -42,47 +41,47 @@ J'ai été moins emporté par la sous-intrigue du garçon qui veut déclarer sa 
 
 Cela reste cependant un film qui fait définitivement du bien à regarder, que ce soit au moral ou aux yeux.
 
-<figure>
-    <img src="{{ '/assets/images/media/night-is-short-walk-on-girl-masaaki-yuasa/1.png' | relative_url  }}" alt="Extrait du film">
-</figure>
-<figure>
-    <img src="{{ '/assets/images/media/night-is-short-walk-on-girl-masaaki-yuasa/2.png' | relative_url  }}" alt="Extrait du film">
-</figure>
-<figure>
-    <img src="{{ '/assets/images/media/night-is-short-walk-on-girl-masaaki-yuasa/3.png' | relative_url  }}" alt="Extrait du film">
-</figure>
-<figure>
-    <img src="{{ '/assets/images/media/night-is-short-walk-on-girl-masaaki-yuasa/4.png' | relative_url  }}" alt="Extrait du film">
-</figure>
-<figure>
-    <img src="{{ '/assets/images/media/night-is-short-walk-on-girl-masaaki-yuasa/5.png' | relative_url  }}" alt="Extrait du film">
-</figure>
-<figure>
-    <img src="{{ '/assets/images/media/night-is-short-walk-on-girl-masaaki-yuasa/6.png' | relative_url  }}" alt="Extrait du film">
-</figure>
-<figure>
-    <img src="{{ '/assets/images/media/night-is-short-walk-on-girl-masaaki-yuasa/7.png' | relative_url  }}" alt="Extrait du film">
-</figure>
-<figure>
-    <img src="{{ '/assets/images/media/night-is-short-walk-on-girl-masaaki-yuasa/8.png' | relative_url  }}" alt="Extrait du film">
-</figure>
-<figure>
-    <img src="{{ '/assets/images/media/night-is-short-walk-on-girl-masaaki-yuasa/9.png' | relative_url  }}" alt="Extrait du film">
-</figure>
-<figure>
-    <img src="{{ '/assets/images/media/night-is-short-walk-on-girl-masaaki-yuasa/10.png' | relative_url  }}" alt="Extrait du film">
-</figure>
-<figure>
-    <img src="{{ '/assets/images/media/night-is-short-walk-on-girl-masaaki-yuasa/11.png' | relative_url  }}" alt="Extrait du film">
-</figure>
-<figure>
-    <img src="{{ '/assets/images/media/night-is-short-walk-on-girl-masaaki-yuasa/12.png' | relative_url  }}" alt="Extrait du film">
-</figure>
-<figure>
-    <img src="{{ '/assets/images/media/night-is-short-walk-on-girl-masaaki-yuasa/13.png' | relative_url  }}" alt="Extrait du film">
-</figure>
-<figure>
-    <img src="{{ '/assets/images/media/night-is-short-walk-on-girl-masaaki-yuasa/14.png' | relative_url  }}" alt="Extrait du film">
-</figure>
+{% include lightbox_image.html 
+   src="/assets/images/media/night-is-short-walk-on-girl-masaaki-yuasa/1.png"
+   alt="Extrait du film" %}
+{% include lightbox_image.html 
+   src="/assets/images/media/night-is-short-walk-on-girl-masaaki-yuasa/2.png"
+   alt="Extrait du film" %}
+{% include lightbox_image.html 
+   src="/assets/images/media/night-is-short-walk-on-girl-masaaki-yuasa/3.png"
+   alt="Extrait du film" %}
+{% include lightbox_image.html 
+   src="/assets/images/media/night-is-short-walk-on-girl-masaaki-yuasa/4.png"
+   alt="Extrait du film" %}
+{% include lightbox_image.html 
+   src="/assets/images/media/night-is-short-walk-on-girl-masaaki-yuasa/5.png"
+   alt="Extrait du film" %}
+{% include lightbox_image.html 
+   src="/assets/images/media/night-is-short-walk-on-girl-masaaki-yuasa/6.png"
+   alt="Extrait du film" %}
+{% include lightbox_image.html 
+   src="/assets/images/media/night-is-short-walk-on-girl-masaaki-yuasa/7.png"
+   alt="Extrait du film" %}
+{% include lightbox_image.html 
+   src="/assets/images/media/night-is-short-walk-on-girl-masaaki-yuasa/8.png"
+   alt="Extrait du film" %}
+{% include lightbox_image.html 
+   src="/assets/images/media/night-is-short-walk-on-girl-masaaki-yuasa/9.png"
+   alt="Extrait du film" %}
+{% include lightbox_image.html 
+   src="/assets/images/media/night-is-short-walk-on-girl-masaaki-yuasa/10.png"
+   alt="Extrait du film" %}
+{% include lightbox_image.html 
+   src="/assets/images/media/night-is-short-walk-on-girl-masaaki-yuasa/11.png"
+   alt="Extrait du film" %}
+{% include lightbox_image.html 
+   src="/assets/images/media/night-is-short-walk-on-girl-masaaki-yuasa/12.png"
+   alt="Extrait du film" %}
+{% include lightbox_image.html 
+   src="/assets/images/media/night-is-short-walk-on-girl-masaaki-yuasa/13.png"
+   alt="Extrait du film" %}
+{% include lightbox_image.html 
+   src="/assets/images/media/night-is-short-walk-on-girl-masaaki-yuasa/14.png"
+   alt="Extrait du film" %}
 
 

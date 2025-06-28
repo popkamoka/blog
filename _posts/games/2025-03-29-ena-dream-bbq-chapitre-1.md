@@ -37,10 +37,10 @@ J'ai fait plusieurs runs, il existe une seule fin mais plusieurs moyens d'y acc�
 
 J'ai moins aimé les succès proposés, certains demandant d'attendre sans rien faire pendant quelques minutes, ou de juste espérer avoir un évènement purement aléatoire au cours de sa partie. 
 
-<figure>
-  <img src="{{ '/assets/images/games/ena-dream-bbq-chapitre-1/extrait.png' | relative_url }}" alt="Extrait du premier chapitre">
-  <figcaption>Crédit : ENA Team</figcaption>
-</figure>
+{% include lightbox_image.html 
+   src="/assets/images/games/ena-dream-bbq-chapitre-1/extrait.png"
+   alt="Extrait du premier chapitre"
+   caption="Crédit : ENA Team" %}
 
 
 Je tuerais également pour une traduction en français, surtout étant donné la nature un peu décousue et abstraite des dialogues. Mention spéciale aux nombreux PNJs du jeu s'exprimant en une autre langue que l'anglais dans leur doublage, on a même eu droit à deux personnages parlant français.

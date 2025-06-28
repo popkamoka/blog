@@ -32,17 +32,17 @@ Castlevania : Symphony of the Night sur Playstation est un jeu d'action/aventure
 J'ai découvert le jeu dans un épisode de Speed Game et l'avait fait quelques années plus tard dans sa version Android, lors de ma phase Metroidvania.
 M'y revoici quelques années plus tard, étant pris d'une envie de refaire les Igavania sur ma console Anbernic et voulant donc commencer par le premier de la liste.
 
-<figure>
- <img src="{{ '/assets/images/games/castlevania-symphony-of-the-night-konami/extrait.png' | relative_url  }}" alt="Premier combat contre Dracula">
-  <figcaption>Premier combat contre Dracula</figcaption>
-</figure>
+{% include lightbox_image.html 
+   src="/assets/images/games/castlevania-symphony-of-the-night-konami/extrait.png"
+   alt="Premier combat contre Dracula"
+   caption="Premier combat contre Dracula" %}
 
 La version PSX a globalement bien vieilli : je suis vraiment fan de ce qui a été fait comme travail au niveau des sprites que je trouve vraiment très bien réalisés. C'est sans parler de la bande son du jeu qui est excellente, notamment grâce à l'utilisation du support CD de la PSX qui a permis d'offrir une vraie qualité audio. Le doublage USA est vraiment nanar, mais a son petit charme.
 
-<figure>
- <img src="{{ '/assets/images/games/castlevania-symphony-of-the-night-konami/background.png' | relative_url  }}" alt="Décor de zone de la chapelle">
-  <figcaption>Décor de zone de la chapelle</figcaption>
-</figure>
+{% include lightbox_image.html 
+   src="/assets/images/games/castlevania-symphony-of-the-night-konami/background.png"
+   alt="Décor de zone de la chapelle"
+   caption="Décor de zone de la chapelle" %}
 
 Le seul couac à mes yeux réside dans la gestion du menu et des items, qui est vraiment dépassée et qui demande beaucoup trop de manipulations comparé aux versions remastérisées.
 
@@ -50,10 +50,10 @@ J'ai cependant pris beaucoup de plaisir à explorer le château et on sent vraim
 
 Mention spéciale au travail d'Ayami Kojima, illustratrice connue pour son travail sur Castlevania et qui s'est occupée de l'illustration de la couverture.
 
-<figure>
- <img src="{{ '/assets/images/games/castlevania-symphony-of-the-night-konami/ayami.png' | relative_url  }}" alt="Illustration pour Harmony of Dissonance">
-  <figcaption>Illustration pour Harmony of Dissonance</figcaption>
-</figure>
+{% include lightbox_image.html 
+   src="/assets/images/games/castlevania-symphony-of-the-night-konami/ayami.png"
+   alt="Illustration pour Harmony of Dissonance"
+   caption="Illustration pour Harmony of Dissonance" %}
 
 Je laisse ci-dessous quelques morceaux de l'OST qui m'ont vraiment plu.
 

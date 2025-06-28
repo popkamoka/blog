@@ -29,10 +29,9 @@ playtime: 16h
 Le créateur de Pony Island et The Hex revient avec une nouvelle lettre d'amour aux jeux vidéo, complètement hallucinée et obsessionnelle. Inscryption est une odyssée personnelle qui prend la forme d'un jeu de cartes d'un noir d'encre qui mélange le rogue-like, la création de deck, les énigmes des escape-room et l'horreur psychologique. Mais ce n'est pas tout, car les cartes renferment des secrets encore plus noirs...
 
 ## Notes personnelles
-<figure>
-    <img src="{{ '/assets/images/games/inscryption-daniel-mullins-games/extrait.png' | relative_url  }}" alt="">
-    <figcaption></figcaption>
-</figure>
+{% include lightbox_image.html 
+   src="/assets/images/games/inscryption-daniel-mullins-games/extrait.png"
+   alt="Extrait du jeu Inscryption" %}
 
 Inscryption est l'un de ces jeux que l'on recommandait de lancer sans trop se renseigner dessus, sous-entendant que l'expérience méritait d'être vécue le plus aveuglément possible. Cela sous-entendait aussi que le jeu cachait plus qu'un simple jeu de cartes aux mécaniques parfois bien gores.
 

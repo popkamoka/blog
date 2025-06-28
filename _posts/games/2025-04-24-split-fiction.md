@@ -35,10 +35,10 @@ J'y ai joué avec Arkwak et on s'est bien amusés : on a trouvé qu'il y avait p
 
 J'ai cependant été moins emporté par une histoire qui m'a laissé de marbre et par une écriture de dialogue qui était vraiment trop clichée. Je ne sais pas si la VF vient accentuer cet effet-là, mais je me suis retrouvé à plusieurs reprises à souffler parce que les dialogues étaient vraiment niais. 
 
-<figure>
-  <img src="{{ '/assets/images/games/split-fiction-hazelight-studios/extrait.png' | relative_url }}" alt="Un singe stylé">
-  <figcaption>Un singe stylé</figcaption>
-</figure>
+{% include lightbox_image.html 
+   src="/assets/images/games/split-fiction-hazelight-studios/extrait.png"
+   alt="Un singe stylé"
+   caption="Un singe stylé" %}
 
 
 J'ai aussi déploré l'absence de mini-jeux comme le proposait It Takes Two, on avait bien rigolé dessus et j'aurais adoré en retrouver ici.

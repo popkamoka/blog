@@ -29,10 +29,10 @@ playtime: 27h
 Dive into the parallel story to UNDERTALE! Fight or spare your way through action-packed battles as you explore a mysterious world alongside an endearing cast of new and familiar characters. Chapters 1-4 will be available on launch, with more planned as free updates! 
 
 ## Notes personnelles
-<figure>
-    <img src="{{ '/assets/images/games/deltarune-toby-fox/extrait2.jpg' | relative_url  }}" alt="Un mini jeu de rythme bien sympa">
-    <figcaption>Un mini jeu de rythme bien sympa</figcaption>
-</figure>
+{% include lightbox_image.html 
+   src="/assets/images/games/deltarune-toby-fox/extrait2.jpg"
+   alt="Un mini jeu de rythme bien sympa"
+   caption="Un mini jeu de rythme bien sympa" %}
 
 ### Review des chapitres 1 - 4 (22/06/2025)
 
@@ -46,10 +46,10 @@ Pour l'occasion, n'ayant plus la sauvegarde des deux premiers chapitres sur ce P
 
 Pour ce qui concerne ces deux nouveaux chapitres, je les ai également bien-aimés : l'histoire s'accélère d'un coup et ce n'est pas pour me déplaire. Le reste est tout aussi bon, que ce soit au niveau des personnages, de la musique ou de l'ambiance générale. Même si le chapitre 3 fait un peu office de chapitre de transition, j'ai apprécié ses mini-jeux et son antagoniste principal. J'ai même réussi à ne rien me faire spoiler, un exploit étant donné la gueule qu'avaient mes flux de réseaux sociaux après avoir terminé le jeu.
 
-<figure>
-    <img src="{{ '/assets/images/games/deltarune-toby-fox/extrait3.jpg' | relative_url  }}" alt="Un jeu dans le jeu, avec une route alternative inspirée de creepypasta">
-    <figcaption>Un jeu dans le jeu, avec une route alternative inspirée de creepypasta</figcaption>
-</figure>
+{% include lightbox_image.html 
+   src="/assets/images/games/deltarune-toby-fox/extrait3.jpg"
+   alt="Un jeu dans le jeu, avec une route alternative inspirée de creepypasta"
+   caption="Un jeu dans le jeu, avec une route alternative inspirée de creepypasta" %}
 
 
 Le chapitre 4 quant à lui est vraiment rempli de scènes marquantes, en particulier dans la weird route que j'ai toujours plaisir à découvrir en regardant des vidéos Youtube.
@@ -60,10 +60,10 @@ C'était encore plus frustrant parce que j'avais littéralement tous les items n
 
 Cela me surprend d'autant plus que l'obtention du quatrième cristal est vraiment bien plus évidente pour le coup avec un combat de boss franchement cool.
 
-<figure>
-    <img src="{{ '/assets/images/games/deltarune-toby-fox/extrait4.jpg' | relative_url  }}" alt="Combat dans le Dark World de l'église">
-    <figcaption>Combat dans le Dark World de l'église</figcaption>
-</figure>
+{% include lightbox_image.html 
+   src="/assets/images/games/deltarune-toby-fox/extrait4.jpg"
+   alt="Combat dans le Dark World de l'église"
+   caption="Combat dans le Dark World de l'église" %}
 
 En attendant, ces quatre premiers chapitres forment déjà un tout très solide, qui sera complété par la sortie du cinquième chapitre annoncée pour 2026. J'ai vraiment hâte d'y être, surtout en voyant comment le contenu d'un seul chapitre permet de remettre en question sans cesse la compréhension du jeu et de son histoire.
 

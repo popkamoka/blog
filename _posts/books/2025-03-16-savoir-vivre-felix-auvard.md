@@ -35,10 +35,10 @@ Premier bouquin de l'auteur que j'achetais et que j'avais découvert sur Instagr
 
 C'était chouette mais j'ai moins accroché à ce dont le livre parlait, malgré quelques pages sur des sujets d'éducation religieuse ou de rapport à la mort. J'en garde surtout le souvenir d'un joli style type aquarelle, bien que je préfère ses strips avec des traits plus prononcés et une inspiration plus cartoon.
 
-<figure>
-  <img src="{{ '/assets/images/books/savoir-vivre-felix-auvard/extrait.jpeg' | relative_url }}" alt="Extrait du livre 'Savoir vivre'">
-  <figcaption>Crédit : Félix Auvard</figcaption>
-</figure>
+{% include lightbox_image.html 
+   src="/assets/images/books/savoir-vivre-felix-auvard/extrait.jpeg"
+   alt="Extrait du livre 'Savoir vivre'"
+   caption="Crédit : Félix Auvard" %}
 
 
 Il y a pas mal de jolies planches sans dialogues et qui font un peu office de moment de pause dans la BD, elles sont vraiment sympa et on prend le temps de s'arrêter dans sa lecture pour en profiter.

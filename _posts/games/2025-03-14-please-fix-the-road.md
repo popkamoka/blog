@@ -35,8 +35,8 @@ J'ai apprécié l'option dédiée pour désactiver complètement les indices et 
 
 Le jeu reste cependant très bon, il m'a occupé pendant plus de 20h et la résolution des puzzles était globalement toujours très satisfaisante. J'y reviendrai peut-être plus tard si l'envie revient, mais j'activerai probablement les indices cette fois-ci.
 
-<figure>
-    <img src="{{ '/assets/images/games/please-fix-the-road-arielek/extrait.png' | relative_url  }}" alt="Une complétion de 116/160, pas si pire">
-  <figcaption>Une complétion de 116/160, pas si pire</figcaption>
-</figure>
+{% include lightbox_image.html 
+   src="/assets/images/games/please-fix-the-road-arielek/extrait.png"
+   alt="Une complétion de 116/160, pas si pire"
+   caption="Une complétion de 116/160, pas si pire" %}
 

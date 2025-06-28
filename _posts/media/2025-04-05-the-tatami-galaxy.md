@@ -35,10 +35,10 @@ The Tatami Galaxy est un anime que l'on recommandait déjà sur Internet il y a 
 
 La couverture a été réalisée par [Yūsuke Nakamura](https://www.instagram.com/yusuke_nakamura_jp/), qui s'est occupé du chara design de la série. Il est surtout connu pour les illustrations des albums du groupe de J-POP Asian Kung-Fu Generation. Je suis vraiment fan de son travail et de ses illustrations avec les personnages de profil.
 
-<figure>
-  <img src="{{ '/assets/images/media/the-tatami-galaxy-masaaki-yuasa/world.jpg' | relative_url }}" alt="Pochette de l'album World World World (Asian Kung-Fu Generation album)">
-  <figcaption>Pochette de l'album World World World (Asian Kung-Fu Generation album)</figcaption>
-</figure>
+{% include lightbox_image.html 
+   src="/assets/images/media/the-tatami-galaxy-masaaki-yuasa/world.jpg"
+   alt="Pochette de l'album World World World (Asian Kung-Fu Generation album)"
+   caption="Pochette de l'album World World World (Asian Kung-Fu Generation album)" %}
 
 
 Je ne connaissais pas encore le travail de Masaaki Yuasa et je n'ai découvert que plus tard qu'il était le réalisateur de The Tatami Galaxy.
@@ -48,10 +48,10 @@ J'ai cependant enfin réussi à passer au-delà des 5 premières minutes.
 
 Les épisodes sont liés par la répétition d'un cycle où le personnage principal choisit (ou non) un club lors de sa première année d'université. Il rencontrera les mêmes personnages dans des contextes différents, mais échouera toujours à trouver l'amour. À la fin de l'épisode, un retour dans le temps s'opère, ce qui permet au personnage principal de choisir un autre club.
 
-<figure>
-  <img src="{{ '/assets/images/media/the-tatami-galaxy-masaaki-yuasa/extrait1.png' | relative_url }}" alt="Extrait de l'épisode 1">
-  <figcaption>Crédit : Madhouse</figcaption>
-</figure>
+{% include lightbox_image.html 
+   src="/assets/images/media/the-tatami-galaxy-masaaki-yuasa/extrait1.png"
+   alt="Extrait de l'épisode 1"
+   caption="Crédit : Madhouse" %}
 
 J'ai beaucoup aimé ce système où l'univers et son histoire sont construits au fur et à mesure en arrière-plan à travers les boucles, en faisant en sorte que le héros principal côtoie les autres personnages dans des scénarios différents.
 
@@ -59,10 +59,10 @@ On remarque notamment dans les derniers épisodes que les événements décrits 
 
 De plus, chaque épisode se suffit à lui-même, ce qui m'a permis de pouvoir faire des pauses de plusieurs jours sans être perdu au retour. C'est sans doute ce qui a pas mal aidé à arriver au bout de la série, n'étant jamais obligé d'enchaîner un double épisode.
 
-<figure>
-  <img src="{{ '/assets/images/media/the-tatami-galaxy-masaaki-yuasa/extrait2.png' | relative_url }}" alt="Extrait de l'épisode 10">
-  <figcaption>Crédit : Madhouse</figcaption>
-</figure>
+{% include lightbox_image.html 
+   src="/assets/images/media/the-tatami-galaxy-masaaki-yuasa/extrait2.png"
+   alt="Extrait de l'épisode 10"
+   caption="Crédit : Madhouse" %}
 
 Quant à la fin de la série, je l'ai trouvée très bien et dans la continuité de ce qui avait été proposé avant.
 
@@ -81,51 +81,51 @@ Le troisième parle du héros principal qui va pêcher et qui se retrouve en com
 
 J’ai eu une préférence pour le dernier qui a un style plus surréaliste et décousu, mais ils étaient tous vraiment beau à voir, donc voici des screenshots.
 
-<figure>
-  <img src="{{ '/assets/images/media/the-tatami-galaxy-masaaki-yuasa/1_1.png' | relative_url }}" alt="Extrait de l'épisode spécial 1">
-</figure>
+{% include lightbox_image.html 
+   src="/assets/images/media/the-tatami-galaxy-masaaki-yuasa/1_1.png"
+   alt="Extrait de l'épisode spécial 1" %}
 
-<figure>
-  <img src="{{ '/assets/images/media/the-tatami-galaxy-masaaki-yuasa/1_2.png' | relative_url }}" alt="Extrait de l'épisode spécial 1">
-</figure>
+{% include lightbox_image.html 
+   src="/assets/images/media/the-tatami-galaxy-masaaki-yuasa/1_2.png"
+   alt="Extrait de l'épisode spécial 1" %}
 
-<figure>
-  <img src="{{ '/assets/images/media/the-tatami-galaxy-masaaki-yuasa/1_3.png' | relative_url }}" alt="Extrait de l'épisode spécial 1">
-</figure>
+{% include lightbox_image.html 
+   src="/assets/images/media/the-tatami-galaxy-masaaki-yuasa/1_3.png"
+   alt="Extrait de l'épisode spécial 1" %}
 
-<figure>
-  <img src="{{ '/assets/images/media/the-tatami-galaxy-masaaki-yuasa/1_4.png' | relative_url }}" alt="Extrait de l'épisode spécial 1">
-</figure>
+{% include lightbox_image.html 
+   src="/assets/images/media/the-tatami-galaxy-masaaki-yuasa/1_4.png"
+   alt="Extrait de l'épisode spécial 1" %}
 
-<figure>
-  <img src="{{ '/assets/images/media/the-tatami-galaxy-masaaki-yuasa/2_1.png' | relative_url }}" alt="Extrait de l'épisode spécial 2">
-</figure>
+{% include lightbox_image.html 
+   src="/assets/images/media/the-tatami-galaxy-masaaki-yuasa/2_1.png"
+   alt="Extrait de l'épisode spécial 2" %}
 
-<figure>
-  <img src="{{ '/assets/images/media/the-tatami-galaxy-masaaki-yuasa/2_2.png' | relative_url }}" alt="Extrait de l'épisode spécial 2">
-</figure>
+{% include lightbox_image.html 
+   src="/assets/images/media/the-tatami-galaxy-masaaki-yuasa/2_2.png"
+   alt="Extrait de l'épisode spécial 2" %}
 
-<figure>
-  <img src="{{ '/assets/images/media/the-tatami-galaxy-masaaki-yuasa/2_3.png' | relative_url }}" alt="Extrait de l'épisode spécial 2">
-</figure>
+{% include lightbox_image.html 
+   src="/assets/images/media/the-tatami-galaxy-masaaki-yuasa/2_3.png"
+   alt="Extrait de l'épisode spécial 2" %}
 
-<figure>
-  <img src="{{ '/assets/images/media/the-tatami-galaxy-masaaki-yuasa/2_4.png' | relative_url }}" alt="Extrait de l'épisode spécial 2">
-</figure>
+{% include lightbox_image.html 
+   src="/assets/images/media/the-tatami-galaxy-masaaki-yuasa/2_4.png"
+   alt="Extrait de l'épisode spécial 2" %}
 
-<figure>
-  <img src="{{ '/assets/images/media/the-tatami-galaxy-masaaki-yuasa/3_1.png' | relative_url }}" alt="Extrait de l'épisode spécial 3">
-</figure>
+{% include lightbox_image.html 
+   src="/assets/images/media/the-tatami-galaxy-masaaki-yuasa/3_1.png"
+   alt="Extrait de l'épisode spécial 3" %}
 
-<figure>
-  <img src="{{ '/assets/images/media/the-tatami-galaxy-masaaki-yuasa/3_2.png' | relative_url }}" alt="Extrait de l'épisode spécial 3">
-</figure>
+{% include lightbox_image.html 
+   src="/assets/images/media/the-tatami-galaxy-masaaki-yuasa/3_2.png"
+   alt="Extrait de l'épisode spécial 3" %}
 
-<figure>
-  <img src="{{ '/assets/images/media/the-tatami-galaxy-masaaki-yuasa/3_3.png' | relative_url }}" alt="Extrait de l'épisode spécial 3">
-</figure>
+{% include lightbox_image.html 
+   src="/assets/images/media/the-tatami-galaxy-masaaki-yuasa/3_3.png"
+   alt="Extrait de l'épisode spécial 3" %}
 
-<figure>
-  <img src="{{ '/assets/images/media/the-tatami-galaxy-masaaki-yuasa/3_4.png' | relative_url }}" alt="Extrait de l'épisode spécial 3">
-</figure>
+{% include lightbox_image.html 
+   src="/assets/images/media/the-tatami-galaxy-masaaki-yuasa/3_4.png"
+   alt="Extrait de l'épisode spécial 3" %}
 

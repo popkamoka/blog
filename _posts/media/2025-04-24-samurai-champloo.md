@@ -32,9 +32,9 @@ L'histoire se déroule dans une version fictive de l'ère Edo au Japon. Une jeun
 
 J'ai vu Samurai Champloo pour la première fois pendant mon adolescence en suivant les recommandations d'un ami de l'époque. Il s'agit du premier anime de Watanabe que j'ai vu et il a une place toute particulière pour moi.
 
-<figure>
-  <img src="{{ '/assets/images/media/samurai-champloo-shinichiro-watanabe/extrait.png' | relative_url }}" alt="Illustration des trois personnages">
-</figure>
+{% include lightbox_image.html 
+   src="/assets/images/media/samurai-champloo-shinichiro-watanabe/extrait.png"
+   alt="Illustration des trois personnages" %}
 
 Ce qui m'a et me marque toujours autant, c'est sa bande son à laquelle ont participé de nombreux artistes hip-hop japonais, comme Nujabes, Force of Nature et Tsutchie.
 C'est sans aucun doute lui qui m'a fait découvrir et aimer tout ce qui est hip hop instrumentale et acid jazz.
