@@ -3,10 +3,16 @@ layout: post
 ---
 <div class="media-container">
   <div class="media-cover">
-    <img
-      src="{% if page.cover %}{{ page.cover | relative_url }}{% else %}{{ '/assets/images/unknown_cover.png' | relative_url }}{% endif %}"
-      alt="media cover"
+    <a
+      href="{% if page.cover %}{{ page.cover | relative_url }}{% else %}{{ '/assets/images/unknown_cover.png' | relative_url }}{% endif %}"
+      class="glightbox"
+      data-gallery="cover"
     >
+      <img
+        src="{% if page.cover %}{{ page.cover | relative_url }}{% else %}{{ '/assets/images/unknown_cover.png' | relative_url }}{% endif %}"
+        alt="media cover"
+      >
+    </a>
   </div>
   {% include media_info.html %}
 </div>

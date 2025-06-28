@@ -3,10 +3,16 @@ layout: post
 ---
 <div class="game-container">
   <div class="game-cover">
-    <img
-      src="{% if page.cover %}{{ page.cover | relative_url }}{% else %}{{ '/assets/images/unknown_cover.png' | relative_url }}{% endif %}"
-      alt="game cover"
+    <a
+      href="{% if page.cover %}{{ page.cover | relative_url }}{% else %}{{ '/assets/images/unknown_cover.png' | relative_url }}{% endif %}"
+      class="glightbox"
+      data-gallery="cover"
     >
+      <img
+        src="{% if page.cover %}{{ page.cover | relative_url }}{% else %}{{ '/assets/images/unknown_cover.png' | relative_url }}{% endif %}"
+        alt="game cover"
+      >
+    </a>
   </div>
   {% include game_info.html %}
 </div>

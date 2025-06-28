@@ -3,10 +3,16 @@ layout: post
 ---
 <div class="book-container">
   <div class="book-cover">
-    <img
-      src="{% if page.cover %}{{ page.cover | relative_url }}{% else %}{{ '/assets/images/unknown_cover.png' | relative_url }}{% endif %}"
-      alt="book cover"
+    <a
+      href="{% if page.cover %}{{ page.cover | relative_url }}{% else %}{{ '/assets/images/unknown_cover.png' | relative_url }}{% endif %}"
+      class="glightbox"
+      data-gallery="cover"
     >
+      <img
+        src="{% if page.cover %}{{ page.cover | relative_url }}{% else %}{{ '/assets/images/unknown_cover.png' | relative_url }}{% endif %}"
+        alt="book cover"
+      >
+    </a>
   </div>
   {% include book_info.html %}
 </div>
