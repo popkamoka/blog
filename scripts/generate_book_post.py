@@ -58,6 +58,7 @@ cover: {cover_path}
 rating: 
 
 ownership_status: 
+ownership_format:
 progress_status: 
 start_date: 
 end_date:
