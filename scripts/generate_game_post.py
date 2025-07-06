@@ -77,7 +77,7 @@ playtime:
 {{% include lightbox_image.html
 src=""
 alt=""
-caption=" %}}
+caption="" %}}
 
 """
 

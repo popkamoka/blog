@@ -76,7 +76,7 @@ end_date:
 {{% include lightbox_image.html
 src=""
 alt=""
-caption=" %}}
+caption="" %}}
 
 """
 
