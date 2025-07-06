@@ -74,10 +74,10 @@ playtime:
 {{% include youtube.html id="" title="" %}}
 
 ## Notes personnelles
-<figure>
-    <img src="{{ {{ '{extract_path}' | relative_url  }} }}" alt="">
-    <figcaption></figcaption>
-</figure>
+{{% include lightbox_image.html
+src=""
+alt=""
+caption=" %}}
 
 """
 
