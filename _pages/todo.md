@@ -19,3 +19,4 @@ title: Todo
 - Créer une page dynamique avec la liste des articles selon les catégories (archive de complétion)
 - Améliorer le système de création de fiche pour une automatisation poussée
 - Ajouter éditeurs pour romans et BDs
+- Mettre à jour les scripts pour utiliser lightbox
