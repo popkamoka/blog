@@ -1,6 +1,12 @@
 books:
   novels:
     n/a:
+      - series: "La Horde du Contrevent"
+        author: "Alain Damasio"
+        books:
+          - title: "La Horde du Contrevent"
+            ownership_status: "not_owned"
+
       - series: "Vendredi ou la vie sauvage"
         author: "Michel Tournier"
         books:
