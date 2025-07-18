@@ -5,11 +5,8 @@ title: Todo
 
 ### Œuvres en cours ou prévues prochainement
 - Jeu : Super Mario All-Stars (rg35xxh)
-- Jeu : LUMINES REMASTERED
-- Jeu : TETRIS EFFECT CONNECTED
-- Jeu : Dofus
+- Jeu : Wattam
 - Livre : Rainbow (édition triple) - George Abe, Masasumi Kakizaki 
-- Anime: The Tatami Time Machine Blues
 
 ### Améliorations du blog
 - Fixer le décalage du menu quand on clique sur certains boutons
