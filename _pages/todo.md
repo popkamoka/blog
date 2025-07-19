@@ -5,7 +5,7 @@ title: Todo
 
 ### Œuvres en cours ou prévues prochainement
 - Jeu : Super Mario All-Stars (rg35xxh)
-- Jeu : Wattam
+- Jeu : Rez Infinite
 - Livre : Rainbow (édition triple) - George Abe, Masasumi Kakizaki 
 
 ### Améliorations du blog

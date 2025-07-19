@@ -74,7 +74,7 @@ end_date:
 
 ## Notes personnelles
 {{% include lightbox_image.html
-src=""
+src="{extract_path}"
 alt=""
 caption="" %}}
 

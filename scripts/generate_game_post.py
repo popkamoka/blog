@@ -75,7 +75,7 @@ playtime:
 
 ## Notes personnelles
 {{% include lightbox_image.html
-src=""
+src="{extract_path}"
 alt=""
 caption="" %}}
 
