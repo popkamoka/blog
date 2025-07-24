@@ -17,7 +17,7 @@ rating: 5
 
 ownership_status: owned
 ownership_format: digital
-progress_status: in_progress
+progress_status: completed
 start_date: 18/07/2025
 end_date: X
 playtime: 4h (19/07/2025)
@@ -53,4 +53,14 @@ En attendant de peut-être l'expérimenter, je vais continuer à y jouer un peti
 Note : j'ai généralement tendance à linker quelques morceaux musicaux qui m'ont marqué, mais pour le coup, je trouve qu'il faut expérimenter la bande-son en jouant pour vraiment l'apprécier comme il se doit. 
 
 {% include youtube.html id="n5ZDnBTlIEI" title="Rez Infinite [4K, 60fps, and No Commentary]" %}
+
+### Jeudi 14/07/2025
+
+La fatigue prend un peu le dessus en ce moment et j'ai clairement la flemme de m'y remettre, surtout que le jeu est vraiment stimulant visuellement. Ce qui me conforte dans cette décision de ne pas forcer, c'est que l'un des succès qu'il me manque demande de terminer le jeu en entier 6 fois, tandis qu'un autre demande de faire 30 niveaux en mode score.
+
+Ce n'est rien de foncièrement compliqué, mais c'est clair que je ne le plierais pas en une session. Je reviendrai mettre à jour cet article quand j'aurais un peu avancé, si je décide effectivement de m'y remettre. En attendant, voici où je suis : 
+
+{% include lightbox_image.html
+src="/assets/images/games/rez-infinite-monstars-inc/achievements_2025_07_24.png" %}
+
 
