@@ -392,6 +392,13 @@ series:
           ownership_status: "not_owned"
 
   animation_jp:
+    - title: "DanDaDan - saison 2"
+      director: "Fūga Yamashiro"
+      seasons:
+        - title: "DanDaDan - saison 2"
+          episodes: 12
+          ownership_status: "not_owned"
+
     - title: "Trava Fist Planet"
       director: "Katsuhito Ishii"
       seasons:
