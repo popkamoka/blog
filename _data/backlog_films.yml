@@ -101,6 +101,12 @@ films:
           ownership_status: "not_owned"
 
   fantasy:
+    - series: "Charlie et la Chocolaterie"
+      director: "Tim Burton"
+      films:
+        - title: "Charlie et la Chocolaterie (2005)"
+          ownership_status: "not_owned"
+
     - series: "Alice au Pays des Merveilles"
       director: "Tim Burton, James Bobin"
       films:
@@ -234,6 +240,12 @@ films:
           ownership_status: "not_owned"
 
   comedy:
+    - series: "Comme chiens et chats"
+      director: "Lawrence Guterman"
+      films:
+        - title: "Comme chiens et chats (2001)"
+          ownership_status: "not_owned"
+
     - series: "The Grand Budapest Hotel"
       director: "Wes Anderson"
       films:
@@ -297,6 +309,24 @@ films:
           url: https://www.france.tv/spectacles-et-culture/theatre-et-danse/6610685-la-flute-enchantee.html
 
   animation:
+    - series: "Super Mario Bros. le film"
+      director: "Aaron Horvath, Michael Jelenic"
+      films:
+        - title: "Super Mario Bros. le film (2023)"
+          ownership_status: "not_owned"
+
+    - series: "James et la Pêche géante"
+      director: "Henry Selick"
+      films:
+        - title: "James et la Pêche géante (1996)"
+          ownership_status: "not_owned"
+
+    - series: "Gloups ! je suis un poisson"
+      director: "Stefan Fjeldmark, Michael Hegner"
+      films:
+        - title: "Gloups ! je suis un poisson (2000)"
+          ownership_status: "not_owned"
+
     - series: "L'île aux chiens"
       director: "Wes Anderson"
       films:
