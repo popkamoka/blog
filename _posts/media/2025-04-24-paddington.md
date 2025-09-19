@@ -8,7 +8,7 @@ tags: [familial, ours, britannique]
 
 work_title: "Paddington (2014)"
 work_director: "Paul King"
-work_platform: "Cinéma"
+work_platform: "Streaming"
 work_release_date: "2014"
 genre: "Comédie"
 cover: /assets/images/media/paddington-paul-king/cover.jpg

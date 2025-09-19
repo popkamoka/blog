@@ -282,12 +282,6 @@ films:
         - title: "Cunk on Life (2024)"
           ownership_status: "not_owned"
 
-    - series: "Paddington"
-      director: "Paul King"
-      films:
-        - title: "Paddington 2 (2017)"
-          ownership_status: "owned"
-
     - series: "Les Désastreuses Aventures des orphelins Baudelaire"
       director: "Brad Silberling"
       films:
