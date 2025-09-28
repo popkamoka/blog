@@ -1725,7 +1725,10 @@ books:
             ownership_status: "owned"
           - title: "xxxHolic - nouvelle édition - T2"
             ownership_status: "owned"
-          - title: "xxxHolic - nouvelle édition - T3 -> T19"
+          - title: "xxxHolic - nouvelle édition - T3"
+            ownership_status: "owned"
+            price: 8.5
+          - title: "xxxHolic - nouvelle édition - T4 -> T19"
             ownership_status: "not_owned"
             price: 8.5
 
@@ -1749,8 +1752,9 @@ books:
           - title: "L'Atelier des Sorciers - édition grimoire T2"
             ownership_status: "owned"
           - title: "L'Atelier des Sorciers - édition grimoire T3"
+            ownership_status: "owned"
+          - title: "L'Atelier des Sorciers - édition grimoire T4"
             ownership_status: "not_owned"
-            price: 20.05
 
       - series: "GTO"
         author: "Tōru Fujisawa"

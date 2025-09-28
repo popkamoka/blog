@@ -3,11 +3,6 @@ layout: page
 title: Todo
 ---
 
-### Œuvres en cours ou prévues prochainement
-- Jeu : Super Mario All-Stars (rg35xxh)
-- Jeu : Rez Infinite
-- Livre : Rainbow (édition triple) - George Abe, Masasumi Kakizaki 
-
 ### Améliorations du blog
 - Fixer le décalage du menu quand on clique sur certains boutons
 - Vérifier que les tags fonctionnent bien sur Github

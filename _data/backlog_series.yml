@@ -453,7 +453,7 @@ series:
       seasons:
         - title: "Aria the Animation"
           episodes: 13
-          ownership_status: "not_owned"
+          ownership_status: "owned"
 
     - title: "Ergo Proxy"
       studio: "Manglobe"
@@ -534,19 +534,19 @@ series:
           episodes: 38
           ownership_status: "not_owned"
 
-    - title: "La Réceptionniste Pokémon"
+    - title: "La Réceptionniste Pokémon - saison 2"
       director: "Iku Ogawa"
       seasons:
-        - title: "La Réceptionniste Pokémon"
+        - title: "La Réceptionniste Pokémon - saison 2"
           episodes: 4
-          ownership_status: "owned"
+          ownership_status: "not_owned"
 
     - title: "Kaiba"
       director: "Masaaki Yuasa"
       seasons:
         - title: "Kaiba"
           episodes: 12
-          ownership_status: "not_owned"
+          ownership_status: "owned"
 
     - title: "Devilman Crybaby"
       director: "Masaaki Yuasa"
@@ -589,13 +589,6 @@ series:
         - title: "Lazarus Project"
           episodes: 12
           ownership_status: "not_owned"
-
-    - title: "The Tatami Time Machine Blues"
-      studio: "Science SARU"
-      seasons:
-        - title: "The Tatami Time Machine Blues"
-          episodes: 6
-          ownership_status: "owned"
 
     - title: "Sonny Boy"
       studio: "Madhouse"
