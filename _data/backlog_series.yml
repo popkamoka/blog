@@ -182,6 +182,13 @@ series:
           ownership_status: "not_owned"
 
   thriller:
+    - title: "Alice in Borderland S3 (2025)"
+      director: "Shinsuke Sato"
+      seasons:
+        - title: "Alice in Borderland S3 (2025)"
+          episodes: 6
+          ownership_status: "not_owned"
+
     - title: "Severance"
       director: "Dan Erickson"
       seasons:

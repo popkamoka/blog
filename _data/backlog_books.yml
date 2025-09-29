@@ -409,7 +409,6 @@ books:
         books:
           - title: "Charlie et la chocolaterie"
             ownership_status: "owned"
-            price: 7.5
 
       - series: "Le Portrait de Dorian Gray"
         author: "Oscar Wilde"
