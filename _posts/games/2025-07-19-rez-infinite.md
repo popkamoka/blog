@@ -26,6 +26,8 @@ playtime: 4h (19/07/2025)
 ## Résumé
 {% include youtube.html id="Hv7sO5qFO2k" title="Rez Infinite - Bande-annonce de la date de sortie | PS5, PS VR2" %}
 
+Le shooter d'action légendaire arrive enfin sur PC, et avec style ! Tracez votre route dans le cyberespace au gré de visuels époustouflants et de rythmes incroyables dans votre quête pour sauver un monde sur le point de s'effondrer. Jouable sur votre bureau ou en VR totalement immersive. 
+
 ## Notes personnelles
 
 ### Dimanche 19/07/2025
