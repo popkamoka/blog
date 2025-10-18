@@ -29,6 +29,9 @@ playtime: 27h
 Dive into the parallel story to UNDERTALE! Fight or spare your way through action-packed battles as you explore a mysterious world alongside an endearing cast of new and familiar characters. Chapters 1-4 will be available on launch, with more planned as free updates! 
 
 ## Notes personnelles
+
+{% include spoiler.html description="Cet article spoil légèrement le chapitre 3." %}
+
 {% include lightbox_image.html 
    src="/assets/images/games/deltarune-toby-fox/extrait2.jpg"
    alt="Un mini jeu de rythme bien sympa"
