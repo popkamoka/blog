@@ -312,6 +312,36 @@ a {
 }
 
 /* ============================= */
+/* ======== SPOILER ============ */
+/* ============================= */
+.spoiler-banner {
+  background-color: #fef2f2;
+  color: #991b1b;
+  padding: 1.5em;
+  border-radius: 15px;
+  margin: 1em 0;
+  text-align: center;
+  width: 100%;
+}
+
+.spoiler-icon {
+  font-size: 2em;
+  margin-bottom: 0.4em;
+}
+
+.spoiler-header {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+
+.spoiler-description {
+  font-size: 1.1em;
+  color: #ac6363;
+}
+
+/* ============================= */
 /* ======== FICHES ============= */
 /* ============================= */
 

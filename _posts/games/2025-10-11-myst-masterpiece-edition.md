@@ -35,6 +35,9 @@ Vous devez lever le voile sur une vieille trahison. Des livres secrets dissimul�
 Seuls votre esprit de déduction et votre imagination pourront démêler les fils du mensonge et de la supercherie qui enserrent les mondes de Myst.
 
 ## Notes personnelles
+
+{% include spoiler.html description="Ce billet décrit mon aventure sur le jeu et en dévoile la fin." %}
+
 {% include lightbox_image.html
 src="/assets/images/games/myst-masterpiece-edition-cyan-worlds-inc/extrait_1.jpg"
 alt="Arrivée sur le quai de Myst"

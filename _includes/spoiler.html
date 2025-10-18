@@ -1,0 +1,9 @@
+<div class="spoiler-banner">
+  <i class="spoiler-icon fa-solid fa-check-circle fa-triangle-exclamation"></i>
+  <div class="spoiler-header">Alerte spoiler</div>
+  {% if include.description %}
+    <div class="spoiler-description">
+      {{ include.description | markdownify }}
+    </div>
+  {% endif %}
+</div>
