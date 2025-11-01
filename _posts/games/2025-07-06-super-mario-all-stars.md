@@ -61,3 +61,23 @@ Je reste quand même déçu que la difficulté se résumait principalement à de
    caption="Complétion en cours (2/4) - Unlocked July 16 2025, 8:40pm " %}
 
 ... ce qui est évidemment faux vu qu'il me reste encore The Lost Levels à faire, qui utilise le même moteur.............................................................................
+
+### 01/11/2025
+
+Je pense que l’écart de temps entre ma dernière mise à jour et celle-ci veut tout dire, j’ai galéré sur The Lost Levels.
+
+Fort heureusement, le game over dans ce jeu ne fait pas recommencer le monde en entier mais uniquement le niveau courant, autrement, je n’aurais même pas essayé de le terminer.
+
+De nouveau, mon pire ennemi fut la maniabilité horrible de cette version, sans oublier nos amis les Frères Martos qui furent tout aussi chiants.
+
+J’ai bien aimé que certains niveaux soient clairement designés pour être parcourus en restant en course tout le long et en rebondissant/sautant au bon moment, mais ça n’aura pas sauvé tout le reste.
+
+Bref, on approche tout doucement de la fin, encore un dernier jeu à faire qui, de souvenir, est bien plus agréable que celui-ci...
+
+
+{% include lightbox_image.html 
+   src="/assets/images/games/super-mario-all-stars-nintendo/beaten_game_credit_3.png"
+   alt="Complétion en cours (3/4) - Unlocked November 1 2025, 7:54pm"
+   caption="Complétion en cours (3/4) - Unlocked November 1 2025, 7:54pm" %}
+
+
