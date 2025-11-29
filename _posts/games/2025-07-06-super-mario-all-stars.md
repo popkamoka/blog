@@ -13,14 +13,14 @@ work_platform: "SNES"
 work_release_date: "14/07/1993"
 genre: "Plate-forme"
 cover: /assets/images/games/super-mario-all-stars-nintendo/cover.jpg
-rating: 4.5
+rating: 4.0
 
 ownership_status: owned
 ownership_format: digital
-progress_status: in_progress
+progress_status: completed
 start_date: X
-end_date: X
-playtime: X
+end_date: 27/11/2025
+playtime: 22h
 ---
 
 ## Résumé
@@ -81,3 +81,23 @@ Bref, on approche tout doucement de la fin, encore un dernier jeu à faire qui, 
    caption="Complétion en cours (3/4) - Unlocked November 1 2025, 7:54pm" %}
 
 
+### 29/11/2025
+
+J'ai enfin terminé SMB2 il y a quelques jours, qui était tout simplement le dernier jeu restant pour finir cette compilation.
+
+Je n'ai honnêtement pas grand-chose à dire dessus, je suis bien content d'avoir fini mon aventure avec celui-ci plutôt qu'un autre. 
+
+Comme dans mes souvenirs, il est beaucoup plus agréable que The Lost Levels : les mondes ne font que trois niveaux, il est possible d'augmenter son compteur de PV dans chacun d'entre eux et il est plus simple de farmer du 1UP. J'ai fait l'ensemble des 7 mondes (et non pas 8 comme d'habitude) avec Luigi, qui flotte un peu quand il saute.
+
+
+Ci-dessous le screenshot de complétion finale sur RetroAchievements en difficulté *softcore*. Je n'ai pas utilisé de *cheats* ou de *savestate* à proprement parler, mais comme la fonctionnalité de *quick resume* l'utilise, impossible pour moi d'activer le mode *hardcore*.
+
+{% include lightbox_image.html 
+   src="/assets/images/games/super-mario-all-stars-nintendo/beaten_game_credit_4.png"
+   alt="Jeu terminé en 22 heures et 14 minutes, le 27 novembre 2025 (62/111 succès)"
+   caption="Jeu terminé en 22 heures et 14 minutes, le 27 novembre 2025 (62/111 succès)" %}
+
+
+Il reste encore pas mal de choses à faire, en autre les mondes supplémentaires de SMB et autres succès que j'aurais ratés, mais mon objectif étant juste d'avoir le succès de complétion du jeu + d'avoir réalisé l'ensemble des niveaux sans skip, je suis satisfait.
+
+Le prochain jeu retro qui me fait de l'œil est **Sonic the Hedgehog** sur Mega Drive, même si je sens que ça ne va pas être simple non plus...
