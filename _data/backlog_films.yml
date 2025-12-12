@@ -6,6 +6,12 @@ films:
         - title: "The Greatest Showman (2017)"
           ownership_status: "not_owned"
 
+    - series: "Peau d'âne"
+      director: "Jacques Demy"
+      films:
+        - title: "Peau d'âne (1970)"
+          ownership_status: "not_owned"
+
   drama:
     - series: "Moonrise Kingdom"
       director: "Wes Anderson"
