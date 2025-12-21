@@ -92,4 +92,5 @@ src="/assets/images/games/sonic-the-hedgehog-sonic-team/beaten_game_credit.png"
 {% include youtube.html id="JlY8Di_Pb4U" title="Sonic The Hedgehog OST - Labyrinth Zone" %}
 {% include youtube.html id="NVoNyufMUpo" title="Sonic The Hedgehog OST - Starlight Zone" %}
 {% include youtube.html id="ONQKGcuHsg0" title="Sonic The Hedgehog OST - Scrap Brain Zone" %}
-{% include youtube.html id="OK-elTBrtio" title="Sonic The Hedgehog OST - Special Stage" %}
+{% include youtube.html id="ZmLSihqVQcM" title="Sonic The Hedgehog OST - Special Stage" %}
+
