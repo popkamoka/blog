@@ -299,6 +299,13 @@ games:
           ownership_status: "not_owned"
 
   ps2:
+    - series: "Boku no Natsuyasumi"
+      studio: "Millennium Kitchen"
+      games:
+        - title: "Boku no Natsuyasumi 2"
+          studio: "Millennium Kitchen"
+          ownership_status: "not_owned"
+
     - series: "Sly Cooper"
       studio: "Sucker Punch Productions"
       games:
