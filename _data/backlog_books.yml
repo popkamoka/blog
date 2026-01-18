@@ -1727,7 +1727,13 @@ books:
           - title: "xxxHolic - nouvelle édition - T3"
             ownership_status: "owned"
             price: 8.5
-          - title: "xxxHolic - nouvelle édition - T4 -> T19"
+          - title: "xxxHolic - nouvelle édition - T4"
+            ownership_status: "owned"
+            price: 8.5
+          - title: "xxxHolic - nouvelle édition - T5"
+            ownership_status: "owned"
+            price: 8.5
+          - title: "xxxHolic - nouvelle édition - T6"
             ownership_status: "not_owned"
             price: 8.5
 
@@ -1753,6 +1759,8 @@ books:
           - title: "L'Atelier des Sorciers - édition grimoire T3"
             ownership_status: "owned"
           - title: "L'Atelier des Sorciers - édition grimoire T4"
+            ownership_status: "owned"
+          - title: "L'Atelier des Sorciers - édition grimoire T5"
             ownership_status: "not_owned"
 
       - series: "GTO"
@@ -2008,6 +2016,26 @@ books:
             price: 24.9
 
     artbook:
+      - series: "Cannabis Works"
+        author: "Tatsuyuki Tanaka"
+        books:
+          - title: "Cannabis Works"
+            ownership_status: "not_owned"
+            price: 39.95
+          - title: "Cannabis Works 2"
+            ownership_status: "not_owned"
+            price: 39.95
+
+      - series: "Clamp Artbook"
+        author: "Clamp"
+        books:
+          - title: "Clamp Artbook - Kuro"
+            ownership_status: "not_owned"
+            price: 25.10
+          - title: "Clamp Artbook - Shiro"
+            ownership_status: "not_owned"
+            price: 25.10
+
       - series: "Sea of Stars: Les concept arts de Bryce Kho"
         author: "Bryce Kho"
         books:
