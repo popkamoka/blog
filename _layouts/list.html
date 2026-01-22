@@ -4,12 +4,14 @@ layout: default
 <section class="posts">
   <ul>
     {% if page.category %}
-      {% assign filtered_posts = site.posts | where_exp: 'post', 'post.categories contains page.category' %}
+      {% assign filtered_posts = site.posts
+        | where_exp: 'post', 'post.categories contains page.category'
+        | sort: 'date'
+        | reverse
+      %}
     {% else %}
       {% assign filtered_posts = site.posts %}
     {% endif %}
-
-    {% assign filtered_posts = filtered_posts | sort: 'date' | reverse %}
 
     {% if filtered_posts.size > 0 %}
       {% for post in filtered_posts %}
@@ -32,9 +34,7 @@ layout: default
               </div>
             </div>
           </a>
-          <time datetime="{{ post.date | date_to_xmlschema }}">
-            {{- post.date | date: '%d/%m/%Y' -}}
-          </time>
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%d-%m-%Y' }}</time>
         </li>
       {% endfor %}
     {% else %}
