@@ -21,6 +21,7 @@ progress_status: abandoned
 start_date: 14/03/2025
 end_date: 28/06/2025
 playtime: 22h
+updated_at: 2025-06-28 15:24:00 +0200
 ---
 
 ## Résumé

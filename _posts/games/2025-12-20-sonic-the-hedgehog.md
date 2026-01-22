@@ -21,6 +21,7 @@ progress_status: completed
 start_date: 27/11/2025
 end_date: 19/12/2025
 playtime: 4h30
+updated_at: 2025-12-23 10:56:38 +0100
 ---
 
 ## Résumé

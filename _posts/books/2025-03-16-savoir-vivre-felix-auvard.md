@@ -20,6 +20,7 @@ ownership_format : physical
 progress_status: completed
 start_date: X
 end_date: X
+updated_at: 2025-06-28 15:24:00 +0200
 ---
 ## Résumé
 ​Angoisses climatiques, précarité économique, engagement politique... : comment gérer sa crise existentielle dans ce monde quand on a 26 ans et qu'on ne nous a pas donné de mode d'emploi à la naissance ?
