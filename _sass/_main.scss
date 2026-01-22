@@ -2,7 +2,7 @@
 /* ========== VARIABLES ========= */
 /* ============================= */
 
-$separator-color: #edf2f7;
+$separator-color: #e6e6e6;
 
 /* ============================= */
 /* ======= RESET & BASE ========= */
@@ -228,11 +228,15 @@ a {
 /* ====== LISTE DES BILLETS ===== */
 /* ============================= */
 
+.posts li:hover {
+  background-color: #fafafa;
+}
+
 .posts li {
   display: flex;
   justify-content: space-between;
   margin-bottom: 0.5rem;
-  border-bottom: 2px dashed $separator-color;
+  border-bottom: 1px solid $separator-color;
 }
 
 .posts li a,
@@ -270,10 +274,32 @@ a {
   align-items: center;
 }
 
-.posts li time {
-  padding-left: 1rem;
+.posts li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.posts li a {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-dates {
+  padding-left: 0;
   white-space: nowrap;
   font-variant-numeric: tabular-nums;
+  font-size: 0.9em;
+  color: #999;
+}
+
+.post-dates time {
+  font-size: 0.9em;
+  color: #999;
+}
+
+.dates-separator {
+  margin: 0 0.3em;
 }
 
 /* ============================= */
@@ -290,7 +316,7 @@ a {
 
 .post #page-title {
   padding-bottom: 0.5em;
-  border-bottom: 2px dashed $separator-color;
+  border-bottom: 1px solid $separator-color;
 }
 
 .post h1,
@@ -697,7 +723,7 @@ hr {
 /* ============================= */
 
 .meta {
-  color: #b4b4b4;
+  color: #a7a7a7;
   font-size: 0.875rem;
   margin-bottom: 1rem;
 }

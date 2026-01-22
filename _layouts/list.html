@@ -31,8 +31,14 @@ layout: default
                 {{ post.title }}
               </div>
             </div>
+            <div class="post-dates">
+              <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%d/%m/%Y' }}</time>
+              <span class="dates-separator"> · </span>
+              <time datetime="{{ post.updated_at | date_to_xmlschema }}">
+                {{- post.updated_at | date: 'Dernière mise à jour le %d/%m/%Y à %H:%M' -}}
+              </time>
+            </div>
           </a>
-          <time datetime="{{ post.updated_at | date_to_xmlschema }}">{{ post.updated_at | date: '%d/%m/%Y' }}</time>
         </li>
       {% endfor %}
     {% else %}
