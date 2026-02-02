@@ -1,0 +1,10 @@
+<div class="glossary">
+  {% for item in include.items %}
+    <div class="glossary-item">
+      <dt>
+        <strong>{{ item.word }}</strong>
+      </dt>
+      <dd>{{ item.definition }}</dd>
+    </div>
+  {% endfor %}
+</div>

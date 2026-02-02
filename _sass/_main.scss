@@ -760,6 +760,32 @@ hr {
 }
 
 /* ============================= */
+/* ======== GLOSSAIRE ========== */
+/* ============================= */
+
+.glossary {
+  background-color: #f9f9f9;
+  border-left: 4px solid #4d4d4d;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.glossary-item {
+  margin-bottom: 1rem;
+}
+
+.glossary-item dt {
+  font-weight: 600;
+  color: #333;
+}
+
+.glossary-item dd {
+  margin-left: 1rem;
+  color: #555;
+  font-size: 0.95em;
+}
+
+/* ============================= */
 /* ======== IMPRESSION ========== */
 /* ============================= */
 

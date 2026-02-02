@@ -38,6 +38,9 @@ def generate_book_md():
     # Le chemin de la couverture du livre
     cover_path = f"/assets/images/books/{folder_name}/cover.jpg"
     extract_path = f"/assets/images/books/{folder_name}/extrait.png"
+    
+    # Format updated_at
+    updated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S %z")
 
     # Crée le contenu du fichier Markdown
     content = f"""---
@@ -62,6 +65,8 @@ ownership_format:
 progress_status: 
 start_date: 
 end_date:
+updated_at: {updated_at}
+glossary:
 ---
 ## Résumé
 
@@ -70,6 +75,9 @@ end_date:
 src="{extract_path}"
 alt=""
 caption="" %}}
+
+## Glossaire
+{{% include glossary.html items=page.glossary %}}
 
 """
 

@@ -14,6 +14,7 @@ ownership_status:
 ownership_format:
   physical: "Physique"
   digital: "Numérique"
+  both: "Physique et numérique"
   cinema: "Cinéma"
   steam: "Steam"
 
