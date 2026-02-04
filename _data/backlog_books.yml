@@ -1,6 +1,12 @@
 books:
   novels:
     n/a:
+      - series: "Le monde de Sophie"
+        author: "Jostein Gaarder"
+        books:
+          - title: "Le monde de Sophie"
+            ownership_status: "not_owned"
+
       - series: "La Horde du Contrevent"
         author: "Alain Damasio"
         books:
@@ -265,12 +271,6 @@ books:
           - title: "Le grand Meaulnes"
             ownership_status: "owned"
 
-      - series: "Le meilleur des mondes"
-        author: "Aldous Huxley"
-        books:
-          - title: "Le meilleur des mondes"
-            ownership_status: "owned"
-
       - series: "Robots et extra-terrestres"
         author: "Isaac Asimov"
         books:
@@ -453,6 +453,12 @@ books:
 
   comics:
     n/a:
+      - series: "Terre ou lune"
+        author: "Jade Khoo"
+        books:
+          - title: "Terre ou lune T01"
+            ownership_status: "not_owned"
+
       - series: "Maus"
         author: "Art Spiegelman"
         books:
@@ -1590,6 +1596,13 @@ books:
             ownership_status: "owned"
 
     ki-oon:
+      - series: "Aria The Masterpiece Edition"
+        author: "Kozue Amano"
+        price: 16
+        books:
+          - title: "Aria The Masterpiece Edition - T1 -> T7"
+            ownership_status: "not_owned"
+
       - series: "Les liens du sang"
         author: "Shuzo Oshimi"
         price: 7.95
