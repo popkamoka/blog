@@ -62,6 +62,10 @@ glossary:
   definition: "(Néologisme) Assistante, sans titre officiel, qui fournit un accompagnement, une information et un soutien physique et moral aux personnes en fin de vie"
 - word: "Psychopompe"
   definition: "Conducteur des âmes des morts"
+- word: "Eugénisme"
+  definition: "(Politique) Volonté d’améliorer l’espèce humaine par sélection artificielle notamment à l’aide de la technologie génétique"
+- word: "Fordisme"
+  definition: "(Industrie) Mode de développement de l’entreprise (ou d’organisation du travail) fondé sur la parcellisation des tâches"
 
 ---
 
