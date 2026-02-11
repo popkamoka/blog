@@ -146,6 +146,8 @@ J'ai vraiment été frappé par la bienveillance et l'intelligence émotionnelle
 
 25 ans après la publication de son livre, Huxley a publié un essai consacré au livre, appelé **Retour au meilleur des mondes**, qui cherche à analyser si le monde a évolué dans la direction qu'il avait imaginé. Je pense enchaîner avec celui-ci et rajouterai une section dédiée juste en dessous.
 
+**EDIT 11/02/2026** : j'en ai lu les deux premiers chapitres et me suis vraiment ennuyé, le propos n'est certes pas inintéressant, mais ce n'est pas le bon moment pour moi.
+
 Une dernière chose : ma liseuse intègre un dictionnaire auquel je peux accéder très facilment. Il suffit de cliquer sur un mot pour voir sa définition apparaître. Cette fonctionnalité m'aura vraiment bien servi, moi qui en général préfère inférer le sens des mots que je ne connais pas, et ce, généralement mal.
 
 De ce fait, voici une liste de mots que j'ai (re)découvert au cours de ma lecture.
