@@ -246,6 +246,12 @@ films:
           ownership_status: "not_owned"
 
   comedy:
+    - series: "English Vinglish"
+      director: "Gauri Shinde"
+      films:
+        - title: "English Vinglish (2012)"
+          ownership_status: "not_owned"
+
     - series: "Comme chiens et chats"
       director: "Lawrence Guterman"
       films:
