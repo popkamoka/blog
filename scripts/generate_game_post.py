@@ -44,6 +44,9 @@ def generate_game_md():
     cover_path = f"/assets/images/games/{folder_name}/cover.jpg"
     extract_path = f"/assets/images/games/{folder_name}/extrait.png"
 
+    # Format updated_at
+    updated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S %z")
+
     # Contenu du fichier Markdown
     content = f"""---
 layout: game
@@ -68,6 +71,7 @@ progress_status:
 start_date:
 end_date:
 playtime:
+updated_at: {updated_at}
 ---
 
 ## Résumé
