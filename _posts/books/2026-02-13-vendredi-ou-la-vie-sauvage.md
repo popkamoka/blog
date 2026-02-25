@@ -20,7 +20,7 @@ ownership_format: both
 progress_status: completed
 start_date: 09/02/2026
 end_date: 17/02/2026
-updated_at: 2026-02-13 22:29:04 
+updated_at: 2026-02-26 00:42:49 +0100
 glossary:
   - word: "Talus"
     definition: "(Géographie) Terme utilisé pour décrire un mouvement de terrain en pente"
