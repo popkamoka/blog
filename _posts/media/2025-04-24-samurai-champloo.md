@@ -8,6 +8,7 @@ tags: [chambara, samouraï, hip-hop]
 
 work_title: "Samurai Champloo"
 work_director: "Shinichiro Watanabe"
+work_studio: "Manglobe"
 work_platform: "Streaming"
 work_release_date: "20/05/2004"
 genre: "Anime"

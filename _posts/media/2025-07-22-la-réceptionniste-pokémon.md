@@ -8,6 +8,7 @@ tags: [aventure, comédie, mignon]
 
 work_title: "La Réceptionniste Pokémon"
 work_director: "Ogawa Iku"
+work_studio: "The Pokémon Company, Dwarf Studios"
 work_platform: "Streaming"
 work_release_date: "28/12/2023"
 genre: "Aventure"

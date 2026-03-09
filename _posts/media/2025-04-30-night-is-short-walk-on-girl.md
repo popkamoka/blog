@@ -8,6 +8,7 @@ tags: [anime, alcool, nuit]
 
 work_title: "Night Is Short, Walk On Girl"
 work_director: "Masaaki Yuasa"
+work_studio: "Science Saru"
 work_platform: "Streaming"
 work_release_date: "07/04/2017"
 genre: "Animation"

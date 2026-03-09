@@ -23,6 +23,7 @@ def generate_media_md():
 
     title = get_input("Titre du média", "Titre par défaut")
     director = get_input("Réalisateur", "Réalisateur par défaut")
+    studio = get_input("Studio", "Studio par défaut")
     platform = get_input("Plateforme")
     genre = get_input("Genre")
     episodes = get_input("Nombre d'épisodes")
@@ -58,6 +59,7 @@ tags: []
 
 work_title: {yaml_escape(title)}
 work_director: {yaml_escape(director)}
+work_studio: {yaml_escape(studio)}
 work_platform: {yaml_escape(platform)}
 work_release_date: {yaml_escape(release_date)}
 genre: {yaml_escape(genre)}

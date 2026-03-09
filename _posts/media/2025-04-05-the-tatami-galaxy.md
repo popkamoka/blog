@@ -8,6 +8,7 @@ tags: [comédie, dramatique, mystère]
 
 work_title: "The Tatami Galaxy"
 work_director: "Masaaki Yuasa"
+work_studio: "Madhouse"
 work_platform: "Streaming"
 work_release_date: "22/04/2010"
 genre: "Anime"

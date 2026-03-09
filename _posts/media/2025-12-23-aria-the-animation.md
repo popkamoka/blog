@@ -8,6 +8,7 @@ tags: ["tranche-de-vie", "Mars", "Venise"]
 
 work_title: "Aria: The Animation"
 work_director: "Junichi Sato"
+work_studio: "Hal Film Maker"
 work_platform: "Streaming"
 work_release_date: "05/10/2005"
 genre: "Tranche-de-vie"

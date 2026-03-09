@@ -64,6 +64,7 @@ media_info:
   page_title: "Informations sur le média"
   title: "Titre"
   director: "Réalisateur"
+  studio: "Studio"
   producer: "Producteur"
   platform: "Plateforme"
   release_date: "Date de sortie"

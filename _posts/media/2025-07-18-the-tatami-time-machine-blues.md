@@ -8,6 +8,7 @@ tags: [comédie, dramatique, voyage temporel]
 
 work_title: "The Tatami Time Machine Blues"
 work_director: "Shingo Natsume"
+work_studio: "Science Saru"
 work_platform: "Streaming"
 work_release_date: "14/09/2022"
 genre: "Anime"

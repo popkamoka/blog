@@ -9,6 +9,11 @@
     <li>
       <strong>{{ site.data.translations.media_info.director }}</strong> : {{ page.work_director }}
     </li>
+    {% if page.work_studio %}
+    <li>
+      <strong>{{ site.data.translations.media_info.studio }}</strong> : {{ page.work_studio }}
+    </li>
+    {% endif %}
     <li>
       <strong>{{ site.data.translations.media_info.platform }}</strong> : {{ page.work_platform }}
     <li>

@@ -8,6 +8,7 @@ tags: []
 
 work_title: "All You Need Is Kill"
 work_director: "Kenichiro Akimoto"
+work_studio: "Studio 4°C"
 work_platform: "Cinéma"
 work_release_date: "09/01/2026"
 genre: "SF"
