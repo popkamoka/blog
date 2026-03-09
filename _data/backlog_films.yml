@@ -315,6 +315,12 @@ films:
           url: https://www.france.tv/spectacles-et-culture/theatre-et-danse/6610685-la-flute-enchantee.html
 
   animation:
+    - series: "The Animatrix"
+      director: "Divers"
+      films:
+        - title: "The Animatrix (2003)"
+          ownership_status: "not_owned"
+
     - series: "Super Mario Bros. le film"
       director: "Aaron Horvath, Michael Jelenic"
       films:
