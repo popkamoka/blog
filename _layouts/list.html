@@ -1,51 +1,104 @@
 ---
 layout: default
 ---
+{% if page.category %}
+  {% assign filtered_posts = site.posts | where_exp: 'post', 'post.categories contains page.category' %}
+{% else %}
+  {% assign filtered_posts = site.posts %}
+{% endif %}
+
+{% assign filtered_posts = filtered_posts | sort: 'updated_at' | reverse %}
+
+<!-- Extraire les années uniques des articles filtrés -->
+{% assign years = '' | split: '' %}
+{% for post in filtered_posts %}
+  {% assign post_year = post.date | date: '%Y' %}
+  {% unless years contains post_year %}
+    {% assign years = years | push: post_year %}
+  {% endunless %}
+{% endfor %}
+{% assign years = years | sort | reverse %}
+
 <section class="posts">
-  <ul>
-    {% if page.category %}
-      {% assign filtered_posts = site.posts | where_exp: 'post', 'post.categories contains page.category' %}
-    {% else %}
-      {% assign filtered_posts = site.posts %}
-    {% endif %}
+  {% if filtered_posts.size > 0 %}
+    <!-- Le bloc avec le sélecteur d'année -->
+    <div class="year-filter">
+      <label for="year-select">Filtrer par année :</label>
+      <select id="year-select">
+        <option value="">Toutes</option>
+        {% for year in years %}
+          <option value="{{ year }}">{{ year }}</option>
+        {% endfor %}
+      </select>
+    </div>
 
-    {% assign filtered_posts = filtered_posts | sort: 'updated_at' | reverse %}
-
-    {% if filtered_posts.size > 0 %}
-      {% for post in filtered_posts %}
-        <li class="post-item">
-          <a href="{{ post.url | relative_url }}">
-            <div class="posts-list-container">
-              <div class="posts-list-icons">
-                <div class="category-icon">
-                  {% include category_icon.html category=post.category %}
-                </div>
-                <div class="progress-icon">
-                  {% include progress_icon.html progress_status=post.progress_status %}
-                </div>
-              </div>
-              <div class="post-title">
-                {% if post.category == 'game' %}
-                  [{{ post.work_platform }}]
-                {% endif %}
-                {{ post.title }}
-              </div>
-            </div>
-            <div class="post-dates">
-              <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%d/%m/%Y' }}</time>
-              <span class="dates-separator"> · </span>
-              <time datetime="{{ post.updated_at | date_to_xmlschema }}">
-                {{- post.updated_at | date: 'Dernière mise à jour le %d/%m/%Y à %H:%M' -}}
-              </time>
-            </div>
-          </a>
-        </li>
-      {% endfor %}
-    {% else %}
-      <li>
-        <i class="fa-solid fa-exclamation-circle no-posts-icon"></i>
-        <span>Aucune article trouvé dans cette catégorie</span>
-      </li>
-    {% endif %}
-  </ul>
+    <!-- Sections de billets groupés par année -->
+    {% for year in years %}
+      <div class="year-section" data-year="{{ year }}">
+        <h2>{{ year }}</h2>
+        <ul>
+          <!-- Une boucle par année, pas fou mais OK pour l'instant -->
+          {% for post in filtered_posts %}
+            {% assign post_year = post.date | date: '%Y' %}
+            {% if post_year == year %}
+              <li class="post-item">
+                <a href="{{ post.url | relative_url }}">
+                  <div class="posts-list-container">
+                    <div class="posts-list-icons">
+                      <div class="category-icon">
+                        {% include category_icon.html category=post.category %}
+                      </div>
+                      <div class="progress-icon">
+                        {% include progress_icon.html progress_status=post.progress_status %}
+                      </div>
+                    </div>
+                    <div class="post-title">
+                      {% if post.category == 'game' %}
+                        [{{ post.work_platform }}]
+                      {% endif %}
+                      {{ post.title }}
+                    </div>
+                  </div>
+                  <div class="post-dates">
+                    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%d/%m/%Y' }}</time>
+                    <span class="dates-separator"> · </span>
+                    <time datetime="{{ post.updated_at | date_to_xmlschema }}">
+                      {{- post.updated_at | date: 'Dernière mise à jour le %d/%m/%Y à %H:%M' -}}
+                    </time>
+                  </div>
+                </a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
+  {% else %}
+    <div class="no-posts">
+      <i class="fa-solid fa-exclamation-circle no-posts-icon"></i>
+      <span>Aucune article trouvé dans cette catégorie</span>
+    </div>
+  {% endif %}
 </section>
+
+<!-- Affiche ou cache en fonction du select -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearSelect = document.getElementById('year-select');
+    const yearSections = document.querySelectorAll('.year-section');
+
+    if (yearSelect) {
+      yearSelect.addEventListener('change', function () {
+        const selectedYear = this.value;
+
+        yearSections.forEach((section) => {
+          if (selectedYear === '' || section.dataset.year === selectedYear) {
+            section.style.display = 'block';
+          } else {
+            section.style.display = 'none';
+          }
+        });
+      });
+    }
+  });
+</script>

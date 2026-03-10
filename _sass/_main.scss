@@ -303,6 +303,79 @@ a {
 }
 
 /* ============================= */
+/* ===== FILTRE ANNÉE ===== */
+/* ============================= */
+
+.year-filter {
+  padding: 0.2rem 0.5rem;
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.year-filter label {
+  font-size: 0.9rem;
+  color: #666;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.year-filter select {
+  padding: 0.3rem 0.3rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: white;
+  font-size: 0.9rem;
+  cursor: pointer;
+  font-family: inherit;
+  transition: border-color 0.2s ease;
+}
+
+.year-filter select:hover {
+  border-color: #999;
+}
+
+.year-filter select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.1);
+}
+
+/* ============================= */
+/* ===== SECTIONS PAR ANNÉE ===== */
+/* ============================= */
+
+.year-section h2 {
+  font-size: 1.5rem;
+  margin: 1.5rem 0 1rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid $separator-color;
+  color: #555;
+}
+
+.year-section ul {
+  list-style: none;
+  margin-left: 0;
+}
+
+.no-posts {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #999;
+  padding: 2rem 1rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.no-posts-icon {
+  font-size: 1.5rem;
+}
+
+/* ============================= */
 /* ======== BILLETS ============= */
 /* ============================= */
 
