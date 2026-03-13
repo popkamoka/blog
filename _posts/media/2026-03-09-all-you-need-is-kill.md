@@ -20,7 +20,7 @@ ownership_format: cinema
 progress_status: completed
 start_date: 01/03/2026
 end_date: 01/03/2026
-updated_at: 2026-03-10 00:18:09 +0100
+updated_at: 2026-03-10 00:30:32 +0100
 ---
 
 ## Résumé

@@ -21,7 +21,7 @@ progress_status: completed
 start_date: 21/12/2023
 end_date: 10/03/2026
 playtime: 2 ans, 79 jours, 3 heures, 21 minutes et 36 secondes
-updated_at: 2026-03-10 15:39:29
+updated_at: 2026-03-10 15:51:56 +0100
 ---
 ## Résumé
 
