@@ -7,7 +7,7 @@ date: 2026-03-15
 tags: []
 
 progress_status: completed
-updated_at: 2026-03-15 12:35:04
+updated_at: 2026-03-15 15:04:59 +0100
 ---
 Avec un petit jour d’avance, il est temps de célébrer le premier anniversaire de ce blog et d’en faire le bilan.
 
