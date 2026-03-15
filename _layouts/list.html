@@ -48,9 +48,11 @@ layout: default
                       <div class="category-icon">
                         {% include category_icon.html category=post.category %}
                       </div>
-                      <div class="progress-icon">
-                        {% include progress_icon.html progress_status=post.progress_status %}
-                      </div>
+                      {% if post.progress_status %}
+                        <div class="progress-icon">
+                          {% include progress_icon.html progress_status=post.progress_status %}
+                        </div>
+                      {% endif %}
                     </div>
                     <div class="post-title">
                       {% if post.category == 'game' %}

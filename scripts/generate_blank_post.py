@@ -11,27 +11,29 @@ def generate_post_md():
     
     # Demander les détails de base
     title = get_input("Titre du post", "Titre par défaut")
-    category = get_input("Catégorie", "misc")
 
     # Crée le titre du fichier en fonction de la date et du titre du post
     date_str = datetime.now().strftime("%Y-%m-%d")
     filename = f"{date_str}-{title.replace(' ', '-').lower()}.md"
 
-    # Chemin vers le dossier _posts depuis le dossier scripts
-    posts_dir = os.path.join(os.path.dirname(__file__), '..', '_posts')
+    # Répertoire _posts
+    posts_dir = os.path.join(os.path.dirname(__file__), '..', '_posts/misc')
+    os.makedirs(posts_dir, exist_ok=True)
 
-    # Crée le dossier _posts s'il n'existe pas
-    if not os.path.exists(posts_dir):
-        os.makedirs(posts_dir)
+    # Format updated_at
+    updated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S %z")
 
     # Crée le contenu du fichier Markdown
     content = f"""---
 layout: post
-category: {category}
+category: misc
 title: "{title}"
 author: POPKAMOKA
 date: {datetime.now().strftime('%Y-%m-%d')}
 tags: []
+
+progress_status: completed
+updated_at: {updated_at}
 ---
 
 """

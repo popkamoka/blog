@@ -12,3 +12,5 @@ title: Todo
 - Améliorer le système de création de fiche pour une automatisation poussée
 - Ajouter éditeurs pour romans et BDs
 - Redimensionner les images (automatiquement ?)
+- Nettoyage du code et du repo
+- Alternative à Jekyll avec SGBD
