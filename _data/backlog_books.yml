@@ -607,41 +607,6 @@ books:
             ownership_status: "not_owned"
             price: 32
 
-      - series: "Le Chat du rabbin"
-        author: "Joann Sfar"
-        price: 17.95
-        books:
-          - title: "Le Chat du rabbin - T1 : La Bar-Mitsva"
-            ownership_status: "owned"
-          - title: "Le Chat du rabbin - T2 : Le Malka des Lions"
-            ownership_status: "owned"
-          - title: "Le Chat du rabbin - T3 : L'Exode"
-            ownership_status: "owned"
-          - title: "Le Chat du rabbin - T4 : Le Paradis terrestre"
-            ownership_status: "owned"
-          - title: "Le Chat du rabbin - T5 : Jérusalem d'Afrique"
-            ownership_status: "owned"
-          - title: "Le Chat du rabbin - T6 : Tu n'auras pas d'autre Dieu que moi"
-            ownership_status: "owned"
-          - title: "Le Chat du rabbin - T7 : La Tour de Bab-El-Oued"
-            ownership_status: "not_owned"
-            price: 17.95
-          - title: "Le Chat du rabbin - T8 : Petit panier aux amandes"
-            ownership_status: "not_owned"
-            price: 17.50
-          - title: "Le Chat du rabbin - T9 : La Reine de Shabbat"
-            ownership_status: "not_owned"
-            price: 17.95
-          - title: "Le Chat du rabbin - T10 : Rentrez chez vous"
-            ownership_status: "not_owned"
-            price: 16.95
-          - title: "Le Chat du rabbin - T11 : La Bible pour les Chats"
-            ownership_status: "not_owned"
-            price: 17.95
-          - title: "Le Chat du rabbin - T12 : La Traversée de la mer Noire"
-            ownership_status: "not_owned"
-            price: 17.95
-
       - series: "La Tour"
         author: "François Schuiten, Benoît Peeters"
         books:
@@ -1009,13 +974,6 @@ books:
           - title: "Les Aventures de Moomin - Tome 9 : Tard en novembre"
             ownership_status: "not_owned"
             price: 15
-
-      - series: "Grand Vampire - intégrale"
-        author: "Joann Sfar"
-        books:
-          - title: "Grand Vampire - intégrale"
-            ownership_status: "not_owned"
-            price: 39
 
       - series: "Lou! - intégrale S1"
         author: "Julien Neel"
