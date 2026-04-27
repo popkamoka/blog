@@ -11,7 +11,7 @@ work_director: "Aaron Horvath, Michael Jelenic"
 work_studio: "Illumination Studios"
 work_platform: "Streaming"
 work_release_date: "05/04/2023"
-genre: "Animation"
+genre: "Aventure"
 cover: /assets/images/media/the-super-mario-bros-movie-aaron-horvath-michael-jelenic/cover.jpg
 rating: 3
 

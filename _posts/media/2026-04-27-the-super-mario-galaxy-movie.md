@@ -11,7 +11,7 @@ work_director: "Aaron Horvath, Michael Jelenic"
 work_studio: "Illumination Studios"
 work_platform: "Cinéma"
 work_release_date: "01/04/2026"
-genre: "Animation"
+genre: "Aventure"
 cover: /assets/images/media/the-super-mario-galaxy-movie-aaron-horvath-michael-jelenic/cover.jpeg
 rating: 3
 
