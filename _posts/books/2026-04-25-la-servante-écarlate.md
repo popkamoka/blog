@@ -20,7 +20,7 @@ ownership_format:
 progress_status: in_progress
 start_date: 20/04/2026
 end_date:
-updated_at: 2026-04-25 19:58:16 
+updated_at: 2026-04-25 20:34:22 +0200
 glossary:
 ---
 ## Résumé

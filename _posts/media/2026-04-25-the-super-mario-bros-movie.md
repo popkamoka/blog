@@ -20,7 +20,7 @@ ownership_format: digital
 progress_status: completed
 start_date: 24/04/2026
 end_date: 24/04/2026
-updated_at: 2026-04-25 20:00:33 
+updated_at: 2026-04-27 16:20:18 +0200
 ---
 
 ## Résumé
