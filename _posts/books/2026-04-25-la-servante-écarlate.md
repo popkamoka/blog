@@ -20,7 +20,7 @@ ownership_format: both
 progress_status: completed
 start_date: 20/04/2026
 end_date: 07/05/2026
-updated_at: 2026-04-25 20:34:22 +0200
+updated_at: 2026-05-16 21:56:51 +0200
 glossary:
   - word: "Psalmodier"
     definition: "(Christianisme) Réciter des psaumes, à l’église, toujours sur la même note"
