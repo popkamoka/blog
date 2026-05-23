@@ -33,13 +33,6 @@ books:
             ownership_status: "not_owned"
             price: 13.5
 
-      - series: "La servante écarlate"
-        author: "Margaret Atwood"
-        books:
-          - title: "La servante écarlate"
-            ownership_status: "owned"
-            price: 12.5
-
       - series: "La ballade de l'impossible"
         author: "Haruki Murakami"
         books:
@@ -947,9 +940,6 @@ books:
       - series: "Les aventures de Moomin"
         author: "Tove Jansson"
         books:
-          - title: "Les Aventures de Moomin - Tome 1 : Moomin et la grande inondation"
-            ownership_status: "not_owned"
-            price: 15
           - title: "Les Aventures de Moomin - Tome 2 : Moomin et la comète"
             ownership_status: "not_owned"
             price: 15
@@ -1705,7 +1695,13 @@ books:
             ownership_status: "owned"
             price: 8.5
           - title: "xxxHolic - nouvelle édition - T6"
-            ownership_status: "not_owned"
+            ownership_status: "owned"
+            price: 8.5
+          - title: "xxxHolic - nouvelle édition - T7"
+            ownership_status: "owned"
+            price: 8.5
+          - title: "xxxHolic - nouvelle édition - T8"
+            ownership_status: "owned"
             price: 8.5
 
       - series: "Card Captor Sakura"
@@ -1732,7 +1728,7 @@ books:
           - title: "L'Atelier des Sorciers - édition grimoire T4"
             ownership_status: "owned"
           - title: "L'Atelier des Sorciers - édition grimoire T5"
-            ownership_status: "not_owned"
+            ownership_status: "owned"
 
       - series: "GTO"
         author: "Tōru Fujisawa"

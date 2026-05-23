@@ -5,9 +5,6 @@ games:
     - series: "Sonic the Hedgehog"
       studio: "Sonic Team"
       games:
-        - title: "Sonic the Hedgehog"
-          studio: "Sonic Team"
-          ownership_status: "owned"
         - title: "Sonic the Hedgehog 2"
           studio: "Sonic Team"
           ownership_status: "owned"
@@ -84,9 +81,6 @@ games:
     - series: "Mario"
       studio: "Nintendo"
       games:
-        - title: "Super Mario All-Stars"
-          studio: "Nintendo"
-          ownership_status: "owned"
         - title: "Super Mario World"
           studio: "Nintendo"
           ownership_status: "owned"
