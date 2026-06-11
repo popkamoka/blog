@@ -21,7 +21,7 @@ progress_status: in_progress
 start_date: 24/05/2026
 end_date: TBD
 playtime: TBD
-updated_at: 2026-06-11 16:58:27 
+updated_at: 2026-06-11 17:10:32 +0200
 ---
 
 ## Résumé
