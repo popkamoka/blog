@@ -41,7 +41,7 @@ def generate_game_md():
     game_images_dir = os.path.join(os.path.dirname(__file__), '..', 'assets', 'images', 'games', folder_name)
     os.makedirs(game_images_dir, exist_ok=True)
 
-    cover_path = f"/assets/images/games/{folder_name}/cover.jpg"
+    cover_path = f"/assets/images/games/{folder_name}/cover.png"
     extract_path = f"/assets/images/games/{folder_name}/extrait.png"
 
     # Format updated_at

@@ -17,6 +17,8 @@ ownership_format:
   both: "Physique et numérique"
   cinema: "Cinéma"
   steam: "Steam"
+  epic: "Epic Games"
+  gog: "GOG"
 
 navigation:
   posts: "Articles"

@@ -16,7 +16,7 @@ cover: /assets/images/games/we-were-here-total-mayhem-games/cover.png
 rating: 4
 
 ownership_status: owned
-ownership_format: digital
+ownership_format: steam
 progress_status: completed
 start_date: 08/06/2026
 end_date: 09/06/2026
