@@ -20,7 +20,7 @@ ownership_format: steam
 progress_status: in_progress
 start_date: 24/05/2026
 end_date: TBD
-playtime:
+playtime: TBD
 updated_at: 2026-06-11 16:58:27 
 ---
 
